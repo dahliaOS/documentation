@@ -1,2 +1,2 @@
 # docs
-docs for dahliaOS
+docs for dahlia
