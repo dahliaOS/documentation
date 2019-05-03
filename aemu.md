@@ -47,6 +47,7 @@ Now we’re good to build!
 
 ## Building
 `fx set workstation.x64`
+
 `fx build`
 
 Note: This should take a fair bit of time.
