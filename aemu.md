@@ -32,7 +32,7 @@ and to do that, you run these commands:
 `git fetch "https://fuchsia.googlesource.com/fuchsia" refs/changes/50/251950/12 && git cherry-pick FETCH_HEAD`
 `git fetch "https://fuchsia.googlesource.com/fuchsia" refs/changes/68/253068/37 && git cherry-pick FETCH_HEAD`
 `git fetch "https://fuchsia.googlesource.com/fuchsia" refs/changes/77/255277/30 && git cherry-pick FETCH_HEAD`
-`git fetch "https://fuchsia.googlesource.com/fuchsia" refs/changes/88/275588/10 && git cherry-pick FETCH_HEAD
+`git fetch "https://fuchsia.googlesource.com/fuchsia" refs/changes/88/275588/10 && git cherry-pick FETCH_HEAD`
 
 If everything merged in nicely, you’re good to move on to the next step!
 
