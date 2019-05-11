@@ -5,10 +5,10 @@
 1. add this in window_playground.dart between 18 and 19 line:
 
 
-`..add(
-       color: Colors.green[600],
-       child: Calculator(),
-     )`
+..add(
+      color: Colors.green[600],
+      child: Calculator(),
+     )
 
 2. also copy the calculator.dart file from dahlia/stem-calculator repo to the pangolin_desktop/lib/
 
