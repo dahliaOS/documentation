@@ -4,7 +4,7 @@ Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the ol
 
 ## Before Building...
 
-Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: (dahlia-environment)[https://github.com/EnderNightLord-ChromeBook/dahlia-environment]
+Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
 
 ## Lets Build!
 
