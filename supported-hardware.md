@@ -30,9 +30,9 @@
 
 (picture: jayceooi.com)
 
-: No official documentation
+: https://fuchsia.dev/fuchsia-src/development/hardware/khadas-vim (official documentation)
 
-: https://docs.khadas.com/vim2/BuildFuchsia.html
+: https://docs.khadas.com/vim2/BuildFuchsia.html (official Khadas documentation)
 
 ![KV2](https://github.com/dahlia-os/Icons/blob/master/Computers/Khadas-VIM2-Max-Full_04.jpg)
 
