@@ -36,5 +36,31 @@
 
 ![KV2](https://github.com/dahlia-os/Icons/blob/master/Computers/Khadas-VIM2-Max-Full_04.jpg)
 
+### JetWay HBJC130F731 Series
+
+(picture: jetway)
+
+: https://fuchsia.dev/fuchsia-src/development/hardware/toulouse
+
+![JWHS](https://github.com/dahlia-os/Icons/blob/master/Computers/5otdnzvgyet21.png)
+
+### NXP iMX8M EVK
+
+(picture: NXP)
+
+: https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk
+
+![NIE](https://github.com/dahlia-os/Icons/blob/master/Computers/imx8m.jpeg)
+
+### 96boards HiKey960 
+
+(picture: 96boards)
+
+: https://fuchsia.dev/fuchsia-src/development/hardware/hikey960
+
+![96B](https://github.com/dahlia-os/Icons/blob/master/Computers/hikey-960-SD-front.jpg)
+
+
+
 
 
