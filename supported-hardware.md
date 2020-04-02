@@ -61,6 +61,13 @@
 ![96B](https://github.com/dahlia-os/Icons/blob/master/Computers/hikey-960-SD-front.jpg)
 
 
+### Khadas Vim3
+
+(picture: notebookcheck)
+
+: No official documentation
+
+![KV3](https://github.com/dahlia-os/Icons/blob/master/Computers/Khadas_VIM3_Amlogic_A311D_SBC.jpg)
 
 
 
