@@ -1,6 +1,6 @@
 # Build Pangolin
 
-Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older meatphor of ChromeOS, like the launcher, notification tab etc.
+Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
 
 ## Before Building...
 
