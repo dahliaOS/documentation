@@ -70,4 +70,10 @@
 ![KV3](https://github.com/dahlia-os/Icons/blob/master/Computers/Khadas_VIM3_Amlogic_A311D_SBC.jpg)
 
 
+### Lenovo Flex 3 80R3
 
+(picture: bing images)
+
+: no official documentation
+
+![KV3](https://i5.walmartimages.com/asr/3343fa97-323b-4ae7-b4f0-8bd342a2605d_1.fac84687a325c3dc5a219034cc83046a.jpeg)
