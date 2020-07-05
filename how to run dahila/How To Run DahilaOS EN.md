@@ -9,9 +9,9 @@ First open a terminal and type the following command:
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-Than download the dahilaos iso from: https://github.com/dahlia-os/releases/releases 
+Then download the dahilaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Than type the following command in the terminal (your iso is named diffrent than: DahliaOS.iso)
+Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
@@ -21,9 +21,9 @@ First open a terminal and type the following command:
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
-Than download the dahilaos iso from: https://github.com/dahlia-os/releases/releases 
+Then download the dahilaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Than type the following command in the terminal (your iso is named diffrent than: DahliaOS.iso)
+Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
