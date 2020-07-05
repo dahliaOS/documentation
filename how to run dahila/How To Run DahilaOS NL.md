@@ -26,5 +26,3 @@ dan type je het volgende in de terminal (je iso bestand heeft een andere naam da
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-
-
