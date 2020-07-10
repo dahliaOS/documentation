@@ -5,6 +5,7 @@
 ### windows
 
 **64 bit**
+
 1 first download the **linuxmint 20 iso [here](https://linuxmint.com/download.php/)** (cinnamon recommend).
 
 2 then flash the linuxmint iso to your usb with **rufus [here](https://rufus.ie/)**.
@@ -14,6 +15,7 @@
 4 then unpack the zip file and than overwrite the files on your linuxmint usb drive. 
 
 **32 bit**
+
 1 first download the **linuxmint 19.3 32bit iso [here](https://www.linuxmint.com/edition.php?id=273/)** (cinnamon recommend).
 
 2 then flash the linuxmint iso to your usb with **rufus [here](https://rufus.ie/)**.
