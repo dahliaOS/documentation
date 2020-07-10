@@ -1,4 +1,4 @@
-# How To Run DahilaOS
+# How To Run DahliaOS
 
 ## Linux
 
