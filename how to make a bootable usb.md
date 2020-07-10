@@ -27,5 +27,3 @@
 ***
 ![img](https://github.com/dahlia-os/Icons/blob/master/UI-Screenshots/Pangolin-2020-23_04.png)
 
-thats all! thanks to the dahila os team and linuxmint team for making this possible.
-**copyright github.com/dahila-os**
