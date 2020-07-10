@@ -15,4 +15,4 @@ Pangolin is the main desktop UI for dahliaOS. It was the earliest component of d
 + June 20, 2020, @larsb24 made significant changes to the backend as well as improving the quicksettings. 
 + June 22, 2020, FleshRoots added support for automatic building through (gitlab CI?)
 
-Please note that these are only the highlights from development, and not indicative of every commit. If you foind something left out, please feel free to add it.
+Please note that these are only the highlights from development, and not indicative of every commit. If you find something left out, please feel free to add it.
