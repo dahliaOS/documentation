@@ -10,7 +10,7 @@
 
 2 then flash the linuxmint iso to your usb with **rufus [here](https://rufus.ie/)**.
 
-3 now download the latest **dahilaosbuild.zip [here](https://github.com/HexaOneOfficial/dahliaos/releases)**. 
+3 now download the latest **dahliaosbuild.zip [here](https://github.com/HexaOneOfficial/dahliaos/releases)**. 
 
 4 then unpack the zip file and than overwrite the files on your linuxmint usb drive. 
 
