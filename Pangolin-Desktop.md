@@ -1,7 +1,9 @@
 # Pangolin Desktop [Zircon][Linux]
 Pangolin is the main desktop UI for dahliaOS. It was the earliest component of dahliaOS to be developed. As of v200614.1, Pangolin has been available by default as the desktop in Linux-based builds. 
 ## History - Significant changes
-Development of Pangolin began on March 2nd, 2019, with the repository created by Camden Bruce. On March 4, 2019, Noah Cain uploaded the first basic code for the desktop in a (now deprecated) custom codebase. 
++ February 27, 2019, Camden Bruce announced the beginning of dahliaOS [Source - Reddit](https://www.reddit.com/r/Fuchsia/comments/av6tja/fuchsia_fork_dahlia_os/)
++ March 2, 2019, Camden Bruce created the repository pangolin-desktop 
++ March 4, 2019, Noah Cain uploaded the first basic code for the desktop in a (now deprecated) custom codebase. 
 + April 5, 2019, Horus125 Begain importing some components from capybara for use within Pangolin
 + May 11, 2019, A basic calculator application was added to the system
 + May 17, 2019, A Text editor called "Petal" was merged into Pangolin
