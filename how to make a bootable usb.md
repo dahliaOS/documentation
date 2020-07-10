@@ -6,7 +6,7 @@
 
 **64 bit**
 
-1 first download the **linuxmint 20 iso [here](https://linuxmint.com/download.php/)** (cinnamon recommend).
+1 first download the **linuxmint 20 iso [here](https://linuxmint.com/edition.php?id=281)**.
 
 2 then flash the linuxmint iso to your usb with **rufus [here](https://rufus.ie/)**.
 
@@ -16,7 +16,7 @@
 
 **32 bit**
 
-1 first download the **linuxmint 19.3 32bit iso [here](https://www.linuxmint.com/edition.php?id=273/)** (cinnamon recommend).
+1 first download the **linuxmint 19.3 32bit iso [here](https://www.linuxmint.com/edition.php?id=273/)**.
 
 2 then flash the linuxmint iso to your usb with **rufus [here](https://rufus.ie/)**.
 
