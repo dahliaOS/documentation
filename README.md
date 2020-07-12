@@ -13,3 +13,5 @@ see **[here](https://github.com/dahlia-os/documentation/blob/master/run%20dahlia
 see **[here](https://github.com/HexaOneOfficial/documentation/blob/master/run%20dahlia%20in%20qemu/EN.md)** EN version.
 
 see **[here](https://github.com/HexaOneOfficial/documentation/blob/master/run%20dahlia%20in%20qemu/NL.md)** NL version.
+
+[include](File:supported-hardware.md)
