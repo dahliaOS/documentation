@@ -2,7 +2,7 @@
 
 Everything you need to know about dahlia... WISDOM.
 
-## How to make a bootable usb(GRUB)(ALL DEVICES)
+## How to make a bootable USB (GRUB) (ALL DEVICES)
 
 ### x86_64
 
