@@ -10,7 +10,7 @@ Everything you need to know about dahlia... WISDOM.
 
 1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
 
-2 then flash the iso to your usb with **Rufus [here](https://rufus.ie/)**.
+2 then flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
 3 disable secure boot if you have that option.
  
