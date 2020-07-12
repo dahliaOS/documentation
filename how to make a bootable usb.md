@@ -17,7 +17,7 @@
 
 2 then flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
-3 disable secure boot if you have that option.
+3 Disable secure boot if you have that option.
 
 ### Raspberry Pi 3/4
 
