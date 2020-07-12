@@ -17,7 +17,7 @@ Everything you need to know about dahlia... WISDOM.
 
 **32 BIOS systems**
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.32bit.iso)**.
+1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.32bit.iso)**.
 
 2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
