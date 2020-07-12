@@ -1,4 +1,4 @@
-#supported hardware non grub
+#supported hardware non GRUB
 
 ### Lenovo Flex 3 80R3
 
