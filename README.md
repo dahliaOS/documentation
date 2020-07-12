@@ -4,7 +4,7 @@ Everything you need to know about dahlia... WISDOM.
 
 ## How to make a bootable usb(GRUB)(ALL DEVICES)
 
-### X86_64
+### x86_64
 
 **64/32 UEFI systems and 64 BIOS systems**
 
@@ -27,7 +27,7 @@ Everything you need to know about dahlia... WISDOM.
 
 coming soon
 
-## How to make a bootable usb(NON GRUB)(FEW DEVICES)
+## How to make a bootable USB(NON GRUB)(FEW DEVICES)
 
 Firstly, you wanna check if you have one of the few supported devices [here](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)
@@ -94,14 +94,4 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
-## AEMU
 
-Aemu is a graphical fuchsia emulator. It is capable of running the vullkan driver but you must install vullkan first. AEMU is capable of running flutter GUI applications such as ermine (ui) and pangolin-desktop (ui)
-
-### Linux
-
-`fx aemu`
-
-### MacOS
-
-`fx aemu -x`
