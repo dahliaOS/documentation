@@ -23,6 +23,10 @@ everything you need to know about dahlia... WISDOM.
 
 3 disable secure boot if you have that option.
 
+### raspberry pi 3/4
+
+coming soon
+
 ## how to make a bootable usb(NON GRUB)(FEW DEVICES)
 
 Firstly, you wanna check if you have one of the few supported devices [here](https://github.com/HexaOneOfficial/documentation/blob/master/supported%20hardware%20non%20grub.md).
