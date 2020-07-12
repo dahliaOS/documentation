@@ -12,7 +12,7 @@ Everything you need to know about dahlia... WISDOM.
 
 2 then flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
-3 disable secure boot if you have that option.
+3 Disable secure boot if you have that option.
  
 
 **32 BIOS systems**
@@ -93,4 +93,3 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
-
