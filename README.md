@@ -8,7 +8,7 @@ Everything you need to know about dahlia... WISDOM.
 
 **64/32 UEFI systems and 64 BIOS systems**
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
 
 2 then flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
@@ -93,5 +93,4 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
-
 
