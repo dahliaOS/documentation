@@ -5,7 +5,7 @@ Everything you need to know about dahlia... WISDOM.
 
 ## How to make a bootable USB [GRUB] [ALL DEVICES]
 
-### x86_64
+### x86_64 [changelog](https://github.com/HexaOneOfficial/dahliaos/blob/master/CHANGELOG.md) 
 
 **64/32 UEFI systems and 64 BIOS systems**
 
