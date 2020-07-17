@@ -2,7 +2,7 @@
 
 Everything you need to know about dahlia... WISDOM.
 
-[How to make a bootable USB (GRUB) (ALL DEVICES)](https://github.com/HexaOneOfficial/dahliaos#How-to-make-a-bootable-USB-(GRUB)--(ALL DEVICES)).
+[How to make a bootable USB (GRUB) (ALL DEVICES)](https://github.com/HexaOneOfficial/dahliaos#How-to-make-a-bootable-USB-(GRUB)--(ALL DEVICES) ).
 
 ## How to make a bootable USB (GRUB) (ALL DEVICES)
 
