@@ -137,7 +137,7 @@ Now copy the files to a windows pc.
 
 -**Files to iso** 
 
-- Download **Poweriso [here](https://www.poweriso.com/). and copy the build files you just made. 
+- Download **Poweriso [here](https://www.poweriso.com/)** and copy the build files you just made. 
 
 -**Flashing to USB** 
 
