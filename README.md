@@ -84,3 +84,67 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
+
+
+### Build GRUB iso
+
+-**First you need to clone the base components**
+ 
+ - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
+
+-**Copy and make base components to ~/builddahliagrub**
+
+- Copy `./build.sh` from ~/dahliaos in your home directory.
+
+- `chmod +x build.sh` 
+
+- `./build.sh`
+
+-**Building EFI**  
+
+- `cd ~/builddahliagrub/dahliaos/` 
+
+- `./buildEFI.sh`
+
+-**Building GRUB bootloader** 
+
+- `./buildGRUB.sh`
+
+-**Setting up linux Kernel** 
+ 
+ -1 Copy from included build source [recommended].   
+ 
+ - `./buildKERNEL.sh`
+ 
+ -2 copy from system [not recommended] .   
+   - Not complete.  
+
+-**Setting up dahlia image** 
+ 
+ - `./buildIMAGE.sh`
+
+-**Finalizing** 
+ 
+ - Copy `./finalize.sh` from ~/dahliaos in your home directory.
+ 
+ - `cd` 
+ 
+ - `chmod +x finalize.sh` 
+
+ - `./finalize.sh`
+ 
+ - Ignore remove .git issue's. 
+
+
+Now copy the files to a windows pc.
+
+-**Files to iso** 
+
+- Download **Poweriso [here](https://www.poweriso.com/). and copy the build files you just made. 
+
+-**Flashing to USB** 
+
+- Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
+
+
+
