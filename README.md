@@ -112,7 +112,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 -**Setting up linux Kernel** 
 
-- buildKERNEL provides a Deafault kernel and mainline kernel choose by typing a number of the kernel you want to use.
+- buildKERNEL provides a Deafault kernel and mainline kernel select the one you want to use.
 
 - `./buildKERNEL.sh`
 
