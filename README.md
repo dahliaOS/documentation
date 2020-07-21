@@ -111,13 +111,10 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 - `./buildGRUB.sh`
 
 -**Setting up linux Kernel** 
- 
- -1 Copy from included build source [recommended].   
- 
- - `./buildKERNEL.sh`
- 
- -2 copy from system [not recommended] .   
-   - Not complete.  
+
+- buildKERNEL provides a Deafault kernel and mainline kernel choose by typing a number of the kernel you want to use.
+
+- `./buildKERNEL.sh`
 
 -**Setting up dahlia image** 
  
