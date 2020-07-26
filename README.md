@@ -143,5 +143,41 @@ Now copy the files to a windows pc.
 
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
+**Make a Master boot record**
+When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
+
+-   Then, Run the following commands.
+
+ `diskpart`
+
+and then
+
+    list disk
+you should see a screen like this: 
+
+![enter image description here](https://www.techclassy.com/wp-content/uploads/2019/05/diskpart-select-disk-command-prompt.png.webp)
+    
+select your disk that you want to format:
+(EXAMPLE) Disk 2
+
+    select disk 2
+   now you have selected the disk,
+   
+
+    clean
+    
+    create partition primary
+
+    select partition 1
+
+    active
+
+    format fs=ntfs quick
+
+    exit
+
+Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
+
+
 
 
