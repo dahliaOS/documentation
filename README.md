@@ -1,6 +1,6 @@
 # Documentation
 
-Everything you need to know about dahlia... WISDOM.
+**Everything you need to know about dahlia... WISDOM.**
 
 <pre>
 <a href="https://github.com/dahlia-os/documentation#documentation">Documentation</a>
