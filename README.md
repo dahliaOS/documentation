@@ -12,7 +12,8 @@
 <a href="https://github.com/dahlia-os/documentation#how-to-run-dahlia-in-qemu">├── How to run dahlia in qemu</a>
 <a href="https://github.com/dahlia-os/documentation#arch">│   ├── Arch</a>
 <a href="https://github.com/dahlia-os/documentation#ubuntu-1804">│   ├── Ubuntu 18.04</a>
-<a href="https://github.com/dahlia-os/documentation#ubuntu-1804-1">│   └── Ubuntu 18.04+</a>
+<a href="https://github.com/dahlia-os/documentation#ubuntu-1804-1">│   ├── Ubuntu 18.04+</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#add-kvm-support-kernel-based-virtual-machine">│   └── Add KVM support (Kernel-based Virtual Machine)</a>
 <a href="https://github.com/dahlia-os/documentation/blob/master/README.md#install-pangolin-on-linux">├── Install Pangolin on linux</a>
 <a href="https://github.com/dahlia-os/documentation/blob/master/README.md#automated-install">│   ├── Automated install</a>
 <a href="https://github.com/dahlia-os/documentation/blob/master/README.md#manual-install">│   └── Manual install</a>
