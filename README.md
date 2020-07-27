@@ -33,7 +33,7 @@
 
 1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
 
-2 Then, flash the iso to your USB with **Etcher [here](https://www.balena.io/etcher/)**.
+2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
 3 Disable secure boot if you have that option.
  
