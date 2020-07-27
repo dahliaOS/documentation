@@ -11,6 +11,11 @@
 <a href="https://github.com/dahlia-os/documentation#arch">│   ├── Arch</a>
 <a href="https://github.com/dahlia-os/documentation#ubuntu-1804">│   ├── Ubuntu 18.04</a>
 <a href="https://github.com/dahlia-os/documentation#ubuntu-1804-1">│   └── Ubuntu 18.04+</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#install-pangolin-on-linux">├── Install Pangolin on linux</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#automated-install">│   └── Automated install</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#manual-install">│   ├── Manual install</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#debianubuntu">│   └── debian/ubuntu</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#linux-mint-20">│   └── linux mint 20</a>
 <a href="https://github.com/dahlia-os/documentation#build-pangolin">├── Build Pangolin</a>
 <a href="https://github.com/dahlia-os/documentation#before-building">│   └── Before Building...</a>
 <a href="https://github.com/dahlia-os/documentation#lets-build">│      └── Lets Build!</a>
