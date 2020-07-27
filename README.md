@@ -193,7 +193,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 -**Copy and make base components to ~/builddahliagrub**
 
-- Copy `./build.sh` from ~/dahliaos in your home directory.
+- `wget https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh` 
 
 - `chmod +x build.sh` 
 
@@ -221,7 +221,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 -**Finalizing** 
  
- - Copy `./finalize.sh` from ~/dahliaos in your home directory.
+ - `wget https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/finalize.sh` 
  
  - `cd` 
  
