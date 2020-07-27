@@ -103,7 +103,7 @@ then `chmod +x install.sh`
 
 choose your distro shown by the image here
 
-![list](https://github.com/HexaOneOfficial/pangolin-linux/blob/master/list.png)
+![list](https://github.com/dahlia-os/documentation/blob/master/list.png)
 
 ### Manual install
 
