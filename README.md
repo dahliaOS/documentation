@@ -93,6 +93,16 @@ Then type the following command in the terminal (your iso is named different tha
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 
+### Add KVM support (Kernel-based Virtual Machine)
+
+simply add **-enable-kvm** to your start command
+
+(your iso is named different than: DahliaOS.iso)
+
+```
+qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
+```
+
 ## Install Pangolin on linux
 
 ### Automated install
