@@ -86,6 +86,82 @@ Then type the following command in the terminal (your iso is named different tha
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 
+## Install Pangolin on linux
+
+### Automated install
+
+`wget https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/install.sh`
+
+then `chmod +x install.sh`
+
+`./install.sh`
+
+choose your distro shown by the image here
+
+![list](https://github.com/HexaOneOfficial/pangolin-linux/blob/master/list.png)
+
+### Manual install
+
+**if you get any error in the Automated install script than try the manual install.**
+
+**tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
+
+### debian/ubuntu
+
+`sudo apt-get install -y matchbox-window-manager`
+
+if you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
+
+`sudo snap install flutter --classic`
+
+install git if didn't already `sudo snap install git`
+
+`git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
+
+`cd ~/pangolin-linux`
+
+`sudo cp Pangolin.zip /`
+
+`cd /`
+
+`sudo unzip Pangolin.zip`
+
+`sudo rm Pangolin.zip`
+
+`sudo cp Pangolin.desktop /usr/share/xsessions/`
+
+now reboot and choose pangolin as desktop to login
+
+
+### linux mint 20
+
+`sudo apt-get install -y matchbox-window-manager`
+
+remove nosnap to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
+
+`sudo apt install snapd` 
+
+`sudo snap install flutter --classic`
+
+install git if didn't already `sudo snap install git`
+
+`git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
+
+`cd ~/pangolin-linux`
+
+`sudo cp Pangolin.zip /`
+
+`cd /`
+
+`sudo unzip Pangolin.zip`
+
+`sudo rm Pangolin.zip`
+
+`sudo cp Pangolin.desktop /usr/share/xsessions/`
+
+now reboot and choose pangolin as desktop to login
+
+
 ## Build Pangolin
 
 Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
