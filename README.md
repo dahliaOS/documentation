@@ -6,8 +6,8 @@
 <a href="https://github.com/dahlia-os/documentation#documentation">Documentation</a>
 <a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">├── How to make a bootable USB</a>
 <a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">│   ├── (GRUB) (ALL DEVICES)</a>
-<a href="https://github.com/dahlia-os/documentation#x86_64">│      └── x86_64</a>
-<a href="https://github.com/dahlia-os/documentation#raspberry-pi-34">│      └── Raspberry Pi 3/4</a>
+<a href="https://github.com/dahlia-os/documentation#x86_64">│   │  └── x86_64</a>
+<a href="https://github.com/dahlia-os/documentation#raspberry-pi-34">│   │  └── Raspberry Pi 3/4</a>
 <a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usbnon-grubfew-devices">│   └── (NON GRUB)(FEW DEVICES)</a>
 <a href="https://github.com/dahlia-os/documentation#how-to-run-dahlia-in-qemu">├── How to run dahlia in qemu</a>
 <a href="https://github.com/dahlia-os/documentation#arch">│   ├── Arch</a>
