@@ -137,7 +137,7 @@ now reboot and choose pangolin as desktop to login
 
 `sudo apt-get install -y matchbox-window-manager`
 
-remove nosnap to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
+remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
 
 `sudo apt install snapd` 
 
