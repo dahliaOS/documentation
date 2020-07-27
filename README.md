@@ -221,12 +221,8 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 -**Finalizing** 
  
- - `wget https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/finalize.sh` 
- 
  - `cd` 
  
- - `chmod +x finalize.sh` 
-
  - `./finalize.sh`
  
  - Ignore remove .git issue's. 
