@@ -222,12 +222,8 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 -**Finalizing** 
  
- - `cd` 
+- `./finalize.sh`
  
- - `./finalize.sh`
- 
- - Ignore remove .git issue's. 
-
 
 Now copy the files to a windows pc.
 
