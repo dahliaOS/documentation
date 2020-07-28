@@ -210,16 +210,6 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 - `./build.sh`
 
--**Building EFI**  
-
-- `cd ~/builddahliagrub/dahliaos/` 
-
-- `./buildEFI.sh`
-
--**Building GRUB bootloader** 
-
-- `./buildGRUB.sh`
-
 -**Setting up linux Kernel** 
 
 - buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
