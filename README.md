@@ -270,5 +270,3 @@ select your disk that you want to format:
     exit
 
 Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
-
-
