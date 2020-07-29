@@ -38,6 +38,8 @@ After that run Etcher, select your dahlia iso, then your USB device, then select
 
 After the process is finished, rebot and select you USB from you boot menu. 
 
+(you may need to change your boot order in your uefi first.)
+
 ## How to run dahlia in qemu
 
 ### Arch
