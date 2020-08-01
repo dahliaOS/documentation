@@ -204,11 +204,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 -**Copy and make base components to ~/builddahliagrub**
 
-- `wget https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh` 
-
-- `chmod +x build.sh` 
-
-- `./build.sh`
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
 
 -**Setting up linux Kernel** 
 
@@ -223,8 +219,9 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 -**Finalizing** 
  
 - `./finalize.sh`
- 
 
+### Build tiny grub image
+ 
 Now copy the files to a windows pc.
 
 -**Files to iso** 
