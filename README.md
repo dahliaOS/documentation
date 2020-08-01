@@ -23,6 +23,7 @@
 <a href="https://github.com/dahlia-os/documentation#before-building">│   └── Before Building...</a>
 <a href="https://github.com/dahlia-os/documentation#lets-build">│      └── Lets Build!</a>
 <a href="https://github.com/dahlia-os/documentation#build-grub-iso">├── Build GRUB iso</a>
+<a href="https://github.com/HexaOneOfficial/documentation/blob/master/README.md#build-tiny-grub-image">│   ├── build tiny grub image</a>
 <a href="https://github.com/dahlia-os/documentation#make-a-master-boot-recordbeta">│   └── Make a Master boot record(BETA)</a>
 </pre>  
 
@@ -220,8 +221,6 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
  
 - `./finalize.sh`
 
-### Build tiny grub image
- 
 Now copy the files to a windows pc.
 
 -**Files to iso** 
@@ -231,6 +230,8 @@ Now copy the files to a windows pc.
 -**Flashing to USB** 
 
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
+
+### Build tiny grub image
 
 
 ### Make a Master boot record(BETA)
