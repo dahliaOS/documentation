@@ -109,11 +109,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 ### Automated install
 
-`wget https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/install.sh`
-
-then `chmod +x install.sh`
-
-`./install.sh`
+`curl -s https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/install.sh | sh`
 
 choose your distro shown by the image here
 
