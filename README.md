@@ -223,7 +223,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 ## Make ISO
 
-### [windows] Make ISO
+### [windows] 
 
 -**Files to iso** 
 
@@ -234,7 +234,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
 
-### [linux] Make ISO
+### [linux] 
 
 ## Make MBR
 
