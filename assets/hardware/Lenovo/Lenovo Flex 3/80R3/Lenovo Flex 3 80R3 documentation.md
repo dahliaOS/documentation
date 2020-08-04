@@ -7,8 +7,8 @@ Note: This is not an officially supported device for the zircon version, only fo
 - Currently, without a master boot record you can run dahliaOS grub on it, the prefered way is to run the vanila iso with syslinux,
 
 Download the isos here:
-GRUB: https://github.com/HexaOneOfficial/dahliaos/releases
-VANILA (Not modified):https://github.com/dahlia-os/releases/releases
+[GRUB](https://github.com/HexaOneOfficial/dahliaos/releases)
+[VANILA (Not modified)](https://github.com/dahlia-os/releases/releases)
 
 
 Made by @puntillol59
