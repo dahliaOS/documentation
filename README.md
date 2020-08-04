@@ -33,31 +33,11 @@
 
 **64/32 UEFI systems and 64 BIOS systems**
 
-1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+1 Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
 
 2 flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
 
 Everything you need to know about dahlia... WISDOM.
-
-## How to make a bootable USB (GRUB) (ALL DEVICES)
-
-### x86_64
-
-**64/32 UEFI systems and 64 BIOS systems**
-
-1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
-
-2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
-
-3 Disable secure boot if you have that option.
- 
-**32 BIOS systems**
-
-1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.32bit.iso)**.
-
-2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
-
-3 disable secure boot if you have that option.
 
 ### Raspberry Pi 3/4
 
