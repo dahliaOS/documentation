@@ -23,8 +23,13 @@
 <a href="https://github.com/dahlia-os/documentation#before-building">│   └── Before Building...</a>
 <a href="https://github.com/dahlia-os/documentation#lets-build">│      └── Lets Build!</a>
 <a href="https://github.com/dahlia-os/documentation#build-grub-iso">├── Build GRUB iso</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#build-tiny-grub-image">│   ├── build tiny grub image</a>
-<a href="https://github.com/dahlia-os/documentation#make-a-master-boot-recordbeta">│   └── Make a Master boot record(BETA)</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#make-iso">│   ├── Make ISO</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#windows-make-iso">│   │  ├── Windows</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#linux-make-iso">│   │  └── Linux</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#make-mbr">│   ├── Make MBR</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#windows-make-a-master-boot-recordbeta">│   │  ├── Windows(BETA)</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#linux-make-a-master-boot-record--iso-image">│   │  └── Linux</a>
+<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#build-tiny-grub-image">│   └── Build tiny grub image</a>
 </pre>  
 
 ## How to make a bootable USB (GRUB) (ALL DEVICES)
