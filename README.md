@@ -37,7 +37,7 @@
 
 2 flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
 
-Everything you need to know about dahlia... WISDOM.
+**!** make sure you have disabled **[secure boot](https)**. 
 
 ### Raspberry Pi 3/4
 
