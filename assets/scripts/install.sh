@@ -1,3 +1,3 @@
-wget https://github.com/HexaOneOfficial/pangolin-linux/blob/master/install.sh
+wget https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/install.sh
 chmod +x install.sh
 ./install.sh
