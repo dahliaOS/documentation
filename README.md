@@ -45,7 +45,7 @@ coming soon
 
 ## How to make a bootable USB(NON GRUB)(FEW DEVICES)
 
-Firstly, you wanna check if you have one of the few supported devices [here](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
+Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)
 
 Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
