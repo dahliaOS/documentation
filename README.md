@@ -241,7 +241,7 @@ and then
     list disk
 you should see a screen like this: 
 
-![enter image description here](https://www.techclassy.com/wp-content/uploads/2019/05/diskpart-select-disk-command-prompt.png.webp)
+![diskpart](https://github.com/dahlia-os/documentation/blob/master/assets/images/cmd/Diskpart_list%20disk.png)
     
 select your disk that you want to format:
 (EXAMPLE) Disk 2
