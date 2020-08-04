@@ -8,6 +8,7 @@ Note: This is not an officially supported device for the zircon version, only fo
 
 Download the isos here:
 [GRUB](https://github.com/HexaOneOfficial/dahliaos/releases)
+
 [VANILA (Not modified)](https://github.com/dahlia-os/releases/releases)
 
 
