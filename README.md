@@ -14,22 +14,22 @@
 <a href="https://github.com/dahlia-os/documentation#ubuntu-1804">│   ├── Ubuntu 18.04</a>
 <a href="https://github.com/dahlia-os/documentation#ubuntu-1804-1">│   ├── Ubuntu 18.04+</a>
 <a href="https://github.com/dahlia-os/documentation/blob/master/README.md#add-kvm-support-kernel-based-virtual-machine">│   └── Add KVM support (Kernel-based Virtual Machine)</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#install-pangolin-on-linux">├── Install Pangolin on linux</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#automated-install">│   ├── Automated install</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#manual-install">│   └── Manual install</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#debianubuntu">│      ├── debian/ubuntu</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#linux-mint-20">│      └── linux mint 20</a>
+<a href="https://github.com/dahlia-os/documentation#install-pangolin-on-linux">├── Install Pangolin on linux</a>
+<a href="https://github.com/dahlia-os/documentation#automated-install">│   ├── Automated install</a>
+<a href="https://github.com/dahlia-os/documentation#manual-install">│   └── Manual install</a>
+<a href="https://github.com/dahlia-os/documentation#debianubuntu">│      ├── debian/ubuntu</a>
+<a href="https://github.com/dahlia-os/documentation#linux-mint-20">│      └── linux mint 20</a>
 <a href="https://github.com/dahlia-os/documentation#build-pangolin">├── Build Pangolin</a>
 <a href="https://github.com/dahlia-os/documentation#before-building">│   └── Before Building...</a>
 <a href="https://github.com/dahlia-os/documentation#lets-build">│      └── Lets Build!</a>
 <a href="https://github.com/dahlia-os/documentation#build-grub-iso">├── Build GRUB iso</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#make-iso">│   ├── Make ISO</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#windows-make-iso">│   │  ├── Windows</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#linux-make-iso">│   │  └── Linux</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#make-mbr">│   ├── Make MBR</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#windows-make-a-master-boot-recordbeta">│   │  ├── Windows(BETA)</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#linux-make-a-master-boot-record--iso-image">│   │  └── Linux</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#build-tiny-grub-image">│   └── Build tiny grub image</a>
+<a href="https://github.com/dahlia-os/documentation#make-iso">│   ├── Make ISO</a>
+<a href="https://github.com/dahlia-os/documentation#windows">│   │  ├── Windows</a>
+<a href="https://github.com/dahlia-os/documentation#linux">│   │  └── Linux</a>
+<a href="https://github.com/dahlia-os/documentation#make-mbr">│   ├── Make MBR</a>
+<a href="https://github.com/dahlia-os/documentation#windows-beta">│   │  ├── Windows(BETA)</a>
+<a href="https://github.com/dahlia-os/documentation#linux-1">│   │  └── Linux</a>
+<a href="https://github.com/dahlia-os/documentation#build-tiny-grub-image">│   └── Build tiny grub image</a>
 </pre>  
 
 ## How to make a bootable USB (GRUB) (ALL DEVICES)
