@@ -197,7 +197,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
-### Build GRUB iso
+## Build GRUB iso
 
 -**First you need to clone the base components**
  
@@ -221,7 +221,7 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
  
 - `./finalize.sh`
 
-### Make ISO
+## Make ISO
 
 ### [windows] Make ISO
 
@@ -236,9 +236,9 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 
 ### [linux] Make ISO
 
-### Make MBR
+## Make MBR
 
-### [windows] Make a Master boot record(BETA)
+### [windows] (BETA)
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
 -   Then, Run the following commands.
@@ -273,7 +273,7 @@ select your disk that you want to format:
 
 Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
 
-### [linux] Make a Master boot record / iso image
+### [linux] 
 
 
 
