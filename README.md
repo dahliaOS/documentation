@@ -216,7 +216,9 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
  
 - `./finalize.sh`
 
-Now copy the files to a windows pc.
+### Make ISO
+
+### [windows] Make ISO
 
 -**Files to iso** 
 
@@ -226,10 +228,12 @@ Now copy the files to a windows pc.
 
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
-### Build tiny grub image
 
+### [linux] Make ISO
 
-### Make a Master boot record(BETA)
+### Make MBR
+
+### [windows] Make a Master boot record(BETA)
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
 -   Then, Run the following commands.
@@ -263,3 +267,9 @@ select your disk that you want to format:
     exit
 
 Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
+
+### [linux] Make a Master boot record / iso image
+
+
+
+### Build tiny grub image
