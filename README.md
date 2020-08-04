@@ -35,6 +35,8 @@
 
 1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
 
+2 flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
+
 Everything you need to know about dahlia... WISDOM.
 
 ## How to make a bootable USB (GRUB) (ALL DEVICES)
