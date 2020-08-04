@@ -35,10 +35,28 @@
 
 1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
 
+Everything you need to know about dahlia... WISDOM.
+
+## How to make a bootable USB (GRUB) (ALL DEVICES)
+
+### x86_64
+
+**64/32 UEFI systems and 64 BIOS systems**
+
+1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+
 2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
 
 3 Disable secure boot if you have that option.
  
+**32 BIOS systems**
+
+1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.32bit.iso)**.
+
+2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
+
+3 disable secure boot if you have that option.
+
 ### Raspberry Pi 3/4
 
 coming soon
@@ -94,7 +112,6 @@ Then type the following command in the terminal (your iso is named different tha
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-
 ### Add KVM support (Kernel-based Virtual Machine)
 
 simply add **-enable-kvm** to your start command
@@ -177,6 +194,7 @@ install git if didn't already `sudo snap install git`
 now reboot and choose pangolin as desktop to login
 
 
+
 ## Build Pangolin
 
 Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
@@ -191,7 +209,6 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
-
 
 ### Build GRUB iso
 
