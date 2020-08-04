@@ -57,7 +57,9 @@ Secondly, download and install [Etcher](https://www.balena.io/etcher/).
 
 After that run Etcher, select your dahlia iso, then your USB device, then select flash!
 
-After the process is finished, rebot and select you USB from you boot menu. 
+After the process is finished, reboot and select you USB from you boot menu. 
+
+(you may need to change your boot order in your uefi first.)
 
 ## How to run dahlia in qemu
 
