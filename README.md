@@ -112,7 +112,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **choose your distro shown by the image here**
 
-![list](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/list/list.png)
+![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
 
 ### Manual install
 
