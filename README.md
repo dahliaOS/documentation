@@ -7,8 +7,6 @@
     </h2>
 <br />
 
-**Everything you need to know about dahlia... WISDOM.**
-
 <pre>
 <a href="https://github.com/dahlia-os/documentation#documentation">Documentation</a>
 <a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">├── How to make a bootable USB</a>
