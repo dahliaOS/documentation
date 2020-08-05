@@ -38,7 +38,7 @@
 
 **64/32 UEFI systems and 64 BIOS systems**
 
-1 Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+1 Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
 
 2 flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
 
@@ -51,7 +51,7 @@ coming soon
 ## How to make a bootable USB(NON GRUB)(FEW DEVICES)
 
 Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
-If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)
+If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
 Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
 
