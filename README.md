@@ -1,5 +1,11 @@
-![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png)
-# Documentation
+<p align="center">
+  <img width="25%" src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png"
+</p>
+
+<h2 align="center">
+    <b>Documentation</b> 
+    </h2>
+<br />
 
 **Everything you need to know about dahlia... WISDOM.**
 
