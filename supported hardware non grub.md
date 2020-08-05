@@ -6,4 +6,4 @@
 
 ![KV3](https://cc.cnetcontent.com/inlinecontent/mediaserver/len/5e4/ee7/5e4ee7cf98004eeea0bd10f2c32f31da/width(300).png)
 
-Click **[here](https://github.com/dahlia-os/documentation/blob/master/run%20dahlia%20in%20qemu/live-usb-etcher.md)** to make a bootable iso.
+Click **[here](https://github.com/dahlia-os/documentation/blob/master/assets/etcher/live-usb-etcher.md)** to make a bootable iso.
