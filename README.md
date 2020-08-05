@@ -1,3 +1,4 @@
+![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png)
 # Documentation
 
 **Everything you need to know about dahlia... WISDOM.**
