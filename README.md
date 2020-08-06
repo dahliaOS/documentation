@@ -1,152 +1,160 @@
-# Documentation
+<p align="center">
+  <img width="25%" src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png"
+</p>
 
-**Everything you need to know about dahlia... WISDOM.**
+<h2 align="center">
+    <b>Documentation</b> 
+    </h2>
+<br />
 
-<pre>
-<a href="https://github.com/dahlia-os/documentation#documentation">Documentation</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">├── How to make a bootable USB</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">│   ├── (GRUB) (ALL DEVICES)</a>
-<a href="https://github.com/dahlia-os/documentation#x86_64">│   │  ├── x86_64</a>
-<a href="https://github.com/dahlia-os/documentation#raspberry-pi-34">│   │  └── Raspberry Pi 3/4</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usbnon-grubfew-devices">│   └── (NON GRUB)(FEW DEVICES)</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-run-dahlia-in-qemu">├── How to run dahlia in qemu</a>
-<a href="https://github.com/dahlia-os/documentation#arch">│   ├── Arch</a>
-<a href="https://github.com/dahlia-os/documentation#ubuntu-1804">│   ├── Ubuntu 18.04</a>
-<a href="https://github.com/dahlia-os/documentation#ubuntu-1804-1">│   ├── Ubuntu 18.04+</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#add-kvm-support-kernel-based-virtual-machine">│   └── Add KVM support (Kernel-based Virtual Machine)</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#install-pangolin-on-linux">├── Install Pangolin on linux</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#automated-install">│   ├── Automated install</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#manual-install">│   └── Manual install</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#debianubuntu">│      ├── debian/ubuntu</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#linux-mint-20">│      └── linux mint 20</a>
-<a href="https://github.com/dahlia-os/documentation#build-pangolin">├── Build Pangolin</a>
-<a href="https://github.com/dahlia-os/documentation#before-building">│   └── Before Building...</a>
-<a href="https://github.com/dahlia-os/documentation#lets-build">│      └── Lets Build!</a>
-<a href="https://github.com/dahlia-os/documentation#build-grub-iso">├── Build GRUB iso</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#build-tiny-grub-image">│   ├── build tiny grub image</a>
-<a href="https://github.com/dahlia-os/documentation#make-a-master-boot-recordbeta">│   └── Make a Master boot record(BETA)</a>
-</pre>  
+<h2 align="center">
+    <b>How to make a bootable USB [GRUB]</b> 
+    </h2>
+<br />
 
-## How to make a bootable USB (GRUB) (ALL DEVICES)
+<br />
 
-### x86_64
+<h3 align="center">
+    <b>64/32 UEFI systems and 64 BIOS systems</b>
+</h3>
 
-**64/32 UEFI systems and 64 BIOS systems**
+- Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso). 
 
-1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+- flash the iso to your USB with Etcher [Here](https://www.balena.io/etcher/).
 
-Everything you need to know about dahlia... WISDOM.
+- **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md).
 
-## How to make a bootable USB (GRUB) (ALL DEVICES)
+<br />
 
-### x86_64
+<h3 align="center">
+    <b>raspberry pi 3/4</b>
+</h3>
 
-**64/32 UEFI systems and 64 BIOS systems**
+- being worked hard on
 
-1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+<h2 align="center">
+    <b>How to make a bootable USB [SYSLINUX]</b> 
+    </h2>
+<br />
 
-2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
+- Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
+If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
-3 Disable secure boot if you have that option.
- 
-**32 BIOS systems**
+- Secondly, download and install Etcher [Here](https://www.balena.io/etcher/).  
 
-1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.32bit.iso)**.
+- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
 
-2 Then, flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
+- After the process is finished, reboot and select you USB from you boot menu. 
 
-3 disable secure boot if you have that option.
+- **!** (you may need to change your boot order in your uefi first.)
 
-### Raspberry Pi 3/4
+<h2 align="center">
+    <b>Run dahlia in QEMU</b> 
+    </h2>
+<br />
 
-coming soon
+<br />
 
-## How to make a bootable USB(NON GRUB)(FEW DEVICES)
+<h3 align="center">
+    <b>Arch</b>
+</h3>
 
-Firstly, you wanna check if you have one of the few supported devices [here](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
-If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)
-
-Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
-
-After that run Etcher, select your dahlia iso, then your USB device, then select flash!
-
-After the process is finished, rebot and select you USB from you boot menu. 
-
-## How to run dahlia in qemu
-
-### Arch
-
-First open a terminal and type the following command:
+- First open a terminal and type the following command:
 ```
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
+- Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-### Ubuntu 18.04
+<br />
 
-First open a terminal and type the following command:
+<h3 align="center">
+    <b>Ubuntu 18.04</b>
+</h3>
+
+- First open a terminal and type the following command:
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
-Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
+- Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 
-### Ubuntu 18.04+
+<br />
 
-First open a terminal and type the following command:
+<h3 align="center">
+    <b>Ubuntu 18.04+</b>
+</h3>
+
+- First open a terminal and type the following command:
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
 ```
-Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
+- Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-### Add KVM support (Kernel-based Virtual Machine)
+<br />
 
-simply add **-enable-kvm** to your start command
+<h3 align="center">
+    <b>Add KVM (Kernel-based Virtual Machine)</b>
+</h3>
 
-(your iso is named different than: DahliaOS.iso)
+- simply add **-enable-kvm** to your start command
+
+- (your iso is named different than: DahliaOS.iso)
 
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
 
-## Install Pangolin on linux
+<h2 align="center">
+    <b>Install Pangolin on linux</b> 
+    </h2>
+<br />
 
-### Automated install
+<br />
 
-`curl -s https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/install.sh | sh`
+<h3 align="center">
+    <b>Automated install</b>
+</h3>
 
-choose your distro shown by the image here
+`curl -s https://raw.githubusercontent.com/dahlia-os/documentation/master/assets/scripts/install.sh | sh`
 
-![list](https://github.com/dahlia-os/documentation/blob/master/list.png)
+**choose your distro shown by the image here**
 
-### Manual install
+<p align="center">
+  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png"
+</p>
+
+<h3 align="center">
+    <b>Manual install</b>
+</h3>
 
 **if you get any error in the Automated install script than try the manual install.**
 
 **tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
 
-### debian/ubuntu
+<p align="center"><strong>Debian/ubuntu</strong></p>
+
+
 
 `sudo apt-get install -y matchbox-window-manager`
 
-if you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
+- if you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
 
 `sudo snap install flutter --classic`
 
-install git if didn't already `sudo snap install git`
+- install git if didn't already `sudo snap install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -162,20 +170,19 @@ install git if didn't already `sudo snap install git`
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-now reboot and choose pangolin as desktop to login
+- now reboot and choose pangolin as desktop to login
 
-
-### linux mint 20
+<p align="center"><strong>linux mint 20</strong></p>
 
 `sudo apt-get install -y matchbox-window-manager`
 
-remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
+- remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
 
 `sudo apt install snapd` 
 
 `sudo snap install flutter --classic`
 
-install git if didn't already `sudo snap install git`
+- install git if didn't already `sudo snap install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -191,26 +198,44 @@ install git if didn't already `sudo snap install git`
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-now reboot and choose pangolin as desktop to login
+- now reboot and choose pangolin as desktop to login
 
 
 
-## Build Pangolin
+<h2 align="center">
+    <b>Build Pangolin</b> 
+    </h2>
+<br />
 
-Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
+- Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
 
-### Before Building...
+<br />
 
-Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
+<h3 align="center">
+    <b>Before Building</b>
+</h3>
 
-### Lets Build!
+- Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
+
+
+<h3 align="center">
+    <b>Let's Build</b>
+</h3>
+
 
 1. make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
-### Build GRUB iso
+<h2 align="center">
+    <b>Build Grub components</b> 
+    </h2>
+<br />
+
+<h3 align="center">
+    <b>Linux</b>
+</h3>
 
 -**First you need to clone the base components**
  
@@ -234,8 +259,36 @@ Make sure you have `flutter` and `android-studio` installed. You can get the Dah
  
 - `./finalize.sh`
 
-Now copy the files to a windows pc.
+<h2 align="center">
+    <b>Make Grub iso</b> 
+    </h2>
+<br />
 
+<h3 align="center">
+    <b>Windows</b>
+</h3>
+
+-**First you need to clone the base components**
+ 
+ - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
+
+-**Copy and make base components to ~/builddahliagrub**
+
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
+
+-**Setting up linux Kernel** 
+
+- buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
+
+- `./buildKERNEL.sh`
+
+-**Setting up dahlia image** 
+ 
+ - `./buildIMAGE.sh`
+
+-**Finalizing** 
+ 
+- `./finalize.sh`
 -**Files to iso** 
 
 - Download **Poweriso [here](https://www.poweriso.com/)** and copy the build files you just made. 
@@ -244,10 +297,15 @@ Now copy the files to a windows pc.
 
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
-### Build tiny grub image
+<h2 align="center">
+    <b>Make MBR iso</b> 
+    </h2>
+<br />
 
+<h3 align="center">
+    <b>Windows [BETA]</b>
+</h3>
 
-### Make a Master boot record(BETA)
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
 -   Then, Run the following commands.
@@ -257,15 +315,15 @@ When you have made the iso, go to command prompt. You can go to this by hitting 
 and then
 
     list disk
-you should see a screen like this: 
+- you should see a screen like this: 
 
-![enter image description here](https://www.techclassy.com/wp-content/uploads/2019/05/diskpart-select-disk-command-prompt.png.webp)
+![diskpart](https://github.com/dahlia-os/documentation/blob/master/assets/images/cmd/Diskpart_list%20disk.png)
     
-select your disk that you want to format:
+- select your disk that you want to format:
 (EXAMPLE) Disk 2
 
     select disk 2
-   now you have selected the disk,
+  - now you have selected the disk,
    
 
     clean
@@ -280,4 +338,7 @@ select your disk that you want to format:
 
     exit
 
-Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
+- Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
+
+
+
