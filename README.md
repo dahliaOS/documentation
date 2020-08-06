@@ -14,11 +14,11 @@
 
 **64/32 UEFI systems and 64 BIOS systems**
 
-- Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
+- Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso). 
 
-- flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
+- flash the iso to your USB with Etcher [Here](https://www.balena.io/etcher/).
 
-- **!** make sure you have disabled **[secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md)**. 
+- **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md).
 
 <h2 align="center">
     <b>How to make a bootable USB [SYSLINUX]</b> 
@@ -28,7 +28,7 @@
 - Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
-- Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
+- Secondly, download and install Etcher [Here](https://www.balena.io/etcher/).  
 
 - After that run Etcher, select your dahlia iso, then your USB device, then select flash!
 
