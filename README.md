@@ -315,15 +315,15 @@ When you have made the iso, go to command prompt. You can go to this by hitting 
 and then
 
     list disk
-you should see a screen like this: 
+- you should see a screen like this: 
 
 ![diskpart](https://github.com/dahlia-os/documentation/blob/master/assets/images/cmd/Diskpart_list%20disk.png)
     
-select your disk that you want to format:
+- select your disk that you want to format:
 (EXAMPLE) Disk 2
 
     select disk 2
-   now you have selected the disk,
+  - now you have selected the disk,
    
 
     clean
@@ -338,7 +338,7 @@ select your disk that you want to format:
 
     exit
 
-Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
+- Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
 
 
 
