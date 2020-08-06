@@ -45,9 +45,9 @@
 
 **64/32 UEFI systems and 64 BIOS systems**
 
-1 - Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
+- Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
 
-2 - flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
+- flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
 
 **!** - make sure you have disabled **[secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md)**. 
 
@@ -59,13 +59,13 @@
 Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
-Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
+- Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
 
-After that run Etcher, select your dahlia iso, then your USB device, then select flash!
+- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
 
-After the process is finished, reboot and select you USB from you boot menu. 
+- After the process is finished, reboot and select you USB from you boot menu. 
 
-(you may need to change your boot order in your uefi first.)
+**!** - (you may need to change your boot order in your uefi first.)
 
 <h2 align="center">
     <b>Run dahlia in QEMU</b> 
@@ -74,53 +74,56 @@ After the process is finished, reboot and select you USB from you boot menu.
 
 ### Arch
 
-First open a terminal and type the following command:
+- First open a terminal and type the following command:
 ```
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
+- Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 ### Ubuntu 18.04
 
-First open a terminal and type the following command:
+- First open a terminal and type the following command:
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
-Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
+- Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 
 ### Ubuntu 18.04+
 
-First open a terminal and type the following command:
+- First open a terminal and type the following command:
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
 ```
-Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
+- Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 ### Add KVM support (Kernel-based Virtual Machine)
 
-simply add **-enable-kvm** to your start command
+- simply add **-enable-kvm** to your start command
 
-(your iso is named different than: DahliaOS.iso)
+- (your iso is named different than: DahliaOS.iso)
 
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
 
-## Install Pangolin on linux
+<h2 align="center">
+    <b>Install Pangolin on linux</b> 
+    </h2>
+<br />
 
 ### Automated install
 
@@ -128,7 +131,9 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **choose your distro shown by the image here**
 
-![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
+<p align="center">
+  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png"
+</p>
 
 ### Manual install
 
@@ -193,13 +198,16 @@ now reboot and choose pangolin as desktop to login
 
 
 
-## Build Pangolin
+<h2 align="center">
+    <b>Build Pangolin</b> 
+    </h2>
+<br />
 
-Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
+- Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
 
 ### Before Building...
 
-Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
+- Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
 
 ### Lets Build!
 
