@@ -144,7 +144,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
 
-<p align="center"><mark>Debian/ubuntu<mark></p>
+<p align="center"><mark>Debian/ubuntu</mark></p>
 
 
 
