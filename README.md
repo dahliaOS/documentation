@@ -144,15 +144,17 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
 
-<p align="center">debian/ubuntu</p>
+<p align="center">Debian/ubuntu</p>
+
+
 
 `sudo apt-get install -y matchbox-window-manager`
 
-if you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
+- if you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
 
 `sudo snap install flutter --classic`
 
-install git if didn't already `sudo snap install git`
+- install git if didn't already `sudo snap install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -168,20 +170,20 @@ install git if didn't already `sudo snap install git`
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-now reboot and choose pangolin as desktop to login
+- now reboot and choose pangolin as desktop to login
 
 
 ### linux mint 20
 
 `sudo apt-get install -y matchbox-window-manager`
 
-remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
+- remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
 
 `sudo apt install snapd` 
 
 `sudo snap install flutter --classic`
 
-install git if didn't already `sudo snap install git`
+- install git if didn't already `sudo snap install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -197,7 +199,7 @@ install git if didn't already `sudo snap install git`
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-now reboot and choose pangolin as desktop to login
+- now reboot and choose pangolin as desktop to login
 
 
 
