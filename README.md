@@ -7,37 +7,6 @@
     </h2>
 <br />
 
-<pre>
-<a href="https://github.com/dahlia-os/documentation#documentation">Documentation</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">├── How to make a bootable USB</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usb-grub-all-devices">│   ├── (GRUB) (ALL DEVICES)</a>
-<a href="https://github.com/dahlia-os/documentation#x86_64">│   │  ├── x86_64</a>
-<a href="https://github.com/dahlia-os/documentation#raspberry-pi-34">│   │  └── Raspberry Pi 3/4</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-make-a-bootable-usbnon-grubfew-devices">│   └── (NON GRUB)(FEW DEVICES)</a>
-<a href="https://github.com/dahlia-os/documentation#how-to-run-dahlia-in-qemu">├── How to run dahlia in qemu</a>
-<a href="https://github.com/dahlia-os/documentation#arch">│   ├── Arch</a>
-<a href="https://github.com/dahlia-os/documentation#ubuntu-1804">│   ├── Ubuntu 18.04</a>
-<a href="https://github.com/dahlia-os/documentation#ubuntu-1804-1">│   ├── Ubuntu 18.04+</a>
-<a href="https://github.com/dahlia-os/documentation/blob/master/README.md#add-kvm-support-kernel-based-virtual-machine">│   └── Add KVM support (Kernel-based Virtual Machine)</a>
-<a href="https://github.com/dahlia-os/documentation#install-pangolin-on-linux">├── Install Pangolin on linux</a>
-<a href="https://github.com/dahlia-os/documentation#automated-install">│   ├── Automated install</a>
-<a href="https://github.com/dahlia-os/documentation#manual-install">│   └── Manual install</a>
-<a href="https://github.com/dahlia-os/documentation#debianubuntu">│      ├── debian/ubuntu</a>
-<a href="https://github.com/dahlia-os/documentation#linux-mint-20">│      └── linux mint 20</a>
-<a href="https://github.com/dahlia-os/documentation#build-pangolin">├── Build Pangolin</a>
-<a href="https://github.com/dahlia-os/documentation#before-building">│   └── Before Building...</a>
-<a href="https://github.com/dahlia-os/documentation#lets-build">│      └── Lets Build!</a>
-<a href="https://github.com/dahlia-os/documentation#build-grub-iso">├── Build GRUB iso</a>
-<a href="https://github.com/dahlia-os/documentation#make-iso">│   ├── Make ISO</a>
-<a href="https://github.com/dahlia-os/documentation#windows">│   │  ├── Windows</a>
-<a href="https://github.com/dahlia-os/documentation#linux">│   │  └── Linux</a>
-<a href="https://github.com/dahlia-os/documentation#make-mbr">│   ├── Make MBR</a>
-<a href="https://github.com/dahlia-os/documentation#windows-beta">│   │  ├── Windows(BETA)</a>
-<a href="https://github.com/dahlia-os/documentation#linux-1">│   │  └── Linux</a>
-<a href="https://github.com/dahlia-os/documentation#build-tiny-grub-image">│   └── Build tiny grub image</a>
-</pre>  
-
-
 <h2 align="center">
     <b>How to make a bootable USB [GRUB]</b> 
     </h2>
@@ -56,7 +25,7 @@
     </h2>
 <br />
 
-Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
+- Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
 - Secondly, download and install [Etcher](https://www.balena.io/etcher/).  
@@ -65,7 +34,7 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 
 - After the process is finished, reboot and select you USB from you boot menu. 
 
-**!** - (you may need to change your boot order in your uefi first.)
+- **!** (you may need to change your boot order in your uefi first.)
 
 <h2 align="center">
     <b>Run dahlia in QEMU</b> 
