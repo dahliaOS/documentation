@@ -210,18 +210,33 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 - Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
 
-### Before Building...
+<br />
+
+<h3 align="center">
+    <b>Before Building</b>
+</h3>
 
 - Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
 
-### Lets Build!
+
+<h3 align="center">
+    <b>Let's Build</b>
+</h3>
+
 
 1. make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
-## Build GRUB iso
+<h2 align="center">
+    <b>Build Grub iso</b> 
+    </h2>
+<br />
+
+<h3 align="center">
+    <b>Linux</b>
+</h3>
 
 -**First you need to clone the base components**
  
@@ -247,8 +262,31 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 ## Make ISO
 
-### [windows] 
+<h3 align="center">
+    <b>Windows</b>
+</h3>
 
+-**First you need to clone the base components**
+ 
+ - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
+
+-**Copy and make base components to ~/builddahliagrub**
+
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
+
+-**Setting up linux Kernel** 
+
+- buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
+
+- `./buildKERNEL.sh`
+
+-**Setting up dahlia image** 
+ 
+ - `./buildIMAGE.sh`
+
+-**Finalizing** 
+ 
+- `./finalize.sh`
 -**Files to iso** 
 
 - Download **Poweriso [here](https://www.poweriso.com/)** and copy the build files you just made. 
@@ -257,12 +295,15 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
+<h2 align="center">
+    <b>Make MBR iso</b> 
+    </h2>
+<br />
 
-### [linux] 
+<h3 align="center">
+    <b>Windows [BETA]</b>
+</h3>
 
-## Make MBR
-
-### [windows] (BETA)
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
 -   Then, Run the following commands.
@@ -297,8 +338,5 @@ select your disk that you want to format:
 
 Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
 
-### [linux] 
 
 
-
-### Build tiny grub image
