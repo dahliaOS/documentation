@@ -37,23 +37,24 @@
 <a href="https://github.com/dahlia-os/documentation#build-tiny-grub-image">│   └── Build tiny grub image</a>
 </pre>  
 
-## How to make a bootable USB (GRUB) (ALL DEVICES)
 
-### x86_64
+<h2 align="center">
+    <b>How to make a bootable USB [GRUB]</b> 
+    </h2>
+<br />
 
 **64/32 UEFI systems and 64 BIOS systems**
 
-1 Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
+1 - Download the latest **[iso](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
 
-2 flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
+2 - flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
 
-**!** make sure you have disabled **[secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md)**. 
+**!** - make sure you have disabled **[secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md)**. 
 
-### Raspberry Pi 3/4
-
-coming soon
-
-## How to make a bootable USB(NON GRUB)(FEW DEVICES)
+<h2 align="center">
+    <b>How to make a bootable USB [SYSLINUX]</b> 
+    </h2>
+<br />
 
 Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
@@ -66,7 +67,10 @@ After the process is finished, reboot and select you USB from you boot menu.
 
 (you may need to change your boot order in your uefi first.)
 
-## How to run dahlia in qemu
+<h2 align="center">
+    <b>Run dahlia in QEMU</b> 
+    </h2>
+<br />
 
 ### Arch
 
