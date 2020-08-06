@@ -2,9 +2,9 @@
   <img width="25%" src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png"
 </p>
 
-<h1 align="center">
+<h2 align="center">
     <b>Documentation</b> 
-    </h1>
+    </h2>
 <br />
 
 <h2 align="center">
