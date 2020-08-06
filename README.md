@@ -230,7 +230,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
 <h2 align="center">
-    <b>Build Grub iso</b> 
+    <b>Build Grub components</b> 
     </h2>
 <br />
 
@@ -260,7 +260,10 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
  
 - `./finalize.sh`
 
-## Make ISO
+<h2 align="center">
+    <b>Make Grub iso</b> 
+    </h2>
+<br />
 
 <h3 align="center">
     <b>Windows</b>
