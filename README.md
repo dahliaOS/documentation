@@ -53,7 +53,11 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
     </h2>
 <br />
 
-### Arch
+<br />
+
+<h3 align="center">
+    <b>Arch</b>
+</h3>
 
 - First open a terminal and type the following command:
 ```
@@ -66,7 +70,11 @@ sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-blo
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-### Ubuntu 18.04
+<br />
+
+<h3 align="center">
+    <b>Ubuntu 18.04</b>
+</h3>
 
 - First open a terminal and type the following command:
 ```
@@ -79,7 +87,11 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 
-### Ubuntu 18.04+
+<br />
+
+<h3 align="center">
+    <b>Ubuntu 18.04+</b>
+</h3>
 
 - First open a terminal and type the following command:
 ```
@@ -91,7 +103,11 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-syste
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-### Add KVM support (Kernel-based Virtual Machine)
+<br />
+
+<h3 align="center">
+    <b>Add KVM (Kernel-based Virtual Machine)</b>
+</h3>
 
 - simply add **-enable-kvm** to your start command
 
@@ -106,7 +122,11 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     </h2>
 <br />
 
-### Automated install
+<br />
+
+<h3 align="center">
+    <b>Automated install</b>
+</h3>
 
 `curl -s https://raw.githubusercontent.com/dahlia-os/documentation/master/assets/scripts/install.sh | sh`
 
@@ -116,13 +136,15 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
   <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png"
 </p>
 
-### Manual install
+<h3 align="center">
+    <b>Manual install</b>
+</h3>
 
 **if you get any error in the Automated install script than try the manual install.**
 
 **tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
 
-### debian/ubuntu
+<p align="center">debian/ubuntu</p>
 
 `sudo apt-get install -y matchbox-window-manager`
 
