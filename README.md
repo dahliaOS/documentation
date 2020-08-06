@@ -30,8 +30,7 @@
     <b>raspberry pi 3/4</b>
 </h3>
 
-
-
+- being worked hard on
 
 <h2 align="center">
     <b>How to make a bootable USB [SYSLINUX]</b> 
