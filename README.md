@@ -172,8 +172,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 - now reboot and choose pangolin as desktop to login
 
-
-### linux mint 20
+<p align="center"><strong>linux mint 20</strong></p>
 
 `sudo apt-get install -y matchbox-window-manager`
 
