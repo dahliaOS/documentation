@@ -18,7 +18,7 @@
 
 - flash the iso to your USB with **[Etcher](https://www.balena.io/etcher/)**.
 
-**!** - make sure you have disabled **[secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md)**. 
+- **!** make sure you have disabled **[secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md)**. 
 
 <h2 align="center">
     <b>How to make a bootable USB [SYSLINUX]</b> 
