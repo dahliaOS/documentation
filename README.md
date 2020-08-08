@@ -229,66 +229,28 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
 <h2 align="center">
-    <b>Build Grub components</b> 
+    <b>Build Grub iso</b> 
     </h2>
 <br />
 
 <h3 align="center">
-    <b>Linux</b>
+    <b>[Linux] build files</b>
 </h3>
 
--**First you need to clone the base components**
- 
- - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
+-**Run this script to build the iso files**
 
--**Copy and make base components to ~/builddahliagrub**
-
-- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
-
--**Setting up linux Kernel** 
-
-- buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
-
-- `./buildKERNEL.sh`
-
--**Setting up dahlia image** 
- 
- - `./buildIMAGE.sh`
-
--**Finalizing** 
- 
-- `./finalize.sh`
-
-<h2 align="center">
-    <b>Make Grub iso</b> 
-    </h2>
-<br />
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/64/run.sh | sh` 
 
 <h3 align="center">
-    <b>Windows</b>
+    <b>[Linux] make iso</b>
 </h3>
 
--**First you need to clone the base components**
- 
- - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
+no content 
 
--**Copy and make base components to ~/builddahliagrub**
+<h3 align="center">
+    <b>[windows] make iso</b>
+</h3>
 
-- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
-
--**Setting up linux Kernel** 
-
-- buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
-
-- `./buildKERNEL.sh`
-
--**Setting up dahlia image** 
- 
- - `./buildIMAGE.sh`
-
--**Finalizing** 
- 
-- `./finalize.sh`
 -**Files to iso** 
 
 - Download **Poweriso [here](https://www.poweriso.com/)** and copy the build files you just made. 
