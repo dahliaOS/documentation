@@ -154,7 +154,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo snap install flutter --classic`
 
-- install git if didn't already `sudo snap install git`
+- install git if didn't already `sudo apt install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
