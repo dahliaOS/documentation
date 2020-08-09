@@ -15,7 +15,7 @@
 <br />
 
 <h3 align="center">
-    <b>64/32 UEFI systems and 64 BIOS systems</b>
+    <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
 </h3>
 
 - Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso). 
@@ -25,7 +25,7 @@
 - **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md).
 
 <h3 align="center">
-    <b>32 BIOS</b>
+    <b>32 bit BIOS</b>
 </h3>
 
 - Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso). 
