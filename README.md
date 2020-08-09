@@ -24,6 +24,14 @@
 
 - **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md).
 
+<h3 align="center">
+    <b>32 BIOS</b>
+</h3>
+
+- Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso). 
+
+- flash the iso to your USB with Etcher [Here](https://www.balena.io/etcher/).
+
 <br />
 
 <h3 align="center">
@@ -239,7 +247,13 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 -**Run this script to build the iso files**
 
+<p align="center"><strong>64 bit</strong></p>
+
 - `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/64/run.sh | sh` 
+
+<p align="center"><strong>32 bit</strong></p>
+
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/32/run.sh | sh` 
 
 <h3 align="center">
     <b>[Linux] make iso</b>
