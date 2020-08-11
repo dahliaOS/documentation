@@ -298,21 +298,20 @@ and then
 - select your disk that you want to format:
 (EXAMPLE) Disk 2
 
-    select disk 2
-  - now you have selected the disk,
+`select disk 2`
+- now you have selected the disk,
    
-
-    clean
+`clean`
     
-    create partition primary
+`create partition primary`
 
-    select partition 1
+`select partition 1`
 
-    active
+`active`
 
-    format fs=ntfs quick
+`format fs=ntfs quick`
 
-    exit
+`exit`
 
 - Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
 
