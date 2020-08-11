@@ -18,19 +18,19 @@
     <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
 </h3>
 
-- Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso). 
+- Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso). 
 
-- flash the iso to your USB with Etcher [Here](https://www.balena.io/etcher/).
+- flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
-- **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md).
+- **!** make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md).
 
 <h3 align="center">
     <b>32 bit BIOS</b>
 </h3>
 
-- Download the latest iso [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso). 
+- Download the latest ISO: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso). 
 
-- flash the iso to your USB with Etcher [Here](https://www.balena.io/etcher/).
+- flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
 <br />
 
@@ -48,7 +48,7 @@
 - Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
-- Secondly, download and install Etcher [Here](https://www.balena.io/etcher/).  
+- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/).  
 
 - After that run Etcher, select your dahlia iso, then your USB device, then select flash!
 
@@ -74,7 +74,7 @@ sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-blo
 
 - Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
@@ -90,7 +90,7 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
 - Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
@@ -107,7 +107,7 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-syste
 ```
 - Then download the dahliaos iso from: https://github.com/dahlia-os/releases/releases 
 
-- Then type the following command in the terminal (your iso is named different than: DahliaOS.iso)
+- Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
@@ -119,7 +119,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 
 - simply add **-enable-kvm** to your start command
 
-- (your iso is named different than: DahliaOS.iso)
+- (Make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
@@ -178,7 +178,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-- now reboot and choose pangolin as desktop to login
+- now reboot and choose pangolin as desktop session on your login screen
 
 <p align="center"><strong>linux mint 20</strong></p>
 
@@ -190,7 +190,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo snap install flutter --classic`
 
-- install git if didn't already `sudo snap install git`
+- install git if you don't already have it `sudo snap install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -215,7 +215,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     </h2>
 <br />
 
-- Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
+- The Pangolin Desktop is the desktop of dahliaOS. It's written completly in Flutter, which makes it fast, beautiful and with 200mb ram usage very resource friendly.
 
 <br />
 
@@ -233,7 +233,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 1. make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
-3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
+3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop` / `cd pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
 
 <h2 align="center">
