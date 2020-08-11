@@ -22,7 +22,7 @@
 
 - flash the iso to your USB with Etcher [Here](https://www.balena.io/etcher/).
 
-- **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure%20boot/Disable%20Secure%20Boot.md).
+- **!** make sure you have disabled [secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md).
 
 <h3 align="center">
     <b>32 bit BIOS</b>
@@ -45,7 +45,7 @@
     </h2>
 <br />
 
-- Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported%20hardware%20non%20grub.md).
+- Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
 - Secondly, download and install Etcher [Here](https://www.balena.io/etcher/).  
