@@ -18,19 +18,19 @@
     <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
 </h3>
 
-- Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso). 
+- Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)
 
 - flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
-- **!** make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md).
+- **!** make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
     <b>32 bit BIOS</b>
 </h3>
 
-- Download the latest ISO: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso). 
+- Download the latest ISO: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
 
-- flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
+- flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
 <br />
 
@@ -48,7 +48,7 @@
 - Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
 If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
 
-- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/).  
+- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
 - After that run Etcher, select your dahlia iso, then your USB device, then select flash!
 
@@ -215,7 +215,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     </h2>
 <br />
 
-- The Pangolin Desktop is the desktop of dahliaOS. It's written completly in Flutter, which makes it fast, beautiful and with 200mb ram usage very resource friendly.
+- The Pangolin Desktop is the desktop of dahliaOS. It's written completely in Flutter, which makes it fast, beautiful and with 200mb ram usage very resource friendly.
 
 <br />
 
