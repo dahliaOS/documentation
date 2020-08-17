@@ -126,6 +126,15 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
 
 <h2 align="center">
+    <b>Run dahlia in browser</b> 
+    </h2>
+<br />
+
+<br />
+
+- Run Dahlia OS on browser: [here](https://dahlia-os.github.io/pangolin-desktop)
+
+<h2 align="center">
     <b>Install Pangolin on linux</b> 
     </h2>
 <br />
