@@ -74,7 +74,7 @@
 
 (picture: bing images)
 
-: no official documentation
+: docs: https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Lenovo/Flex-3/80R3/Lenovo-Flex-3-80R3-documentation.md
 
 ![KV3](https://i5.walmartimages.com/asr/3343fa97-323b-4ae7-b4f0-8bd342a2605d_1.fac84687a325c3dc5a219034cc83046a.jpeg)
 ### Pre 2017 Macbook Air
