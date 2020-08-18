@@ -91,3 +91,12 @@
 : no official documentation
 
 ![KV3](https://tweakers.net/i/gdQpggHIWy3g0qNuURu8Q9Jmq0o=/fit-in/x800/filters:strip_icc()/i/2000817821.jpeg?f=imagegallery)
+
+
+### Freetab 8025
+
+(picture: tweakers.net)
+
+[dahlia documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
+
+![image](https://tweakers.net/i/cTVCQuSer65jSGjHEb020zeLAxc=/i/2000576488.jpeg)
