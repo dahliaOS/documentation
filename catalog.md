@@ -11,7 +11,7 @@
 
 
 
-## grub
+## HexaOneOfficial
 - [200804-32BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)         126mb 5 aug
 - [200804-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)         150mb 5 aug
 - [200630_2-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)         192mb 10 Jul
