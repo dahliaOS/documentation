@@ -38,8 +38,6 @@
     <b>raspberry pi 3/4</b>
 </h3>
 
-- being worked hard on
-
 <h2 align="center">
     <b>How to make a bootable USB [SYSLINUX]</b> 
     </h2>
@@ -242,6 +240,43 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
 3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop` / `cd pangolin-mobile`
 4. and build the APK: `flutter build apk --debug` / `flutter build apk`
+
+<h2 align="center">
+    <b>build official DahliaOS iso</b> 
+    </h2>
+<br />
+
+This builds dahliaOS linux-based builds easily. As of 22:43 On June 13, this is only a base buildroot and lacks the dahlia-specific overlays.
+
+<h3 align="center">
+    <b>Usage</b>
+</h3>
+
+Fadd buildroot
+
+add
+buildroot/README.mdirst ```git clone https://github.com/dahlia-os/buildroot.git```
+
+Then use ```make menuconfig``` to configure the build settings, ```make linux-menuconfig``` to configure the Linux kernel, and ```make``` to compile the image, which can be found under ```output/images```. Files can be inserted into the image using the ```output/target``` directory.
+
+<h3 align="center">
+    <b>Easy Modification</b>
+</h3>
+
+To compile and run the base dahliaOS toolchain, use ```make&&qemu-system-x86_64 --enable-kvm -m 4096 -cdrom output/images/rootfs.iso9660&&cp output/images/rootfs.iso9660 output/images/rootfs.iso```
+
+<h3 align="center">
+    <b>Reqirements</b>
+</h3>
+
+It is recommended to have at minumum an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. I personally reccomend a 4C/8T or better CPU with 16GB of RAM for optimal speeds. You will also need a decent amount of hard drive space, I reccomend around 50GB if you clear out the build directory often. It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM. I am sure a Threadripper or a newer Xeon CPU could easily handle compiling.
+
+<h3 align="center">
+    <b>Warning</b>
+</h3>
+
+If you are using a laptop, make sure that you are aware its temperature, some laptops easily heat up to 93-100c when compiling.
+
 
 <h2 align="center">
     <b>Build Grub iso</b> 
