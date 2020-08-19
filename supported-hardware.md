@@ -74,7 +74,7 @@
 
 (picture: bing images)
 
-: no official documentation
+[dahlia documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Lenovo/Flex-3/80R3/Lenovo-Flex-3-80R3-documentation.md)
 
 ![KV3](https://i5.walmartimages.com/asr/3343fa97-323b-4ae7-b4f0-8bd342a2605d_1.fac84687a325c3dc5a219034cc83046a.jpeg)
 ### Pre 2017 Macbook Air
@@ -91,3 +91,12 @@
 : no official documentation
 
 ![KV3](https://tweakers.net/i/gdQpggHIWy3g0qNuURu8Q9Jmq0o=/fit-in/x800/filters:strip_icc()/i/2000817821.jpeg?f=imagegallery)
+
+
+### Freetab 8025
+
+(picture: tweakers.net)
+
+[dahlia documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
+
+![image](https://tweakers.net/i/cTVCQuSer65jSGjHEb020zeLAxc=/i/2000576488.jpeg)
