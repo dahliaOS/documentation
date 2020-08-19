@@ -149,9 +149,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **choose your distro shown by the image here**
 
-<p align="center">
-  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png"
-</p>
+![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
 
 <h3 align="center">
     <b>Manual install</b>
