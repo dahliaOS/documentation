@@ -252,9 +252,12 @@ This builds dahliaOS linux-based builds easily. As of 22:43 On June 13, this is 
     <b>Usage</b>
 </h3>
 
-first ```git clone https://github.com/dahlia-os/buildroot.git```
+Fadd buildroot
 
-then Use ```make menuconfig``` to configure the build settings, ```make linux-menuconfig``` to configure the Linux kernel, and ```make``` to compile the image, which can be found under ```output/images```. Files can be inserted into the image using the ```output/target``` directory.
+add
+buildroot/README.mdirst ```git clone https://github.com/dahlia-os/buildroot.git```
+
+Then use ```make menuconfig``` to configure the build settings, ```make linux-menuconfig``` to configure the Linux kernel, and ```make``` to compile the image, which can be found under ```output/images```. Files can be inserted into the image using the ```output/target``` directory.
 
 <h3 align="center">
     <b>Easy Modification</b>
