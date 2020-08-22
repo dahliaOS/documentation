@@ -1,4 +1,4 @@
-![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png) # build official DahliaOS iso
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png) </h2>build official DahliaOS iso</h2>
 
 <h2 align="center">
     <b>build official DahliaOS iso</b> 
