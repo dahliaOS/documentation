@@ -59,8 +59,6 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
     </h2>
 <br />
 
-<br />
-
 <h3 align="center">
     <b>Arch</b>
 </h3>
