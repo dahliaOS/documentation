@@ -1,4 +1,4 @@
-![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png)
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png) 
 
 <h2 align="center">
     <b>build official DahliaOS iso</b> 
@@ -10,8 +10,6 @@ This builds dahliaOS linux-based builds easily. As of 22:43 On June 13, this is 
 <h3 align="center">
     <b>Usage</b>
 </h3>
-
-Fadd buildroot
 
 add
 buildroot/README.mdirst ```git clone https://github.com/dahlia-os/buildroot.git```
