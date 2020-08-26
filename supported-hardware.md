@@ -76,7 +76,7 @@
 
 [dahlia documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Lenovo/Flex-3/80R3/Lenovo-Flex-3-80R3-documentation.md)
 
-![KV3](assets/images/computer/Lenovo Flex 3 80R3.jpeg)
+![KV3](https://github.com/dahlia-os/documentation/blob/master/assets/images/computer/Lenovo%20Flex%203%2080R3.jpeg)
 ### Pre 2017 Macbook Air
 
 (picture: Noah Cain)
@@ -88,9 +88,9 @@
 
 (picture: tweakers.net)
 
-: no official documentation
+[dahlia documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Acer/TravelMate/P/645-S/Acer-TravelMate-P645-S-documentation.md)
 
-![KV3](assets/images/computer/Acer Travelmate p645-S.jpeg)
+![KV3](https://github.com/dahlia-os/documentation/blob/master/assets/images/computer/Acer%20Travelmate%20p645-S.jpeg)
 
 
 ### Freetab 8025
@@ -99,4 +99,4 @@
 
 [dahlia documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
 
-![image](assets/images/computer/Freetab 8025.jpeg)
+![image](https://github.com/dahlia-os/documentation/blob/master/assets/images/computer/Freetab%208025.jpeg)
