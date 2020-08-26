@@ -21,22 +21,22 @@ Please note that these are only the highlights from development, and not indicat
 ## Components
 
 ### The Desktop
-![Desktop](desktop.png)
+![Desktop](assets/images/screenshots/ui/200804/desktop.png)
 
 The desktop is the location of windows, widgets(planned), and the wallpaper.
 
 ### The Panel
-![panel](panel.png)
+![panel](assets/images/screenshots/ui/200804/panel.png)
 
 The panel is the hub for application launching and managing settings.
 
 ### The Launcher
-![launcher](launcher.png)
+![launcher](assets/images/screenshots/ui/200804/launcher.png)
 
 The launcher is for opening and viewing a grid of every application in the system, as well as a list of quick, helpful cards that display notifications and information. A search bar is also available to sort through apps, find settings, and search the web. 
 
 ### The Quick Settings Menu
-![settings](settings.png)
+![settings](assets/images/screenshots/ui/200804/settings.png)
 
 Quick settings assists in changing relevant system settings quickly (hence the name), offering an easier and more efficient method of changing settings than opening the app.
 
