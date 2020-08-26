@@ -20,22 +20,22 @@
 
 - Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)
 
-- flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
+- Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
-- **!** make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
+- **!** Make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
     <b>32 bit BIOS</b>
 </h3>
 
-- Download the latest ISO: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
+- Download the latest ISO: [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
 
-- flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/)
+- Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
 <br />
 
 <h3 align="center">
-    <b>raspberry pi 3/4</b>
+    <b>Raspberry pi 3/4</b>
 </h3>
 
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
@@ -56,7 +56,7 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 
 - After the process is finished, reboot and select you USB from you boot menu. 
 
-- **!** (you may need to change your boot order in your uefi first.)
+- **!** (You may need to change your boot order in your uefi first)
 
 <h2 align="center">
     <b>Run dahlia in QEMU</b> 
@@ -165,11 +165,11 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo apt-get install -y matchbox-window-manager`
 
-- if you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
+- If you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
 
 `sudo snap install flutter --classic`
 
-- install git if didn't already `sudo apt install git`
+- Install git if didn't already `sudo apt install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -185,19 +185,19 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-- now reboot and choose pangolin as desktop session on your login screen
+- Now reboot and choose pangolin as desktop session on your login screen
 
 <p align="center"><strong>linux mint 20</strong></p>
 
 `sudo apt-get install -y matchbox-window-manager`
 
-- remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
+- Remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
 
 `sudo apt install snapd` 
 
 `sudo snap install flutter --classic`
 
-- install git if you don't already have it `sudo snap install git`
+- Install git if you don't already have it `sudo snap install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -213,7 +213,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo cp Pangolin.desktop /usr/share/xsessions/`
 
-- now reboot and choose pangolin as desktop to login
+- Now reboot and choose pangolin as desktop to login
 
 
 
@@ -238,13 +238,13 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 </h3>
 
 
-1. make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
-2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
-3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop` / `cd pangolin-mobile`
-4. and build the APK: `flutter build apk --debug` / `flutter build apk`
+1. Make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
+2. Clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
+3. Go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop` / `cd pangolin-mobile`
+4. And build the APK: `flutter build apk --debug` / `flutter build apk`
 
 <h2 align="center">
-    <b>build official DahliaOS iso</b> 
+    <b>Build official DahliaOS iso</b> 
     </h2>
 <br />
 
@@ -271,7 +271,7 @@ To compile and run the base dahliaOS toolchain, use ```make&&qemu-system-x86_64 
     <b>Reqirements</b>
 </h3>
 
-It is recommended to have at minumum an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. I personally reccomend a 4C/8T or better CPU with 16GB of RAM for optimal speeds. You will also need a decent amount of hard drive space, I reccomend around 50GB if you clear out the build directory often. It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM. I am sure a Threadripper or a newer Xeon CPU could easily handle compiling.
+Its recommended to have at minumum an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. I personally reccomend a 4C/8T or better CPU with 16GB of RAM for optimal speeds. You will also need a decent amount of hard drive space, I reccomend around 50GB if you clear out the build directory often. It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM. I am sure a Threadripper or a newer Xeon CPU could easily handle compiling.
 
 <h3 align="center">
     <b>Warning</b>
@@ -332,18 +332,18 @@ When you have made the iso, go to command prompt. You can go to this by hitting 
 
  `diskpart`
 
-and then
+And then
 
     list disk
-- you should see a screen like this: 
+- You should see a screen like this: 
 
 ![diskpart](https://github.com/dahlia-os/documentation/blob/master/assets/images/cmd/Diskpart_list%20disk.png)
     
-- select your disk that you want to format:
+- Select your disk that you want to format:
 (EXAMPLE) Disk 2
 
 `select disk 2`
-- now you have selected the disk,
+- Now you have selected the disk,
    
 `clean`
     
