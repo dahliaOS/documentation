@@ -38,6 +38,10 @@
     <b>raspberry pi 3/4</b>
 </h3>
 
+- Check status [here:](https://github.com/dahlia-os/zircon-rpi)
+
+
+
 <h2 align="center">
     <b>How to make a bootable USB [SYSLINUX]</b> 
     </h2>
