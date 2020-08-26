@@ -28,7 +28,7 @@
     <b>32 bit BIOS</b>
 </h3>
 
-- Download the latest ISO: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
+- Download the latest ISO: [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
 
 - Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
@@ -56,7 +56,7 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 
 - After the process is finished, reboot and select you USB from you boot menu. 
 
-- **!** (You may need to change your boot order in your uefi first.)
+- **!** (You may need to change your boot order in your uefi first)
 
 <h2 align="center">
     <b>Run dahlia in QEMU</b> 
