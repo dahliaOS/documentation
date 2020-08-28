@@ -1,24 +1,32 @@
-## How to make a bootable usb(GRUB)(ALL DEVICES)
+<h2 align="center">
+    <b>How to make a bootable USB [GRUB]</b> 
+    </h2>
+<br />
 
-### x86_64
+<br />
 
-**64/32 UEFI systems and 64 BIOS systems**
+<h3 align="center">
+    <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
+</h3>
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+- Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)
 
-2 then flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
+- Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
-3 disable secure boot if you have that option.
- 
+- **!** Make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
 
-**32 BIOS systems**
+<h3 align="center">
+    <b>32 bit BIOS</b>
+</h3>
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.32bit.iso)**.
+- Download the latest ISO: [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
 
-2 then flash the iso to your USB with **Rufus [here](https://rufus.ie/)**.
+- Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
-3 Disable secure boot if you have that option.
+<br />
 
-### Raspberry Pi 3/4
+<h3 align="center">
+    <b>Raspberry pi 3/4</b>
+</h3>
 
-Coming soon
+- Check status [here:](https://github.com/dahlia-os/zircon-rpi)
