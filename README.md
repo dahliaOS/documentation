@@ -363,6 +363,6 @@ And then
     <b>Download older iso's</b>
 </h3>
 
-check the [catalog](https://github.com/HexaOneOfficial/documentation/blob/master/catalog.md) for older iso's
+check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older iso's
 
 
