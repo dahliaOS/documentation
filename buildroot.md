@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-    <b>build official DahliaOS iso</b> 
+    <b>buildroot</b> 
     </h2>
 <br />
 
