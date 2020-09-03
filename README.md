@@ -7,10 +7,14 @@
     </h2>
 <br />
 
-  <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>
+  <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/HexaOneOfficial/documentation/tree/master/assets/hardware"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
 
-<b>How to make a bootable USB</b> 
-  </h2>
+
+
+
+<h2 align="center">
+    <b>How to make a bootable USB</b> 
+    </h2>
 <br />
 
 - Firstly, you wanna check if you have one of the [supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
