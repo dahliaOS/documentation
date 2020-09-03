@@ -9,11 +9,6 @@
 
   <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>
 
-
-
-
-  <a href=""><img src="<h2 align="center">
-    
 <b>How to make a bootable USB</b> 
   </h2>
 <br />
