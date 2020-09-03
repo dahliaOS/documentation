@@ -7,8 +7,7 @@
     </h2>
 <br />
 
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)][AppCenter] [![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)][AppCenter]
-
+  <a href="https://appcenter.elementary.io/com.github.cassidyjames.ephemeral"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter"/></a>
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
