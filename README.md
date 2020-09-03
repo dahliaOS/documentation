@@ -7,6 +7,27 @@
     </h2>
 <br />
 
+&nbsp;  <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/HexaOneOfficial/documentation/tree/master/assets/hardware"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
+
+
+
+
+<h2 align="center">
+    <b>How to make a bootable USB</b> 
+    </h2>
+<br />
+
+- Firstly, you wanna check if you have one of the [supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
+If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)
+
+- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
+
+- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
+
+- After the process is finished, reboot and select you USB from you boot menu. 
+
+- **!** (You may need to change your boot order in your uefi first)
+
 <h2 align="center">
     <b>How to make a bootable USB [GRUB]</b> 
     </h2>
@@ -39,24 +60,6 @@
 </h3>
 
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
-
-
-
-<h2 align="center">
-    <b>How to make a bootable USB [SYSLINUX]</b> 
-    </h2>
-<br />
-
-- Firstly, you wanna check if you have one of the [few supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
-If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)
-
-- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
-
-- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
-
-- After the process is finished, reboot and select you USB from you boot menu. 
-
-- **!** (You may need to change your boot order in your uefi first)
 
 <h2 align="center">
     <b>Run dahlia in QEMU</b> 

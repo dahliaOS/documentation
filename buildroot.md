@@ -1,7 +1,9 @@
-![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png) 
+<p align="center">
+  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png"
+</p>
 
 <h2 align="center">
-    <b>build official DahliaOS iso</b> 
+    <b>buildroot</b> 
     </h2>
 <br />
 
