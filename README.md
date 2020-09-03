@@ -7,7 +7,7 @@
     </h2>
 <br />
 
-&nbsp;  <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/HexaOneOfficial/documentation/tree/master/assets/hardware"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
+&nbsp;  <a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/dahlia-os/documentation/tree/master/assets/hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
 
 
 
