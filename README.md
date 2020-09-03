@@ -7,7 +7,7 @@
     </h2>
 <br />
 
-  <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg<h2 align="center">   <a href="https://github.com/HexaOneOfficial/documentation/tree/master/assets/hardware"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/hardware.svg<h2 align="center">  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/donate.svg<h2 align="center">   <a href="https://"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/contribute.svg<h2 align="center">
+  <a href="https://github.com/HexaOneOfficial/documentation/blob/master/supported-hardware.md"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/supported%20hardware.svg<h2 align="center">
     
 <b>How to make a bootable USB</b> 
   </h2>
