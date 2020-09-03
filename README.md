@@ -7,7 +7,7 @@
     </h2>
 <br />
 
-  <a href="https://appcenter.elementary.io/com.github.cassidyjames.ephemeral"><img src="https://appcenter.elementary.io/badge.svg" alt="Get it on AppCenter"/></a>
+  <a href="https://appcenter.elementary.io/com.github.cassidyjames.ephemeral"><img src="https://github.com/HexaOneOfficial/documentation/blob/master/assets/button/test.png" alt="Get it on AppCenter"/></a>
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
