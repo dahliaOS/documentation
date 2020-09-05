@@ -40,4 +40,4 @@
 - tell us what it can run **dahlia os linux** **dahlia os fuchsia** what where the problems? how did you fix them?
 - when added your device will go to supported-hardware.md 
 
-if you get any problems contact us on [discors](https://discord.gg/jwgS3t6)
+if you get any problems contact us on [discord](https://discord.gg/jwgS3t6)
