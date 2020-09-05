@@ -18,17 +18,17 @@
     <b>small fixes/typo's</b>
 </h3>
 
-- typo's **max 3 file's** at a time.
-- shorter sentences **max 3 file's** at a time.
-- small bugs: link go's to elsewhere, image not loading, file outdated.
+- **typo's**: **max 3 file's** at a time.
+- **shorter sentences:** **max 3 file's** at a time.
+- **small bugs:** wrong link, image not loading, file outdated.
 
 <h3 align="center">
     <b>big fixes</b>
 </h3>
 
 - **!** you can't fix typo's in one file and make big changes in andother they need to be independent changed.
-- add file's, fix more than 3 file's, or add a new layout.
-- it can take longer to implement them.
+- **big changes:** add file's, fix more than 3 file's, or add a new layout.
+- **!** it can take longer to implement them.
 
 <h3 align="center">
     <b>add hardware</b>
