@@ -1,1 +1,0 @@
-- **drivers are build in the linux kernel** No further action is required by the customer.
