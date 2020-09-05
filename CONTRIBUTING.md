@@ -26,7 +26,7 @@
     <b>big fixes</b>
 </h3>
 
-- **!** you can't fix typo's in one file and make big changes in andother they need to be independent changed.
+- **!** you can't fix typo's in one file and make big changes in andother they need to be **independent changed:** different PR's.
 - **big changes:** add file's, fix more than 3 file's, or add a new layout.
 - **!** it can take longer to implement them.
 
