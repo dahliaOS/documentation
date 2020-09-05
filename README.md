@@ -56,7 +56,7 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 <br />
 
 <h3 align="center">
-    <b>Raspberry pi 3/4</b>
+    <b>Raspberry pi 4</b>
 </h3>
 
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
