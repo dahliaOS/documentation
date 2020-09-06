@@ -1,17 +1,11 @@
 <p align="center">
   <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png"
 </p>
-
 <h2 align="center">
     <b>Documentation</b> 
     </h2>
 <br />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/dahlia-os/documentation/tree/master/hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
-
-
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/dahlia-os/documentation/tree/master/hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://paypal.me/officialdahliaos"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
@@ -33,8 +27,6 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
     </h2>
 <br />
 
-<br />
-
 <h3 align="center">
     <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
 </h3>
@@ -46,6 +38,9 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 - **!** Make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
+
+    <b>Raspberry pi 3/4</b>
+
     <b>32 bit BIOS</b>
 </h3>
 
@@ -57,6 +52,7 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 
 <h3 align="center">
     <b>Raspberry pi 4</b>
+
 </h3>
 
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
@@ -133,17 +129,12 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     </h2>
 <br />
 
-<br />
-
 - Run pangolin-web: [here](https://dahlia-os.github.io/pangolin-desktop)
 
 <h2 align="center">
     <b>Install Pangolin on linux</b> 
     </h2>
 <br />
-
-<br />
-
 <h3 align="center">
     <b>Automated install</b>
 </h3>
@@ -163,8 +154,6 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 **tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
 
 <p align="center"><strong>Debian/ubuntu</strong></p>
-
-
 
 `sudo apt-get install -y matchbox-window-manager`
 
@@ -218,8 +207,6 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 - Now reboot and choose pangolin as desktop to login
 
-
-
 <h2 align="center">
     <b>Build Pangolin</b> 
     </h2>
@@ -235,11 +222,9 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 - Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
 
-
 <h3 align="center">
     <b>Let's Build</b>
 </h3>
-
 
 1. Make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
 2. Clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
@@ -367,5 +352,3 @@ And then
 </h3>
 
 check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older iso's
-
-
