@@ -38,10 +38,7 @@ If so you can download a dahliaOS iso from the [releases page](https://github.co
 - **!** Make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
-
     <b>Raspberry pi 3/4</b>
-
-    <b>32 bit BIOS</b>
 </h3>
 
 - Download the latest ISO: [Here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)
