@@ -15,7 +15,7 @@
 - last **PR** your changes.
 
 <h3 align="center">
-    <b>test and add hardware to [supported-hardware](https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md)</b>
+    <b>test and add hardware to supported-hardware</b>
 </h3>
 
 - first go to hardware/ and search your brand: **Acer**: if your brand doesn't exist than make a new one.
