@@ -7,13 +7,6 @@
     </h2>
 <br />
 
-<h2 align="center">
-    <b>Official </b> 
-    </h2>
-<br />
-
-<br />
-
 <h3 align="center">
     <b>Acer Switch Alpha 12</b>
 </h3>
