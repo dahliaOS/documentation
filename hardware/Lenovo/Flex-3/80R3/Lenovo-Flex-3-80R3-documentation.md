@@ -1,4 +1,4 @@
-![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png)
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png)
 ## Lenovo Flex 3 80R3 documentation 
 Note: This is not an officially supported device for the zircon version, only for the linux version.
 
