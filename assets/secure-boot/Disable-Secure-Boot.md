@@ -1,3 +1,4 @@
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png)
 # Disable Secure Boot
 
 1 Go into your **bios menu** this can be done through **windows** or **manually**
