@@ -40,9 +40,10 @@
 <h3 align="center">
     <b>Generic Hardware</b> 
     </h3>
+<h4 align="center">
+    <b>these devices can run dahlia os-linux builds</b> 
+    </h4>
 <br />
-
-**these devices can run dahlia os-linux builds** 
 
 - **[1]dahlia os-linux supported:** can run dahlia-os linux builds with syslinux.
 - **[2]dahlia os-linux-grub supported:** can run dahlia-os linux builds but only with the grub bootloader.
