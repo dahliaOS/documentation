@@ -343,6 +343,9 @@ check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catal
 <h3 align="center">
     <b>&nbsp;</b>
 </h3>
+<h3 align="center">
+    <b>&nbsp;</b>
+</h3>
 
 ![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/logosmall.png)
 
