@@ -10,7 +10,6 @@
 <h3 align="center">
     <b>Fuchsia Supported</b> 
     </h3>
-<br />
 <h4 align="center">
     <b>these devices can run dahlia os-fuchsia builds</b> 
     </h4>
