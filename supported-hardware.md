@@ -15,9 +15,6 @@
     </h4>
 <br />
 
-
-**these devices can run dahlia os-fuchsia builds**
-
 ### acer
 - Switch Alpha 12 [Documentation](https://fuchsia.dev/docs/development/hardware/acer12.md)
 
