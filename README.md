@@ -340,6 +340,10 @@ And then
 
 check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older iso's
 
+<h3 align="center">
+    <b></b>
+</h3>
+
 ![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/logosmall.png)
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
