@@ -15,7 +15,7 @@
     </h4>
 <br />
 
-### acer
+### Acer
 - Switch Alpha 12 [Documentation](https://fuchsia.dev/docs/development/hardware/acer12.md)
 
 ### Google
@@ -48,7 +48,7 @@
 - **[1]dahlia os-linux supported:** can run dahlia-os linux builds with syslinux.
 - **[2]dahlia os-linux-grub supported:** can run dahlia-os linux builds but only with the grub bootloader.
 
-### acer
+### Acer
 - **[2]** Travelmate p645-S [Documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Acer/TravelMate/P/645-S/Acer-TravelMate-P645-S-documentation.md)
 
 ### Apple
