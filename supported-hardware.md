@@ -18,11 +18,11 @@
 ### acer
 - Switch Alpha 12 [Documentation](https://fuchsia.dev/docs/development/hardware/acer12.md)
 
-### Intel
-- Nuc (Next Unit of Computing) [Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)
-
 ### Google
 - Pixelbook [Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)
+
+### Intel
+- Nuc (Next Unit of Computing) [Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)
 
 ### JetWay
 - HBJC130F731 Series [Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)
@@ -54,11 +54,11 @@
 ### Apple
 - **[1]** Pre 2017 Macbook Air [Documentation](https:)
 
-### Lenovo
-- **[1]** Flex 3 80R3 [Documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Lenovo/Flex-3/80R3/Lenovo-Flex-3-80R3-documentation.md)
-
 ### Khadas
 - **[2]** vim3 [Documentation](https:)
+
+### Lenovo
+- **[1]** Flex 3 80R3 [Documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Lenovo/Flex-3/80R3/Lenovo-Flex-3-80R3-documentation.md)
 
 ### Modecom
 - **[2]** Freetab 8025 [Documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
