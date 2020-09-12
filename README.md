@@ -12,7 +12,8 @@
 <br />
 
 - Firstly, you wanna check if you have one of the [supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
-If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)
+
+- then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
 
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
