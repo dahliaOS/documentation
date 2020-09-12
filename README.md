@@ -11,7 +11,7 @@
     </h2>
 <br />
 
-- Firstly, you wanna check if you have one of the [supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
+- Firstly, you wanna check if you have one of the [supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md) if not go to [How to make a bootable USB GRUB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-grub-----).
 
 - then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
 
