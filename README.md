@@ -11,8 +11,9 @@
     </h2>
 <br />
 
-- Firstly, you wanna check if you have one of the [supported devices](https://github.com/dahlia-os/documentation/blob/master/supported-hardware-non-grub.md).
-If so you can download a dahliaOS iso from the [releases page](https://github.com/dahlia-os/releases/releases). The latest one at the time of writing can be downloaded [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)
+- Firstly, go to [supported-hardware.md](https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md) to check out if your device can boot with syslinux. If not go to [How to make a bootable USB GRUB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-grub-----).
+
+- then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
 
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
@@ -128,7 +129,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `curl -s https://raw.githubusercontent.com/dahlia-os/documentation/master/assets/scripts/install.sh | sh`
 
-**choose your distro shown by the image here**
+**Choose your distro accordingly as shown on the image here**
 
 ![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
 
@@ -136,7 +137,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     <b>Manual install</b>
 </h3>
 
-**if you get any error in the Automated install script than try the manual install.**
+**If you get any error in the Automated install script then try manual install.**
 
 **tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
 
@@ -148,7 +149,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 `sudo snap install flutter --classic`
 
-- Install git if didn't already `sudo apt install git`
+- Install git if haven't already `sudo apt install git`
 
 `git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
 
@@ -199,7 +200,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     </h2>
 <br />
 
-- The Pangolin Desktop is the desktop of dahliaOS. It's written completely in Flutter, which makes it fast, beautiful and with 200mb ram usage very resource friendly.
+- The Pangolin Desktop is the desktop of dahliaOS. It's written completely in Flutter, which makes it fast, beautiful and with only 200mb of ram usage,it is very resource friendly.
 
 <br />
 
@@ -246,13 +247,13 @@ To compile and run the base dahliaOS toolchain, use ```make&&qemu-system-x86_64 
     <b>Reqirements</b>
 </h3>
 
-Its recommended to have at minumum an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. I personally reccomend a 4C/8T or better CPU with 16GB of RAM for optimal speeds. You will also need a decent amount of hard drive space, I reccomend around 50GB if you clear out the build directory often. It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM. I am sure a Threadripper or a newer Xeon CPU could easily handle compiling.
+Its recommended to atleast have an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. I personally recommend a 4C/8T or better CPU with 16GB of RAM for optimal speed. You will also need a decent amount of hard drive space, I recommend around 50GB if you clear out the build directory often. It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM. I am sure a Threadripper or a newer Xeon CPU could easily handle compiling.
 
 <h3 align="center">
     <b>Warning</b>
 </h3>
 
-If you are using a laptop, make sure that you are aware its temperature, some laptops easily heat up to 93-100c when compiling.
+If you are using a laptop, make sure that you are aware of its temperature, some laptops easily heat up to 93-100c when compiling.
 
 
 <h2 align="center">
@@ -339,3 +340,14 @@ And then
 </h3>
 
 check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older iso's
+
+<h3 align="center">
+    <b>&nbsp;</b>
+</h3>
+<h3 align="center">
+    <b>&nbsp;</b>
+</h3>
+
+![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/logosmall.png)
+
+Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io

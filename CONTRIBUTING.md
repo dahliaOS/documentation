@@ -15,6 +15,16 @@
 - last **PR** your changes.
 
 <h3 align="center">
+    <b>test and add hardware to supported-hardware</b>
+</h3>
+
+- first go to hardware/ and search your brand: **Acer**: if your brand doesn't exist than make a new one.
+- than grab the **example file** in hardware/.
+- than make your device folder: Dell/xps/13/9300/.
+- tell us what it can run **dahlia os linux** **dahlia os fuchsia** what where the problems? how did you fix them?
+- when added your device will be added to supported-hardware.md 
+
+<h3 align="center">
     <b>small fixes/typo's</b>
 </h3>
 
@@ -29,15 +39,5 @@
 - **!** you can't fix typo's in one file and make big changes in andother they need to be **independent changed:** different PR's.
 - **big changes:** add file's, fix more than 3 file's, or add a new layout.
 - **!** it can take longer to implement them.
-
-<h3 align="center">
-    <b>add hardware</b>
-</h3>
-
-- first go to hardware/ and search your brand: **Acer**: if your brand doesn't exist than make a new one.
-- than grab the **example file** in hardware/.
-- than make your device folder: Dell/xps/13/9300/.
-- tell us what it can run **dahlia os linux** **dahlia os fuchsia** what where the problems? how did you fix them?
-- when added your device will go to supported-hardware.md 
 
 if you get any problems contact us on [discord](https://discord.gg/jwgS3t6)
