@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png"
+  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
 <h2 align="center">
     <b>Documentation</b> 
@@ -348,6 +348,6 @@ check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catal
     <b>&nbsp;</b>
 </h3>
 
-![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/logosmall.png)
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io

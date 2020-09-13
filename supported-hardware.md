@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/dahlialogo.png"
+  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
 
 <h2 align="center">
@@ -64,3 +64,8 @@
 - **[2]** Freetab 8025 [Documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
 
 **whant to test and add your device to the list?** check out it out [here](https://github.com/dahlia-os/documentation/blob/master/CONTRIBUTING.md)
+
+
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
+
+Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
