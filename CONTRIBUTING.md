@@ -41,3 +41,11 @@
 - **!** it can take longer to implement them.
 
 if you get any problems contact us on [discord](https://discord.gg/jwgS3t6)
+
+<h3 align="center">
+    <b>&nbsp;</b>
+</h3>
+
+![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
+
+Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
