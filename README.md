@@ -11,7 +11,7 @@
     </h2>
 <br />
 
-- Firstly, go to [supported-hardware.md](./master/supported-hardware.md) to check out if your device can boot with syslinux. If not go to [How to make a bootable USB GRUB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-grub-----).
+- Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [How to make a bootable USB GRUB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-grub-----).
 
 - then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
 
@@ -36,7 +36,7 @@
 
 - Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
-- **!** Make sure you have disabled: [how to disable secure boot](https://github.com/dahlia-os/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
+- **!** Make sure you have disabled: [how to disable secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
     <b>Raspberry pi 3/4</b>
