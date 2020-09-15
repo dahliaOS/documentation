@@ -68,9 +68,6 @@
 <h3 align="center">
     <b>&nbsp;</b>
 </h3>
-<h3 align="center">
-    <b>&nbsp;</b>
-</h3>
 
 ![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
 
