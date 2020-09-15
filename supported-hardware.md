@@ -65,6 +65,9 @@
 
 **whant to test and add your device to the list?** check out it out [here](https://github.com/dahlia-os/documentation/blob/master/CONTRIBUTING.md)
 
+<h3 align="center">
+    <b>&nbsp;</b>
+</h3>
 
 ![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
 
