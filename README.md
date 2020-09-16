@@ -32,7 +32,7 @@
     <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
 </h3>
 
-- Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)
+- Download the latest iso: [Download latest dahliaOS ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)
 
 - Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
 
