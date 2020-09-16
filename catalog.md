@@ -26,9 +26,9 @@
     <b>HexaOneOfficial</b> 
     </h3>
 <br />
- 
-- [200804-32BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)  126mb 5 aug
-- [200804-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)  150mb 5 aug
+
+- [200830-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)  112mb 16 sep
+- [200804-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)  150mb 5 aug
 - [200630_2-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso) 192mb 10 Jul
 
 
