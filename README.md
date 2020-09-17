@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="65%" src="https://imgur.com/d7F8P3h.png"
+  <img width="45%" src="https://imgur.com/d7F8P3h.png"
 </p>
 <h2 align="center">
     <b>Documentation</b> 
@@ -350,7 +350,7 @@ Check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catal
 </h3>
 
 <p align="left">
-  <img width="65%" src="https://imgur.com/d7F8P3h.png"
+  <img width="35%" src="https://imgur.com/d7F8P3h.png"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
