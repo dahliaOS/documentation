@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="65%" src="https://imgur.com/d7F8P3h.png"
 </p>
 <h2 align="center">
     <b>Documentation</b> 
@@ -336,15 +336,21 @@ And then
 - Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
 
 <h3 align="center">
-    <b>Download older iso's</b>
+    <b>Download older ISOs</b>
 </h3>
 
-check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older iso's
+Check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older ISOs
 
 <h3 align="center">
     <b>&nbsp;</b>
 </h3>
 
-![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
+<h3 align="center">
+    <b>License</b>
+</h3>
+
+<p align="left">
+  <img width="65%" src="https://imgur.com/d7F8P3h.png"
+</p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
