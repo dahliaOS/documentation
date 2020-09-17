@@ -350,7 +350,9 @@ Check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catal
 </h3>
 
 <p align="left">
-  <img width="35%" src="https://imgur.com/d7F8P3h.png"
+  <img width="25%" src="https://imgur.com/d7F8P3h.png"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
+
+This project is licensed under the Apache 2.0 license
