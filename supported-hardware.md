@@ -11,7 +11,7 @@
     <b>Fuchsia Supported</b> 
     </h3>
 <h4 align="center">
-    <b>these devices can run dahlia os-fuchsia builds</b> 
+    <b>These devices can run dahlia os-fuchsia builds</b> 
     </h4>
 <br />
 
@@ -63,7 +63,7 @@
 ### Modecom
 - **[2]** Freetab 8025 [Documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
 
-**whant to test and add your device to the list?** check out it out [here](https://github.com/dahlia-os/documentation/blob/master/CONTRIBUTING.md)
+**Want to test, and add your device to the list?** Check it out [here](https://github.com/dahlia-os/documentation/blob/master/CONTRIBUTING.md)
 
 <h3 align="center">
     <b>&nbsp;</b>
