@@ -10,7 +10,7 @@
     <b>how to merge your changes</b>
 </h3>
 
-- first go to [HexaOneOfficial/documentation](https://github.com/HexaOneOfficial/documentation) and clone the repository. 
+- first go to [ dahlia-os/documentation](https://github.com/dahlia-os/documentation) and clone the repository. 
 - then check under here what change your gonna make.
 - last **PR** your changes.
 
