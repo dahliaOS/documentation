@@ -5,15 +5,24 @@
     <b>Documentation</b> 
     </h2>
 <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="https://github.com/dahlia-os/documentation/tree/master/hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="./hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
+<h2 align="center">
+    <b>Table of contents</b> 
+    </h2>
+<br />
+
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
 <br />
 
-- Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [How to make a bootable USB GRUB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-grub-----).
+<h3 align="center">
+    <b>[Syslinux]</b>
+</h3>
 
-- then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
+- Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [GRUB](https://github.com/dahlia-os/documentation#----grub).
+
+- then download the latest iso [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
 
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
@@ -23,24 +32,22 @@
 
 - **!** (You may need to change your boot order in your uefi first)
 
-<h2 align="center">
-    <b>How to make a bootable USB [GRUB]</b> 
-    </h2>
-<br />
-
 <h3 align="center">
-    <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
+    <b>[Grub]</b>
 </h3>
 
-- Download the latest iso: [Download latest dahliaOS GRUB ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)
+- Download the latest iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso).
 
-- Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
+- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
-- **!** Make sure you have disabled: [how to disable secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
+- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
+
+- After the process is finished, reboot and select you USB from you boot menu. 
+
+- **!** (You may need to change your boot order in your uefi first). Also disable [secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
     <b>Raspberry pi 3/4</b>
-
 </h3>
 
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
