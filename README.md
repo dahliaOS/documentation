@@ -7,6 +7,40 @@
 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="./hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
 <h2 align="center">
+    <b>Table of contents</b> 
+    </h2>
+<br />
+
+- [How to make a bootable USB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-----)
+-    [Syslinux](https://github.com/dahlia-os/documentation#----syslinux)
+-    [Grub](https://github.com/dahlia-os/documentation#----grub)
+-    [Raspberry pi 3/4](https://github.com/dahlia-os/documentation#----raspberry-pi-34)
+- [Run dahlia in QEMU](https://github.com/dahlia-os/documentation#----run-dahlia-in-qemu-----)
+-    [Arch](https://github.com/dahlia-os/documentation#----arch)
+-    [Ubuntu 18.04](https://github.com/dahlia-os/documentation#----ubuntu-1804)
+-    [Ubuntu 18.04+](https://github.com/dahlia-os/documentation#----ubuntu-1804-1)
+-    [Add KVM (Kernel-based Virtual Machine)](https://github.com/dahlia-os/documentation#----add-kvm-kernel-based-virtual-machine)
+- [Run pangolin-web](https://github.com/dahlia-os/documentation#----run-pangolin-web-----)
+- [Install Pangolin on linux](https://github.com/dahlia-os/documentation#----install-pangolin-on-linux-----)
+-    [Automated install](https://github.com/dahlia-os/documentation#----automated-install)
+-    [Manual install](https://github.com/dahlia-os/documentation#----manual-install)
+- [ Build Pangolin ](https://github.com/dahlia-os/documentation#----build-pangolin-----)
+-    [Before Building](https://github.com/dahlia-os/documentation#----before-building)
+-    [Let's Build](https://github.com/dahlia-os/documentation#----lets-build)
+- [Build official DahliaOS iso](https://github.com/dahlia-os/documentation#----build-official-dahliaos-iso-----)
+-    [Usage](https://github.com/dahlia-os/documentation#----usage)
+-    [Easy Modification](https://github.com/dahlia-os/documentation#----easy-modification)
+-    [Reqirements](https://github.com/dahlia-os/documentation#----reqirements)
+-    [Warning](https://github.com/dahlia-os/documentation#----warning)
+- [Build Grub iso](https://github.com/dahlia-os/documentation#----build-grub-iso-----)
+-    [(Linux) build files ](https://github.com/dahlia-os/documentation#----linux-build-files)
+-    [(Linux) make iso ](https://github.com/dahlia-os/documentation#----linux-make-iso)
+-    [(Windows) make iso ](https://github.com/dahlia-os/documentation#----windows-make-iso)
+- [Make MBR iso](https://github.com/dahlia-os/documentation#----make-mbr-iso-----)
+-    [(Windows)](https://github.com/dahlia-os/documentation#----windows-beta)
+- [Download older ISOs](https://github.com/dahlia-os/documentation#----download-older-isos)
+
+<h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
 <br />
