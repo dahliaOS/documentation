@@ -11,6 +11,10 @@
     </h2>
 <br />
 
+<h3 align="center">
+    <b>[Syslinux]</b>
+</h3>
+
 - Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [How to make a bootable USB GRUB](https://github.com/dahlia-os/documentation#----how-to-make-a-bootable-usb-grub-----).
 
 - then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
@@ -23,13 +27,8 @@
 
 - **!** (You may need to change your boot order in your uefi first)
 
-<h2 align="center">
-    <b>How to make a bootable USB [GRUB]</b> 
-    </h2>
-<br />
-
 <h3 align="center">
-    <b>64/32 Bit UEFI systems and 64 bit BIOS systems</b>
+    <b>[Grub]</b>
 </h3>
 
 - Download the latest iso: [Download latest dahliaOS GRUB ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)
@@ -40,7 +39,6 @@
 
 <h3 align="center">
     <b>Raspberry pi 3/4</b>
-
 </h3>
 
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
