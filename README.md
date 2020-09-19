@@ -17,7 +17,7 @@
 
 - Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [GRUB](https://github.com/dahlia-os/documentation#----grub).
 
-- then download the latest iso here [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
+- then download the latest iso [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
 
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
@@ -31,10 +31,11 @@
     <b>[Grub]</b>
 </h3>
 
-- Download the latest iso: [Download latest dahliaOS GRUB ISO](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)
-
-- Flash the iso to your USB with Etcher: [Download Etcher](https://www.balena.io/etcher/).
-
+- Download the latest iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso).
+- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
+- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
+- After the process is finished, reboot and select you USB from you boot menu. 
+- **!** (You may need to change your boot order in your uefi first)
 - **!** Make sure you have disabled: [how to disable secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
