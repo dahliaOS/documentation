@@ -10,8 +10,7 @@
 
 **Choose your distro accordingly as shown on the image here**
 
-![list](./assets/images/list/list.png)
-
+ <img width="25%" src="./assets/images/list/list.png"
 
 ## Manual install
 
