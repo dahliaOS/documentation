@@ -32,11 +32,14 @@
 </h3>
 
 - Download the latest iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso).
+
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
+
 - After that run Etcher, select your dahlia iso, then your USB device, then select flash!
+
 - After the process is finished, reboot and select you USB from you boot menu. 
-- **!** (You may need to change your boot order in your uefi first)
-- **!** Make sure you have disabled: [how to disable secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
+
+- **!** (You may need to change your boot order in your uefi first). Also disable [secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
 
 <h3 align="center">
     <b>Raspberry pi 3/4</b>
