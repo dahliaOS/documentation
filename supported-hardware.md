@@ -49,7 +49,7 @@
 - **[2]dahlia os-linux-grub supported:** can run dahlia-os linux builds but only with the grub bootloader.
 
 ### Acer
-- **[2]** Travelmate p645-S [Documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Acer/TravelMate/P/645-S/Acer-TravelMate-P645-S-documentation.md)
+- **[2]** Travelmate p645-S [Documentation](./hardware/Acer/TravelMate-P645-S.md)
 
 ### Apple
 - **[1]** Pre 2017 Macbook Air [Documentation](https:)
@@ -58,12 +58,12 @@
 - **[2]** vim3 [Documentation](https:)
 
 ### Lenovo
-- **[1]** Flex 3 80R3 [Documentation](https://github.com/dahlia-os/documentation/blob/master/assets/hardware/Lenovo/Flex-3/80R3/Lenovo-Flex-3-80R3-documentation.md)
+- **[1]** Flex 3 80R3 [Documentation](./hardware/Lenovo/Flex-3-80R3.md)
 
 ### Modecom
-- **[2]** Freetab 8025 [Documentation](https://github.com/dahlia-os/documentation/tree/master/assets/hardware/Freetab/8000-series/8025)
+- **[2]** Freetab 8025 [Documentation](./hardware/Modecom/Freetab-8025.md)
 
-**Want to test, and add your device to the list?** Check it out [here](https://github.com/dahlia-os/documentation/blob/master/CONTRIBUTING.md)
+**Want to test, and add your device to the list?** Check it out [here](./.github/CONTRIBUTING.md)
 
 <h3 align="center">
     <b>&nbsp;</b>
