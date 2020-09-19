@@ -10,7 +10,7 @@
 
 **Choose your distro accordingly as shown on the image here**
 
-<a href="/"><img src="./assets/images/list/list.png" alt="main1" /></a>
+![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
 
 ## Manual install
 
