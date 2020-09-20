@@ -1,10 +1,16 @@
-<p align="center">
-  <img width="45%" src="https://imgur.com/d7F8P3h.png"
-</p>
-<h2 align="center">
-    <b>Documentation</b> 
-    </h2>
-<br />
+<div align="center">
+  <a href="https://elementary.io" align="center">
+    <center align="center">
+      <img src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo.svg" alt="dahlia" align="center">
+    </center>
+  </a>
+  <br>
+  <h1 align="center"><center>Dahlia OS</center></h1>
+  <h3 align="center"><center>Documentation</center></h3>
+  <br>
+  <br>
+</div>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="./hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
 <h2 align="center">
     <b>Table of contents</b> 
