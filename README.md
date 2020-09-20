@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://elementary.io" align="center">
     <center align="center">
-      <img src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo.svg" alt="dahlia" align="center">
+      <img src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/logo.png" alt="dahlia" align="center">
     </center>
   </a>
   <br>
