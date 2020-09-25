@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://elementary.io" align="center">
+  <a href="https://dahliaos.io" align="center">
     <center align="center">
       <img src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/logo200.png" alt="dahlia" align="center">
     </center>
   </a>
   <br>
   <h1 align="center"><center>dahliaOS</center></h1>
-  <h3 align="center"><center>Documentation</center></h3>
+  <h2 align="center"><center>Documentation</center></h2>
   <br>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="./hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
@@ -14,7 +14,6 @@
     <b>How to make a bootable USB</b> 
     </h2>
 <br />
-
 <h3 align="center">
     <b>[Syslinux]</b>
 </h3>
