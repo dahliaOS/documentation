@@ -350,8 +350,8 @@ Check the [catalog](./catalog.md) for older ISOs
     <b>License</b>
 </h3>
 
-<p align="left">
-  <img width="25%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg"
+<p align="center">
+  <img width="15%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
