@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://dahliaos.io" align="center">
     <center align="center">
-      <img src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/logo200.png" alt="dahlia" align="center">
+      <img src="./assets/images/logo/new/logo200.png" alt="dahlia" align="center">
     </center>
   </a>
   <br>
@@ -136,7 +136,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **Choose your distro accordingly as shown on the image here**
 
-![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
+![list](./assets/images/list/list.png)
 
 <h3 align="center">
     <b>Manual install</b>
@@ -344,7 +344,7 @@ And then
     <b>Download older ISOs</b>
 </h3>
 
-Check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older ISOs
+Check the [catalog](./catalog.md) for older ISOs
 
 <h3 align="center">
     <b>&nbsp;</b>
