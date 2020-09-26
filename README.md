@@ -350,7 +350,7 @@ Check the [catalog](./catalog.md) for older ISOs
     <b>License</b>
 </h3>
 
-<p align="center">
+<p align="left">
   <img width="15%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
 
