@@ -1,4 +1,5 @@
-<p align="left">
+<h3
+<p align="center">
   <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
 </p>
   <br>
