@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="75%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="55%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
   <br>
   <h2 align="center"><center>Documentation</center></h2>
