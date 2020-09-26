@@ -5,7 +5,6 @@
     </center>
   </a>
   <br>
-  <h1 align="center"><center>dahliaOS</center></h1>
   <h2 align="center"><center>Documentation</center></h2>
   <br>
 </div>
