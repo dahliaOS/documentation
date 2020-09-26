@@ -360,4 +360,4 @@ Check the [catalog](./catalog.md) for older ISOs
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the Apache 2.0 license
+This project is licensed under the [Apache 2.0 license](/LICENSE)
