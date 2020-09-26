@@ -1,9 +1,6 @@
-<div align="center">
-  <a href="https://dahliaos.io" align="center">
-    <center align="center">
-      <img src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg" alt="dahlia" align="center">
-    </center>
-  </a>
+<p align="center">
+  <img width="25%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+</p>
   <br>
   <h2 align="center"><center>Documentation</center></h2>
   <br>
