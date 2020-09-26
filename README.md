@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://dahliaos.io" align="center">
     <center align="center">
-      <img src="./assets/images/logo/new/logo200.png" alt="dahlia" align="center">
+      <img src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg" alt="dahlia" align="center">
     </center>
   </a>
   <br>
@@ -355,7 +355,7 @@ Check the [catalog](./catalog.md) for older ISOs
 </h3>
 
 <p align="left">
-  <img width="25%" src="https://imgur.com/d7F8P3h.png"
+  <img width="25%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
