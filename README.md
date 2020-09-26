@@ -9,7 +9,7 @@
   <h2 align="center"><center>Documentation</center></h2>
   <br>
 </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="./hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./supported-hardware.md"><img src="./assets/button/supported%20hardware.svg" alt="supported-hardware" /></a>   <a href="./hardware"><img src="./assets/button/hardware.svg" alt="hardware" /></a>  <a href="./FAQ.md"><img src="./assets/button/FAQ.svg" alt="FAQ" /></a>  <a href="https://dahliaos.io/donate/"><img src="./assets/button/donate.svg" alt="donate" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="./assets/button/contribute.svg" alt="contribute" /></a>
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
