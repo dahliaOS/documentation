@@ -14,6 +14,7 @@
 <h3 align="center">
     <b>[Syslinux]</b>
 </h3>
+
 - Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [GRUB](https://github.com/dahlia-os/documentation#----grub).
 
 - then download the latest iso [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
@@ -29,6 +30,7 @@
 <h3 align="center">
     <b>[Grub]</b>
 </h3>
+
 - Download the latest iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso).
 
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
@@ -42,6 +44,7 @@
 <h3 align="center">
     <b>Raspberry pi 3/4</b>
 </h3>
+
 - Check status [here:](https://github.com/dahlia-os/zircon-rpi)
 
 <h2 align="center">
@@ -69,6 +72,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 <h3 align="center">
     <b>Ubuntu 18.04</b>
 </h3>
+
 - First open a terminal and type the following command:
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
