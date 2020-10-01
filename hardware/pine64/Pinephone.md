@@ -4,11 +4,10 @@
   <img width="60%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
   <br>
-  <h2 align="center"><center>pine64 Pinephone</center></h2>
+  <h2 align="center"><center>Pine64 Pinephone documentation </center></h2>
   <br>
 </div>
 
-## Pine64 Pinephone documentation 
 Note: not much is know about dahlia on the pinephone.
 
 Download the isos here:
