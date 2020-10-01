@@ -1,12 +1,11 @@
+<h3
 <p align="center">
-  <img width="25%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="60%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
-
-<h2 align="center">
-    <b>Supported Hardware</b> 
-    </h2>
-<br />
-
+  <br>
+  <h2 align="center"><center>Supported Hardware</center></h2>
+  <br>
+</div>
 <h3 align="center">
     <b>Fuchsia Supported</b> 
     </h3>
@@ -65,10 +64,12 @@
 
 **Want to test, and add your device to the list?** Check it out [here](./.github/CONTRIBUTING.md)
 
-<h3 align="center">
-    <b>&nbsp;</b>
-</h3>
+## License
 
-![logo](./assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
+<p align="left">
+  <img width="45%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+</p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
+
+This project is licensed under the [Apache 2.0 license](/LICENSE)
