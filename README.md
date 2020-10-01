@@ -1,21 +1,34 @@
+<h3
 <p align="center">
-  <img width="45%" src="https://imgur.com/d7F8P3h.png"
+  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
 </p>
-<h2 align="center">
-    <b>Documentation</b> 
-    </h2>
-<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/dahlia-os/documentation/blob/master/supported-hardware.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/supported%20hardware.svg" alt="main1" /></a>   <a href="./hardware"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/hardware.svg" alt="main1" /></a>  <a href="https://github.com/dahlia-os/documentation/blob/master/FAQ.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/FAQ.svg" alt="main1" /></a>  <a href="https://dahliaos.io/donate/"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/donate.svg" alt="main1" /></a>  <a href="./.github/CONTRIBUTING.md"><img src="https://github.com/dahlia-os/documentation/blob/master/assets/button/contribute.svg" alt="main1" /></a>
-<h2 align="center">
-    <b>Table of contents</b> 
-    </h2>
-<br />
+  <br>
+  <h2 align="center"><center>Documentation</center></h2>
+  <br>
+</div>
+
+<p align="center">
+  <a href="./supported-hardware.md">
+    <img src="./assets/button/supported%20hardware.svg" alt="supported-hardware" />
+  </a>
+  <a href="./hardware">
+    <img src="./assets/button/hardware.svg" alt="hardware" />
+  </a>
+  <a href="./FAQ.md">
+    <img src="./assets/button/FAQ.svg" alt="FAQ" />
+  </a>
+  <a href="https://dahliaos.io/donate/">
+    <img src="./assets/button/donate.svg" alt="donate" />
+  </a>
+  <a href="./.github/CONTRIBUTING.md">
+    <img src="./assets/button/contribute.svg" alt="contribute" />
+  </a>
+</p>
 
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
 <br />
-
 <h3 align="center">
     <b>[Syslinux]</b>
 </h3>
@@ -138,7 +151,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **Choose your distro accordingly as shown on the image here**
 
-![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
+![list](./assets/images/list/list.png)
 
 <h3 align="center">
     <b>Manual install</b>
@@ -346,20 +359,18 @@ And then
     <b>Download older ISOs</b>
 </h3>
 
-Check the [catalog](https://github.com/dahlia-os/documentation/blob/master/catalog.md) for older ISOs
+Check the [catalog](./catalog.md) for older ISOs
 
 <h3 align="center">
     <b>&nbsp;</b>
 </h3>
 
-<h3 align="center">
-    <b>License</b>
-</h3>
+## License
 
 <p align="left">
-  <img width="25%" src="https://imgur.com/d7F8P3h.png"
+  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the Apache 2.0 license
+This project is licensed under the [Apache 2.0 license](/LICENSE)
