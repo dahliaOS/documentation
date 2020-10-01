@@ -1,6 +1,6 @@
 <h3
 <p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
+  <img width="60%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
   <br>
   <h2 align="center"><center>Documentation</center></h2>
@@ -368,7 +368,7 @@ Check the [catalog](./catalog.md) for older ISOs
 ## License
 
 <p align="left">
-  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
+  <img width="45%" src="./assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
