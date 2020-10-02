@@ -1,7 +1,7 @@
 <h3
 <h3
 <p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
   <br>
   <h2 align="center"><center>Lenovo Flex 3 80R3 documentation </center></h2>
@@ -40,7 +40,7 @@ Made by @puntillol59
 ## License
 
 <p align="left">
-  <img width="45%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
