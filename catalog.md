@@ -1,10 +1,11 @@
+<h3
 <p align="center">
-  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
-<h2 align="center">
-    <b>Catalog</b> 
-    </h2>
-<br />
+  <br>
+  <h2 align="center"><center>Catalog</center></h2>
+  <br>
+</div>
 
 <h3 align="center">
     <b>Official</b> 
@@ -31,11 +32,12 @@
 - [200804-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)  150mb 5 aug
 - [200630_2-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso) 192mb 10 Jul
 
+## License
 
-<h3 align="center">
-    <b>&nbsp;</b>
-</h3>
-
-![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
+<p align="left">
+  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+</p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
+
+This project is licensed under the [Apache 2.0 license](/LICENSE)
