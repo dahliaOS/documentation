@@ -1,10 +1,11 @@
+<h3
 <p align="center">
-  <img width="25%" src="https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black.svg"
+  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
-<h2 align="center">
-    <b>Pangolin Desktop [Zircon][Linux]</b> 
-    </h2>
-<br />
+  <br>
+  <h2 align="center"><center>Pangolin Desktop [Zircon][Linux]</center></h2>
+  <br>
+</div>
 
 Pangolin is the main desktop UI for dahliaOS. It was the earliest component of dahliaOS to be developed. As of v200614.1, Pangolin has been available by default as the desktop in Linux-based builds. 
 Try it out here - [web.dahliaos.io](https://web.dahliaos.io)
@@ -108,11 +109,12 @@ While pre-compiled builds can be found in the dahliaOS-overlays folder, you can 
 
 To develop for dahliaOS Linux-Based, you will need the `flutter` tool, and a compiled base config from dahlia-os/buildroot. Compiling the base config will take about 6 hours. Once finished, copy the dahliaOS overlays into the buildroot/output/target directory, and then go to the pangolin_desktop directory. Open up a terminal, and type `flutter build linux --release` to generate a release build. Copy the output bundle files (located under build/release/) to `buildroot/output/target/dahlia/pangolin`, and compile the image file again to include it. 
 
+## License
 
-<h3 align="center">
-    <b>&nbsp;</b>
-</h3>
-
-![logo](https://github.com/dahlia-os/documentation/blob/master/assets/images/logo/new/dahliaOS_logo_with_text_black_small.svg)
+<p align="left">
+  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+</p>
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
+
+This project is licensed under the [Apache 2.0 license](https://github.com/dahlia-os/documentation/blob/master/LICENSE)
