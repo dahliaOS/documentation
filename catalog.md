@@ -12,6 +12,8 @@
     </h3>
 <br />
 
+- [201004-efi](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.iso)  416mb 5 okt
+- [201004-legacy](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)  118mb 5 okt
 - [200830](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)  85mb 30 aug
 - [200804](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)  104mb 5 aug
 - [200630_2](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)  163mb 30 Jun
