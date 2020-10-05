@@ -35,7 +35,9 @@
 
 - Firstly, go to [supported-hardware.md](./supported-hardware.md) to check out if your device can boot with syslinux. If not go to [GRUB](https://github.com/dahlia-os/documentation#----grub).
 
-- then download the latest iso [here](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso).
+- then download the latest iso [here for efi devices](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.iso).
+
+- or download the latest iso [here for legacy devices](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso).
 
 - Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
 
