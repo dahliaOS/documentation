@@ -139,7 +139,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
     </h2>
 <br />
 
-- Run pangolin-web: [here](https://dahlia-os.github.io/pangolin-desktop)
+- Run pangolin-web: [here](https://web.dahliaos.io)
 
 <h2 align="center">
     <b>Install Pangolin on linux</b> 
