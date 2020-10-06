@@ -34,6 +34,8 @@ directory, when fully flashed. (You need rufus to
 the file to be copied, when prompted, select ISO mode 
 when writing.) 
 
+NOTICE: This is obsolete, due to newer releases already fixing the problem. 
+
 
 Made by @puntillol59
 
