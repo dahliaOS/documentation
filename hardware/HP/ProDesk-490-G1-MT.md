@@ -4,7 +4,7 @@
   <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
   <br>
-  <h2 align="center"><center>Acer TravelMate P645-S documentation </center></h2>
+  <h2 align="center"><center>ProDesk 490 G1 MT documentation</center></h2>
   <br>
 </div>
 
