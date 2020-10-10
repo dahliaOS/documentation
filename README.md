@@ -1,6 +1,10 @@
-<p align="center"> <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg" </p>
+<p align="center">
+  <a href="dahliaos.io">
+    <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg" alt="logo" />
+  </a>
+
   <br>
-  <h2 align="center"><center>Documentation</center></h2>
+    <h2 align="center"><center>Documentation</center></h2>
   <br>
 
 <p align="center">
