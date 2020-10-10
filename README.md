@@ -17,11 +17,11 @@
   <a href="FAQ.md">
     <img src="./assets/button/FAQ.svg" alt="FAQ" />
   </a>
-  <a href="https://dahliaos.io/donate/">
-    <img src="./assets/button/donate.svg" alt="donate" />
-  </a>
   <a href="./.github/CONTRIBUTING.md">
     <img src="./assets/button/contribute.svg" alt="contribute" />
+  </a>
+  <a href="https://dahliaos.io/donate/">
+    <img src="./assets/button/donate.svg" alt="donate" />
   </a>
 </p>
 
