@@ -5,7 +5,6 @@
   <br>
   <h2 align="center"><center>Documentation</center></h2>
   <br>
-</div>
 
 <p align="center">
   <a href="supported-hardware.md">
