@@ -29,43 +29,10 @@
     <b>How to make a bootable USB</b> 
     </h2>
 <br />
-<h3 align="center">
-    <b>[Syslinux]</b>
-</h3>
 
-- Firstly, go to [supported-hardware.md](supported-hardware.md) to check out if your device can boot with syslinux. If not go to [GRUB](https://github.com/dahlia-os/documentation#----grub).
+- Find [here](run%20DahliaOS/x86_64.md)instructions for running dahliaOS on 64-bit efi system.
 
-- then download the latest iso [here for efi devices](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.iso).
-
-- or download the latest iso [here for legacy devices](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso).
-
-- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
-
-- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
-
-- After the process is finished, reboot and select you USB from you boot menu. 
-
-- **!** (You may need to change your boot order in your uefi first)
-
-<h3 align="center">
-    <b>[Grub]</b>
-</h3>
-
-- Download the latest iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso).
-
-- Secondly, download and install Etcher: [Download Etcher](https://www.balena.io/etcher/)
-
-- After that run Etcher, select your dahlia iso, then your USB device, then select flash!
-
-- After the process is finished, reboot and select you USB from you boot menu. 
-
-- **!** (You may need to change your boot order in your uefi first). Also disable [secure boot](./assets/secure-boot/Disable-Secure-Boot.md)
-
-<h3 align="center">
-    <b>Raspberry pi 3/4</b>
-</h3>
-
-- Check status [here:](https://github.com/dahlia-os/zircon-rpi)
+- For older 64-bit legacy systems go to [here](run%20DahliaOS/) for instructions.
 
 <h2 align="center">
     <b>Run dahlia in QEMU</b> 
