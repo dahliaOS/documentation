@@ -7,23 +7,6 @@
   <br>
 </div>
 
-<p align="center">
-  <a href="supported-hardware.md">
-    <img src="assets/button/supported%20hardware.svg" alt="supported-hardware" />
-  </a>
-  <a href="./hardware">
-    <img src="assets/button/hardware.svg" alt="hardware" />
-  </a>
-  <a href="FAQ.md">
-    <img src="assets/button/FAQ.svg" alt="FAQ" />
-  </a>
-  <a href="./.github/CONTRIBUTING.md">
-    <img src="assets/button/contribute.svg" alt="contribute" />
-  </a>
-  <a href="https://dahliaos.io/donate/">
-    <img src="assets/button/donate.svg" alt="donate" />
-  </a>
-</p>
 
 <h2 align="center">
     <b>How to make a bootable USB</b> 
