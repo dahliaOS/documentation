@@ -30,7 +30,7 @@
     </h2>
 <br />
 
-- Find [here](run%20DahliaOS/x86_64.md)instructions for running dahliaOS on 64-bit efi system.
+- Find [here](run%20DahliaOS/x86_64.md) instructions for running dahliaOS on 64-bit efi system.
 
 - For older 64-bit legacy systems go to [here](run%20DahliaOS/) for instructions.
 
