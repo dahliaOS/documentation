@@ -15,7 +15,7 @@
     <img src="assets/button/hardware.svg" alt="hardware" />
   </a>
   <a href="FAQ.md">
-    <img src="button/FAQ.svg" alt="FAQ" />
+    <img src="assets/button/FAQ.svg" alt="FAQ" />
   </a>
   <a href="./.github/CONTRIBUTING.md">
     <img src="assets/button/contribute.svg" alt="contribute" />
