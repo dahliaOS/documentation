@@ -4,7 +4,7 @@
   </a>
 
   <br>
-    <h2 align="center"><center>Documentation</center></h2>
+    <h1 align="center"><center>Documentation</center></h1>
   <br>
 
 <p align="center">
