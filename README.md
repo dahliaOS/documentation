@@ -51,7 +51,6 @@ sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-blo
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-<br />
 
 <h3 align="center">
     <b>Ubuntu 18.04</b>
@@ -68,8 +67,6 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
 
-<br />
-
 <h3 align="center">
     <b>Ubuntu 18.04+</b>
 </h3>
@@ -84,7 +81,6 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-syste
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
 ```
-<br />
 
 <h3 align="center">
     <b>Add KVM (Kernel-based Virtual Machine)</b>
@@ -117,7 +113,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **Choose your distro accordingly as shown on the image here**
 
-![list](./assets/images/list/list.png)
+![list](assets/images/list/list.png)
 
 <h3 align="center">
     <b>Manual install</b>
@@ -240,86 +236,6 @@ Its recommended to atleast have an Ethernet connection (directly to router), a d
 </h3>
 
 If you are using a laptop, make sure that you are aware of its temperature, some laptops easily heat up to 93-100c when compiling.
-
-
-<h2 align="center">
-    <b>Build Grub iso</b> 
-    </h2>
-<br />
-
-<h3 align="center">
-    <b>[Linux] build files</b>
-</h3>
-
--**Run this script to build the iso files**
-
-<p align="center"><strong>64 bit</strong></p>
-
-- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/64/run.sh | sh` 
-
-<p align="center"><strong>32 bit</strong></p>
-
-- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/32/run.sh | sh` 
-
-<h3 align="center">
-    <b>[Linux] make iso</b>
-</h3>
-
-no content 
-
-<h3 align="center">
-    <b>[windows] make iso</b>
-</h3>
-
--**Files to iso** 
-
-- Download **Poweriso [here](https://www.poweriso.com/)** and copy the build files you just made. 
-
--**Flashing to USB** 
-
-- Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
-
-<h2 align="center">
-    <b>Make MBR iso</b> 
-    </h2>
-<br />
-
-<h3 align="center">
-    <b>Windows [BETA]</b>
-</h3>
-
-When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
-
--   Then, Run the following commands.
-
- `diskpart`
-
-And then
-
-    list disk
-- You should see a screen like this: 
-
-![diskpart](https://github.com/dahlia-os/documentation/blob/master/assets/images/cmd/Diskpart_list%20disk.png)
-    
-- Select your disk that you want to format:
-(EXAMPLE) Disk 2
-
-`select disk 2`
-- Now you have selected the disk,
-   
-`clean`
-    
-`create partition primary`
-
-`select partition 1`
-
-`active`
-
-`format fs=ntfs quick`
-
-`exit`
-
-- Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
 
 <h3 align="center">
     <b>Download older ISOs</b>
