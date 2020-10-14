@@ -14,7 +14,7 @@
   <a href="hardware">
     <img src="assets/button/hardware.svg" alt="hardware" />
   </a>
-  <a href="./.github/CONTRIBUTING.md">
+  <a href=".github/CONTRIBUTING.md">
     <img src="assets/button/contribute.svg" alt="contribute" />
   </a>
   <a href="https://dahliaos.io/donate/">
@@ -241,7 +241,7 @@ If you are using a laptop, make sure that you are aware of its temperature, some
     <b>Download older ISOs</b>
 </h3>
 
-Check the [catalog](./catalog.md) for older ISOs
+Check the [catalog](catalog.md) for older ISOs
 
 <h3 align="center">
     <b>&nbsp;</b>
@@ -255,4 +255,4 @@ Check the [catalog](./catalog.md) for older ISOs
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](/LICENSE)
+This project is licensed under the [Apache 2.0 license](LICENSE)
