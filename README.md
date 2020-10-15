@@ -113,7 +113,10 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 **Choose your distro accordingly as shown on the image here**
 
-![list](assets/images/list/list.png)
+<p align="center">
+  <a href="assets/images/list/list.png">
+    <img width="100%" src="assets/images/list/list.png" alt="list" />
+  </a>
 
 <h3 align="center">
     <b>Manual install</b>
