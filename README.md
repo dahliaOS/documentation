@@ -253,7 +253,7 @@ Check the [catalog](catalog.md) for older ISOs
 ## License
 
 <p align="center">
-  <img width="100%" src="https://dahliaos.io/images/bg-dark.svg"
+  <img width="150%" src="https://dahliaos.io/images/bg-dark.svg"
 </p>
 
 <p align="left">
