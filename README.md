@@ -252,10 +252,6 @@ Check the [catalog](catalog.md) for older ISOs
 
 ## License
 
-<p align="center">
-  <img width="150%" src="https://dahliaos.io/images/bg-dark.svg"
-</p>
-
 <p align="left">
   <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
