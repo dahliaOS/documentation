@@ -115,7 +115,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 
 <p align="center">
   <a href="assets/images/list/list.png">
-    <img width="50%" src="assets/images/list/list.png" alt="list" />
+    <img width="100%" src="assets/images/list/list.svg" alt="list" />
   </a>
 
 <h3 align="center">
