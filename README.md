@@ -28,6 +28,7 @@
   * [x86_64-efi.md](run DahliaOS/x86_64-efi.md)
   * [x86_32-efi.md](run DahliaOS/x86_32-efi.md)
   * [x86_64-legacy.md](run DahliaOS/x86_64-legacy.md)
+  * [test](test)
 
 
 <h2 align="center">
