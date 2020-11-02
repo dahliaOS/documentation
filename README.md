@@ -32,6 +32,11 @@
 - [pangolin](pangolin)
   * [build_pangolin.md](pangolin/build_pangolin.md)
   * [Pangolin on linux.md](pangolin/Pangolin%20on%20linux.md)
+- [OS](OS)
+  * [translations](OS/translations)
+   * [translation.md](translation.md)
+  * [kernel](OS/kernel)
+   * [README.md](OS/kernel/README.md)
 
 
 <h2 align="center">
