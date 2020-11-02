@@ -28,6 +28,10 @@
   * [x86_64-efi.md](run%20DahliaOS/x86_64-efi.md)
   * [x86_32-efi.md](run%20DahliaOS/x86_32-efi.md)
   * [x86_64-legacy.md](run%20DahliaOS/x86_64-legacy.md)
+  * [qemu.md](run%20DahliaOS/qemu.md)
+- [pangolin](pangolin)
+  * [build_pangolin.md](pangolin/build_pangolin.md)
+  * [Pangolin on linux.md](pangolin/Pangolin on linux.md)
 
 
 <h2 align="center">
