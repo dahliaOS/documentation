@@ -31,7 +31,7 @@
   * [qemu.md](run%20DahliaOS/qemu.md)
 - [pangolin](pangolin)
   * [build_pangolin.md](pangolin/build_pangolin.md)
-  * [Pangolin on linux.md](pangolin/Pangolin on linux.md)
+  * [Pangolin on linux.md](pangolin/Pangolin%20on%20linux.md)
 
 
 <h2 align="center">
