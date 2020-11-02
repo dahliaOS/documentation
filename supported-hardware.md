@@ -6,6 +6,22 @@
   <h2 align="center"><center>Supported Hardware</center></h2>
   <br>
 </div>
+<p align="center">
+  <a href="supported-hardware.md">
+    <img src="assets/button/supported%20hardware%20stroke.svg" alt="supported-hardware" />
+  </a>
+  <a href="hardware">
+    <img src="assets/button/hardware.svg" alt="hardware" />
+  </a>
+  <a href=".github/CONTRIBUTING.md">
+    <img src="assets/button/contribute.svg" alt="contribute" />
+  </a>
+  <a href="https://dahliaos.io/donate/">
+    <img src="assets/button/donate.svg" alt="donate" />
+  </a>
+</p>
+
+
 <h3 align="center">
     <b>Fuchsia Supported</b> 
     </h3>
