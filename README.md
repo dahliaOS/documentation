@@ -24,11 +24,10 @@
 
 ## Table of Contents
 
-- [run DahliaOS](run DahliaOS)
+- [run DahliaOS](run%20DahliaOS)
   * [x86_64-efi.md](run%20DahliaOS/x86_64-efi.md)
-  * [x86_32-efi.md](run DahliaOS/x86_32-efi.md)
-  * [x86_64-legacy.md](run DahliaOS/x86_64-legacy.md)
-  * [test](test)
+  * [x86_32-efi.md](run%20DahliaOS/x86_32-efi.md)
+  * [x86_64-legacy.md](run%20DahliaOS/x86_64-legacy.md)
 
 
 <h2 align="center">
