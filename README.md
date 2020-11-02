@@ -22,6 +22,14 @@
   </a>
 </p>
 
+## Table of Contents
+
+- [run DahliaOS](run DahliaOS)
+  * [x86_64-efi.md](run DahliaOS/x86_64-efi.md)
+  * [x86_32-efi.md](run DahliaOS/x86_32-efi.md)
+  * [x86_64-legacy.md](run DahliaOS/x86_64-legacy.md)
+
+
 <h2 align="center">
     <b>How to make a bootable USB</b> 
     </h2>
