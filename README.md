@@ -8,9 +8,6 @@
   <br>
 
 <p align="center">
-  <a href="https://www.dahliaos.io">
-    <img width="20%" <img src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg" alt="logo" />
-  </a>
   <a href="supported-hardware.md">
     <img src="assets/button/supported%20hardware.svg" alt="supported-hardware" />
   </a>
