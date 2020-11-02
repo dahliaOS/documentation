@@ -34,7 +34,7 @@
   * [Pangolin on linux.md](pangolin/Pangolin%20on%20linux.md)
 - [OS](OS)
   * [translations](OS/translations)
-    * [translation.md](translation.md)
+    * [translation.md](OS/translations/translation.md)
   * [kernel](OS/kernel)
     * [README.md](OS/kernel/README.md)
 
