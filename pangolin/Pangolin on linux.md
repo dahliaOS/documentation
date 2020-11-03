@@ -7,79 +7,21 @@
   <br>
 </div>
 
-# Install 
+## install
 
-## Automated install
+### debian/ubuntu 
 
-`curl -s https://raw.githubusercontent.com/HexaOneOfficial/pangolin-linux/master/linkinstall.sh | sh`
+if your using something other than linuxmint you will get a nosnap error. this won't effect anything.
 
-**Choose your distro accordingly as shown on the image here**
+- ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git```
 
-![list](https://github.com/dahlia-os/documentation/blob/master/assets/images/list/list.png)
+- ```cd pangolin-linux/ && sudo chmod +x install.sh && sudo ./install.sh```
 
-## Manual install
+- now restart and login with pangolin
 
+### arch
 
-**If you get any error in the Automated install script then try manual install.**
-
-**tip** if you are using linux mint 19.3 or older use debian/ubuntu manual install.
-
-### Debian/ubuntu
-
-`sudo apt-get install -y matchbox-window-manager`
-
-- If you are on a older version of ubuntu you may wanna install snap `sudo apt install snapd` 
-
-`sudo snap install flutter --classic`
-
-- Install git if haven't already `sudo apt install git`
-
-```shell
-git clone https://github.com/HexaOneOfficial/pangolin-linux.git
-
-cd ~/pangolin-linux
-
-sudo cp Pangolin.zip /
-
-cd /
-
-sudo unzip Pangolin.zip
-
-sudo rm Pangolin.zip
-
-sudo cp Pangolin.desktop /usr/share/xsessions/
-```
-
-- Now reboot and choose pangolin as desktop session on your login screen
-
-### linux mint 20
-
-`sudo apt-get install -y matchbox-window-manager`
-
-- Remove nosnap.pref to install snapd `sudo rm /etc/apt/preferences.d/nosnap.pref`
-
-`sudo apt install snapd` 
-
-`sudo snap install flutter --classic`
-
-- Install git if you don't already have it `sudo snap install git`
-
-`git clone https://github.com/HexaOneOfficial/pangolin-linux.git`
-
-```shell
-cd ~/pangolin-linux
-
-sudo cp Pangolin.zip /
-
-cd /
-
-sudo unzip Pangolin.zip
-
-sudo rm Pangolin.zip
-
-sudo cp Pangolin.desktop /usr/share/xsessions/
-```
-- Now reboot and choose pangolin as desktop to login
+support coming later.
 
 ## License
 
