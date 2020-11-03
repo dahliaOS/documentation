@@ -7,7 +7,7 @@
 <a href="https://discord.gg/7qVbJHR">Discord</a> ●
 <a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
 <a href="https://paypal.me/officialdahliaos">Donate</a> ●
-<a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a> ●
+<a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
 
 # Documentation
 
