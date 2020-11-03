@@ -10,6 +10,7 @@
 <a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
 
 # Documentation
+![GitHub](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
 
  - **Documentation** for the dahliaOS project
 
