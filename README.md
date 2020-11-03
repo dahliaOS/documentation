@@ -24,20 +24,20 @@
 
 ## Table of Contents
 
-- [run DahliaOS](run%20DahliaOS)
+- [Run dahliaOS](run%20DahliaOS)
   * [x86_64-efi.md](run%20DahliaOS/x86_64-efi.md)
   * [x86_32-efi.md](run%20DahliaOS/x86_32-efi.md)
   * [x86_64-legacy.md](run%20DahliaOS/x86_64-legacy.md)
   * [qemu.md](run%20DahliaOS/qemu.md)
   * [aemu.md](run%20DahliaOS/aemu.md)
   * [pemu.md](run%20DahliaOS/pemu.md)
-- [pangolin](pangolin)
+- [Pangolin](pangolin)
   * [build_pangolin.md](pangolin/build_pangolin.md)
-  * [Pangolin on linux.md](pangolin/Pangolin%20on%20linux.md)
+  * [Pangolin on Linux.md](pangolin/Pangolin%20on%20linux.md)
 - [OS](OS)
-  * [translations](OS/translations)
+  * [Translations](OS/translations)
     * [translation.md](OS/translations/translation.md)
-  * [kernel](OS/kernel)
+  * [Kernel](OS/kernel)
     * [README.md](OS/kernel/README.md)
 
 ## License
