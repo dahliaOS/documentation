@@ -1,8 +1,8 @@
-### enable KVM support (Kernel-based Virtual Machine)
+### Enable KVM support (Kernel-based Virtual Machine)
 
-add this flag **-enable-kvm** to your start command
+Add this flag to your start command: **-enable-kvm**
 
-(your iso is named different than: DahliaOS.iso)
+(Your ISO might be named something else)
 
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm

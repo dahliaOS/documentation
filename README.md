@@ -1,44 +1,35 @@
 <p align="center">
-  <a href="https://www.dahliaos.io">
-    <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg" alt="logo" />
-  </a>
-
-  <br>
-    <h1 align="center"><center>Documentation</center></h1>
-  <br>
+  <img width="80%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+</p>
 
 <p align="center">
-  <a href="supported-hardware.md">
-    <img src="assets/button/supported%20hardware.svg" alt="supported-hardware" />
-  </a>
-  <a href="hardware">
-    <img src="assets/button/hardware.svg" alt="hardware" />
-  </a>
-  <a href=".github/CONTRIBUTING.md">
-    <img src="assets/button/contribute.svg" alt="contribute" />
-  </a>
-  <a href="https://dahliaos.io/donate/">
-    <img src="assets/button/donate.svg" alt="donate" />
-  </a>
-</p>
+<a href="https://dahliaos.io">Website</a> ●
+<a href="https://discord.gg/7qVbJHR">Discord</a> ●
+<a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
+<a href="https://paypal.me/officialdahliaos">Donate</a> ●
+<a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a> ●
+
+# Documentation
+
+ - **Documentation** for the dahliaOS project
 
 ## Table of Contents
 
-- [Run dahliaOS](run%20DahliaOS)
-  * [x86_64-efi.md](run%20DahliaOS/x86_64-efi.md)
-  * [x86_32-efi.md](run%20DahliaOS/x86_32-efi.md)
-  * [x86_64-legacy.md](run%20DahliaOS/x86_64-legacy.md)
-  * [qemu.md](run%20DahliaOS/qemu.md)
-  * [aemu.md](run%20DahliaOS/aemu.md)
-  * [pemu.md](run%20DahliaOS/pemu.md)
+- [Supported hardware](supported-hardware.md)
+- [Hardware](hardware.md)
+- [Run dahliaOS](run%20dahliaOS)
+  * [x86_64-efi](run%20dahliaOS/x86_64-efi.md)
+  * [x86_32-efi](run%20dahliaOS/x86_32-efi.md)
+  * [x86_64-legacy](run%20dahliaOS/x86_64-legacy.md)
+  * [QEMU](run%20dahliaOS/qemu.md)
+  * [AEMU](run%20dahliaOS/aemu.md)
+  * [PEMU](run%20dahliaOS/pemu.md)
 - [Pangolin](pangolin)
-  * [build_pangolin.md](pangolin/build_pangolin.md)
-  * [Pangolin on Linux.md](pangolin/Pangolin%20on%20linux.md)
+  * [Build Pangolin](pangolin/build_pangolin.md)
+  * [Pangolin on Linux](pangolin/Pangolin%20on%20linux.md)
 - [OS](OS)
-  * [Translations](OS/translations)
-    * [translation.md](OS/translations/translation.md)
-  * [Kernel](OS/kernel)
-    * [README.md](OS/kernel/README.md)
+  * [Translations](OS/translations/translation.md)
+- [Contribute](.github/CONTRIBUTING.md)
 
 ## License
 

@@ -1,19 +1,12 @@
-<h3
-<p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
-</p>
-  <br>
-  <h2 align="center"><center>Pangolin Desktop [Zircon][Linux]</center></h2>
-  <br>
-</div>
+# Pangolin Desktop (Zircon & Linux)
 
-Pangolin is the main desktop UI for dahliaOS. It was the earliest component of dahliaOS to be developed. As of v200614.1, Pangolin has been available by default as the desktop in Linux-based builds. 
-Try it out here - [web.dahliaos.io](https://web.dahliaos.io)
+Pangolin Desktop UI shell, designed for dahliaOS, written in Flutter.
 
-<h2 align="center">
-    <b>History - Significant changes</b> 
-    </h2>
-<br />
+As of v200614.1, Pangolin has been available by default as the desktop in Linux-based builds. 
+
+Try out the builds [here](https://web.dahliaos.io)
+
+# History / significant changes
 
 + February 27, 2019, Camden Bruce announced the beginning of dahliaOS [Source - Reddit](https://www.reddit.com/r/Fuchsia/comments/av6tja/fuchsia_fork_dahlia_os/)
 + March 2, 2019, Camden Bruce created the repository pangolin-desktop 
@@ -27,63 +20,44 @@ Try it out here - [web.dahliaos.io](https://web.dahliaos.io)
 + June 6, 2020, a basic task manager was implemented
 + June 12, 2020, @SincerelyFaust migrated the codebase to Apache 2.0 rather than the GPL, the beginning of dahliaOS' transistion to Apache.
 + June 20, 2020, @larsb24 made significant changes to the backend as well as improving the quicksettings. 
-+ June 22, 2020, FleshRoots added support for automatic building through (gitlab CI?)
++ June 22, 2020, FleshRoots added support for automatic building
 
-Please note that these are only the highlights from development, and not indicative of every commit. If you find something left out, please feel free to add it.
+Please note that these are only the highlights from development, and not indicative of every commit. 
 
-<h2 align="center">
-    <b>Components</b> 
-    </h2>
-<br />
+If you find something left out, please feel free to add it.
+
+# Components
 
 
-<h3 align="center">
-    <b>The Desktop</b> 
-    </h3>
-<br />
+## Desktop
 
 ![Desktop](assets/images/screenshots/ui/200804/desktop.png)
 
 The desktop is the location of windows, widgets(planned), and the wallpaper.
 
 
-<h3 align="center">
-    <b>The Panel</b> 
-    </h3>
-<br />
+## Panel
 
 ![panel](assets/images/screenshots/ui/200804/panel.png)
 
 The panel is the hub for application launching and managing settings.
 
 
-<h3 align="center">
-    <b>The Launcher</b> 
-    </h3>
-<br />
+## Launcher
 
 ![launcher](assets/images/screenshots/ui/200804/launcher.png)
 
 The launcher is for opening and viewing a grid of every application in the system, as well as a list of quick, helpful cards that display notifications and information. A search bar is also available to sort through apps, find settings, and search the web. 
 
-<h3 align="center">
-    <b>The Quick Settings Menu</b> 
-    </h3>
-<br />
+## Quick settings
 
 ![settings](assets/images/screenshots/ui/200804/settings.png)
 
 Quick settings assists in changing relevant system settings quickly (hence the name), offering an easier and more efficient method of changing settings than opening the app.
 
-<h2 align="center">
-    <b>Development</b> 
-    </h2>
-<br />
+# Development
 
-<h3 align="center">
-    <b>TL;DR, for Linux:</b> 
-    </h3>
-<br />
+## TL;DR for Linux
 
 ```bash
 flutter channel master # Set flutter to master channel
@@ -95,19 +69,21 @@ flutter create . # Optional, but updates the embedder code
 flutter run -d linux
 ```
 
-<h3 align="center">
-    <b>Developing Pangolin for dahliaOS Linux-Based builds</b> 
-    </h3>
-<br />
+# Developing Pangolin for dahliaOS Linux-Based builds
 
 While pre-compiled builds can be found in the dahliaOS-overlays folder, you can also compile Pangolin and include them in the Buildroot toolchain
 
-<h4 align="center">
-    <b>Prerequisites</b> 
-    </h4>
-<br />
+## Prerequisites
 
-To develop for dahliaOS Linux-Based, you will need the `flutter` tool, and a compiled base config from dahlia-os/buildroot. Compiling the base config will take about 6 hours. Once finished, copy the dahliaOS overlays into the buildroot/output/target directory, and then go to the pangolin_desktop directory. Open up a terminal, and type `flutter build linux --release` to generate a release build. Copy the output bundle files (located under build/release/) to `buildroot/output/target/dahlia/pangolin`, and compile the image file again to include it. 
+To develop for dahliaOS Linux-Based, you will need the `flutter` tool, and a compiled base config from dahlia-os/buildroot. 
+
+Compiling the base config will take about 6 hours. 
+
+Once finished, copy the dahliaOS overlays into the buildroot/output/target directory, and then go to the pangolin_desktop directory. 
+
+Open up a terminal, and type `flutter build linux --release` to generate a release build. 
+
+Copy the output bundle files (located under build/release/) to `buildroot/output/target/dahlia/pangolin`, and compile the image file again to include it. 
 
 ## License
 

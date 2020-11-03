@@ -1,14 +1,11 @@
 # Build Pangolin
 
-Pangolin is Dahlia's desktop / mobile shell. pangolin-desktop is based on the older metaphor of ChromeOS, like the launcher, notification tab etc.
+- **Pangolin** is dahliaOS' desktop/mobile shell.
 
-## Before Building...
+## Building Pangolin
 
-Make sure you have `flutter` and `android-studio` installed. You can get the Dahlia environment to install all these things and more here: [dahlia-environment](https://github.com/EnderNightLord-ChromeBook/dahlia-environment)
+To run Pangolin: 
 
-## Lets Build!
-
-1. make sure you have flutter in your path: `export PATH="$PATH:`pwd`/flutter/bin"`
-2. clone pangolin-desktop / mobile: `git clone https://github.com/dahlia-os/pangolin-desktop.git` / `git clone https://github.com/dahlia-os/pangolin-mobile.git`
-3. go into the pangolin-desktop / pangolin-mobile folder: `cd pangolin-desktop / pangolin-mobile`
-4. and build the APK: `flutter build apk --debug` / `flutter build apk`
+* `git clone https://github.com/dahlia-os/pangolin-desktop pangolin_desktop`
+* Open the folder in an editor (we recommend Visual Studio Code)
+* Either press Run > Debug, or in the terminal, type `flutter run`

@@ -1,27 +1,18 @@
-<h3
-<p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
-</p>
-  <br>
-  <h2 align="center"><center>Pangolin on linux</center></h2>
-  <br>
-</div>
+# Pangolin on other Linux distros
 
-## install
+### Debian/Ubuntu
 
-### debian/ubuntu 
+If you're using something other than linuxmint you will get a nosnap error, it won't effect anything.
 
-if your using something other than linuxmint you will get a nosnap error. this won't effect anything.
+1. ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git```
 
-- ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git```
+2. ```cd pangolin-linux/ && sudo chmod +x install.sh && sudo ./install.sh```
 
-- ```cd pangolin-linux/ && sudo chmod +x install.sh && sudo ./install.sh```
+3. Now restart and login with Pangolin
 
-- now restart and login with pangolin
+### Arch
 
-### arch
-
-support coming later.
+Support coming later...
 
 ## License
 

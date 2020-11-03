@@ -1,19 +1,6 @@
-<h3
-<h3
-<p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
-</p>
-  <br>
-  <h2 align="center"><center>Pine64 Pinetime documentation</center></h2>
-  <br>
-</div>
+# Pine64 Pinetime documentation
 
-Note:  not much is know about dahlia on the pinetime.
-
-
-Download the isos here:
-
-[/]()
+Coming soon!
 
 ## License
 

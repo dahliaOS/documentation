@@ -1,25 +1,20 @@
-<h3
-<h3
-<p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
-</p>
-  <br>
-  <h2 align="center"><center>device-name documentation </center></h2>
-  <br>
-</div>
+# Device-name documentation
 
-Note: This is not an officially supported device for the zircon version, only for the linux version.
+Note: This is not an officially supported device for the Zircon version, only for the Linux version.
+
 or
-Note: This is a officially supported device for the zircon version, and for the linux version.
 
-problems and how to fix them
+Note: This is an officially supported device for the Zircon and Linux version.
+
+Problems and how to fix them:
+
 -
 -
 -
 
-Download the isos here:
+Download the ISOs here:
 
-[VANILA (Not modified)](https://github.com/dahlia-os/releases/releases)
+[VANILLA (Not modified)](https://github.com/dahlia-os/releases/releases)
 
 ## License
 
