@@ -17,7 +17,7 @@
 ## Table of Contents
 
 - [Supported hardware](supported-hardware.md)
-- [Hardware](hardware.md)
+- [Hardware](hardware)
 - [Run dahliaOS](run%20dahliaOS)
   * [x86_64-efi](run%20dahliaOS/x86_64-efi.md)
   * [x86_32-efi](run%20dahliaOS/x86_32-efi.md)
