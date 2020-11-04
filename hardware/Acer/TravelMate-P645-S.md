@@ -13,7 +13,7 @@ This is recommended as there are a number of system improvements.
 
 ## Install
 
-- You can follow the install instructions [here](../run%20dahliaOS/x86_64-efi.md). 
+- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
 ## License
 
