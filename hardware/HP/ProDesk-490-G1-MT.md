@@ -1,4 +1,6 @@
-# Acer TravelMate P645-S documentation
+# HP ProDesk 490-G1-MT documentation
+
+Note: This is not an officially supported device for the zircon version, only for the linux version.
 
 ## License
 
