@@ -11,6 +11,7 @@
 
 # Documentation
 ![GitHub](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
+![GitHub](https://img.shields.io/github/last-modified/dahlia-os/documentation?color=bright-green)
 
  - **Documentation** for the dahliaOS project
 
