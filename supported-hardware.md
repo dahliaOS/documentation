@@ -43,25 +43,25 @@ These devices can run dahliaOS Linux builds
 
 ### Acer
 
-- **[2]** Travelmate p645-S [Documentation](./hardware/Acer/TravelMate-P645-S.md)
+- **[2]** Travelmate p645-S [Documentation](hardware/Acer/TravelMate-P645-S.md)
 
 ### Apple
 
-- **[1]** Pre 2017 Macbook Air [Documentation](https:)
+- **[1]** Pre 2017 Macbook Air [Documentation]()
 
 ### Khadas
 
-- **[2]** vim3 [Documentation](https:)
+- **[2]** vim3 [Documentation]()
 
 ### Lenovo
 
-- **[1]** Flex 3 80R3 [Documentation](./hardware/Lenovo/Flex-3-80R3.md)
+- **[1]** Flex 3 80R3 [Documentation](hardware/Lenovo/Flex-3-80R3.md)
 
 ### Modecom
 
-- **[2]** Freetab 8025 [Documentation](./hardware/Modecom/Freetab-8025.md)
+- **[2]** Freetab 8025 [Documentation](hardware/Modecom/Freetab-8025.md)
 
-**Want to test, and add your device to the list?** Check it out [here](./.github/CONTRIBUTING.md)
+**Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md)
 
 ## License
 
@@ -71,4 +71,4 @@ These devices can run dahliaOS Linux builds
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](/LICENSE)
+This project is licensed under the [Apache 2.0 license](LICENSE)
