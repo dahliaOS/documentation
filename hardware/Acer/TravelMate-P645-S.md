@@ -11,7 +11,7 @@ This is recommended as there are a number of system improvements.
 
 - The fingerprint driver doesn't work out of the box yet
 
-# Install
+## Install
 
 - You can follow the install instructions [here](../run%20dahliaOS/x86_64-efi.md).
 
