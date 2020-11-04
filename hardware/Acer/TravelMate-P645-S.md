@@ -7,9 +7,9 @@ Note: This is not an officially supported device for the zircon version, only fo
 
 This is recommended as there are a number of system improvements.
 
-## known problems
+## Known problems
 
-- the fingerprint driver doesn't work out of the box yet.
+- The fingerprint driver doesn't work out of the box yet
 
 ## License
 
