@@ -3,11 +3,13 @@
 Note: This is not an officially supported device for the zircon version, only for the linux version.
 
 - The builds from 201004 onwards can run on it by default
-- For the BIOS you can download and install it [here v1.20](https://global-download.acer.com/GDFiles/BIOS/BIOS/BIOS_Acer_1.20_A_A.zip?acerid=636815760869299568&Step1=NOTEBOOK&Step2=TRAVELMATE&Step3=TRAVELMATE%20P645-S&OS=10M1&LC=en&BC=ACER&SC=AAP_1)
+- For the BIOS you can download and install **v1.20** [here](https://global-download.acer.com/GDFiles/BIOS/BIOS/BIOS_Acer_1.20_A_A.zip?acerid=636815760869299568&Step1=NOTEBOOK&Step2=TRAVELMATE&Step3=TRAVELMATE%20P645-S&OS=10M1&LC=en&BC=ACER&SC=AAP_1)
 
-This is recommended as there are a number of system improvements
+This is recommended as there are a number of system improvements.
 
-- As for the fingerprint driver, it doesn't work out of the box
+## known problems
+
+- the fingerprint driver doesn't work out of the box yet.
 
 ## License
 
