@@ -4,7 +4,7 @@
 
 If you're using something other than linuxmint you will get a nosnap error, it won't effect anything.
 
-1. ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git```
+1. ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git``` (3rd party repo)
 
 2. ```cd pangolin-linux/ && sudo chmod +x install.sh && sudo ./install.sh```
 

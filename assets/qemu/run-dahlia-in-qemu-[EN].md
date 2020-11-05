@@ -1,4 +1,4 @@
-# How To Run dahliaOS
+# How to run dahliaOS
 
 ## Linux
 
