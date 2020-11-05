@@ -4,7 +4,7 @@
 
 * UART / serial should work out of the box if it boots
 
-You can find the sources code [here](https://github.com/dahlia-os/fuchsia-pine64-pinephone)
+You can find the source code [here](https://github.com/dahlia-os/fuchsia-pine64-pinephone)!
 
 ## Information about the port
 
