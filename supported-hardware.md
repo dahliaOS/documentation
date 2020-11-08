@@ -28,6 +28,9 @@ These devices can run dahliaOS Zircon builds
 
 - iMX8M EVK [Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)
 
+### Pine64
+
+- Pinephone [Documentation](hardware/pine64/Pinephone.md)
 
 ### 96boards
 
