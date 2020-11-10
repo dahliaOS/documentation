@@ -4,7 +4,7 @@
 
 Most of the work has been done on the [grub builds (3rd party link)](https://github.com/HexaOneOfficial/dahliaos)
 
-**dahliaOS** has support for booting on 32 bit UEFI, more info can be found [here (3rd party link)](https://github.com/HexaOneOfficial/documentation/blob/master/hardware/Modecom/Freetab/8025/32_uefi.md)
+**dahliaOS** has support for booting on 32 bit UEFI, more info can be found [here](32_uefi.md)
 
 **dahliaOS** has support for Freetab 8025 touchscreen
 
@@ -16,11 +16,11 @@ Most of the work has been done on the [grub builds (3rd party link)](https://git
 
 **Add support to other Linux distros**
 
-1. Flash your distro of choice with [Rufus](https://rufus.ie/), it allows you to modify your USB files
+1. Flash your distro of choice with [Rufus (3rd party link)](https://rufus.ie/), it allows you to modify your USB files
 
 2. Download bootia32.efi, it can be found [here (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/blob/master/BOOT/bootia32.efi?raw=true)
 
-3. Copy the file to /EFI/boot on your usb device. **!** You may need to [disable secure boot (3rd party link)](https://github.com/HexaOneOfficial/documentation/blob/master/assets/secure-boot/Disable-Secure-Boot.md)
+3. Copy the file to /EFI/boot on your usb device. **!** You may need to [disable secure boot](../../assets/secure-boot/Disable-Secure-Boot.md)
 
 ## License
 
@@ -30,4 +30,4 @@ Most of the work has been done on the [grub builds (3rd party link)](https://git
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](https://github.com/dahlia-os/documentation/blob/master/LICENSE)
+This project is licensed under the [Apache 2.0 license](../../LICENSE)
