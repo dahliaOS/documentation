@@ -4,7 +4,7 @@
 
 Most of the work has been done on the [grub builds (3rd party link)](https://github.com/HexaOneOfficial/dahliaos)
 
-**dahliaOS** has support for booting on 32 bit UEFI, more info can be found [here](32_uefi.md)
+**dahliaOS** has support for booting on 32 bit UEFI, more info can be found [here](#32-bit-uefi)
 
 **dahliaOS** has support for Freetab 8025 touchscreen
 
