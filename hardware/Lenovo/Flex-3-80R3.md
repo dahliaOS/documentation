@@ -1,4 +1,4 @@
-# Acer TravelMate P645-S documentation
+# Lenovo Flex 3 80R3 documentation
 
 Note: This is not an officially supported device for the zircon version, only for the linux version.
 
