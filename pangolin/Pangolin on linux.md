@@ -1,18 +1,40 @@
-# Pangolin on other Linux distros
+# pangolin-linux
+pangolin desktop running on debian based systems
 
-### Debian/Ubuntu
+## requirements
 
-If you're using something other than linuxmint you will get a nosnap error, it won't effect anything.
+### debian/ubuntu
 
-1. ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git``` (3rd party repo)
+- If you don't have git installed do it by ```sudo apt install git```
 
-2. ```cd pangolin-linux/ && sudo chmod +x install.sh && sudo ./install.sh```
+- Install flutter
+```git clone https://github.com/flutter/flutter.git```
+```cd flutter/ && sudo export PATH="$PATH:`pwd`/flutter/bin"```
 
-3. Now restart and login with Pangolin
+Then open .bashrc and add this line to it
+```export PATH="$PATH:[~/flutter/]/flutter/bin"```.
 
-### Arch
+Open a new terminal and Verify that the flutter command is available by running
+```which flutter```.
 
-Support coming later...
+- Install matchbox-window-manager
+```sudo apt install -y matchbox-window-manager```
+
+### arch
+
+- install [pangolin-desktop **AUR**](https://aur.archlinux.org/packages/pangolin-desktop-git/)
+```yay pangolin-desktop``` and choose first option
+
+## install
+
+if your using something other than linuxmint you will get a nosnap error. this won't effect anything.
+
+- ```git clone https://github.com/HexaOneOfficial/pangolin-linux.git```
+
+- ```cd pangolin-linux/ && sudo chmod +x install.sh && sudo ./install.sh```
+
+- now restart and login with pangolin
+
 
 ## License
 
