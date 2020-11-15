@@ -40,21 +40,25 @@ These devices can run dahliaOS Zircon builds
 
 These devices can run dahliaOS Linux builds
 
-- **[1]dahliaOS Linux supported:** can run dahliaOS Linux builds with syslinux.
+- **[1]dahliaOS Linux supported:** can run standard dahliaOS builds.
 
-- **[2]dahliaOS Linux-grub supported:** can run dahlia-OS Linux builds but only with the GRUB bootloader.
+- **[2]dahliaOS Linux-grub supported:** can run dahlia-OS builds but only with the GRUB bootloader.
 
 ### Acer
 
-- **[2]** Travelmate p645-S [Documentation](hardware/Acer/TravelMate-P645-S.md)
+- **[1]** Travelmate p645-S [Documentation](hardware/Acer/TravelMate-P645-S.md)
 
 ### Apple
 
 - **[1]** Pre 2017 Macbook Air [Documentation]()
 
+### HP
+
+- **[1]** ProDesk 490-G1-MT [Documentation](hardware/HP/ProDesk-490-G1-MT.md)
+
 ### Khadas
 
-- **[2]** vim3 [Documentation]()
+- **[1]** vim3 [Documentation]()
 
 ### Lenovo
 
