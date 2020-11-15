@@ -22,8 +22,11 @@ Open a new terminal and Verify that the flutter command is available by running
 
 ### arch
 
-- install [pangolin-desktop **AUR**](https://aur.archlinux.org/packages/pangolin-desktop-git/)
-```yay pangolin-desktop``` and choose first option
+- Install flutter 
+```yay flutter``` first option
+
+- Install matchbox-window-manager
+```sudo pacman -Sy matchbox-window-manager```
 
 ## install
 
