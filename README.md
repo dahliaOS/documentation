@@ -27,7 +27,7 @@
   * [PEMU](run%20dahliaOS/pemu.md)
 - [Pangolin](pangolin)
   * [Build Pangolin](pangolin/build_pangolin.md)
-  * [Pangolin on Linux](pangolin/Pangolin%20on%20linux.md)
+  * [Pangolin on Linux](pangolin/pangolin%20on%20linux.md)
 - [OS](OS)
   * [Translations](OS/translations/translation.md)
 - [Contribute](.github/CONTRIBUTING.md)
