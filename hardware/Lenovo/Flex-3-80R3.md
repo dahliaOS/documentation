@@ -2,29 +2,18 @@
 
 Note: This is not an officially supported device for the zircon version, only for the linux version.
 
-- dahliaOS will only work with UEFI on this machine, disable CSM mode in the BIOS to be able to boot on this machine
-- You are going to need to mess around with the boot order in the BIOS for it to work, if you think its too risky or you are just lazy, use the novo button to boot.
-[See here](https://support.lenovo.com/ca/en/solutions/ht062552)
-- Currently, without a master boot record you can run dahliaOS grub on it, the prefered way is to run the vanilla ISO with syslinux
+- The builds from 201004 onwards can run on it by default.
+- No special steps are required.
 
-Download the ISOs here:
+## Known problems
 
-[GRUB](https://github.com/HexaOneOfficial/dahliaos/releases)
+- Add boot entry.
+- DahliaOS will only work with UEFI on this machine.
 
-[VANILLA (Not modified)](https://github.com/dahlia-os/releases/releases)
+## Install
 
-
-### Information before flashing
-
-The EFI is very finicky on this device so to fix this problem, you need to download the file from the link below, 
-
-https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/EdkShellBinPkg/FullShell/X64/Shell_Full.efi
-
-Rename it to shellx64.efi and put it into /efi/boot directory, when fully flashed. 
-
-(You need rufus to the file to be copied, when prompted, select ISO mode when writing.) 
-
-NOTICE: This is obsolete, due to newer releases already fixing the problem. 
+- Go disable CSM mode in the BIOS to be able to boot on this machine.
+- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
 ## License
 
@@ -34,4 +23,4 @@ NOTICE: This is obsolete, due to newer releases already fixing the problem.
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](https://github.com/dahlia-os/documentation/blob/master/LICENSE)
+This project is licensed under the [Apache 2.0 license](../../LICENSE)
