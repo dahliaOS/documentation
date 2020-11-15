@@ -23,4 +23,4 @@ This is recommended as there are a number of system improvements.
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](https://github.com/dahlia-os/documentation/blob/master/LICENSE)
+This project is licensed under the [Apache 2.0 license](../../LICENSE)
