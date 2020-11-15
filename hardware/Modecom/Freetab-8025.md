@@ -1,26 +1,18 @@
 # Modecom Freetab 8025
 
-## Linux builds
+Note: This is not an officially supported device for the zircon version, only for the linux version.
 
-Most of the work has been done on the [grub builds (3rd party link)](https://github.com/HexaOneOfficial/dahliaos)
+- requires a third party build.
 
-**dahliaOS** has support for booting on 32 bit UEFI, more info can be found [here](#32-bit-uefi)
+## Known problems
 
-**dahliaOS** has support for Freetab 8025 touchscreen
+- Touchscreen doesn't work.
+- Camera not working (May work with linux 5.8+).
+- Support for uefi-32 boot needs to be added in order to work. 
 
-### 32 bit UEFI
+## Install
 
-**How can dahliaOS GRUB boot on 32 UEFI**
-
-[dahliaOS GRUB (3rd party link)](https://github.com/HexaOneOfficial/dahliaos) has a file called [bootia32.efi (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/blob/master/BOOT/bootia32.efi) stored in /EFI/boot/ that allows the system to a boot 64 bit ISO.
-
-**Add support to other Linux distros**
-
-1. Flash your distro of choice with [Rufus (3rd party link)](https://rufus.ie/), it allows you to modify your USB files
-
-2. Download bootia32.efi, it can be found [here (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/blob/master/BOOT/bootia32.efi?raw=true)
-
-3. Copy the file to /EFI/boot on your usb device. **!** You may need to [disable secure boot](../../assets/secure-boot/Disable-Secure-Boot.md)
+- You can follow the install instructions [here](../../run%20dahliaOS/x86_32-efi.md). 
 
 ## License
 
