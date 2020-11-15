@@ -11,7 +11,7 @@ sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-blo
 
 - Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 ```
-qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
+qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
 ## Ubuntu 18.04
 
@@ -23,7 +23,7 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 
 - Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 ```
-qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
+qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
 
 ## Ubuntu 18.04+
@@ -36,19 +36,9 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-syste
 
 - Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 ```
-qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024
-```
-<br />
-
-### Add KVM (Kernel-based Virtual Machine)
-
-- Simply add **-enable-kvm** to your start command
-
-(Make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
-
-```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
+<br />
 
 ## License
 
