@@ -1,6 +1,6 @@
-# How To Run DahliaOS
+# How to run dahliaOS
 
-## linux
+## Linux
 
 ### Arch
 

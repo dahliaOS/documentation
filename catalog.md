@@ -1,17 +1,9 @@
-<h3
-<p align="center">
-  <img width="60%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
-</p>
-  <br>
-  <h2 align="center"><center>Catalog</center></h2>
-  <br>
-</div>
+# Catalog
 
-<h3 align="center">
-    <b>Official</b> 
-    </h3>
-<br />
+## Official
 
+- [201004-efi](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.zip)  158mb 4 okt
+- [201004-legacy](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)  118mb 4 okt
 - [200830](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)  85mb 30 aug
 - [200804](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)  104mb 5 aug
 - [200630_2](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)  163mb 30 Jun
@@ -23,14 +15,12 @@
 - [200402_1](https://github.com/dahlia-os/releases/releases/download/200402.1-x86_64/dahliaOS200402-1.iso)  290mb 3 Apr 
 - [200413_1APK](https://github.com/dahlia-os/releases/releases/download/Pangolin-200413.1/pangolin-desktop-200413.1.apk)  59.4mb 12 Apr
 
-<h3 align="center">
-    <b>HexaOneOfficial</b> 
-    </h3>
-<br />
+## 3rd party
 
-- [200830-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)  112mb 16 sep
-- [200804-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)  150mb 5 aug
-- [200630_2-64BIT](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso) 192mb 10 Jul
+- [201004-64BIT (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)  160mb 9 nov
+- [200830-64BIT (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)  112mb 16 sep
+- [200804-64BIT (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)  150mb 5 aug
+- [200630_2-64BIT (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso) 192mb 10 Jul
 
 ## License
 
