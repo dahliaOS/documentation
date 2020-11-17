@@ -30,6 +30,7 @@
   * [Pangolin on Linux](pangolin/pangolin%20on%20linux.md)
 - [OS](OS)
   * [Translations](OS/translations/translation.md)
+  * [buildroot](OS/build/buildroot.md)
 - [Contribute](.github/CONTRIBUTING.md)
 
 ## License
