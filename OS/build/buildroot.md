@@ -40,4 +40,4 @@ It takes around 6 hours to build a full image from scratch on a Dell Optiplex 79
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](/LICENSE)
+This project is licensed under the [Apache 2.0 license](../../LICENSE)
