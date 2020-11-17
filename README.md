@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<a href="https://dahliaos.io">Website</a> ●
+<a href="https://dahliaos.io">Website</a>●
 <a href="https://discord.gg/7qVbJHR">Discord</a> ●
 <a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
 <a href="https://paypal.me/officialdahliaos">Donate</a> ●
