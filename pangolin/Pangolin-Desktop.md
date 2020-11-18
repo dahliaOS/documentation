@@ -31,7 +31,7 @@ If you find something left out, please feel free to add it.
 
 ## Desktop, panel and quick settings
 
-![Desktop](assets/images/screenshots/201004/desktoppanelqs.png)
+![Desktop](../assets/images/screenshots/201004/desktoppanelqs.png)
 
 The desktop is the location of windows, widgets (planned), and the wallpaper.
 
@@ -41,7 +41,7 @@ Quick settings assists in changing relevant system settings quickly (hence the n
 
 ## Launcher
 
-![launcher](assets/images/screenshots/201004/launcher.png)
+![launcher](../assets/images/screenshots/201004/launcher.png)
 
 The launcher is for opening and viewing a grid of every application in the system, as well as a list of quick, helpful cards that display notifications and information. 
 
@@ -85,4 +85,4 @@ Copy the output bundle files (located under build/release/) to `buildroot/output
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](LICENSE)
+This project is licensed under the [Apache 2.0 license](../LICENSE)
