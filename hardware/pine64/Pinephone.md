@@ -20,4 +20,4 @@ You can find the source code [here](https://github.com/dahlia-os/fuchsia-pine64-
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](https://github.com/dahlia-os/documentation/blob/master/LICENSE)
+This project is licensed under the [Apache 2.0 license](../../LICENSE)
