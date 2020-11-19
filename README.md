@@ -1,7 +1,6 @@
 <p align="center">
   <img width="80%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
-</p>
-
+<p>
 <p align="center">
 <a href="https://dahliaos.io">Website</a> ●
 <a href="https://discord.gg/7qVbJHR">Discord</a> ●
@@ -28,8 +27,10 @@
 - [Pangolin](pangolin)
   * [Build Pangolin](pangolin/build_pangolin.md)
   * [Pangolin on Linux](pangolin/pangolin%20on%20linux.md)
+  * [Pangolin Desktop](pangolin/Pangolin-Desktop.md)
 - [OS](OS)
   * [Translations](OS/translations/translation.md)
+  * [Buildroot](OS/build/buildroot.md)
 - [Contribute](.github/CONTRIBUTING.md)
 
 ## License

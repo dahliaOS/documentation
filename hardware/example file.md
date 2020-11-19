@@ -1,20 +1,17 @@
-# Device-name documentation
+# <brand> <device> documentation
 
-Note: This is not an officially supported device for the Zircon version, only for the Linux version.
+Note: This is not an officially supported device for the zircon version, only for the linux version.
 
-or
+- The builds from 201004 onwards can run on it by default.
+- No special steps are required.
 
-Note: This is an officially supported device for the Zircon and Linux version.
+## Known problems
 
-Problems and how to fix them:
+- /
 
--
--
--
+## Install
 
-Download the ISOs here:
-
-[VANILLA (Not modified)](https://github.com/dahlia-os/releases/releases)
+- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
 ## License
 
@@ -24,4 +21,4 @@ Download the ISOs here:
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](https://github.com/dahlia-os/documentation/blob/master/LICENSE)
+This project is licensed under the [Apache 2.0 license](../../LICENSE)
