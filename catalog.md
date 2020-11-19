@@ -30,4 +30,4 @@
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](/LICENSE)
+This project is licensed under the [Apache 2.0 license](LICENSE)
