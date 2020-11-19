@@ -6,7 +6,7 @@
 
 ## Usage
 
-1. ```git clone https://github.com/dahlia-os/buildroot.git```
+- ```git clone https://github.com/dahlia-os/buildroot.git```
 
 - ```make menuconfig``` to configure the build settings
 
