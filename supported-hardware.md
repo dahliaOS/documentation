@@ -56,10 +56,6 @@ These devices can run dahliaOS Linux builds
 
 - **[1]** ProDesk 490-G1-MT [Documentation](hardware/HP/ProDesk-490-G1-MT.md)
 
-### Khadas
-
-- **[1]** vim3 [Documentation]()
-
 ### Lenovo
 
 - **[1]** Flex 3 80R3 [Documentation](hardware/Lenovo/Flex-3-80R3.md)
