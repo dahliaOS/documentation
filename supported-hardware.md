@@ -42,7 +42,7 @@ These devices can run dahliaOS Linux builds
 
 - **[1]dahliaOS Linux supported:** can run standard dahliaOS builds.
 
-- **[2]dahliaOS Linux-grub supported:** can run dahlia-OS builds but only with the GRUB bootloader.
+- **[2]dahliaOS Linux-grub supported:** can run dahlia-OS builds but only with the GRUB bootloader [see HexaOneOfficial/dahliaos](https://github.com/HexaOneOfficial/dahliaos).
 
 ### Acer
 
@@ -55,10 +55,6 @@ These devices can run dahliaOS Linux builds
 ### HP
 
 - **[1]** ProDesk 490-G1-MT [Documentation](hardware/HP/ProDesk-490-G1-MT.md)
-
-### Khadas
-
-- **[1]** vim3 [Documentation]()
 
 ### Lenovo
 
