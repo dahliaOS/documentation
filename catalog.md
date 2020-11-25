@@ -2,6 +2,12 @@
 
 ## Official
 
+| version         | download         | size      | release date      |      
+| -----------  | -----------  | ----------- | ----------- |  
+|              |              | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)|  
+|              |              | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)|  
+|              |              | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)    |   
+
 - [201004-efi](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.zip)  158mb 4 okt
 - [201004-legacy](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)  118mb 4 okt
 - [200830](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)  85mb 30 aug
@@ -16,6 +22,16 @@
 - [200413_1APK](https://github.com/dahlia-os/releases/releases/download/Pangolin-200413.1/pangolin-desktop-200413.1.apk)  59.4mb 12 Apr
 
 ## 3rd party
+
+
+
+| version         | download         | size      | release date      |      
+| -----------  | -----------  | ----------- | ----------- |  
+|  201004            | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)|160 mb |9 Nov|  
+|  200830           | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso) |112 mb |16 Sep|  
+|  200804            | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso) |150 mb |5 Aug|  
+|  200630_2            | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso) |192 mb |10 Jul| 
+
 
 - [201004 (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)  160mb 9 nov
 - [200830 (3rd party link)](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)  112mb 16 sep
