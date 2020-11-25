@@ -12,11 +12,11 @@ sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-blo
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
-## Ubuntu 18.04+
+## Ubuntu 20.04 / 20.10
 
 - First open a terminal and type the following command:
 ```
-sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
+sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
 ```
 - Then download the dahliaOS iso from: https://github.com/dahlia-os/releases/releases 
 
