@@ -1,68 +1,21 @@
 # Supported hardware
 
-## Zircon supported
+| Brand         | device         | compatibel build | documentation      |      
+| -----------  | -----------  | ----------- | ----------- |  
+| Acer|Switch Alpha 12|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/acer12.md)| 
+| Acer|Travelmate p645-S|Linux|[Documentation](hardware/Acer/TravelMate-P645-S.md)| 
+| Apple|Pre 2017 Macbook Air|Linux|| 
+| Google|Pixelbook|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)| 
+| HP|ProDesk 490-G1-MT|Linux|[Documentation](hardware/HP/ProDesk-490-G1-MT.md)| 
+| Intel|Nuc|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)| 
+| JetWay|HBJC130F731 Series|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)| 
+| Khadas|vim 2|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/khadas-vim)- [khadas Documentation](https://docs.khadas.com/vim2/BuildFuchsia.html)| 
+| Lenovo|Flex 3 80R3|Linux|[Documentation](hardware/Lenovo/Flex-3-80R3.md)| 
+| Modecom|Freetab 8025|Linux|[Documentation](hardware/Modecom/Freetab-8025.md)| 
+| NXP|iMX8M EVK|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)| 
+| Pine64|Pinephone|Zircon|[Documentation](hardware/pine64/Pinephone.md)| 
+| 96boards|HiKey960|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)| 
 
-These devices can run dahliaOS Zircon builds
-
-### Acer
-
-- Switch Alpha 12 [Documentation](https://fuchsia.dev/docs/development/hardware/acer12.md)
-
-### Google
-
-- Pixelbook [Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)
-
-### Intel
-
-- Nuc (Next Unit of Computing) [Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)
-
-### JetWay
-
-- HBJC130F731 Series [Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)
-
-### Khadas
-
-- vim2 [Documentation](https://fuchsia.dev/docs/development/hardware/khadas-vim)&nbsp;&nbsp;[khadas Documentation](https://docs.khadas.com/vim2/BuildFuchsia.html)
-
-### NXP
-
-- iMX8M EVK [Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)
-
-### Pine64
-
-- Pinephone [Documentation](hardware/pine64/Pinephone.md)
-
-### 96boards
-
-- HiKey960 [Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)
-
-## Generic hardware
-
-These devices can run dahliaOS Linux builds
-
-- **[1]dahliaOS Linux supported:** can run standard dahliaOS builds.
-
-- **[2]dahliaOS Linux-grub supported:** can run dahlia-OS builds but only with the GRUB bootloader [see HexaOneOfficial/dahliaos](https://github.com/HexaOneOfficial/dahliaos).
-
-### Acer
-
-- **[1]** Travelmate p645-S [Documentation](hardware/Acer/TravelMate-P645-S.md)
-
-### Apple
-
-- **[1]** Pre 2017 Macbook Air [Documentation]()
-
-### HP
-
-- **[1]** ProDesk 490-G1-MT [Documentation](hardware/HP/ProDesk-490-G1-MT.md)
-
-### Lenovo
-
-- **[1]** Flex 3 80R3 [Documentation](hardware/Lenovo/Flex-3-80R3.md)
-
-### Modecom
-
-- **[2]** Freetab 8025 [Documentation](hardware/Modecom/Freetab-8025.md)
 
 **Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md)
 
