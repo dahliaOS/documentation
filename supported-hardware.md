@@ -9,7 +9,7 @@
 |HP|ProDesk 490-G1-MT|Linux|[Documentation](hardware/HP/ProDesk-490-G1-MT.md)| 
 |Intel|Nuc|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)| 
 |JetWay|HBJC130F731 Series|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)| 
-|Khadas|vim 2|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/khadas-vim) - [khadas Documentation](https://docs.khadas.com/vim2/BuildFuchsia.html)| 
+|Khadas|Vim 2|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/khadas-vim) - [khadas Documentation](https://docs.khadas.com/vim2/BuildFuchsia.html)| 
 |Lenovo|Flex 3 80R3|Linux|[Documentation](hardware/Lenovo/Flex-3-80R3.md)| 
 |Modecom|Freetab 8025|Linux|[Documentation](hardware/Modecom/Freetab-8025.md)| 
 |NXP|iMX8M EVK|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)| 
