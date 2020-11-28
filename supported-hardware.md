@@ -7,6 +7,7 @@
 |Apple|Pre 2017 Macbook Air|Linux|| 
 |Google|Pixelbook|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)| 
 |HP|ProDesk 490-G1-MT|Linux|[Documentation](hardware/HP/ProDesk-490-G1-MT.md)| 
+|HP|Pavilion Laptop 15-cs0xxx|Linux - Zircon|[Documentation](hardware/HP/Pavilion-Laptop-15-cs0xxx.md)| 
 |Intel|Nuc|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)| 
 |JetWay|HBJC130F731 Series|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)| 
 |Khadas|Vim 2|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/khadas-vim) - [khadas Documentation](https://docs.khadas.com/vim2/BuildFuchsia.html)| 
