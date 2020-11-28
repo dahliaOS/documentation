@@ -31,7 +31,7 @@
 - [os](os)
   * [Translations](os/translations/translation.md)
   * [Buildroot](os/build/buildroot.md)
-- [Catalog](catalog.md)
+  * [Catalog](os/catalog/catalog.md)
 - [Contribute](.github/CONTRIBUTING.md)
 
 ## License
