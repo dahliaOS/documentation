@@ -28,9 +28,9 @@
   * [Build Pangolin](pangolin/build_pangolin.md)
   * [Pangolin on Linux](pangolin/pangolin%20on%20linux.md)
   * [Pangolin Desktop](pangolin/Pangolin-Desktop.md)
-- [OS](OS)
-  * [Translations](OS/translations/translation.md)
-  * [Buildroot](OS/build/buildroot.md)
+- [os](os)
+  * [Translations](os/translations/translation.md)
+  * [Buildroot](os/build/buildroot.md)
 - [Contribute](.github/CONTRIBUTING.md)
 
 ## License
