@@ -28,7 +28,7 @@
   * [Build Pangolin](pangolin/build_pangolin.md)
   * [Pangolin on Linux](pangolin/pangolin%20on%20linux.md)
   * [Pangolin Desktop](pangolin/Pangolin-Desktop.md)
-- [os](os)
+- [OS](os)
   * [Translations](os/translations/translation.md)
   * [Buildroot](os/build/buildroot.md)
   * [Catalog](os/catalog/catalog.md)
