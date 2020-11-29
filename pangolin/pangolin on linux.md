@@ -23,7 +23,7 @@ Open a new terminal and Verify that the flutter command is available by running
 ### arch
 
 - Install flutter 
-```yay -S flutter``` first option
+```yay -S flutter```
 
 - Install matchbox-window-manager
 ```sudo pacman -Sy matchbox-window-manager```
