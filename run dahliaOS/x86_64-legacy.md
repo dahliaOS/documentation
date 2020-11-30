@@ -4,7 +4,7 @@
 
 - dahliaOS supports a wide range of devices. this will tell you how to flash it on a USB and what hardware you need!
 
-## Flash the ISo
+## Flash the ISO
 
 To be short, you have 2 ISOs to choose from, **EFI ISO** and **Legacy ISO** but we'll focus on the Legacy ones here
 
