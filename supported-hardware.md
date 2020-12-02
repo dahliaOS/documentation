@@ -6,7 +6,8 @@
 |Acer|TravelMate 8571|Linux|[Documentation](hardware/Acer/TravelMate-8571.md)| 
 |Acer|TravelMate P455-M|Linux|[Documentation](hardware/Acer/TravelMate-P455-M.md)| 
 |Acer|Travelmate p645-S|Linux|[Documentation](hardware/Acer/TravelMate-P645-S.md)| 
-|Apple|Pre 2017 Macbook Air|Linux|n/a| 
+|Apple|Pre 2017 Macbook Air|Linux|
+|Apple|Early 2014 Macbook Air|Linux|[Documentation](hardware/Apple/Macbook-air-early-2014.md)| 
 |Google|Pixelbook|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)| 
 |HP|ProDesk 490-G1-MT|Linux|[Documentation](hardware/HP/ProDesk-490-G1-MT.md)| 
 |HP|Pavilion Laptop 15-cs0xxx|Linux - Zircon|[Documentation](hardware/HP/Pavilion-Laptop-15-cs0xxx.md)| 

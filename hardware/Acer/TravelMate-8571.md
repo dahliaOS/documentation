@@ -7,7 +7,7 @@ Note: This is not an officially supported device for the zircon version, only fo
 ## Known problems
 
 - The fingerprint driver doesn't work out of the box yet.
-- The webcam may not optimized out of the box.
+- The webcam may not be optimized out of the box.
 
 ## Install
 
