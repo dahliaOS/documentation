@@ -15,24 +15,24 @@
 
 ## Table of Contents
 
-- [Supported hardware](supported-hardware.md)
-- [Hardware](hardware)
-- [Run dahliaOS](run%20dahliaOS)
-  * [x86_64-efi](run%20dahliaOS/x86_64-efi.md)
-  * [x86_32-efi](run%20dahliaOS/x86_32-efi.md)
-  * [x86_64-legacy](run%20dahliaOS/x86_64-legacy.md)
-  * [QEMU](run%20dahliaOS/qemu.md)
-  * [AEMU](run%20dahliaOS/aemu.md)
-  * [PEMU](run%20dahliaOS/pemu.md)
-- [Pangolin](pangolin)
-  * [Build Pangolin](pangolin/build_pangolin.md)
-  * [Pangolin Linux](pangolin/pangolin-linux.md)
-  * [Pangolin Desktop](pangolin/Pangolin-Desktop.md)
+- [Supported hardware](../supported-hardware.md)
+- [Hardware](../hardware)
+- [Run dahliaOS](../run%20dahliaOS)
+  * [x86_64-efi](../run%20dahliaOS/x86_64-efi.md)
+  * [x86_32-efi](../run%20dahliaOS/x86_32-efi.md)
+  * [x86_64-legacy](../run%20dahliaOS/x86_64-legacy.md)
+  * [QEMU](../run%20dahliaOS/qemu.md)
+  * [AEMU](../run%20dahliaOS/aemu.md)
+  * [PEMU](../run%20dahliaOS/pemu.md)
+- [Pangolin](../pangolin)
+  * [Build Pangolin](../pangolin/build_pangolin.md)
+  * [Pangolin Linux](../pangolin/pangolin-linux.md)
+  * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
 - [OS](os)
-  * [Buildroot](os/build/buildroot.md)
-  * [Catalog](os/catalog/catalog.md)
-  * [Translations](os/translations/translation.md)
-- [Contribute](.github/CONTRIBUTING.md)
+  * [Buildroot](../os/build/buildroot.md)
+  * [Catalog](../os/catalog/catalog.md)
+  * [Translations](../os/translations/translation.md)
+- [Contribute](CONTRIBUTING.md)
 
 ## License
 
@@ -42,4 +42,4 @@
 
 Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](LICENSE)
+This project is licensed under the [Apache 2.0 license](../LICENSE)
