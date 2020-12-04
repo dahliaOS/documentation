@@ -26,12 +26,12 @@
   * [PEMU](run%20dahliaOS/pemu.md)
 - [Pangolin](pangolin)
   * [Build Pangolin](pangolin/build_pangolin.md)
-  * [Pangolin on Linux](pangolin/pangolin%20on%20linux.md)
+  * [Pangolin Linux](pangolin/pangolin-linux.md)
   * [Pangolin Desktop](pangolin/Pangolin-Desktop.md)
 - [OS](os)
-  * [Translations](os/translations/translation.md)
   * [Buildroot](os/build/buildroot.md)
   * [Catalog](os/catalog/catalog.md)
+  * [Translations](os/translations/translation.md)
 - [Contribute](.github/CONTRIBUTING.md)
 
 ## License
