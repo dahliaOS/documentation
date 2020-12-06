@@ -1,4 +1,4 @@
-# <brand> <device> documentation
+# brand device documentation
 
 Note: This is not an officially supported device for the zircon version, only for the linux version.
 
