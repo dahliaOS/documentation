@@ -105,11 +105,11 @@ Before submitting a feature request, here are a few tips for you:
   
 ## Supported Devices
 
-If you'd like to see your deivce be added to supported-devices.md, we highly recommend you read [Before submitting a supported device](#before-submitting-a-supported-device), [How do I add a supported device?](#how-do-i-add-an-supported-device).
+If you'd like to see your device be added to supported-devices.md, we highly recommend you read [Before submitting a supported device](#before-submitting-a-supported-device), [How do I add a supported device?](#how-do-i-add-an-supported-device).
 
 ### Before submitting a supported device
 
-Before adding yor device to the list, here are a few tips for you:
+Before adding your device to the list, here are a few tips for you:
 
 * **Make Your brand had a folder**
 * **Make sure you write the problems you have encountered along the way**
