@@ -20,7 +20,7 @@
 |Pine64|Pinephone|Zircon|[Documentation](hardware/pine64/Pinephone.md)| 
 |96boards|HiKey960|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)| 
 
-**Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md#supported-devices
+**Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md#supported-devices)
 
 ## License
 
