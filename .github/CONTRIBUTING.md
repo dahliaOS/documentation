@@ -15,6 +15,9 @@ To make sure the contributions go as smooth as possible, here's a few tips!
   - [Feature request](#feature-request)
     - [Before submitting a feature request](#before-submitting-a-feature-request)
     - [How do I submit a feature request?](#how-do-i-submit-a-feature-request)
+  - [Supported Devices](#supported-devices)
+    - [Before submitting a supported device](#before-submitting-a-supported-device)
+    - [How do I add a supported device?](#how-do-i-add-an-supported-device)    
   - [First code contribution](#first-code-contribution)
   - [What do I do after I submitted a PR?](#what-do-i-do-after-i-submitted-a-pr)
   - [Design contributions](#design-contributions)
@@ -99,6 +102,25 @@ Before submitting a feature request, here are a few tips for you:
 * **Discord**:
   * Go to the #bot-commands channel
   * Type !suggestion [suggestion]
+  
+## Supported Devices
+
+If you'd like to see your device be added to supported-devices.md, we highly recommend you read [Before submitting a supported device](#before-submitting-a-supported-device), [How do I add a supported device?](#how-do-i-add-an-supported-device).
+
+### Before submitting a supported device
+
+Before adding your device to the list, here are a few tips for you:
+
+* **Make Your brand had a folder**
+* **Make sure you write the problems you have encountered along the way**
+* **You don't have to add your device to the list this will be done by the maintainers**
+
+### How do I add an supported device?
+
+* **GitHub**:
+  * Grab the example file from hardware/example file.md
+  * If your brand doesn't have a folder already than make it
+  * Fill in the fields
 
 ## First code contribution
 
