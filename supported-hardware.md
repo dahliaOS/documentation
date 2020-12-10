@@ -20,7 +20,7 @@
 |Gigabyte|GA-EP45-UD3P, Core 2 Quad, GT710|Linux (Legacy)|
 |Google|Pixelbook|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)| 
 |HP|ProDesk 490-G1-MT|Linux|[Documentation](hardware/HP/ProDesk-490-G1-MT.md)| 
-|HP|Pavilion Laptop 15-cs0xxx|Linux - Zircon|[Documentation](hardware/HP/Pavilion-Laptop-15-cs0xxx.md)| 
+|HP|Pavilion Laptop 15-cs0xxx|Linux (EFI only), Zircon|[Documentation](hardware/HP/Pavilion-Laptop-15-cs0xxx.md)| 
 |Intel|LattePanda V1|Linux, Zircon|
 |Intel|Nuc|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)| 
 |JetWay|HBJC130F731 Series|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)| 
