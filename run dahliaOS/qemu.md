@@ -12,7 +12,7 @@ sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-blo
 ```
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
 ```
-## Fedora 32/33
+## Fedora 32 / 33
 
 - First open a terminal and type the following command:
 ```
