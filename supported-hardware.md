@@ -1,6 +1,6 @@
 # Supported Hardware
 
-| Brand         | device         | compatible build | documentation      |      
+| Brand         | Device         | Compatible Build | Documentation      |      
 | -----------  | -----------  | ----------- | ----------- |  
 |Acer|Switch Alpha 12|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/acer12.md)| 
 |Acer|TravelMate 8571|Linux|[Documentation](hardware/Acer/TravelMate-8571.md)| 
@@ -21,6 +21,7 @@
 |Google|Pixelbook|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/pixelbook.md)| 
 |HP|ProDesk 490-G1-MT|Linux|[Documentation](hardware/HP/ProDesk-490-G1-MT.md)| 
 |HP|Pavilion Laptop 15-cs0xxx|Linux - Zircon|[Documentation](hardware/HP/Pavilion-Laptop-15-cs0xxx.md)| 
+|Intel|LattePanda V1|Linux, Zircon|
 |Intel|Nuc|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/developing_on_nuc.md)| 
 |JetWay|HBJC130F731 Series|Zircon|[Documentation](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)| 
 |Khadas|Vim 2|Zircon|[Documentation](https://fuchsia.dev/docs/development/hardware/khadas-vim) - [khadas Documentation](https://docs.khadas.com/vim2/BuildFuchsia.html)| 
