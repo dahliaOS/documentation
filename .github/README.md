@@ -30,8 +30,6 @@
   * [Pangolin Linux](../pangolin/pangolin-linux.md)
   * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
 - [OS](os)
-  * [Buildroot](../os/build/buildroot.md)
-  * [Catalog](../os/catalog/catalog.md)
   * [Translations](../os/translations/translation.md)
 - [Contribute](CONTRIBUTING.md)
 
