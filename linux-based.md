@@ -52,21 +52,21 @@ This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine)
 ![dahliaOS Linux-Based 201215 Software architecture chart, Showing the overall layout of the system](assets/charts/arch.png)
 Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency and virtualization capabilities of Zircon with a lightweight Linux base system.
 ### Agents
-On dahliaOS, Agents are simple, modular executables designed to run in the background and manage the system's capabilities. In the 201215 system release, the following Agents are present:
-* Update Agent - Checks for system updates and installs them
-* Theme Agent - Handles global application theming
-* Graft Agent - Manages virtualized systems running under Graft
-* Network Agent - Manages network interfaces and connections
+Agents are simple, modular executables designed to run in the background and manage the system's capabilities. In the 201215 system release, the following Agents are present:
+* **Update Agent** - Checks for system updates and installs them
+* **Theme Agent** - Handles global application theming
+* **Graft Agent** - Manages virtualized systems running under Graft
+* **Network Agent** - Manages network interfaces and connections
 ### Security and Privacy (Upcoming)
 NOTE: The following features will be included in further releases, and are not yet present in current public releases for development and debugging purposes.
  
 Unlike standard desktop distributions, dahliaOS employs aggressive security measures similar to the methods found on mobile systems. Major steps are taken to ensure security and privacy for all users, while keeping the system open and accessible to developers.
  
-The system is secure every step of the way, from the first boot to system shutdown, using a policy we call Cerberus. Like the creature from ancient mythology, Cerberus guards the system and has three central tenets of security:
+The system is secure every step of the way, from the first boot to system shutdown, using a policy called Cerberus. Like the creature from ancient mythology, Cerberus guards the system and has three central tenets of security:
  
-* Verification - The system is checked on boot and all applications are signed
-* Encryption - User and Application data is encrypted in a secure partition to prevent data loss and leakage
-* Isolation - The system partition and applications are all isolated from each other, and no two applications can share information or vulnerabilities without user consent.
+* **Verification** - The system is checked on boot and all applications are signed
+* **Encryption** - User and Application data is encrypted in a secure partition to prevent data loss and leakage
+* **Isolation** - The system partition and applications are all isolated from each other, and no two applications can share information or vulnerabilities without user consent.
  
 A set of two partitions will be used to ensure maximum system security, a read-only stateless partition, where system files and executables are stored, and an encrypted stateful partition where user data remains persistently.
  
@@ -76,9 +76,19 @@ Within the system, the read-only nature of the root filesystem and the encryptio
  
 Using total sandboxing, non-system applications are not allowed to interact with hardware, software, and files without explicit permission from the user. In the case of hardware usage, software-side indicators will alert the user that a camera or microphone is active, or if a task is using network access in the background.
  
-For those living on the edge or those looking to debug the underlying system, a Developer Mode is available that will disable the security features of the system and make the stateless partition read/write.
+For those living on the edge or those looking to debug the underlying system, a Developer Mode is available that will disable most of the security features of the system and make the stateless partition read/write.
 ### Graft and the Modular Userspace
-#### Configuring Virtual Machines in Graft
+![Screenshot of the Graft virtualization management dashboard](assets/screenshot/graft.png)
+Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.
+
+There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
+
+* **Containers** - More secure, runs directly on dahliaOS using the host kernel, but isolated from hardware (Minimal overhead)
+* **Virtual Machines** - Uses CPU self-virtualization to run directly on the hardware. (Medium overhead)
+* **Emulators** - Full hardware virtualiztion, including processor (High overhead)
+* **Chroots** - Less secure, runs directly on hardware alongside dahliaOS, uses the host kernel, see **Modular Userspace** for more information (Minimal overhead)
+  
+#### Modular Userspace
 ### Standard Linux Things
 ### Buildroot
 ## Compiling
