@@ -9,13 +9,6 @@
   <a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
 </div>
 
-<p align="center">
-<a href="https://dahliaos.io">Website</a> ●
-<a href="https://discord.gg/7qVbJHR">Discord</a> ●
-<a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
-<a href="https://paypal.me/officialdahliaos">Donate</a> ●
-<a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
-
 # Documentation
 ![GitHub](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
 
