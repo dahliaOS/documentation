@@ -1,6 +1,14 @@
 <p align="center">
   <img width="80%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 <p>
+<div align="center">
+  <a href="https://dahliaos.io">Website</a> ●
+  <a href="https://discord.gg/7qVbJHR">Discord</a> ●
+  <a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
+  <a href="https://paypal.me/officialdahliaos">Donate</a> ●
+  <a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
+</div>
+
 <p align="center">
 <a href="https://dahliaos.io">Website</a> ●
 <a href="https://discord.gg/7qVbJHR">Discord</a> ●
