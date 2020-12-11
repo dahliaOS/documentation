@@ -36,7 +36,17 @@ For Intel devices:
 * 512 MiB of storage, 1GiB reccommended
 * Intel GMA 4500 or better, Intel HD 4000 reccommended, NVIDIA 7800GT 256MB or newer
 #### Virtual Machines
+dahliaOS is supported on a few different software-backed emulators, including QEMU and Virtualbox. A legacy image is needed to boot dahliaOS in a VM. As we are unable to afford VMWare, we can not make any inferences about performance or settings. For virtual Machines, the following specifications are required:
+* 1 or more CPU cores
+* 512 MiB of RAM or higher
+* No internal storage disk
+* Legacy bootloader
 
+For launching in QEMU, use the following command with a compatible Legacy image:
+```bash
+qemu-system-x86_64 --enable-kvm -m 4096 -cdrom <legacy>.iso
+```
+This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine) enabled, with 4096 MiB of RAM, booting the legacy ISO. If you are on a Windows host, remove the `--enable-kvm` flag, as it does not apply to the Windows platform.
 ## The System - In Depth
 ### Agents
 ### Security (Planned)
