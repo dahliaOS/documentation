@@ -2,7 +2,7 @@
 
 | Brand         | Device         | Compatible Build | Documentation      |      
 | -----------  | -----------  | ----------- | ----------- |  
-|Acer|Switch Alpha 12|**Zircon**|[`Documentation`](https://fuchsia.dev/docs/development/hardware/acer12.md)| 
+|Acer|Switch Alpha 12|Zircon|[`Documentation`](https://fuchsia.dev/docs/development/hardware/acer12.md)| 
 |Acer|TravelMate 8571|Linux `Legacy`|[`Documentation`](hardware/Acer/TravelMate-8571.md)| 
 |Acer|TravelMate P455-M|Linux|[`Documentation`](hardware/Acer/TravelMate-P455-M.md)| 
 |Acer|Travelmate p645-S|Linux|[`Documentation`](hardware/Acer/TravelMate-P645-S.md)|
@@ -31,8 +31,8 @@
 |NXP|iMX8M EVK|Zircon|[`Documentation`](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)| 
 |Pine64|Pinephone|Zircon|[`Documentation`](hardware/pine64/Pinephone.md)| 
 |Samsung|Series 7 700Z5C|Linux|
-|Toshiba|Satellite E45W-C4200X|**Linux** `EFI only`, **Zircon**|
-|96boards|HiKey960|Zircon|[`Documentation`](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)| 
+|Toshiba|Satellite E45W-C4200X|Linux `EFI only`, Zircon|
+|96boards|HiKey960|Zircon|[`Documentation`]: https://fuchsia.dev/fuchsia-src/development/hardware/hikey960| 
 
 **Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md#supported-devices)
 
