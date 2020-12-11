@@ -88,8 +88,11 @@ There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
 * **Emulators** - Full hardware virtualiztion, including processor (High overhead)
 * **Chroots** - Less secure, runs directly on hardware alongside dahliaOS, uses the host kernel, see **Modular Userspace** for more information (Minimal overhead)
   
+All of these methods are centralized in Graft, and the virtualization mode will change according to the type of system. Currently, only Linux-based operating systems can run in Containers and Chroots.
 #### Modular Userspace
+In order to maintain security while ensuring that the system remains accessible to developers, dahliaOS Linux is able to run a second Linux distribution as it's userspace, booted on top of the latest Linux kernel provided by dahliaOS. The userspace can be hot-swapped within the Graft app. By default, on 201205 the default userspace is Arch.
 ### Standard Linux Things
+While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager  (Used for system updates) is `rpm`, and the [Busybox](https://busybox.net) packages provide the init system and the core utilities.
 ### Buildroot
 ## Compiling
 ## Releasing
