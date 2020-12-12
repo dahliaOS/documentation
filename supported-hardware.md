@@ -32,7 +32,7 @@
 |Pine64|Pinephone|Zircon|[`Documentation`](hardware/pine64/Pinephone.md)| 
 |Samsung|Series 7 700Z5C|Linux|
 |Toshiba|Satellite E45W-C4200X|Linux `EFI only`, Zircon|
-|96boards|HiKey960|Zircon|[`Documentation`] (https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)| 
+|96boards|HiKey960|Zircon|[`Documentation`](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)| 
 
 **Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md#supported-devices)
 
