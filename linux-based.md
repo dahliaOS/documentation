@@ -94,6 +94,7 @@ In order to maintain security while ensuring that the system remains accessible 
 ### Standard Linux Things
 While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager  (Used for system updates) is `rpm`, and the [Busybox](https://busybox.net) packages provide the init system and the core utilities.
 ### Buildroot
-## Compiling
-## Releasing
-## Planned Releases (Subject to change)
+![central buildroot configuration screen in a terminal window](assets/screenshot/buildroot.png)
+dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightwieght Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahlia-os/buildroot). 
+
+
