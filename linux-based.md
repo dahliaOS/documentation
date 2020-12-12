@@ -26,7 +26,7 @@ You can download dahliaOS Linux [here](https://dahliaos.io/download).
 <!--<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>-->
  
 ## Running dahliaOS Linux
-dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the ]**Virtual Machines**](https://github.com/dahlia-os/documentation/blob/master/linux-based.md#virtual-machines) section below.
+dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the [**Virtual Machines**](https://github.com/dahlia-os/documentation/blob/master/linux-based.md#virtual-machines) section below.
 ### ARM
 Currently, the Raspberry Pi 3 and the Raspberry Pi 4 (or equivalents) are the only ARM supported devices by dahliaOS Linux. The system requires the following minimum specifications:
 * 1.2GHZ Broadcom BCM2837 or higher
