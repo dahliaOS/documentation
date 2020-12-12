@@ -1,8 +1,33 @@
-# Overview of Linux-based Builds
-## TL;DR
- 
+# Overview of dahliaOS Linux-based Builds
+## TL;DR 
+ You can download dahliaOS Linux [here](https://dahliaos.io/download).
  
 ## Table of Contents
+- [Overview of dahliaOS Linux-based Builds](#overview-of-dahliaos-linux-based-builds)
+  - [TL;DR](#tldr)
+  - [Table of Contents](#table-of-contents)
+  - [Running dahliaOS Linux](#running-dahliaos-linux)
+    - [ARM](#arm)
+      - [Raspberry Pi](#raspberry-pi)
+    - [x86_64](#x86_64)
+      - [AMD](#amd)
+      - [Intel](#intel)
+      - [Virtual Machines](#virtual-machines)
+  - [The System - In Depth](#the-system---in-depth)
+    - [Agents](#agents)
+    - [Security and Privacy (Upcoming)](#security-and-privacy-upcoming)
+    - [Graft and the Modular Userspace](#graft-and-the-modular-userspace)
+      - [Modular Userspace](#modular-userspace)
+    - [Standard Linux Things](#standard-linux-things)
+    - [Buildroot](#buildroot)
+  - [Compiling](#compiling)
+  - [Releasing](#releasing)
+  - [Planned Releases (Subject to change) (WIP)](#planned-releases-subject-to-change-wip)
+  
+ 
+
+<!--<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>-->
+
 ## Running dahliaOS Linux
 dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the **Virtual Machines** section below.
 ### ARM
