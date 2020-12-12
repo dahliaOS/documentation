@@ -1,12 +1,13 @@
 <p align="center">
   <img width="80%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 <p>
-<p align="center">
-<a href="https://dahliaos.io">Website</a> ●
-<a href="https://discord.gg/7qVbJHR">Discord</a> ●
-<a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
-<a href="https://paypal.me/officialdahliaos">Donate</a> ●
-<a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
+<div align="center">
+  <a href="https://dahliaos.io">Website</a> ●
+  <a href="https://discord.gg/7qVbJHR">Discord</a> ●
+  <a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
+  <a href="https://paypal.me/officialdahliaos">Donate</a> ●
+  <a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
+</div>
 
 # Documentation
 ![GitHub](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
@@ -29,8 +30,6 @@
   * [Pangolin Linux](../pangolin/pangolin-linux.md)
   * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
 - [OS](os)
-  * [Buildroot](../os/build/buildroot.md)
-  * [Catalog](../os/catalog/catalog.md)
   * [Translations](../os/translations/translation.md)
 - [Contribute](CONTRIBUTING.md)
 
