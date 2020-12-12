@@ -119,4 +119,57 @@ In [dahliaOS Linux-based 200305.1](https://github.com/dahlia-os/releases/release
 * **YYMMDD** identifies the date when the release is branched from or synced with the development branch. It's not always the exact date at which a build was made as it's common for minor variations added to an existing build to re-use the same date code as the existing build.
 * **HF** is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1
 ## Planned Releases (Subject to change) (WIP)
+This list is preliminary and subject to change. See something you want in dahliaOS Linux? File an issue or pull request [here](https://github.com/dahlia-os/documentation).
+### Release 16 - “The Wireless Update”
+* Wireless Networking with GUI to configure done
+* Fuchsia VM or Container broken
+* Finish functionality in Graft/Redesign Graft incomplete
+  
+### Release 17 - “The Apps Update”
+* Web Browser (Fully dependent on Flutter team)
+* X11 Integration
+* Installable native applications
+* Finished Clock,Text Editor and media
+* Working notifications
+* Integration with system properties (Volume, Brightness, etc)
+
+### Release 18 - “The Linux Update”
+* Pangolin Desktop 2.0?
+* Modular Linux Userspace
+* Linux Containers and ~~alternative operating system vms~~
+* Finish remaining applications
+* Global media controls
+
+### Release 19 - “The Repair Update”
+* System Recovery
+* Nitrogen Hardware Backed Security - maybe
+
+### Release 20 - “The Helpful Update”
+* Graphical Installer
+* Agent Assistant
+
+### Release 21 - “The Security Update” (first beta?)
+* Stateless security policy
+* Rootfs Verification
+* Mobile shell (hopeful Pine64 releases?)
+* Pangolin displaymanager
+* Multi-User support
+* Deprecate root account access
+* System Updates
+* Developer mode
+* Package Signing
+* App Store?
+
+### Release 22 - “The Developer Update”
+* Fix existing bugs
+* Developer SDK
+* System IDE
+* Feature Flags
+
+### Release 23 - “The Connected Update” (1.0 RC 1?)
+* Some method of multi device integration, maybe make this feature earlier
+
+### Release 24 - 1.0 RC 2 (Release Candidate)
+* Bug fixes
+
 
