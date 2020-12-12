@@ -122,7 +122,7 @@ Internal experimental builds that represent major overhauls of the base system a
  
 * **Nitrogen I** - initial Linux-Based test build
 * **Nitrogen II** - initial persistence testing build
-* **Nitrogen III** - initial base for dahliaOS 201204, with virtualization and wireless networking support
+* **Nitrogen III** - initial base for dahliaOS 201215, with virtualization and wireless networking support
  
 In [dahliaOS Linux-based 200305.1](https://github.com/dahlia-os/releases/releases/tag/200305.1-x86) (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:
  
