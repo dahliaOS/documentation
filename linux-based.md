@@ -105,5 +105,18 @@ Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahlia-os/build
 * Fedora Linux 33 or equivalent
 
 [Read more at the Buildroot Repo >](https://github.com/dahlia-os/buildroot)
+## Releasing
+dahliaOS Linux follows a release schedule dictated by the guidelines below. each release must be at least 75% feature complete to qualify as a seperate release. 
 
+Internal experimental builds that represent major overhauls of the base system are referred to by the name `nitrogen` . As of dahliaOS 201204, there have been 3 revisions of Nitrogen:
+
+* **Nitrogen I** - initial Linux-Based test build
+* **Nitrogen II** - initial persistence testing build
+* **Nitrogen III** - initial base for dahliaOS 201204, with virtualization and wireless netwroking support
+
+In [dahliaOS Linux-based 200305.1](https://github.com/dahlia-os/releases/releases/tag/200305.1-x86) (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:
+
+* **YYMMDD** identifies the date when the release is branched from or synced with the development branch. It's not always the exact date at which a build was made as it's common for minor variations added to an existing build to re-use the same date code as the existing build.
+* **HF** is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1
+## Planned Releases (Subject to change) (WIP)
 
