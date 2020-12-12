@@ -96,5 +96,14 @@ While the base system is not typically accessible outside of Developer Mode, dah
 ### Buildroot
 ![central buildroot configuration screen in a terminal window](assets/screenshot/buildroot.png)
 dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightwieght Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahlia-os/buildroot). 
+## Compiling
+Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahlia-os/buildroot) tool is very simple, but requires a decent amount of processor power. The following specs are required:
+* Intel Core i5-2400 3.4GHZ or better - Xeon recommended
+* 8 GiB of RAM or more
+* Gigabit Ethernet connection
+* 64 GiB of free space - 500 recommended
+* Fedora Linux 33 or equivalent
+
+[Read more at the Buildroot Repo >](https://github.com/dahlia-os/buildroot)
 
 
