@@ -26,7 +26,7 @@ To compile and run the base dahliaOS toolchain, use:
 
 It is recommended to have an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. 
 
-It is also recommended a 4C/8T or better CPU with 16GB of RAM for optimal speeds.
+It is also recommended to have a 4C/8T or better CPU with 16GB of RAM for optimal speeds.
 
 You will also need a decent amount of hard drive space, I recommend around 50 GB if you clear out the build directory often. 
 
