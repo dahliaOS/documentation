@@ -4,7 +4,7 @@
 
 | version         | download         | size      | release date      |      
 | -----------  | -----------  | ----------- | ----------- |  
-| 201004|[`efi`](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.zip)  [`legacy`](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)             |158 mb|4 Okt|  
+| 201004|[`efi`](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.zip)  [`legacy`](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)             |158 mb|4 Oct|  
 | 200830|[`download`](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)|85 mb|30 Aug|  
 | 200804|[`download`](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)|104 mb|5 Aug|  
 | 200630_2|[`download`](https://github.com/dahlia-os/releases/releases/download/200630.1-x86_64/dahliaOS-200630_2.iso)|163 mb|30 Jun|  
