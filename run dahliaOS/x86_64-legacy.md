@@ -2,7 +2,7 @@
 
 # Installation 
 
-- dahliaOS supports a wide range of devices. This will tell you how to flash it on a USB and what hardware you need.
+- dahliaOS supports a wide range of devices. This guide will tell you how to flash it on a USB and what hardware you need.
 
 ## Flash the ISO
 
