@@ -1,9 +1,9 @@
 # Pangolin-linux
-pangolin desktop running on linux systems
+Pangolin Desktop running on Linux systems.
 
-## requirements
+## Requirements
 
-### debian/ubuntu
+### Debian/Ubuntu
 
 - If you don't have git installed do it by 
 ```
@@ -38,9 +38,9 @@ yay -S flutter
 sudo pacman -Sy matchbox-window-manager
 ```
 
-## install
+## Installation
 
-if your using something other than linuxmint you will get a nosnap error. this won't effect anything.
+If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
 ```bash
 git clone https://github.com/HexaOneOfficial/pangolin-linux.git
 cd pangolin-linux && sudo chmod +x install.sh && sudo ./install.sh
