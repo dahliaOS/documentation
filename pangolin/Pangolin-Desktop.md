@@ -4,11 +4,11 @@ Pangolin Desktop UI shell, designed for dahliaOS, written in Flutter.
 
 As of v200614.1, Pangolin has been available by default as the desktop in Linux-based builds. 
 
-Try out the builds [here](https://web.dahliaos.io)
+Try out the builds [here](https://web.dahliaos.io).
 
 # History / significant changes
 
-+ February 27, 2019, Camden Bruce announced the beginning of dahliaOS [Source - Reddit](https://www.reddit.com/r/Fuchsia/comments/av6tja/fuchsia_fork_dahlia_os/)
++ February 27, 2019, Camden Bruce announced the beginning of dahliaOS ([Source: Reddit](https://www.reddit.com/r/Fuchsia/comments/av6tja/fuchsia_fork_dahlia_os/))
 + March 2, 2019, Camden Bruce created the repository pangolin-desktop 
 + March 4, 2019, Noah Cain uploaded the first basic code for the desktop in a (now deprecated) custom codebase. 
 + April 5, 2019, Horus125 Begain importing some components from capybara for use within Pangolin
@@ -63,7 +63,7 @@ flutter run -d linux
 
 # Developing Pangolin for dahliaOS Linux-Based builds
 
-While pre-compiled builds can be found in the dahliaOS-overlays folder, you can also compile Pangolin and include them in the Buildroot toolchain
+While pre-compiled builds can be found in the dahliaOS-overlays folder, you can also compile Pangolin and include them in the Buildroot toolchain.
 
 ## Prerequisites
 
