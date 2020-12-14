@@ -1,8 +1,8 @@
 # Buildroot
 
-- This builds dahliaOS Linux-based builds easily
+- This builds dahliaOS Linux-based builds easily.
 
-- As of June 13th, this is only a base buildroot and lacks the dahliaOS-specific overlays
+- As of June 13th, this is only a base buildroot and lacks the dahliaOS-specific overlays.
 
 ## Usage
 
@@ -24,11 +24,11 @@ To compile and run the base dahliaOS toolchain, use:
 
 ## Requirements
 
-It is recommended to have at minumum an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. 
+It is recommended to have an Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. 
 
-I personally recommend a 4C/8T or better CPU with 16GB of RAM for optimal speeds.
+It is also recommended a 4C/8T or better CPU with 16GB of RAM for optimal speeds.
 
-You will also need a decent amount of hard drive space, I recommend around 50GB if you clear out the build directory often. 
+You will also need a decent amount of hard drive space, I recommend around 50 GB if you clear out the build directory often. 
 
 It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM.
 
