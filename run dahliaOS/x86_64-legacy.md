@@ -14,7 +14,7 @@ There are two ISOs to choose from, **EFI** and **Legacy** but this guide focuses
 3. You're almost good to go, reboot your system and go in your UEFI and go to the **Boot** tab and select the USB.
 4. Your system should boot into dahliaOS!
 
-## Hardware support and requirements
+## Requirements
 
 ### Minimum requirements
 
