@@ -27,6 +27,7 @@
 |JetWay|HBJC130F731 Series|Zircon|[`Documentation`](https://fuchsia.dev/fuchsia-src/development/hardware/toulouse)| 
 |Khadas|Vim 2|Zircon|[`Documentation`](https://fuchsia.dev/docs/development/hardware/khadas-vim)| 
 |Lenovo|Flex 3 80R3|Linux|[`Documentation`](hardware/Lenovo/Flex-3-80R3.md)| 
+|Lenovo|ThinkCentre M90n IoT|Zircon|
 |Modecom|Freetab 8025|Linux|[`Documentation`](hardware/Modecom/Freetab-8025.md)| 
 |NXP|iMX8M EVK|Zircon|[`Documentation`](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)| 
 |Pine64|Pinephone|Zircon|[`Documentation`](hardware/pine64/Pinephone.md)| 
