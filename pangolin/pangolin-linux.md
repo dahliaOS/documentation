@@ -5,7 +5,7 @@ Pangolin Desktop running on Linux systems.
 
 ### Debian/Ubuntu
 
-- If you don't have git installed do it by 
+- If you don't have git installed do it by running
 ```
 sudo apt install git
 ```
