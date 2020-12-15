@@ -4,6 +4,7 @@
 
 | Version         | Download         | Size      | Release Date      |      
 | -----------  | -----------  | ----------- | ----------- |  
+| 201215|[`efi`](https://github.com/dahlia-os/releases/releases/download/201215-x86_64/dahliaOS-201215-efi.zip)  [`legacy`](https://github.com/dahlia-os/releases/releases/download/201215-x86_64/dahliaOS-201215-legacy.iso)             |158 MB|15 Oct|  
 | 201004|[`efi`](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-efi.zip)  [`legacy`](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)             |158 MB|4 Oct|  
 | 200830|[`download`](https://github.com/dahlia-os/releases/releases/download/200830-x86_64/dahliaOS-200830.iso)|85 MB|30 Aug|  
 | 200804|[`download`](https://github.com/dahlia-os/releases/releases/download/200804-x86_64/dahliaOS-200804.iso)|104 MB|5 Aug|  
@@ -19,6 +20,7 @@
 
 | Version         | Download         | Size      | Release Date      |      
 | -----------  | -----------  | ----------- | ----------- |  
+|  201215|||/ MB |coming soon|  
 |  201004|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)|160 MB |9 Nov|  
 |  200830|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)|112 MB |16 Sep|  
 |  200804|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)|150 MB |5 Aug|  
