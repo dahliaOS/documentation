@@ -22,7 +22,7 @@ dnf install qemu
 sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
 ```
 
-- For `Ubuntu 18.04` or older you want to run this command: 
+- For **Ubuntu 18.04** or older you want to run this command: 
 ```
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
