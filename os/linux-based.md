@@ -69,7 +69,7 @@ qemu-system-x86_64 --enable-kvm -m 4096 -cdrom <legacy>.iso
 ```
 This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine) enabled, with 4096 MiB of RAM, booting the legacy ISO. If you are on a Windows host, remove the `--enable-kvm` flag, as it does not apply to the Windows platform.
 ## The System - In-Depth
-![dahliaOS Linux-Based 201215 Software architecture chart, Showing the overall layout of the system](assets/charts/arch.png)
+![dahliaOS Linux-Based 201215 Software architecture chart, Showing the overall layout of the system](../assets/charts/arch.png)
 Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.
 ### Agents
 Agents are simple, modular executables designed to run in the background and manage the system's capabilities. In the 201215 system release, the following Agents are present:
