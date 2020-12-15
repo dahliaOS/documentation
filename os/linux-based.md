@@ -31,7 +31,7 @@ dahliaOS Linux is supported on a wide range of devices and emulators. For virtua
 Currently, the Raspberry Pi 3 and the Raspberry Pi 4 (or equivalents) are the only ARM supported devices by dahliaOS Linux. The system requires the following minimum specifications:
 * 1.2 GHz Broadcom BCM2837 or higher
 * 256 MiB of RAM or higher
-* 512 MiB of storage, 1GiB recommended
+* 512 MiB of storage, 1 GiB recommended
 #### Raspberry Pi
 Official images are available to download from the [dahliaOS downloads page.](https://dahliaos.io/download/) We recommend [Etcher](https://www.balena.io/etcher/), but any .zip compatible flashing software should work. After flashing the SD card, use the following steps to properly configure your installation:
 * Insert the flashed SD card into the Pi and power it on
@@ -48,9 +48,9 @@ dahliaOS Linux can boot on AMD hardware but may require an NVIDIA GPU in order t
 * UEFI or Legacy bootloader
 * 512 MiB of RAM or higher
 * 512 MiB of storage, 1 GiB recommended
-* NVIDIA 7800GT 256 MB or newer (Modern AMD GPUs may work but we can not guarantee stable performance)
+* NVIDIA 7800GT 256 MB or newer (Modern AMD GPUs may work but stable performance isn't guranteed)
 #### Intel
-dahliaOS is completely supported on the Intel platform and can run with advanced hardware acceleration (60FPS mode). The system requires the following minimum specifications on Intel devices:
+dahliaOS is completely supported on the Intel platform and can run with advanced hardware acceleration (60 FPS mode). The system requires the following minimum specifications on Intel devices:
 For Intel devices:
 * 64-bit single-core or higher CPU, 1 GHz or higher
 * UEFI or Legacy bootloader
@@ -101,7 +101,7 @@ There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
 * **Chroots** - Less secure, runs directly on hardware alongside dahliaOS, uses the host kernel, see **Modular Userspace** for more information (Minimal overhead)
  All of these methods are centralized in Graft, and the virtualization mode will change according to the type of system. Currently, only Linux-based operating systems can run in Containers and Chroots.
 #### Modular Userspace
-In order to maintain security while ensuring that the system remains accessible to developers, dahliaOS Linux is able to run a second Linux distribution as it's userspace, booted on top of the latest Linux kernel provided by dahliaOS. The userspace can be hot-swapped within the Graft app. By default, on 201215 the default userspace is Arch.
+In order to maintain security while ensuring that the system remains accessible to developers, dahliaOS Linux is able to run a second Linux distribution as it's userspace, booted on top of the latest Linux kernel provided by dahliaOS. The userspace can be hot-swapped within the Graft app. By default, in 201215 the default userspace is Arch.
 ### Standard Linux Things
 While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager  (Used for system updates) is `rpm`, and the [Busybox](https://busybox.net) packages provide the init system and the core utilities.
 ### Buildroot
@@ -122,9 +122,9 @@ dahliaOS Linux follows a release schedule dictated by the guidelines below. Each
  
 Internal experimental builds that represent major overhauls of the base system are referred to by the name `nitrogen`. As of dahliaOS 201215, there have been 3 revisions of Nitrogen:
  
-* **Nitrogen I** - initial Linux-Based test build
-* **Nitrogen II** - initial persistence testing build
-* **Nitrogen III** - initial base for dahliaOS 201215, with virtualization and wireless networking support
+* **Nitrogen I** - Initial Linux-Based test build
+* **Nitrogen II** - Initial persistence testing build
+* **Nitrogen III** - Initial base for dahliaOS 201215, with virtualization and wireless networking support
  
 In [dahliaOS Linux-based 200305.1](https://github.com/dahlia-os/releases/releases/tag/200305.1-x86) (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:
  
@@ -132,6 +132,3 @@ In [dahliaOS Linux-based 200305.1](https://github.com/dahlia-os/releases/release
 * **HF** is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1
 ## Planned Releases (Subject to change) (WIP)
 This list is preliminary and subject to change. The full project board can be seen [here](https://github.com/orgs/dahlia-os/projects/6).
- 
- 
-
