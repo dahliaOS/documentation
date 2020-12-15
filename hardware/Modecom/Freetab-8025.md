@@ -1,14 +1,14 @@
 # Modecom Freetab 8025
 
-Note: This is not an officially supported device for the zircon version, only for the linux version.
+Note: This is not an officially supported device for the zircon version, only for the Linux version.
 
-- requires a third party build.
+- Requires a third party build.
 
 ## Known problems
 
 - Touchscreen doesn't work.
-- Camera not working (May work with linux 5.8+).
-- Support for uefi-32 boot needs to be added in order to work. 
+- Camera doesn't work (May work with Linux 5.8+).
+- Support for UEFI-32 boot needs to be added in order to work. 
 
 ## Install
 

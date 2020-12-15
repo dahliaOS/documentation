@@ -1,6 +1,6 @@
 # Lenovo Flex 3 80R3 documentation
 
-Note: This is not an officially supported device for the zircon version, only for the linux version.
+Note: This is not an officially supported device for the zircon version, only for the Linux version.
 
 - The builds from 201004 onwards can run on it by default.
 - No special steps are required.

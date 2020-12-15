@@ -35,7 +35,7 @@
 |Toshiba|Satellite E45W-C4200X|Linux `EFI only`, Zircon|N/A
 |96boards|HiKey960|Zircon|[`Link`](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)| 
 
-**Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md#supported-devices)
+**Want to test, and add your device to the list?** Check it out [here](.github/CONTRIBUTING.md#supported-devices).
 
 ## License
 
