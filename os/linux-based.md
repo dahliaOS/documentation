@@ -26,7 +26,7 @@ You can download dahliaOS Linux [here](https://dahliaos.io/download).
 <!--<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>-->
  
 ## Running dahliaOS Linux
-dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the [**Virtual Machines**](https://github.com/dahlia-os/documentation/blob/master/linux-based.md#virtual-machines) section below.
+dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the [**Virtual Machines**](linux-based.md#virtual-machines) section below.
 ### ARM
 Currently, the Raspberry Pi 3 and the Raspberry Pi 4 (or equivalents) are the only ARM supported devices by dahliaOS Linux. The system requires the following minimum specifications:
 * 1.2 GHz Broadcom BCM2837 or higher
@@ -90,7 +90,7 @@ Within the system, the read-only nature of the root filesystem and the encryptio
 Using total sandboxing, non-system applications are not allowed to interact with hardware, software, and files without explicit permission from the user. In the case of hardware usage, software-side indicators will alert the user that a camera or microphone is active, or if a task is using network access in the background.
 For those living on the edge or those looking to debug the underlying system, a Developer Mode is available that will disable most of the security features of the system and make the stateless partition read/write.
 ### Graft and the Modular Userspace
-![Screenshot of the Graft virtualization management dashboard](assets/screenshot/graft.png)
+![Screenshot of the Graft virtualization management dashboard](../assets/screenshot/graft.png)
 Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.
  
 There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
@@ -105,7 +105,7 @@ In order to maintain security while ensuring that the system remains accessible 
 ### Standard Linux Things
 While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager  (Used for system updates) is `rpm`, and the [Busybox](https://busybox.net) packages provide the init system and the core utilities.
 ### Buildroot
-![central buildroot configuration screen in a terminal window](assets/screenshot/buildroot.png)
+![central buildroot configuration screen in a terminal window](../assets/screenshot/buildroot.png)
 
 dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahlia-os/buildroot).
 ## Compiling
