@@ -1,11 +1,11 @@
 # Pangolin-linux
-pangolin desktop running on linux systems
+Pangolin Desktop running on Linux systems.
 
-## requirements
+## Requirements
 
-### debian/ubuntu
+### Debian/Ubuntu
 
-- If you don't have git installed do it by 
+- If you don't have git installed do it by running
 ```
 sudo apt install git
 ```
@@ -38,9 +38,9 @@ yay -S flutter
 sudo pacman -Sy matchbox-window-manager
 ```
 
-## install
+## Installation
 
-if your using something other than linuxmint you will get a nosnap error. this won't effect anything.
+If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
 ```bash
 git clone https://github.com/HexaOneOfficial/pangolin-linux.git
 cd pangolin-linux && sudo chmod +x install.sh && sudo ./install.sh
@@ -53,6 +53,6 @@ cd pangolin-linux && sudo chmod +x install.sh && sudo ./install.sh
   <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
-Copyright @ 2019-2020 The dahliaOS Authors contact@dahliaos.io
+Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io
 
 This project is licensed under the [Apache 2.0 license](../LICENSE)

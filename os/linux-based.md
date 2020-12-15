@@ -12,7 +12,7 @@ You can download dahliaOS Linux [here](https://dahliaos.io/download).
      - [AMD](#amd)
      - [Intel](#intel)
      - [Virtual Machines](#virtual-machines)
- - [The System - In Depth](#the-system---in-depth)
+ - [The System - In-Depth](#the-system---in-depth)
    - [Agents](#agents)
    - [Security and Privacy (Upcoming)](#security-and-privacy-upcoming)
    - [Graft and the Modular Userspace](#graft-and-the-modular-userspace)
@@ -29,7 +29,7 @@ You can download dahliaOS Linux [here](https://dahliaos.io/download).
 dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the [**Virtual Machines**](https://github.com/dahlia-os/documentation/blob/master/linux-based.md#virtual-machines) section below.
 ### ARM
 Currently, the Raspberry Pi 3 and the Raspberry Pi 4 (or equivalents) are the only ARM supported devices by dahliaOS Linux. The system requires the following minimum specifications:
-* 1.2GHZ Broadcom BCM2837 or higher
+* 1.2 GHz Broadcom BCM2837 or higher
 * 256 MiB of RAM or higher
 * 512 MiB of storage, 1GiB recommended
 #### Raspberry Pi
@@ -37,23 +37,25 @@ Official images are available to download from the [dahliaOS downloads page.](ht
 * Insert the flashed SD card into the Pi and power it on
 * Change the root password to something secure with the `passwd` command
 * Expand the filesystem onto the SD card using the `expand-fs` command
-The system is now able to be used to its full capacity. Have fun!
+
+
+The system is now able to be used at its full capacity. Have fun!
 ### x86_64
 dahliaOS Linux has extensive support for the x86_64 platform, and leverages its power to create a stable, efficient system on every device.
 #### AMD
-dahliaOS Linux can boot on AMD hardware, but may require a NVIDIA GPU in order to get full graphics acceleration. The system requires the following specifications on AMD devices:
-* AMD Athlon 64 or newer, 1.0 GHZ or higher
+dahliaOS Linux can boot on AMD hardware but may require an NVIDIA GPU in order to get full graphics acceleration. The system requires the following specifications on AMD devices:
+* AMD Athlon 64 or newer, 1.0 GHz or higher
 * UEFI or Legacy bootloader
 * 512 MiB of RAM or higher
-* 512 MiB of storage, 1GiB recommended
-* NVIDIA 7800GT 256MB or newer (Modern AMD GPUs may work but we can not guarantee stable performance)
+* 512 MiB of storage, 1 GiB recommended
+* NVIDIA 7800GT 256 MB or newer (Modern AMD GPUs may work but we can not guarantee stable performance)
 #### Intel
 dahliaOS is completely supported on the Intel platform and can run with advanced hardware acceleration (60FPS mode). The system requires the following minimum specifications on Intel devices:
 For Intel devices:
-* 64-bit single-core or higher CPU, 1GHZ or higher
+* 64-bit single-core or higher CPU, 1 GHz or higher
 * UEFI or Legacy bootloader
 * 512 MiB of RAM or higher
-* 512 MiB of storage, 1GiB recommended
+* 512 MiB of storage, 1 GiB recommended
 * Intel GMA 4500 or better, Intel HD 4000 recommended, NVIDIA 7800GT 256MB or newer
 #### Virtual Machines
 dahliaOS is supported on a few different software-backed emulators, including QEMU and Virtualbox. A legacy image is needed to boot dahliaOS in a VM. As we are unable to afford VMWare, we can not make any inferences about performance or settings. For Virtual Machines, the following specifications are required:
@@ -93,7 +95,7 @@ Graft is the system's hub for installing virtualized and guest operating systems
  
 There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
  
-* **Containers** - More secure, runs directly on dahliaOS using the host kernel, but isolated from hardware (Minimal overhead)
+* **Containers** - More secure, runs directly on dahliaOS using the host kernel but isolated from hardware (Minimal overhead)
 * **Virtual Machines** - Uses CPU self-virtualization to run directly on the hardware. (Medium overhead)
 * **Emulators** - Full hardware virtualization, including processor (High overhead)
 * **Chroots** - Less secure, runs directly on hardware alongside dahliaOS, uses the host kernel, see **Modular Userspace** for more information (Minimal overhead)
@@ -108,7 +110,7 @@ While the base system is not typically accessible outside of Developer Mode, dah
 dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahlia-os/buildroot).
 ## Compiling
 Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahlia-os/buildroot) tool is very simple, but requires a decent amount of processor power. The following specs are required:
-* Intel Core i5-2400 3.4GHZ or better - Xeon recommended
+* Intel Core i5-2400 3.4 GHz or better - Xeon recommended
 * 8 GiB of RAM or more
 * Gigabit Ethernet connection
 * 64 GiB of free space - 500 recommended
@@ -118,7 +120,7 @@ Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahlia-os/build
 ## Releasing
 dahliaOS Linux follows a release schedule dictated by the guidelines below. Each release must be at least 75% feature-complete to qualify as a separate release.
  
-Internal experimental builds that represent major overhauls of the base system are referred to by the name `nitrogen` . As of dahliaOS 201215, there have been 3 revisions of Nitrogen:
+Internal experimental builds that represent major overhauls of the base system are referred to by the name `nitrogen`. As of dahliaOS 201215, there have been 3 revisions of Nitrogen:
  
 * **Nitrogen I** - initial Linux-Based test build
 * **Nitrogen II** - initial persistence testing build
