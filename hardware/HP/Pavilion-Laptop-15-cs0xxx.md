@@ -7,7 +7,7 @@ Note: This is not an officially supported device for the zircon version, It is p
 
 ## Known problems
 
-- /
+- N/A
 
 ## Install
 

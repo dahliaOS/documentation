@@ -1,4 +1,4 @@
-# Pangolin-linux
+# Pangolin-Linux
 Pangolin Desktop running on Linux systems.
 
 ## Requirements
