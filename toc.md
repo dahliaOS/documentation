@@ -1,21 +1,23 @@
+<!-- This is the TOC that appears on the website. 
+Links should use /docs and no .md extension. -->
 ## Table of Contents
 
-- [Supported hardware](supported-hardware.md)
-- [Hardware](hardware)
-- [Run dahliaOS](run%20dahliaOS)
-  * [x86_64-efi](run%20dahliaOS/x86_64-efi.md)
-  * [x86_32-efi](run%20dahliaOS/x86_32-efi.md)
-  * [x86_64-legacy](run%20dahliaOS/x86_64-legacy.md)
-  * [QEMU](run%20dahliaOS/qemu.md)
-  * [AEMU](run%20dahliaOS/aemu.md)
-  * [PEMU](run%20dahliaOS/pemu.md)
-- [Pangolin](pangolin)
-  * [Build Pangolin](pangolin/build_pangolin.md)
-  * [Pangolin Linux](pangolin/pangolin-linux.md)
-  * [Pangolin Desktop](pangolin/Pangolin-Desktop.md)
-- [OS](os)
-  * [Linux-based system](os/linux-based.md)
-  * [Buildroot](os/build/buildroot.md)
-  * [Catalog](os/catalog/catalog.md)
-  * [Translations](os/translations/translation.md)
-- [Contribute](.github/CONTRIBUTING.md)
+- [Supported hardware](/docs/supported-hardware)
+- Hardware
+- Run dahliaOS
+  * [x86_64-efi](/docs/run%20dahliaOS/x86_64-efi)
+  * [x86_32-efi](/docs/run%20dahliaOS/x86_32-efi)
+  * [x86_64-legacy](/docs/run%20dahliaOS/x86_64-legacy)
+  * [QEMU](/docs/run%20dahliaOS/qemu)
+  * [AEMU](/docs/run%20dahliaOS/aemu)
+  * [PEMU](/docs/run%20dahliaOS/pemu)
+- [Pangolin](https://github.com/dahlia-os/pangolin-desktop)
+  * [Build Pangolin](/docs/pangolin/build_pangolin)
+  * [Pangolin Linux](/docs/pangolin/pangolin-linux)
+  * [Pangolin Desktop](/docs/pangolin/Pangolin-Desktop)
+- OS
+  * [Linux-based system](/docs/os/linux-based)
+  * [Buildroot](/docs/os/build/buildroot)
+  * [Catalog](/docs/os/catalog/catalog)
+  * [Translations](/docs/os/translations/translation)
+- [Contribute](https://dahlia-os.github.io/documentation/CONTRIBUTING.md)
