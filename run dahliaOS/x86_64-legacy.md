@@ -9,7 +9,7 @@
 There are two ISOs to choose from, **EFI** and **Legacy** but this guide focuses on the Legacy ones.
 
 
-1. Go to [releases](https://github.com/dahlia-os/releases/releases/download/201004-x86_64/dahliaOS-201004-legacy.iso)
+1. Go to [releases](https://github.com/dahlia-os/releases/releases/download/201215-x86_64/dahliaOS-201215-legacy.iso)
 2. Download [Etcher (3rd party link)](https://www.balena.io/etcher/) and flash the ISO on a USB.
 3. You're almost good to go, reboot your system and go in your UEFI and go to the **Boot** tab and select the USB.
 4. Your system should boot into dahliaOS!
