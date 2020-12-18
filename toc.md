@@ -1,5 +1,6 @@
 <!-- This is the TOC that appears on the website. 
-Links should use /docs and no .md extension. -->
+Links should use /docs and no .md extension. 
+V7.1.8-->
 ## Table of Contents
 
 - [Supported hardware](/docs/supported-hardware)
