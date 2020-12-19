@@ -1,8 +1,9 @@
 # Getting Started
 
 ## Table of Contents
- - [What is dahliaOS?](#1)
-   - [2](#2)
+ - [What is dahliaOS?](#what-is-dahliaos)
+ - [Installation](#installation)
+ - [Contribute](#contribute)
 
 ### What is dahliaOS?
 
@@ -15,6 +16,6 @@ if so you can find documentation for that device there.
 
 - If your device doesn't support UEFI than follow these instructions [here](run%20dahliaOS/x886_64-legacy.md).
 
-### How do i contribute to dahliaOS?
+### Contribute
 
 - You can check out [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
