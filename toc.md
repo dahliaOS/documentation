@@ -1,5 +1,5 @@
 <!-- This is the TOC that appears on the website. 
-Links should use /docs and no .md extension. 
+Links should use /docs and not .md extension. 
 V7.1.9-->
 ## Table of Contents
 
