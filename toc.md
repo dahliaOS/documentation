@@ -3,6 +3,7 @@ Links should use /docs and not .md extension.
 V7.1.9-->
 ## Table of Contents
 
+- [Getting Started](docs/getting-started.md)
 - [Supported hardware](docs/supported-hardware.md)
 - [Hardware](docs/hardware)
 - [Run dahliaOS](docs/run%20dahliaOS)
