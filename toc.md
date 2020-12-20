@@ -1,6 +1,6 @@
 <!-- This is the TOC that appears on the website. 
 Links should use /docs and not .md extension. 
-V7.1.9-->
+V7.2-rc1-->
 ## Table of Contents
 
 - [Getting Started](docs/getting-started.md)
