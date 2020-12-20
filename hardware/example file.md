@@ -13,6 +13,16 @@ Note: This is not an officially supported device for the zircon version, only fo
 
 - You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
+## Specs
+
+| Basic| Spec Sheet|
+| -----------  | -----------  |
+|CPU|
+|GPU|
+|Memory|
+|Screen|
+|Storage|
+
 ## License
 
 <p align="left">
