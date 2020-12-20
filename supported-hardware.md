@@ -3,6 +3,7 @@
 | Brand         | Device         | Compatible Build | Documentation      |      
 | -----------  | -----------  | ----------- | ----------- |  
 |Acer|Switch Alpha 12|Zircon|[`Link`](https://fuchsia.dev/docs/development/hardware/acer12.md)
+|Acer|Aspire timelineX 5830-series|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/Acer/Aspire-timelineX-5830-series.md)
 |Acer|TravelMate 8571|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/Acer/TravelMate-8571.md)
 |Acer|TravelMate P455-M|Linux|[`Link`](hardware/Acer/TravelMate-P455-M.md)
 |Acer|Travelmate p645-S|Linux|[`Link`](hardware/Acer/TravelMate-P645-S.md)
@@ -19,6 +20,10 @@
 |Dell|Chromebook 11 3120 P22T|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|N/A
 |Gigabyte|GA-EP45-UD3P, Core 2 Quad, GT710|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|N/A
 |Google|Pixelbook|Zircon|[`Link`](https://fuchsia.dev/docs/development/hardware/pixelbook.md)
+|HP|Compaq 8200-Elite|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/HP/Compaq-8200-Elite.md)
+|HP|Compaq Pro 6300|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/HP/Compaq-Pro-6300.md)
+|HP|Elitedesk 800-G1-SFF|Linux|[`Link`](hardware/HP/Elitedesk-800-G1-SFF.md)
+|HP|630|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/HP/630.md)
 |HP|ProDesk 490-G1-MT|Linux|[`Link`](hardware/HP/ProDesk-490-G1-MT.md)
 |HP|Pavilion Laptop 15-cs0xxx|Linux [`EFI only`](run%20dahliaOS/x86_64-efi.md), Zircon|[`Link`](hardware/HP/Pavilion-Laptop-15-cs0xxx.md)
 |Intel|HackBoard HB2|Linux, Zircon `untested`|N/A
