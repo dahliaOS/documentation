@@ -31,7 +31,7 @@ If you find something left out, please feel free to add it.
 
 ## Desktop, panel and quick settings
 
-![Desktop](../assets/screenshot/201004/desktoppanels.png)
+![Desktop](../assets/screenshot/201215/desktoppanels.png)
 
 The desktop is the location of windows, widgets (planned), and the wallpaper.
 
@@ -41,7 +41,7 @@ Quick settings assists in changing relevant system settings quickly (hence the n
 
 ## Launcher
 
-![launcher](../assets/screenshot/201004/launcher.png)
+![launcher](../assets/screenshot/201215/launcher.png)
 
 The launcher is for opening and viewing a grid of every application in the system, as well as a list of quick, helpful cards that display notifications and information. 
 
