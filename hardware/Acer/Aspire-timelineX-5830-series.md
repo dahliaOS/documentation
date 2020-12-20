@@ -6,7 +6,7 @@ Note: This is not an officially supported device for the zircon version, only fo
 
 ## Known problems
 
-- The Gpu Nvidia may not work correctly.
+- The GPU Nvidia may not work correctly.
 
 ## Install
 
