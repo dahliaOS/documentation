@@ -11,10 +11,10 @@
 
 ### Installation
 
-- You can find instructions [`here`](run%20dahliaOS/x86_64-efi.md) for how to install dahliaOS. Be sure to check out if your device is listed in [`supported-hardware.md`](supported-hardware.md)
+- You can find instructions [here](run%20dahliaOS/x86_64-efi.md) for how to install dahliaOS. Be sure to check out if your device is listed in [`supported-hardware.md`](supported-hardware.md)
 if so you can find documentation for that device there.
 
-- If your device doesn't support UEFI than follow these instructions [`here`](run%20dahliaOS/x886_64-legacy.md).
+- If your device doesn't support UEFI than follow these instructions [here](run%20dahliaOS/x886_64-legacy.md).
 
 ### Contribute
 
