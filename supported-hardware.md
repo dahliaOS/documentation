@@ -1,12 +1,12 @@
 # Supported Hardware
 
-| Brand         | Device         | Compatible Build | Documentation      |      
-| -----------  | -----------  | ----------- | ----------- |  
+| Brand| Device|Compatible Build|Documentation|Specs`Beta`|      
+| -----------  | -----------  | ----------- | ----------- | ----------- |  
 |Acer|Switch Alpha 12|Zircon|[`Link`](https://fuchsia.dev/docs/development/hardware/acer12.md)
 |Acer|Aspire timelineX 5830-series|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/Acer/Aspire-timelineX-5830-series.md)
 |Acer|TravelMate 8571|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/Acer/TravelMate-8571.md)
 |Acer|TravelMate P455-M|Linux|[`Link`](hardware/Acer/TravelMate-P455-M.md)
-|Acer|Travelmate p645-S|Linux|[`Link`](hardware/Acer/TravelMate-P645-S.md)
+|Acer|Travelmate p645-S|Linux|[`Link`](hardware/Acer/TravelMate-P645-S.md)|[specs](hardware/Acer/TravelMate-P645-S.md#specs)
 |Acer|Chromebook 14 CB3-431|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|N/A
 |Asus|M2N68-AM Plus, Athlon II X3|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|N/A
 |Apple|Pre 2017 Macbook Air|Linux|N/A
