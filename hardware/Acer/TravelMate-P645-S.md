@@ -12,6 +12,16 @@ Note: This is not an officially supported device for the zircon version, only fo
 
 - You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
+## Specs
+
+| Basic| Spec Sheet|
+| -----------  | -----------  |
+|CPU|Intel i5 5200U
+|GPU|Intel HD Graphics 5500
+|Memory|12 GB
+|Screen|IPS 1366 x 768
+|Storage|m.2 256GB
+
 ## License
 
 <p align="left">
