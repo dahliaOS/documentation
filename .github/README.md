@@ -16,7 +16,6 @@
 
 ## Table of Contents
 
-- [Getting Started](../getting-started.md)
 - [Supported hardware](../supported-hardware.md)
 - [Hardware](../hardware)
 - [Run dahliaOS](../run%20dahliaOS)
