@@ -3,7 +3,7 @@ Links should use /docs and not .md extension.
 V7.2-rc1-->
 ## Table of Contents
 
-- [Supported hardware](docs/supported-hardware.md)
+- [Supported devices](docs/supported-devices.md)
 - [Hardware](docs/hardware)
 - [Run dahliaOS](docs/run%20dahliaOS)
   * [x86_64-efi](docs/run%20dahliaOS/x86_64-efi.md)
