@@ -5,12 +5,12 @@
   <a href="https://dahliaos.io">Website</a> ●
   <a href="https://discord.gg/7qVbJHR">Discord</a> ●
   <a href="https://github.com/dahlia-os/releases/releases">Releases</a> ●
-  <a href="https://paypal.me/officialdahliaos">Donate</a> ●
+  <a href="https://dahliaos.io/donate/">Donate</a> ●
   <a href="https://github.com/dahlia-os/pangolin-desktop">Pangolin</a>
 </div>
 
 # Documentation
-![GitHub](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
+![License](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
 
 - **Documentation** for the dahliaOS project
 
