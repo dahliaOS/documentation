@@ -31,14 +31,14 @@
   * [Pangolin Linux](../pangolin/pangolin-linux.md)
 - [OS](os)
   * [Kernel](../os/kernel)
-   * [Building kernel](../os/kernel/building_kernel.md)
+    * [Building kernel](../os/kernel/building_kernel.md)
   * [Build](../os/build)
-   * [Buildroot](../os/build/buildroot.md)
+    * [Buildroot](../os/build/buildroot.md)
   * [Catalog](../os/catalog)
-   * [Catalog](../os/catalog/catalog.md)
+    * [Catalog](../os/catalog/catalog.md)
   * [Linux-based system](../os/linux-based.md)
   * [Translations](../os/translations)
-   * [Translations](../os/translations/translation.md)
+    * [Translations](../os/translations/translation.md)
 - [Contribute](CONTRIBUTING.md)
 
 ## License
