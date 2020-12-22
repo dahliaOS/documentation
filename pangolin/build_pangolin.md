@@ -6,6 +6,6 @@
 
 To run Pangolin: 
 
-* `git clone https://github.com/dahliaOS/pangolin-desktop pangolin-desktop`
+* `git clone https://github.com/dahliaOS/pangolin-desktop pangolin_desktop`
 * Open the folder in an editor (we recommend Visual Studio Code)
 * Either press Run > Debug, or in the terminal, type `flutter run`
