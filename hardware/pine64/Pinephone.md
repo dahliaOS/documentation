@@ -4,7 +4,7 @@
 
 * UART / serial should work out of the box if it boots.
 
-You can find the source code [here](https://github.com/dahlia-os/fuchsia-pine64-pinephone)!
+You can find the source code [here](https://github.com/dahliaos/fuchsia-pine64-pinephone)!
 
 ## Information about the port
 
@@ -15,7 +15,7 @@ You can find the source code [here](https://github.com/dahlia-os/fuchsia-pine64-
 ## License
 
 <p align="left">
-  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+  <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
 Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io

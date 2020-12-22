@@ -107,16 +107,16 @@ While the base system is not typically accessible outside of Developer Mode, dah
 ### Buildroot
 ![central buildroot configuration screen in a terminal window](../assets/linux-based/buildroot.png)
 
-dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahlia-os/buildroot). Builds are completely reproducible using the tool, and the build source used in release is typically pushed every 2-5 days.
+dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahliaos/buildroot). Builds are completely reproducible using the tool, and the build source used in release is typically pushed every 2-5 days.
 ## Compiling
-Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahlia-os/buildroot) tool is very simple, but requires a decent amount of processor power. The following specs are required:
+Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahliaos/buildroot) tool is very simple, but requires a decent amount of processor power. The following specs are required:
 * Intel Core i5-2400 3.4 GHz or better - Xeon recommended
 * 8 GiB of RAM or more
 * Gigabit Ethernet connection
 * 64 GiB of free space - 500 recommended
 * Fedora Linux 33 or equivalent
  
-[Read more at the Buildroot Repo >](https://github.com/dahlia-os/buildroot)
+[Read more at the Buildroot Repo >](https://github.com/dahliaos/buildroot)
 ## Releasing
 dahliaOS Linux follows a release schedule dictated by the guidelines below. Each release must be at least 75% feature-complete to qualify as a separate release.
  
@@ -126,7 +126,7 @@ Internal experimental builds that represent major overhauls of the base system a
 * **Nitrogen II** - Initial persistence testing build
 * **Nitrogen III** - Initial base for dahliaOS 201215, with virtualization and wireless networking support
  
-In [dahliaOS Linux-based 200305.1](https://github.com/dahlia-os/releases/releases/tag/200305.1-x86) (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:
+In [dahliaOS Linux-based 200305.1](https://github.com/dahliaos/releases/releases/tag/200305.1-x86) (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:
  
 * **YYMMDD** identifies the date when the release is branched from or synced with the development branch. It's not always the exact date at which a build was made as it's common for minor variations added to an existing build to re-use the same date code as the existing build.
 * **HF** is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1
