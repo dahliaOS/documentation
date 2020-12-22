@@ -17,6 +17,7 @@ V7.2-rc3-->
   * [Pangolin Desktop](docs/pangolin/Pangolin-Desktop.md)
   * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
 - [OS](docs/os)
+  * [Building kernel](docs/os/kernel/building_kernel.md)
   * [Buildroot](docs/os/build/buildroot.md)
   * [Catalog](docs/os/catalog/catalog.md)
   * [Linux-based system](docs/os/linux-based.md)
