@@ -1,7 +1,7 @@
 # Supported Hardware
 
-| Brand| Device|Compatible Build|Documentation|Specs`Beta`|      
-| -----------  | -----------  | ----------- | ----------- | ----------- |  
+| Brand| Device|Compatible Build|Documentation|    
+| -----------  | -----------  | ----------- | ----------- | 
 |Acer|Switch Alpha 12|Zircon|[`Link`](https://fuchsia.dev/docs/development/hardware/acer12.md)
 |Acer|Aspire timelineX 5830-series|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/Acer/Aspire-timelineX-5830-series.md)
 |Acer|TravelMate 8571|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|[`Link`](hardware/Acer/TravelMate-8571.md)
