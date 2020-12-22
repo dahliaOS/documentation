@@ -4,7 +4,7 @@
 
 - It is capable of running the vullkan driver but you must install vullkan first. 
 
-- AEMU is capable of running flutter GUI applications such as Ermine and [pangolin-desktop](https://github.com/dahlia-os/pangolin-desktop).
+- AEMU is capable of running flutter GUI applications such as Ermine and [pangolin-desktop](https://github.com/dahliaos/pangolin-desktop).
 
 ## Linux
 
@@ -17,7 +17,7 @@
 ## License
 
 <p align="left">
-  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+  <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
 Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io

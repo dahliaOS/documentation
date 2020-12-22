@@ -6,7 +6,7 @@
 
 ## Usage
 
-- ```git clone https://github.com/dahlia-os/buildroot.git```
+- ```git clone https://github.com/dahliaos/buildroot.git```
 
 - ```make menuconfig``` to configure the build settings
 
@@ -35,7 +35,7 @@ It takes around 6 hours to build a full image from scratch on a Dell Optiplex 79
 ## License
 
 <p align="left">
-  <img width="45%" src="https://github.com/dahlia-os/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+  <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
 Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io
