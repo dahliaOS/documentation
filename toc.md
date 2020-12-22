@@ -1,9 +1,9 @@
 <!-- This is the TOC that appears on the website. 
-Links should use /docs and no .md extension. 
-V7.1.9-->
+Links should use /docs and not .md extension. 
+V7.2-rc1-->
 ## Table of Contents
 
-- [Supported hardware](docs/supported-hardware.md)
+- [Supported devices](docs/supported-devices.md)
 - [Hardware](docs/hardware)
 - [Run dahliaOS](docs/run%20dahliaOS)
   * [x86_64-efi](docs/run%20dahliaOS/x86_64-efi.md)
@@ -14,11 +14,11 @@ V7.1.9-->
   * [PEMU](docs/run%20dahliaOS/pemu.md)
 - [Pangolin](docs/pangolin)
   * [Build Pangolin](docs/pangolin/build_pangolin.md)
-  * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
   * [Pangolin Desktop](docs/pangolin/Pangolin-Desktop.md)
+  * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
 - [OS](docs/os)
-  * [Linux-based system](docs/os/linux-based.md)
   * [Buildroot](docs/os/build/buildroot.md)
   * [Catalog](docs/os/catalog/catalog.md)
+  * [Linux-based system](docs/os/linux-based.md)
   * [Translations](docs/os/translations/translation.md)
 - [Contribute](docs/.github/CONTRIBUTING.md)

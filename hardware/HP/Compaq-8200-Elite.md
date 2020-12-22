@@ -1,8 +1,8 @@
-# brand device documentation
+# HP Compaq 8200 Elite (convertible minitower) documentation
 
 Note: This is not an officially supported device for the zircon version, only for the Linux version.
 
-- The builds from 201004 onwards can run on it by default.
+- The Legacy builds from 201004 onwards can run on it by default.
 - No special steps are required.
 
 ## Known problems
@@ -11,17 +11,7 @@ Note: This is not an officially supported device for the zircon version, only fo
 
 ## Install
 
-- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
-
-## Specs
-
-| Basic| Spec Sheet|
-| -----------  | -----------  |
-|CPU|
-|GPU|
-|Memory|
-|Screen|
-|Storage|
+- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-legacy.md). 
 
 ## License
 

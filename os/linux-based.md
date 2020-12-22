@@ -69,7 +69,7 @@ qemu-system-x86_64 --enable-kvm -m 4096 -cdrom <legacy>.iso
 ```
 This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine) enabled, with 4096 MiB of RAM, booting the legacy ISO. If you are on a Windows host, remove the `--enable-kvm` flag, as it does not apply to the Windows platform.
 ## The System - In-Depth
-![dahliaOS Linux-Based 201215 Software architecture chart, Showing the overall layout of the system](../assets/charts/arch.png)
+![dahliaOS Linux-Based 201215 Software architecture chart, Showing the overall layout of the system](../assets/linux-based/arch.png)
 Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.
 ### Agents
 Agents are simple, modular executables designed to run in the background and manage the system's capabilities. In the 201215 system release, the following Agents are present:
@@ -90,7 +90,7 @@ Within the system, the read-only nature of the root filesystem and the encryptio
 Using total sandboxing, non-system applications are not allowed to interact with hardware, software, and files without explicit permission from the user. In the case of hardware usage, software-side indicators will alert the user that a camera or microphone is active, or if a task is using network access in the background.
 For those living on the edge or those looking to debug the underlying system, a Developer Mode is available that will disable most of the security features of the system and make the stateless partition read/write.
 ### Graft and the Modular Userspace
-![Screenshot of the Graft virtualization management dashboard](../assets/screenshot/graft.png)
+![Screenshot of the Graft virtualization management dashboard](../assets/linux-based/graft.png)
 Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.
  
 There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
@@ -105,7 +105,7 @@ In order to maintain security while ensuring that the system remains accessible 
 ### Standard Linux Things
 While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager  (Used for system updates) is `rpm`, and the [Busybox](https://busybox.net) packages provide the init system and the core utilities.
 ### Buildroot
-![central buildroot configuration screen in a terminal window](../assets/screenshot/buildroot.png)
+![central buildroot configuration screen in a terminal window](../assets/linux-based/buildroot.png)
 
 dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahlia-os/buildroot). Builds are completely reproducible using the tool, and the build source used in release is typically pushed every 2-5 days.
 ## Compiling

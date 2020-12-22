@@ -1,4 +1,4 @@
-# brand device documentation
+# HP Elitedesk 800-G1-SFF documentation
 
 Note: This is not an officially supported device for the zircon version, only for the Linux version.
 
@@ -12,16 +12,6 @@ Note: This is not an officially supported device for the zircon version, only fo
 ## Install
 
 - You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
-
-## Specs
-
-| Basic| Spec Sheet|
-| -----------  | -----------  |
-|CPU|
-|GPU|
-|Memory|
-|Screen|
-|Storage|
 
 ## License
 
