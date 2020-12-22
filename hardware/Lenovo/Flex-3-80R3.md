@@ -6,12 +6,10 @@ Note: This is not an officially supported device for the zircon version, only fo
 - No special steps are required.
 
 ## Known problems
-
 - Add boot entry.
 - DahliaOS will only work with UEFI on this machine.
 
 ## Install
-
 - Go disable CSM mode in the BIOS to be able to boot on this machine.
 - You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
