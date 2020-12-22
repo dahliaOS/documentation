@@ -131,4 +131,4 @@ In [dahliaOS Linux-based 200305.1](https://github.com/dahliaos/releases/releases
 * **YYMMDD** identifies the date when the release is branched from or synced with the development branch. It's not always the exact date at which a build was made as it's common for minor variations added to an existing build to re-use the same date code as the existing build.
 * **HF** is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1
 ## Planned Releases (Subject to change) (WIP)
-This list is preliminary and subject to change. The full project board can be seen [here](https://github.com/orgs/dahlia-os/projects/6).
+This list is preliminary and subject to change. The full project board can be seen [here](https://github.com/orgs/dahliaos/projects/6).

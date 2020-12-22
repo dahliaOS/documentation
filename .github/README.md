@@ -10,7 +10,7 @@
 </div>
 
 # Documentation
-![License](https://img.shields.io/github/license/dahlia-os/documentation?color=bright-green)
+![License](https://img.shields.io/github/license/dahliaos/documentation?color=bright-green)
 
 - **Documentation** for the dahliaOS project
 

@@ -67,7 +67,7 @@ While pre-compiled builds can be found in the dahliaOS-overlays folder, you can 
 
 ## Prerequisites
 
-To develop for dahliaOS Linux-Based, you will need the `flutter` tool, and a compiled base config from dahlia-os/buildroot. 
+To develop for dahliaOS Linux-Based, you will need the `flutter` tool, and a compiled base config from dahliaos/buildroot. 
 
 Compiling the base config will take about 6 hours. 
 
