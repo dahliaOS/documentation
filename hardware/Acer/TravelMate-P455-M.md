@@ -5,11 +5,9 @@ Note: This is not an officially supported device for the zircon version, only fo
 - The builds from 201004 onwards can run on it by default.
 
 ## Known problems
-
 - The fingerprint driver doesn't work out of the box yet.
 
 ## Install
-
 - You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
 ## License
