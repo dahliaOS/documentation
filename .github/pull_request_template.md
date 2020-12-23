@@ -1,12 +1,12 @@
-# Pull request template
-
-* Please make sure you read and fill this template out entirely
-* PRs that don't have the template filled out will be ignored
+<!-- 
+- Please make sure you read and fill this template out entirely
+- PRs that don't have the template filled out will be ignored 
+-->
 
 ## Description
 
-- Please include a summary of the change (What have you documented? What have you corrected?)
-- Please also include relevant motivation and context (Why is this change required?)
+- Summary of the change (What have you documented? What have you corrected?):
+- Why is this change required?: 
 
 ## Type of change
 
