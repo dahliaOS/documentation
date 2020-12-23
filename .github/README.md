@@ -30,7 +30,7 @@
   * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
   * [Pangolin Linux](../pangolin/pangolin-linux.md)
 - [OS](os)
-  * [Kernel](../os/kernel/building_kernel.md)
+  * [Building kernel](../os/kernel/building_kernel.md)
   * [Buildroot](../os/build/buildroot.md)
   * [Catalog](../os/catalog/catalog.md)
   * [Linux-based system](../os/linux-based.md)
