@@ -10,15 +10,15 @@
 
 ## Type of change
 
-<!-- Please tick the relevant option by putting an X inside the bracket -->
+<!-- Please tick the relevant option by putting an X inside the bracket without whitespaces -->
 
-- [] Typo/grammar correction
-- [] Documented an existing feature
-- [] Documented a new feature
-- [] Documented a new supported device
+- [ ] Typo/grammar correction
+- [ ] Documented an existing feature
+- [ ] Documented a new feature
+- [ ] Documented a new supported device
 
 ## Checklist:
 
-- [] I have performed a self-review of my own text
-- [] I have checked my text and corrected any misspellings
-- [] I have read the [CONTRIBUTING](../CONTRIBUTING.md) document
+- [ ] I have performed a self-review of my own text.
+- [ ] I have checked my text and corrected any misspellings.
+- [ ] I have read the [CONTRIBUTING](../CONTRIBUTING.md) document.
