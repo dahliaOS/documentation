@@ -38,7 +38,7 @@ If you notice any unacceptable behaviour, you can report it to integrity@dahliao
 
 ## How can I contribute?
 
-Here we've explained we've explained how you can contribute to our project on GitHub but there are also many other ways to help us outside of GitHub, if you'd like to find even more ways to help us, you're always free to join our Discord and ask our team!
+Here we've explained how you can contribute to our project on GitHub but there are also many other ways to help us outside of GitHub, if you'd like to find even more ways to help us, you're always free to join our Discord and ask our team!
 
 You can contribute to the project by:
 
@@ -53,9 +53,9 @@ You can contribute to the project by:
 
 ## Reporting bugs
 
-If you've experience a bug and you'd like to report it, we highly recommend that you read [Before submitting a bug report](#before-submitting-a-bug-report), [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report) and that you use our Issue template
+If you've experienced a bug and you'd like to report it, we highly recommend that you read [Before submitting a bug report](#before-submitting-a-bug-report), [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report) and that you use our issue template.
 
-There are 2 ways you can report a bug, either in our Discord by opening a ticket or by creating a GitHub Issue
+There are 2 ways you can report a bug, either in our Discord server by opening a ticket or by creating an issue on GitHub.
 
 ### Before submitting a bug report
 
@@ -66,7 +66,7 @@ Before submitting a bug report, there are a few things you need to take in consi
 
 ### How do I write a good bug report?
 
-We have a few short tips for you on how to properly write a bug report so the developers can understand it better!
+We have a few short tips for you on how to properly write a bug report so the developers can understand it better:
 
 * **Use a clear and descriptive title for the issue**
 * **Describe the steps to reproduce the bug**
@@ -76,7 +76,7 @@ We have a few short tips for you on how to properly write a bug report so the de
 * **Include screnshots of the bug**
 * **Write what version of dahliaOS you were using**
 
-And the most important of all, make sure to fulfill all fields in our Bug report template!
+And the most important of all, make sure to fulfill all fields in our bug report template.
 
 ### How do I submit a bug report?
 
@@ -92,13 +92,13 @@ And the most important of all, make sure to fulfill all fields in our Bug report
 
 ## Feature request
 
-If you'd like to see something added to our OS, we highly recommend you read [Before submitting a feature request](#before-submitting-a-feature-request), [How do I submit a feature request?](#how-do-i-submit-a-feature-request) and use our Feature request template
+If you'd like to see something added to our OS, we highly recommend you read [Before submitting a feature request](#before-submitting-a-feature-request), [How do I submit a feature request?](#how-do-i-submit-a-feature-request) and use our feature request template.
 
-There are 2 ways you can submit a feature request, either by make a suggestion in our Discord or by creating a Feature request on GitHub
+There are 2 ways you can submit a feature request, either by make a suggestion in our Discord server or by creating an issue with the feature request template on GitHub.
 
 ### Before submitting a feature request
 
-Before submitting a feature request, here are a few tips for you:
+Before submitting a feature request, here are a few things you need to know:
 
 * **Make sure the feature isn't already added**
 * **Don't hesitate to express your knowledge**
@@ -131,9 +131,9 @@ If your language is not added, let us know and we'll add it!
 Before making a translation, please make sure that:
 
 * **You're fluent in the language you're translating to**
-* **You pay close attention to grammar**
+* **You pay close attention to its grammar**
 * **You read the context (comments) some strings have**
-* **You use the same punctuation as the source strings**
+* **You used the same punctuation as the source strings**
 
 ### How to translate
 
@@ -146,14 +146,14 @@ Before making a translation, please make sure that:
 
 To make sure that the code you want to contribute is up to our standards, here we've written a few do's and don'ts!
 
-**Do:**
+**Do's:**
 
 * Choose expressive variable, function and class names, make it as obvious as possible what the code is doing
 * The first line of the commit message should have the format "Category: Brief description of what's being changed". The "category" can be a subdirectory, but also something like "POSIX compliance" or "ClassName"
 * Split your changes into separate commits
 * Write your commit messages in proper English, with care and punctuation
 
-**Don't:**
+**Don'ts:**
 
 * Submit code that's incompatible with the project licence (Apache 2.0)
 * Touch anything outside the stated scope of the PR
@@ -162,7 +162,7 @@ To make sure that the code you want to contribute is up to our standards, here w
 
 ### First code contribution
 
-If you're new to the project, you can look at repositories' Issues section and the issues labeled with the "good first issue" label are perfect for your first code contribution!
+If you're new to the project, you can look at repositories' issues section and the issues labeled with the "good first issue" label are perfect for your first code contribution!
 
 ## Design contributions
 
@@ -177,20 +177,20 @@ Apart from code contributions, we also accept any kind of design contributions!
 * [Brand](https://github.com/dahliaos/brand)
   * Here you can contribute new logos or modified current one for our project!
 
-We also love seeing UI concepts and such designs, you can share any kind of designs in our Discord, feel free to!
+We also love seeing UI concepts and such designs, you can share any kind of designs in our Discord server.
 
 ## Pull requests
 
 PRs to our repositories are always welcome and can be a quick way to get your fix or improvement slated for the next release. In general, PRs should:
 
 * Fix an existing issue **OR** add a new feature
-* Be accompanied by a complete Pull Request template (loaded automatically when a PR is created)
+* Be accompanied by a complete pull request template (loaded automatically when a PR is created)
 
-For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an Issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
+For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
 
 ### How to make a proper pull request
 
-1. Fork the repository to your own Github account
+1. Fork the repository to your own GitHub account
 2. Clone the project to your machine
 3. Make your changes
 4. Push changes to your fork
