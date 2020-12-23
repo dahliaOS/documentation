@@ -2,8 +2,9 @@
 
 ## Table of Contents
 
-- [](#)
-  * [](#)
+- [making a config file](#making-a-config-file)
+  * [make loadmodconfig](#make-loadmodconfig)
+  * [make menuconfig](#make-menuconfig)
 
 
 ## making a .config file
