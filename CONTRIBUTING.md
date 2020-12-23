@@ -2,7 +2,7 @@
 
 First of all, we appreciate you considering contributing to the dahliaOS project!
 
-To make sure your contributions go as smooth as possible, here are a few things you need to know.
+To make sure your contributions go as smooth as possible, here are all the things you need to know.
 
 ## Table of contents
 
