@@ -1,16 +1,15 @@
-# Modecom Freetab 8025
+# HP Elitedesk 800-G1-SFF documentation
 
 Note: This is not an officially supported device for the zircon version, only for the Linux version.
 
-- Requires a third party build.
+- The builds from 201004 onwards can run on it by default.
+- No special steps are required.
 
 ## Known problems
-- Touchscreen doesn't work.
-- Camera doesn't work (May work with Linux 5.8+).
-- Support for UEFI-32 boot needs to be added in order to work. 
+- N/A
 
 ## Install
-- You can follow the install instructions [here](../../run%20dahliaOS/x86_32-efi.md). 
+- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
 
 ## License
 
