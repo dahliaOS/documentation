@@ -81,14 +81,14 @@ And the most important of all, make sure to fulfill all fields in our bug report
 ### How do I submit a bug report?
 
 * **GitHub**:
-  * Go to the Issues section.
-  * Click **New issue**.
-  * Select the **Bug report** template.
-  * Fill in the fields.
+  1. Go to the Issues section
+  2. Click **New issue**
+  3. Select the **Bug report** template
+  4. Fill in the fields
 * **Discord**:
-  * Go to the #bug-report channel.
-  * Open a ticket and copy the form.
-  * Paste and fill in the form.
+  1. Go to the #bug-report channel
+  2. Open a ticket and copy the form
+  3. Paste and fill in the form
 
 ## Feature request
 
@@ -108,13 +108,13 @@ Before submitting a feature request, here are a few things you need to know:
 ### How do I submit a feature request?
 
 * **GitHub**:
-  * Go to the Issues section.
-  * Click **New issue**.
-  * Select the **Feature request** template.
-  * Fill in the fields.
+  1. Go to the Issues section
+  2. Click **New issue**
+  3. Select the **Feature request** template
+  4. Fill in the fields
 * **Discord**:
-  * Go to the #bot-commands channel.
-  * Type !suggestion [suggestion].
+  1. Go to the #bot-commands channel
+  2. Type !suggestion [suggestion]
 
 ## Translations
 
@@ -137,10 +137,10 @@ Before making a translation, please make sure that:
 
 ### How to translate
 
-1. Make a Crowdin account (if you already don't have one).
-2. Join our workspace.
-3. Pick a project to translate (Pangolin, one of the applications etc.).
-4. Apply translations to the available strings.
+1. Make a Crowdin account (if you already don't have one)
+2. Join our workspace
+3. Pick a project to translate (Pangolin, one of the applications etc.)
+4. Apply translations to the available strings
 
 ## Code contributions
 
@@ -190,11 +190,11 @@ For changes that address core functionality or would require breaking changes (e
 
 ### How to make a proper pull request
 
-1. Fork the repository to your own GitHub account.
-2. Clone the project to your machine.
-3. Make your changes.
-4. Push changes to your fork.
-5. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.
+1. Fork the repository to your own GitHub account
+2. Clone the project to your machine
+3. Make your changes
+4. Push changes to your fork
+5. Open a PR in our repository and follow the PR template so that we can efficiently review the changes
 
 ### What do I do after I submitted a PR?
 
