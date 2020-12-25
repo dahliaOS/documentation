@@ -1,6 +1,12 @@
 # dahliaOS on QEMU
 
-## Install Qemu
+## Table of Contents
+- [Linux](#linux)
+  * [Arch](#arch)
+  * [Fedora](#fedora-32--33)
+  * [Gentoo](#gentoo)
+  * [Ubuntu](#ubuntu-2004--2010)
+## Linux
 
 ### Arch
 - First open a terminal and type the following command:
