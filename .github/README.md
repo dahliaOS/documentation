@@ -35,7 +35,7 @@
   * [Catalog](../os/catalog/catalog.md)
   * [Linux-based system](../os/linux-based.md)
   * [Translations](../os/translations/translation.md)
-- [Contribute](CONTRIBUTING.md)
+- [Contribute](../CONTRIBUTING.md)
 
 ## License
 
