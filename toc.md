@@ -22,4 +22,4 @@ V7.2-rc4-->
   * [Catalog](docs/os/catalog/catalog.md)
   * [Linux-based system](docs/os/linux-based.md)
   * [Translations](docs/os/translations/translation.md)
-- [Contribute](docs/.github/CONTRIBUTING.md)
+- [Contribute](docs/CONTRIBUTING.md)
