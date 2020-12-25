@@ -9,7 +9,7 @@ Note: This is not an officially supported device for the zircon version, only fo
 - N/A
 
 ## Install
-- You can follow the install instructions [here](../../run%20dahliaOS/x86_64-efi.md). 
+- You can follow the install instructions [here](../run%20dahliaOS/x86_64-efi.md). 
 
 ## License
 
