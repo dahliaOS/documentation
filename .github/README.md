@@ -29,7 +29,7 @@
 
 </details>
 
-&nbsp;<details>
+<details>
   <summary>Apple</summary>
 
 
