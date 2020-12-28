@@ -18,6 +18,10 @@
 
 - [Supported devices](../supported-devices.md)
 - [Hardware](../hardware)
+<details>
+  <summary>Acer</summary>
+  * [model](../run%20dahliaOS/x86_64-efi.md)
+</details>
 - [Run dahliaOS](../run%20dahliaOS)
   * [x86_64-efi](../run%20dahliaOS/x86_64-efi.md)
   * [x86_32-efi](../run%20dahliaOS/x86_32-efi.md)
