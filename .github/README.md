@@ -30,7 +30,7 @@
 </details>
 
 <details>
-  <summary>Apple</summary>
+  &nbsp;<summary>Apple</summary>
 
 
   * [Macbook air early 2014](../hardware/Apple/Macbook-air-early-2014.md)
