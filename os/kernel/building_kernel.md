@@ -83,9 +83,3 @@ make loadmodconfig
 ```bash
 make menuconfig
 ```
-
-- If you are working under buildroot you would need to run this command:
-
-```bash
-make linux-menuconfig
-```
