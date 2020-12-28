@@ -9,7 +9,7 @@
 - [making a config file](#making-a-config-file)
   * [make loadmodconfig](#make-loadmodconfig)
   * [make menuconfig](#make-menuconfig)
-  * [copy .config file](#make-menuconfig)
+  * [copy .config file](#copy-config-file)
 
 ## prerequisites
 
@@ -62,6 +62,10 @@ cd linux-5.10.1
 
 - This is the easiest way and `recommended for linux beginners`.
 - This will include a lot of hardware support but is rather big.
+
+```bash
+cp -v /boot/config-$(uname -r) .config
+```
 
 ### make loadmodconfig
 
