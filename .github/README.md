@@ -27,7 +27,7 @@
   * [TravelMate P455-M](../hardware/Acer/TravelMate-P455-M.md)
   * [TravelMate P645-S](../hardware/Acer/TravelMate-P645-S.md)
 
-</details><details>
+</details>&nbsp;<details>
  <summary>Apple</summary>
 
 
