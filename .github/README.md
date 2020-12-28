@@ -22,7 +22,10 @@
   <summary>Acer</summary>
 
 
-  * [model](../run%20dahliaOS/x86_64-efi.md)
+  * [Aspire timelineX 5830](../hardware/Aspire-timelineX-5830-series.md)
+  * [TravelMate 8571](../hardware/TravelMate-8571.md)
+  * [TravelMate P455-M](../hardware/TravelMate-P455-M.md)
+  * [TravelMate P645-S](../hardware/TravelMate-P645-S.md)
 
 </details>
 
