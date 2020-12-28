@@ -18,8 +18,8 @@
 
 - [Supported devices](../supported-devices.md)
 
-<details>
-  <summary>Click to expand!</summary>
+&nbsp;<details>
+  <summary>Hardware</summary>
   
 - [Acer](../hardware/Acer)
   * [Aspire timelineX 5830](../hardware/Acer/Aspire-timelineX-5830-series.md)
