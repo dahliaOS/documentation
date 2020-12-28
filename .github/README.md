@@ -18,7 +18,7 @@
 
 - [Supported devices](../supported-devices.md)
 
-&nbsp;<details>
+<details>
   <summary>Hardware</summary>
   
 - [Acer](../hardware/Acer)
