@@ -22,10 +22,55 @@
   <summary>Acer</summary>
 
 
-  * [Aspire timelineX 5830](../hardware/Aspire-timelineX-5830-series.md)
-  * [TravelMate 8571](../hardware/TravelMate-8571.md)
-  * [TravelMate P455-M](../hardware/TravelMate-P455-M.md)
-  * [TravelMate P645-S](../hardware/TravelMate-P645-S.md)
+  * [Aspire timelineX 5830](../hardware/Acer/Aspire-timelineX-5830-series.md)
+  * [TravelMate 8571](../hardware/Acer/TravelMate-8571.md)
+  * [TravelMate P455-M](../hardware/Acer/TravelMate-P455-M.md)
+  * [TravelMate P645-S](../hardware/Acer/TravelMate-P645-S.md)
+
+</details>
+
+<details>
+  <summary>Apple</summary>
+
+
+  * [Macbook air early 2014](../hardware/Apple/Macbook-air-early-2014.md)
+
+</details>
+
+<details>
+  <summary>HP</summary>
+
+
+  * [630](../hardware/HP/630.md)
+  * [Compaq-8200-Elite.md](../hardware/HP/Compaq-8200-Elite.md)
+  * [Compaq Pro 6300](../hardware/HP/Compaq-Pro-6300.md)
+  * [Elitedesk 800-G1-SFF](../hardware/HP/Elitedesk-800-G1-SFF.md)
+  * [Pavilion Laptop 15-cs0xxx](../hardware/HP/Pavilion-Laptop-15-cs0xxx.md)
+  * [ProDesk 490-G1-MT](../hardware/HP/ProDesk-490-G1-MT.md)
+
+</details>
+
+<details>
+  <summary>Lenovo</summary>
+
+
+  * [Flex 3 80R3](../hardware/Lenovo/Flex-3-80R3.md)
+
+</details>
+
+<details>
+  <summary>Modecom</summary>
+
+
+  * [Freetab 8025](../hardware/Modecom/Freetab-8025.md)
+
+</details>
+
+<details>
+  <summary>Pine64</summary>
+
+
+  * [Pinephone](../hardware/pine64/Pinephone.md)
 
 </details>
 
