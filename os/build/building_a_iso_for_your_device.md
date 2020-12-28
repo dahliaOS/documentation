@@ -1,15 +1,16 @@
+# Table of Contents
+
+- [building kernel](#building-kernel)
+  * [prerequisites](#prerequisites)
+    * [install tools](#install-tools)
+    * [download kernel](#download-kernel)
+    * [extract the kernel](#extract-the-kernel)
+  * [making a config file](#making-a-config-file)
+    * [make loadmodconfig](#make-loadmodconfig)
+    * [make menuconfig](#make-menuconfig)
+    * [copy .config file](#copy-config-file)
+
 # building kernel
-
-## Table of Contents
-
-- [prerequisites](#prerequisites)
-  * [install tools](#install-tools)
-  * [download kernel](#download-kernel)
-  * [extract the kernel](#extract-the-kernel)
-- [making a config file](#making-a-config-file)
-  * [make loadmodconfig](#make-loadmodconfig)
-  * [make menuconfig](#make-menuconfig)
-  * [copy .config file](#copy-config-file)
 
 ## prerequisites
 
