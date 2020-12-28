@@ -29,7 +29,7 @@
 
 </details>
 
-<details>
+&nbsp;<details>
   <summary>Apple</summary>
 
 
@@ -37,7 +37,7 @@
 
 </details>
 
-<details>
+&nbsp;<details>
   <summary>HP</summary>
 
 
@@ -50,7 +50,7 @@
 
 </details>
 
-<details>
+&nbsp;<details>
   <summary>Lenovo</summary>
 
 
@@ -58,7 +58,7 @@
 
 </details>
 
-<details>
+&nbsp;<details>
   <summary>Modecom</summary>
 
 
@@ -66,7 +66,7 @@
 
 </details>
 
-<details>
+&nbsp;<details>
   <summary>Pine64</summary>
 
 
