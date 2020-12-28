@@ -29,8 +29,8 @@
 
 </details>
 
-<details>&nbsp;
- <summary>Apple</summary>
+<details>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<summary>Apple</summary>
 
 
   * [Macbook air early 2014](../hardware/Apple/Macbook-air-early-2014.md)
