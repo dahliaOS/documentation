@@ -27,10 +27,8 @@
   * [TravelMate P455-M](../hardware/Acer/TravelMate-P455-M.md)
   * [TravelMate P645-S](../hardware/Acer/TravelMate-P645-S.md)
 
-</details>
-
-<details>
-  &nbsp;<summary>Apple</summary>
+</details><details>
+ <summary>Apple</summary>
 
 
   * [Macbook air early 2014](../hardware/Apple/Macbook-air-early-2014.md)
