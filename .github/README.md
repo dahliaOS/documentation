@@ -17,11 +17,10 @@
 ## Table of Contents
 
 - [Supported devices](../supported-devices.md)
-&nbsp;<details>
-  <summary>Hardware</summary>
 
-
-
+<details>
+  <summary>Click to expand!</summary>
+  
 - [Acer](../hardware/Acer)
   * [Aspire timelineX 5830](../hardware/Acer/Aspire-timelineX-5830-series.md)
   * [TravelMate 8571](../hardware/Acer/TravelMate-8571.md)
@@ -42,7 +41,6 @@
   * [Freetab 8025](../hardware/Modecom/Freetab-8025.md)
 - [Pine64](../hardware/pine64)
   * [Pinephone](../hardware/pine64/Pinephone.md)
-
 </details>
 
 - [Run dahliaOS](../run%20dahliaOS)
