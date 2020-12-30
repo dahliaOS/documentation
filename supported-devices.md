@@ -42,8 +42,6 @@
 |Toshiba|Satellite E45W-C4200X|Linux [`EFI`](run%20dahliaOS/x86_64-efi.md), Zircon|N/A
 |96boards|HiKey960|Zircon|[`Link`](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)
 
-**Want to test, and add your device to the list?** Check it out [here](CONTRIBUTING.md#supported-devices).
-
 ## License
 
 <p align="left">
