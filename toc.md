@@ -5,6 +5,7 @@ V7.2-rc6-->
 
 - [Supported devices](docs/supported-devices.md)
 - [Hardware](docs/hardware)
+  * [Example file](../hardware/example file.md)
 - [Run dahliaOS](docs/run%20dahliaOS)
   * [x86_64-efi](docs/run%20dahliaOS/x86_64-efi.md)
   * [x86_32-efi](docs/run%20dahliaOS/x86_32-efi.md)
