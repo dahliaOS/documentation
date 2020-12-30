@@ -5,8 +5,8 @@ V7.2-rc6-->
 
 - [Supported devices](docs/supported-devices.md)
 - [Hardware](docs/hardware)
+  * [](docs/)
   * [Example file](docs/hardware/example file.md)
-  * [Build Pangolin](docs/pangolin/build_pangolin.md)
 
 - [Run dahliaOS](docs/run%20dahliaOS)
   * [x86_64-efi](docs/run%20dahliaOS/x86_64-efi.md)
