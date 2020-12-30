@@ -25,15 +25,10 @@ which flutter
 ```
 ### arch
 
-- Install flutter 
+- Install flutter and matchbox-window-manager
 ```
-yay -S flutter
+yay -S flutter matchbox-window-manager
 ```
-- Install matchbox-window-manager
-```
-sudo pacman -S matchbox-window-manager
-```
-
 ## Installation
 
 If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
@@ -49,6 +44,6 @@ cd pangolin-linux && sudo chmod +x install.sh && sudo ./install.sh
   <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
-Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io
+Copyright © The dahliaOS authors, contact@dahliaos.io
 
 This project is licensed under the [Apache 2.0 license](../LICENSE)

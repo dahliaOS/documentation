@@ -18,6 +18,7 @@
 
 - [Supported devices](../supported-devices.md)
 - [Hardware](../hardware)
+  * [Example file](../hardware/example%20file.md)
 - [Run dahliaOS](../run%20dahliaOS)
   * [x86_64-efi](../run%20dahliaOS/x86_64-efi.md)
   * [x86_32-efi](../run%20dahliaOS/x86_32-efi.md)
@@ -30,12 +31,15 @@
   * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
   * [Pangolin Linux](../pangolin/pangolin-linux.md)
 - [OS](os)
-  * [Building kernel](../os/kernel/building_kernel.md)
-  * [Buildroot](../os/build/buildroot.md)
-  * [Catalog](../os/catalog/catalog.md)
+  * [build](../os/build) 
+    * [building a iso for your device](../os/build/building_a_iso_for_your_device.md)
+    * [Buildroot](../os/build/buildroot.md)
+  * [Catalog](../os/catalog)
+    * [Catalog](../os/catalog/catalog.md)
   * [Linux-based system](../os/linux-based.md)
-  * [Translations](../os/translations/translation.md)
-- [Contribute](CONTRIBUTING.md)
+  * [Translations](../os/translations)
+    * [Translation](../os/translations/translation.md)
+- [Contribute](../CONTRIBUTING.md)
 
 ## License
 
@@ -43,6 +47,6 @@
   <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
-Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io
+Copyright © The dahliaOS authors, contact@dahliaos.io
 
 This project is licensed under the [Apache 2.0 license](../LICENSE)

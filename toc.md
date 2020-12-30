@@ -1,10 +1,11 @@
 <!-- This is the TOC that appears on the website. 
 Links should use /docs and not .md extension. 
-V7.2-rc4-->
+V7.2-->
 ## Table of Contents
 
 - [Supported devices](docs/supported-devices.md)
 - [Hardware](docs/hardware)
+  * [Example file](docs/hardware/example%20file.md)
 - [Run dahliaOS](docs/run%20dahliaOS)
   * [x86_64-efi](docs/run%20dahliaOS/x86_64-efi.md)
   * [x86_32-efi](docs/run%20dahliaOS/x86_32-efi.md)
@@ -17,9 +18,12 @@ V7.2-rc4-->
   * [Pangolin Desktop](docs/pangolin/Pangolin-Desktop.md)
   * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
 - [OS](docs/os)
-  * [Building kernel](docs/os/kernel/building_kernel.md)
-  * [Buildroot](docs/os/build/buildroot.md)
-  * [Catalog](docs/os/catalog/catalog.md)
+  * [build](docs/os/build) 
+    * [building a iso for your device](docs/os/build/building_a_iso_for_your_device.md)
+    * [Buildroot](docs/os/build/buildroot.md)
+  * [Catalog](docs/os/catalog)
+    * [Catalog](docs/os/catalog/catalog.md)
   * [Linux-based system](docs/os/linux-based.md)
-  * [Translations](docs/os/translations/translation.md)
-- [Contribute](docs/.github/CONTRIBUTING.md)
+  * [Translations](docs/os/translations)
+    * [Translation](docs/os/translations/translation.md)
+- [Contribute](docs/CONTRIBUTING.md)

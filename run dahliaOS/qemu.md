@@ -1,6 +1,14 @@
 # dahliaOS on QEMU
 
-## Install Qemu
+## Table of Contents
+- [Linux](#linux)
+  * [Arch](#arch)
+  * [Fedora](#fedora-32--33)
+  * [Gentoo](#gentoo)
+  * [Ubuntu](#ubuntu-2004--2010)
+- [Run dahlia](#run-dahlia)
+
+## Linux
 
 ### Arch
 - First open a terminal and type the following command:
@@ -39,6 +47,6 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
   <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
 </p>
 
-Copyright © 2019-2020, The dahliaOS authors, contact@dahliaos.io
+Copyright © The dahliaOS authors, contact@dahliaos.io
 
 This project is licensed under the [Apache 2.0 license](../LICENSE)
