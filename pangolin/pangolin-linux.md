@@ -25,15 +25,10 @@ which flutter
 ```
 ### arch
 
-- Install flutter 
+- Install flutter and matchbox-window-manager
 ```
-yay -S flutter
+yay -S flutter matchbox-window-manager
 ```
-- Install matchbox-window-manager
-```
-sudo pacman -S matchbox-window-manager
-```
-
 ## Installation
 
 If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
