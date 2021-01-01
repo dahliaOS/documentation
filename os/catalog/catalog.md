@@ -20,7 +20,7 @@
 
 |Version|Download|Size| Release Date|      
 | -----------  | -----------  | ----------- | ----------- |  
-|201215|coming soon
+|[201215](https://github.com/HexaOneOfficial/dahliaos/releases/tag/201215)|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/201215/DahliaOS201215.iso)|193 MB |1 Jan 
 |[201004](https://github.com/HexaOneOfficial/dahliaos/releases/tag/201004)|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)|160 MB |9 Nov  
 |[200830](https://github.com/HexaOneOfficial/dahliaos/releases/tag/200830)|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/200830/DahliaOS200830.iso)|112 MB |16 Sep  
 |[200804](https://github.com/HexaOneOfficial/dahliaos/releases/tag/200804)|[`Download`](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)|150 MB |5 Aug  
