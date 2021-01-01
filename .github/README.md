@@ -32,7 +32,7 @@
   * [Pangolin Linux](../pangolin/pangolin-linux.md)
 - [OS](os)
   * [build](../os/build) 
-    * [building a iso for your device](../os/build/building_a_iso_for_your_device.md)
+    * [building a iso for your device](../os/build/building-a-iso-for-your-device.md)
     * [Buildroot](../os/build/buildroot.md)
   * [Catalog](../os/catalog)
     * [Catalog](../os/catalog/catalog.md)
