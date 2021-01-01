@@ -5,9 +5,9 @@ Pangolin Desktop running on Linux systems.
 
 ### Debian/Ubuntu
 
-- install git and matchbox-window-manager
+- install git and matchbox-window-manager unzip
 ```
-sudo apt install git matchbox-window-manager
+sudo apt install git matchbox-window-manager unzip
 ```
 - Install flutter
 
@@ -25,16 +25,16 @@ which flutter
 ```
 ### arch
 
-- Install flutter and matchbox-window-manager
+- Install flutter and matchbox-window-manager unzip
 ```
-yay -S flutter matchbox-window-manager
+yay -S flutter matchbox-window-manager unzip
 ```
 ## Installation
 
 If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
 ```bash
 git clone https://github.com/HexaOneOfficial/pangolin-linux.git
-cd pangolin-linux && sudo chmod +x install.sh && sudo ./install.sh
+cd pangolin-linux && chmod +x install.sh && sudo ./install.sh
 ```
 - now restart and login with pangolin
 
