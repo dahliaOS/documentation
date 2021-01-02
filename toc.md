@@ -19,7 +19,7 @@ V7.2.1-->
   * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
 - [OS](docs/os)
   * [build](docs/os/build) 
-    * [building a iso for your device](docs/os/build/building-a-iso-for-your-device.md)
+    * [building an iso for your device](docs/os/build/building-an-iso-for-your-device.md)
     * [Buildroot](docs/os/build/buildroot.md)
   * [Catalog](docs/os/catalog)
     * [Catalog](docs/os/catalog/catalog.md)
