@@ -1,6 +1,6 @@
 # Supported Hardware
 
-`Legacy`: can only run Legacy builds, `EFI`: can only run EFI builds, Those with nothing can run both.
+`Legacy`: can only run Legacy builds, `EFI`: can only run EFI builds, Those with no tag can run both.
 
 | Brand| Device|Compatible Build|Documentation|    
 | -----------  | -----------  | ----------- | ----------- | 
