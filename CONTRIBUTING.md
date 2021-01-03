@@ -49,7 +49,7 @@ You can contribute to the project by:
 * Discussing the current state of code.
 * Becoming a maintainer.
 
-**Some repositories also have Projects which contain either a to-do list or a roadmap!**
+**Some repositories also have Projects which contain either a to-do list or a roadmap**
 
 ## Reporting bugs
 
