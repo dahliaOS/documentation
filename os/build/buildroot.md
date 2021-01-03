@@ -24,13 +24,13 @@ To compile and run the base dahliaOS toolchain, use:
 
 ## Requirements
 
-- Ethernet connection (directly to router), a dual-core x86 CPU and at least 4GB of RAM when compiling. 
+- Ethernet connection (directly to router), a dual-core x86 CPU and at least 4 GB of RAM when compiling. 
 
-- 4C/8T or better CPU with 16GB of RAM for optimal speeds.
+- 4C/8T or better CPU with 16 GB of RAM for optimal speeds.
 
 - Decent amount of hard drive space, around 50 GB is recommended if you clear out the build directory often. 
 
-It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3GHZ i5-2400 and 16GB of RAM.
+It takes around 6 hours to build a full image from scratch on a Dell Optiplex 790 with a 3 GHz i5-2400 and 16 GB of RAM.
 
 ## License
 

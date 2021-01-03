@@ -22,7 +22,7 @@ There are two ISOs to choose from, **EFI** and **Legacy** but this guide focuses
 
 ### Recommended requirements
 
-**2GB of RAM** and **a 64 bit** quad core processor with **Intel HD graphics**
+**2 GB of RAM** and **a 64 bit** quad core processor with **Intel HD graphics**
 
 
 **Note: Nvidia graphics won't work well, use onboard graphics for the best result.**
