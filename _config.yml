@@ -4,5 +4,5 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - .github/toc
+  - toc
 
