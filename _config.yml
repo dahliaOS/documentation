@@ -4,4 +4,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - .github/README.md
+  - .github/toc.md
