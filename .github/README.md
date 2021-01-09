@@ -39,7 +39,7 @@
   * [Linux-based system](../os/linux-based.md)
   * [Translations](../os/translations)
     * [Translation](../os/translations/translation.md)
-- [Contribute](../CONTRIBUTING.md)
+- [Contributing](../CONTRIBUTING.md)
 
 ## License
 
