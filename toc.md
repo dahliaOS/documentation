@@ -26,4 +26,4 @@ V 7.2.2-->
   * [Linux-based system](docs/os/linux-based.md)
   * [Translations](docs/os/translations)
     * [Translation](docs/os/translations/translation.md)
-- [Contribute](docs/CONTRIBUTING.md)
+- [Contributing](docs/CONTRIBUTING.md)
