@@ -16,7 +16,7 @@ V 7.2.2-->
 - [Pangolin](docs/pangolin)
   * [Build Pangolin](docs/pangolin/build_pangolin.md)
   * [Pangolin Desktop](docs/pangolin/Pangolin-Desktop.md)
-  * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
+  * [Pangolin Linux](docs/pangolin/Pangolin-Linux.md)
 - [OS](docs/os)
   * [Build](docs/os/build) 
     * [Building an ISO for your device](docs/os/build/building-an-iso-for-your-device.md)
