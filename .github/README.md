@@ -29,7 +29,7 @@
 - [Pangolin](../pangolin)
   * [Build Pangolin](../pangolin/build_pangolin.md)
   * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
-  * [Pangolin Linux](../pangolin/pangolin-linux.md)
+  * [Pangolin Linux](../pangolin/Pangolin-Linux.md)
 - [OS](os)
   * [Build](../os/build) 
     * [Building an ISO for your device](../os/build/building-an-iso-for-your-device.md)
