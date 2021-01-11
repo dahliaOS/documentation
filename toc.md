@@ -1,6 +1,6 @@
 <!-- This is the TOC that appears on the website. 
 Links should use /docs and not .md extension. 
-V 7.2.2-->
+V 7.2.3-->
 ## Table of Contents
 
 - [Supported devices](docs/supported-devices.md)
@@ -16,7 +16,7 @@ V 7.2.2-->
 - [Pangolin](docs/pangolin)
   * [Build Pangolin](docs/pangolin/build_pangolin.md)
   * [Pangolin Desktop](docs/pangolin/Pangolin-Desktop.md)
-  * [Pangolin Linux](docs/pangolin/pangolin-linux.md)
+  * [Pangolin Linux](docs/pangolin/Pangolin-Linux.md)
 - [OS](docs/os)
   * [Build](docs/os/build) 
     * [Building an ISO for your device](docs/os/build/building-an-iso-for-your-device.md)
@@ -26,4 +26,4 @@ V 7.2.2-->
   * [Linux-based system](docs/os/linux-based.md)
   * [Translations](docs/os/translations)
     * [Translation](docs/os/translations/translation.md)
-- [Contribute](docs/CONTRIBUTING.md)
+- [Contributing](docs/CONTRIBUTING.md)

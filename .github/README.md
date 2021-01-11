@@ -10,7 +10,7 @@
 </div>
 
 # Documentation
-![License](https://img.shields.io/github/license/dahliaos/documentation?color=bright-green)
+![License](https://img.shields.io/github/license/dahliaos/documentation?color=bright-green) ![Release](https://img.shields.io/github/v/release/HexaOneOfficial/documentation.svg) 
 
 - **Documentation** for the dahliaOS project
 
@@ -29,7 +29,7 @@
 - [Pangolin](../pangolin)
   * [Build Pangolin](../pangolin/build_pangolin.md)
   * [Pangolin Desktop](../pangolin/Pangolin-Desktop.md)
-  * [Pangolin Linux](../pangolin/pangolin-linux.md)
+  * [Pangolin Linux](../pangolin/Pangolin-Linux.md)
 - [OS](os)
   * [Build](../os/build) 
     * [Building an ISO for your device](../os/build/building-an-iso-for-your-device.md)
@@ -39,7 +39,7 @@
   * [Linux-based system](../os/linux-based.md)
   * [Translations](../os/translations)
     * [Translation](../os/translations/translation.md)
-- [Contribute](../CONTRIBUTING.md)
+- [Contributing](../CONTRIBUTING.md)
 
 ## License
 
