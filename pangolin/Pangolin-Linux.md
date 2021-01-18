@@ -20,7 +20,7 @@ sudo apt install git matchbox-window-manager unzip
 sudo snap install flutter --classic
 ```
 
-### Fedora `Beta`
+### Fedora
 
 - Install flutter 
 ```
