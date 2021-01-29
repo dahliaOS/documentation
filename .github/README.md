@@ -5,7 +5,7 @@
   <a href="https://dahliaos.io">Website</a> ●
   <a href="https://discord.gg/7qVbJHR">Discord</a> ●
   <a href="https://github.com/dahliaos/releases/releases">Releases</a> ●
-  <a href="https://dahliaos.io/donate/">Donate</a> ●
+  <a href="https://opencollective.com/dahliaos">Donate</a> ●
   <a href="https://github.com/dahliaos/pangolin-desktop">Pangolin</a>
 </div>
 
