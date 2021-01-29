@@ -11,6 +11,7 @@
 |Acer|Travelmate p645-S|Linux|[`Link`](hardware/Acer/TravelMate-P645-S.md)|
 |Acer|Chromebook 14 CB3-431|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|N/A
 |Asus|M2N68-AM Plus, Athlon II X3|Linux [`Legacy`](run%20dahliaOS/x86_64-legacy.md)|N/A
+|Apple|M1|Linux|[`build`](https://github.com/dahliaOS/buildroot/releases/tag/M1-210128)
 |Apple|Pre 2017 Macbook Air|Linux|N/A
 |Apple|Mid 2012 15" Macbook Pro|Linux|N/A
 |Apple|Late 2009 13" Macbook|Linux [`EFI`](run%20dahliaOS/x86_64-efi.md)|N/A
