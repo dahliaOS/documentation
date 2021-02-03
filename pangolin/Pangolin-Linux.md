@@ -1,6 +1,13 @@
 # Pangolin-linux
 Pangolin Desktop running on Linux systems.
 
+## Table of Contents
+- [Requirements](#requirements)
+ - [arch](#arch)
+ - [Debian/Ubuntu](#debianubuntu)
+ - [Fedora](#fedora)
+- [Installation](#installation)
+
 ## Requirements
 
 ### arch
