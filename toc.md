@@ -1,6 +1,6 @@
 <!-- This is the TOC that appears on the website. 
 Links should use /docs and not .md extension. 
-V 7.2.6-->
+V 7.2.7-->
 ## Table of Contents
 
 - [Supported devices](docs/supported-devices.md)
