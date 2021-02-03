@@ -15,14 +15,14 @@ yay -S flutter matchbox-window-manager unzip
 ```
 sudo apt install git matchbox-window-manager unzip
 ```
-- Install flutter `[Snap](https://snapcraft.io/flutter)`
+- Install flutter [`Snap`](https://snapcraft.io/flutter)
 ```
 sudo snap install flutter --classic
 ```
 
 ### Fedora
 
-- Install flutter `[Snap](https://snapcraft.io/flutter)`
+- Install flutter [`Snap`](https://snapcraft.io/flutter)
 ```
 sudo dnf install snapd
 ```
