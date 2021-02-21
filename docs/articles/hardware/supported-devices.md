@@ -42,4 +42,3 @@
 |Pine64|Pinephone|Zircon|[`Open`](articles/hardware/pine64/Pinephone.md)
 |Samsung|Series 7 700Z5C|Linux|N/A
 |Toshiba|Satellite E45W-C4200X|Linux `EFI`, Zircon|N/A
-|96boards|HiKey960|Zircon|[`Open`](https://fuchsia.dev/fuchsia-src/development/hardware/hikey960)
