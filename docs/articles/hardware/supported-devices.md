@@ -5,6 +5,7 @@
 | Brand| Device|Compatible Build|Documentation|    
 | -----------  | -----------  | ----------- | ----------- | 
 |Acer|Switch Alpha 12|Zircon|[`Open`](https://fuchsia.dev/docs/development/hardware/acer12.md)
+|Acer|Aspire a517-51-39gg|Linux, Zircon `untested`|N/A
 |Acer|Aspire E1-431-2474|Linux `Legacy`|[`Open`](articles/hardware/acer/Aspire-E1-431-2474.md)
 |Acer|Aspire timelineX 5830-series|Linux `Legacy`|[`Open`](articles/hardware/acer/Aspire-timelineX-5830-series.md)
 |Acer|TravelMate 8571|Linux `Legacy`|[`Open`](articles/hardware/acer/TravelMate-8571.md)
