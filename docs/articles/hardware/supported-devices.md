@@ -17,7 +17,7 @@
 |Apple|Pre 2017 Macbook Air|Linux|N/A
 |Apple|Mid 2012 15" Macbook Pro|Linux|N/A
 |Apple|Late 2009 13" Macbook|Linux `EFI`|N/A
-|Apple|Early 2014 Macbook Air|Linux|[`Open`](articles/hardware/apple/Macbook-air-early-2014.md)
+|Apple|Early 2014 Macbook Air|Linux `EFI`|[`Open`](articles/hardware/apple/Macbook-air-early-2014.md)
 |Broadcom|Raspberry Pi 4|Linux, Zircon|N/A
 |Broadcom|Raspberry Pi 3|Linux|N/A
 |Dell|Optiplex 790|Linux, Zircon|N/A
