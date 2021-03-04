@@ -9,6 +9,7 @@
 |Acer|Aspire E1-431-2474|Linux `Legacy`|[`Open`](articles/hardware/acer/Aspire-E1-431-2474.md)
 |Acer|Aspire timelineX 5830-series|Linux `Legacy`|[`Open`](articles/hardware/acer/Aspire-timelineX-5830-series.md)
 |Acer|TravelMate 8571|Linux `Legacy`|[`Open`](articles/hardware/acer/TravelMate-8571.md)
+|Acer|TravelMate P256-M|Linux `untested`||N/A
 |Acer|TravelMate P455-M|Linux|[`Open`](articles/hardware/acer/TravelMate-P455-M.md)
 |Acer|Travelmate p645-S|Linux|[`Open`](articles/hardware/acer/TravelMate-P645-S.md)|
 |Acer|Chromebook 14 CB3-431|Linux `Legacy`|N/A
