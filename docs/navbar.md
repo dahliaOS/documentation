@@ -21,7 +21,7 @@
   border-radius: 10px;  
   height: 44px;
   font-size: 16px;
-  font-weight:normal
+  font-weight:normal;
   cursor: pointer;  
 }
 
