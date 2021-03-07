@@ -1,11 +1,11 @@
 # Pangolin-linux
-Pangolin Desktop running on Linux systems.
+Pangolin Desktop can be run on various other Linux distributions.
 
 ## Requirements
 
-### arch
+### Arch Linux
 
-- Install flutter and matchbox-window-manager unzip
+- Install flutter, matchbox-window-manager, and unzip
 
 ```
 yay -S flutter matchbox-window-manager unzip
@@ -13,13 +13,13 @@ yay -S flutter matchbox-window-manager unzip
 
 ### Debian/Ubuntu
 
-- install git and matchbox-window-manager unzip
+- install git, matchbox-window-manager and unzip
 
 ```
 sudo apt install git matchbox-window-manager unzip
 ```
 
-- Install flutter [`Snap`](https://snapcraft.io/flutter)
+- Install Flutter [`Snap`](https://snapcraft.io/flutter)
 
 ```
 sudo snap install flutter --classic
@@ -27,7 +27,7 @@ sudo snap install flutter --classic
 
 ### Fedora
 
-- Install flutter [`Snap`](https://snapcraft.io/flutter)
+- Install Flutter [`Snap`](https://snapcraft.io/flutter)
 
 ```
 sudo dnf install snapd
