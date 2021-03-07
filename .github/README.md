@@ -10,9 +10,14 @@
 </div>
 
 # Documentation
-![Release](https://img.shields.io/github/v/release/dahliaOS/documentation.svg) [![Deploy](https://github.com/dahliaOS/documentation/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/dahliaOS/documentation/actions/workflows/main.yml) ![License](https://img.shields.io/github/license/dahliaos/documentation?color=bright-green) 
+ [![Deploy](https://github.com/dahliaOS/documentation/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/dahliaOS/documentation/actions/workflows/main.yml) ![License](https://img.shields.io/github/license/dahliaos/documentation?color=bright-green) 
 
 - **Documentation** for the dahliaOS project
+- **Read the documentation** on the link [here](https://dahliaos.io/docs/#/)!
+
+## Contribute
+
+PRs are welcome, if you're wondering how to contribute to the project, please refer to [CONTRIBUTING](../CONTRIBUTING.md)
 
 ## License
 
