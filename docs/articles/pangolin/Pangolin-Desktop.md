@@ -16,7 +16,7 @@ Try out the builds [here](https://web.dahliaos.io).
 + May 17, 2019, A Text editor called "Petal" was merged into Pangolin
 + June 30, 2019, The launcher was given an updated look featuring cards, was not yet functional
 + May 26, App icons were finally added to the launcher, they were not yet functional
-+ May 31, 2020, User @kanouharu implemented a basic app launching ability to the panel icons
++ May 31, 2020, @kanouharu implemented a basic app launching ability to the panel icons
 + June 6, 2020, a basic task manager was implemented
 + June 12, 2020, @SincerelyFaust migrated the codebase to Apache 2.0 rather than the GPL, the beginning of dahliaOS' transistion to Apache.
 + June 20, 2020, @larsb24 made significant changes to the backend as well as improving the quicksettings. 
@@ -69,14 +69,12 @@ flutter run -d linux
 
 While pre-compiled builds can be found in the dahliaOS-overlays folder, you can also compile Pangolin and include them in the Buildroot toolchain.
 
+Pangolin can also be added as a dependency inside of Buildroot via the 'dahliaOS core applications' section under 'Target Packages'
+
 ## Prerequisites
 
-To develop for dahliaOS Linux-Based, you will need the `flutter` tool, and a compiled base config from dahliaos/buildroot. 
+To develop for dahliaOS Linux-Based builds, you will need the `flutter` tool, and a compiled base config from dahliaos/buildroot. 
 
-Compiling the base config will take about 6 hours. 
+Compiling the base config will take about 4 hours. 
 
-Once finished, copy the dahliaOS overlays into the buildroot/output/target directory, and then go to the pangolin_desktop directory. 
-
-Open up a terminal, and type `flutter build linux --release` to generate a release build. 
-
-Copy the output bundle files (located under build/release/) to `buildroot/output/target/dahlia/pangolin`, and compile the image file again to include it. 
+Pangolin will automatically be installed using the x86_64 configuration, but arm64 builds will require a Raspberry Pi 4 with the Flutter tool installed to produce an arm64 Linux-compatible bundle.
