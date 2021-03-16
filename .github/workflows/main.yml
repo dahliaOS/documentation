@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: set NOW
         run: | 
-          echo "RELEASE_TAG=$(date +'20%y%m%d')" >> $GITHUB_ENV
+          echo "RELEASE_TAG=$(date +'%y%m%d')" >> $GITHUB_ENV
         
       - name: Checkout
         uses: actions/checkout@v2
