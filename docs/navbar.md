@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Add icon library -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
 <style>
 .home {
   background-color: #282828;
