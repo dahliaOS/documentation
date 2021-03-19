@@ -15,7 +15,7 @@
   cursor: pointer;
 }  
 .donate{
-  background-color: #282828;
+  background-color: #FD4343;
   color: white;
   padding: 13.5px 16px;
   border-radius: 10px;  
