@@ -27,6 +27,11 @@
   - [Building an iso for your device](articles/build/building-an-iso-for-your-device.md)
   - [Buildroot](articles/build/buildroot.md)
 
+- Developers
+
+  - [Packaging](articles/developer/packaging.md)
+  - [Submitting](articles/developer/submitting.md)
+
 - Contribute
 
   - [Contributing](articles/contribute/CONTRIBUTING.md)
