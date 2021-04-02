@@ -1,3 +1,5 @@
 # dahliaOS documentation
 
-⭐️⭐️HAPPY APRIL FOOLS!⭐️⭐️
+## changes
+
+Compare to previous release [here](https://github.com/dahliaOS/documentation/compare/v210329...v210405).
