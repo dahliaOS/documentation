@@ -9,7 +9,7 @@
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-### Fedora 32 / 33
+### Fedora 33 / 34
 - First open a terminal and type the following command:
 
 ```
@@ -23,7 +23,7 @@ sudo dnf install qemu
 emerge --ask app-emulation/qemu
 ```
 
-### Ubuntu 20.04 / 20.10
+### Ubuntu 20.04 - 21.04
 - First open a terminal and type the following command:
 
 ```
