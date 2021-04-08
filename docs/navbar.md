@@ -23,6 +23,7 @@
   font-size: 16px;
   font-weight:normal;
   cursor: pointer;  
+  font-family: "Source Sans Pro", "Helvetica Neue", "Arial", "sans-serif", "Font Awesome 5 Free";
 }
 
 </style>
