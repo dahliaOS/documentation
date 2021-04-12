@@ -10,7 +10,7 @@ There are two ISOs to choose from, **EFI** and **Legacy**.
 
 - Most devices can only run the **EFI ISOs**, for older, **legacy devices** you can can check the instructions [here](articles/install/64bit-Legacy.md).
 
-1. Go to [releases](https://github.com/dahliaos/releases/releases/latest) and download the zip file.
+1. You can download the latest image [here](https://9e68450b9f44.ngrok.io/download/latest/efi).
 2. Then download [etcher](https://www.balena.io/etcher/) and flash the .zip file on a USB.
 3. You're almost good to go, reboot your system and go in your UEFI and go to the **Boot** tab and select the USB.
 4. Your system should boot into dahliaOS.
