@@ -13,7 +13,7 @@
  [![Deploy](https://github.com/dahliaOS/documentation/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/dahliaOS/documentation/actions/workflows/main.yml) ![License](https://img.shields.io/github/license/dahliaos/documentation?color=bright-green) 
 
 - **Documentation** for the dahliaOS project
-- **Read the documentation** on the link [here](https://dahliaos.io/docs/#/)!
+- **Read the documentation** on the link [here](https://docs.dahliaos.io)!
 
 ## Contribute
 
