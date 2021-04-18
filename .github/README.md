@@ -18,13 +18,12 @@
 ## Contribute
 
 PRs are welcome, if you're wondering how to contribute to the project, please refer to [CONTRIBUTING](../CONTRIBUTING.md)
-
 ## License
 
 <p align="left">
-  <img width="45%" src="https://github.com/dahliaos/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
+  <img width="40%" src="https://github.com/dahliaos/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
 </p>
 
-Copyright @ 2019-2021 The dahliaOS Authors contact@dahliaos.io
+Copyright @ 2019-2021 - The dahliaOS Authors - contact@dahliaos.io
 
-This project is licensed under the [Apache 2.0 license](../LICENSE)
+This project is licensed under the [Apache 2.0 license](LICENSE)
