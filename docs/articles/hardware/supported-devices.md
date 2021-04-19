@@ -39,7 +39,6 @@
 |Khadas|Vim 2|Zircon|[`Open`](https://fuchsia.dev/docs/development/hardware/khadas-vim)
 |Lenovo|Flex 3 80R3|Linux|[`Open`](articles/hardware/lenovo/Flex-3-80R3.md)
 |Lenovo|ThinkCentre M90n IoT|Zircon
-|Modecom|Freetab 8025|Linux|[`Open`](articles/hardware/modecom/Freetab-8025.md)
 |NXP|iMX8M EVK|Zircon|[`Open`](https://fuchsia.dev/fuchsia-src/development/hardware/imx8mevk)
 |Pine64|Pinephone|Zircon|[`Open`](articles/hardware/pine64/Pinephone.md)
 |Samsung|Series 7 700Z5C|Linux

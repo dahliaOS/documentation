@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
 :root {
-  --theme-color: #ff2d00;
-  --secondary-theme-color: #ff5722;
+  --theme-color: #E9E9E9;
+  --secondary-theme-color: #E9E9E9;
 }
 
 * {
@@ -67,7 +67,7 @@ body {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #c8c8c8;
+  color: #E9E9E9;
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   font-size: 15px;
   letter-spacing: 0;
@@ -696,7 +696,7 @@ body {
 .markdown-section h3,
 .markdown-section h4,
 .markdown-section strong {
-  color: #aac8d4;
+  color: #FDA979;
   font-weight: 600;
 }
 .markdown-section a {

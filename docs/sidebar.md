@@ -6,7 +6,6 @@
 
   - [64BIT UEFI](articles/install/64bit.md)
   - [64BIT BIOS](articles/install/64bit-Legacy.md)
-  - [32BIT UEFI](articles/install/32bit.md)
   - [QEMU](articles/install/QEMU.md)
 
 - Hardware
@@ -24,8 +23,12 @@
 
 - Build
 
-  - [Building an iso for your device](articles/build/building-an-iso-for-your-device.md)
   - [Buildroot](articles/build/buildroot.md)
+
+- Developers
+
+  - [Packaging](articles/developer/packaging.md)
+  - [Submitting](articles/developer/submitting.md)
 
 - Contribute
 

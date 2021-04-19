@@ -1,0 +1,319 @@
+<!--Hey there, I see you're interested in our website files, are you a web developer maybe? If you are, visit us over at our Discord, we're looking for web developers!-->
+<!--Discord link: https://dahliaos.io/discord-->
+<!doctype html>
+<!---
+Copyright 2019 The dahliaOS Authors
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400&display=swap" rel="stylesheet">
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://dahliaos.io">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=”description”
+    content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS." />
+  <meta name="keywords"
+    content="dahlia, software, flutter, fuchsia, linux, dahliaOS, computer, operating system, os, system, kernel, dart, open source, material, design, zircon, go, rust" />
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ff3d00">
+  <meta name="apple-mobile-web-app-title" content="dahliaOS">
+  <link rel="apple-touch-icon" href="https://dahliaos.io/assets/img/favicon.png">
+  <meta name="msapplication-TileImage" content="https://dahliaos.io/assets/img/favicon.png">
+  <meta name="msapplication-TileColor" content="#ff3d00">
+  <meta name="theme-color" content="#ff3d00">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/png" href="https://dahliaos.io/assets/img/favicon.png">
+  <title>DOCGEN_DOCUMENT_TITLE_GGFF | dahliaOS - Documentation</title>
+  <script src="https://dahliaos.io/assets/js/material.min.js"></script>
+  <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
+  <!-- Page styles -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://dahliaos.io/assets/css/dahlia.css?v=1.3">
+  <link rel="stylesheet" href="https://dahliaos.io/assets/css/styles.css?v=1.3">
+  <link rel="stylesheet" href="https://dahliaos.io/assets/css/custom.css?v=1.3">
+  <style>
+    body{background-color: #eeeeee;}
+    .demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #ff3d00;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.demo-main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-content h3 {
+  margin-top: 48px;
+}
+
+.demo-footer {
+  padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+  </style>
+  <meta property="og:image" content="https://imgur.com/PNGGkDP.png" />
+  <meta property="og:site_name" content="dahliaOS">
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="dahliaOS-header mdl-layout__header mdl-layout__header--waterfall">
+    <div class="mdl-layout__header-row" id="firstHeaderRow">
+    <span class="dahliaOS-title mdl-layout-title">
+        <a href="/">
+            <img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png">
+        </a>
+    </span>
+    <!-- Add spacer, to align navigation to the right in desktop -->
+    <div class="dahliaOS-header-spacer mdl-layout-spacer"></div>
+    <div
+        class="dahliaOS-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+            <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" id="search-field">
+        </div>
+    </div>
+    <!-- Navigation -->
+    <div class="dahliaOS-navigation-container">
+        <nav class="dahliaOS-navigation mdl-navigation">
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/#features">Features</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/#screens">News</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/downloads">Download</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io"
+                target="_blank">Demo</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase"
+                href="https://github.com/orgs/dahliaos/people" target="_blank">Developers</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/docs/">Documentation</a>
+        </nav>
+    </div>
+    <span class="dahliaOS-mobile-title mdl-layout-title">
+        <a href="/">
+            <img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png">
+        </a>
+    </span>
+    <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect"
+        id="more-button">
+        <i class="material-icons">more_vert</i>
+    </button>
+    <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+        <a href="/github" target="_blank" style="text-decoration: none;">
+            <li class="mdl-menu__item">Source Code</li>
+        </a>
+        <a href="/login" style="text-decoration: none;">
+            <li class="mdl-menu__item">Team Login</li>
+        </a>
+        <li disabled class="mdl-menu__item">Screenshots</li>
+    </ul>
+</div> 
+</div>
+
+<div class="dahliaOS-drawer mdl-layout__drawer mdl-layout--fixed-drawer">
+    <span class="mdl-layout-title">
+        <a href="/">
+            <img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-white.png">
+        </a>
+    </span>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/#features">Features</a>
+        <a class="mdl-navigation__link" href="/#screens">News</a>
+        <a class="mdl-navigation__link" href="/downloads">Download</a>
+        <a class="mdl-navigation__link" href="mailto:contact@dahliaos.io" target="_blank">Contact</a>
+        <a class="mdl-navigation__link" href="https://github.com/orgs/dahliaOS/people" target="_blank">Developers</a>
+        <a class="mdl-navigation__link" href="https://dahliaos.io/docs" target="_blank">Documentation</a>
+        <div class="dahliaOS-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">Find us on</span>
+        <a class="mdl-navigation__link" href="/discord" target="_blank">Discord</a>
+        <a class="mdl-navigation__link" href="/github" target="_blank">Github</a>
+        <a class="mdl-navigation__link" href="/reddit" target="_blank">Reddit</a>
+        <a class="mdl-navigation__link" href="/telegram" target="_blank">Telegram</a>
+        <a class="mdl-navigation__link" href="/facebook" target="_blank">Facebook</a>
+        <a class="mdl-navigation__link" href="/instagram" target="_blank">Instagram</a>
+        <a class="mdl-navigation__link" href="/twitter" target="_blank">Twitter</a>
+        <div class="dahliaOS-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">For developers</span>
+        <a class="mdl-navigation__link" href="/github" target="_blank">Source Code</a>
+        <a class="mdl-navigation__link" href="/discord" target="_blank">Join Our Team</a>
+    </nav>
+</div>
+
+    <div class="dahliaOS-content mdl-layout__content">
+      <a name="top"></a>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+      <h1>Overview of dahliaOS Linux-based Builds</h1>
+<h2>TL;DR</h2>
+<p>You can download dahliaOS Linux <a href="https://dahliaos.io/download">here</a>.</p>
+<h2>Running dahliaOS Linux</h2>
+<p>dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the <a href="linux-based.md#virtual-machines"><strong>Virtual Machines</strong></a> section below.</p>
+<h3>ARM</h3>
+<p>Currently, the Raspberry Pi 3 and the Raspberry Pi 4 (or equivalents) are the only ARM supported devices by dahliaOS Linux. The system requires the following minimum specifications:</p>
+<ul>
+<li>1.2 GHz Broadcom BCM2837 or higher</li>
+<li>256 MiB of RAM or higher</li>
+<li>512 MiB of storage, 1 GiB recommended</li>
+</ul>
+<h4>Raspberry Pi</h4>
+<p>Official images are available to download from the <a href="https://dahliaos.io/download/">dahliaOS downloads page.</a> We recommend <a href="https://www.balena.io/etcher/">Etcher</a>, but any .zip compatible flashing software should work. After flashing the SD card, use the following steps to properly configure your installation:</p>
+<ul>
+<li>Insert the flashed SD card into the Pi and power it on</li>
+<li>Change the root password to something secure with the <code>passwd</code> command</li>
+<li>Expand the filesystem onto the SD card using the <code>expand-fs</code> command</li>
+</ul>
+<p>The system is now able to be used at its full capacity. Have fun!</p>
+<h3>x86_64</h3>
+<p>dahliaOS Linux has extensive support for the x86_64 platform, and leverages its power to create a stable, efficient system on every device.</p>
+<h4>AMD</h4>
+<p>dahliaOS Linux can boot on AMD hardware but may require an NVIDIA GPU in order to get full graphics acceleration. The system requires the following specifications on AMD devices:</p>
+<ul>
+<li>AMD Athlon 64 or newer, 1.0 GHz or higher</li>
+<li>UEFI or Legacy bootloader</li>
+<li>512 MiB of RAM or higher</li>
+<li>512 MiB of storage, 1 GiB recommended</li>
+<li>NVIDIA 7800GT 256 MB or newer (Modern AMD GPUs may work but stable performance isn't guranteed)</li>
+</ul>
+<h4>Intel</h4>
+<p>dahliaOS is completely supported on the Intel platform and can run with advanced hardware acceleration (60 FPS mode). The system requires the following minimum specifications on Intel devices:
+For Intel devices:</p>
+<ul>
+<li>64-bit single-core or higher CPU, 1 GHz or higher</li>
+<li>UEFI or Legacy bootloader</li>
+<li>512 MiB of RAM or higher</li>
+<li>512 MiB of storage, 1 GiB recommended</li>
+<li>Intel GMA 4500 or better, Intel HD 4000 recommended, NVIDIA 7800GT 256MB or newer</li>
+</ul>
+<h4>Virtual Machines</h4>
+<p>dahliaOS is supported on a few different software-backed emulators, including QEMU and Virtualbox. A legacy image is needed to boot dahliaOS in a VM. As we are unable to afford VMWare, we can not make any inferences about performance or settings. For Virtual Machines, the following specifications are required:</p>
+<ul>
+<li>1 or more CPU cores</li>
+<li>512 MiB of RAM or higher</li>
+<li>No internal storage disk</li>
+<li>Legacy bootloader
+For launching in QEMU, use the following command with a compatible Legacy image:</li>
+</ul>
+<pre><code class="language-bash">qemu-system-x86_64 --enable-kvm -m 4096 -cdrom &lt;legacy&gt;.iso
+</code></pre>
+<p>This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine) enabled, with 4096 MiB of RAM, booting the legacy ISO. If you are on a Windows host, remove the <code>--enable-kvm</code> flag, as it does not apply to the Windows platform.</p>
+<h2>The System - In-Depth</h2><div align=center> 
+ <img width="700" src="../img/linux-based/arch.png"/> 
+</div>
+<p>Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.</p>
+<h3>Agents</h3>
+<p>Agents are simple, modular executables designed to run in the background and manage the system's capabilities. In the 201215 system release, the following Agents are present:</p>
+<ul>
+<li><strong>Update Agent</strong> - Checks for system updates and installs them</li>
+<li><strong>Theme Agent</strong> - Handles global application theming</li>
+<li><strong>Graft Agent</strong> - Manages virtualized systems running under Graft</li>
+<li><strong>Network Agent</strong> - Manages network interfaces and connections</li>
+</ul>
+<h3>Security and Privacy (Upcoming)</h3>
+<p>NOTE: The following features will be included in further releases, and are not yet present in current public releases for development and debugging purposes.
+Unlike standard desktop distributions, dahliaOS employs aggressive security measures similar to the methods found on mobile systems. Major steps are taken to ensure security and privacy for all users while keeping the system open and accessible to developers.
+The system is secure every step of the way, from the first boot to system shutdown, using a policy called Cerberus. Like the creature from ancient mythology, Cerberus guards the system and has three central tenets of security:</p>
+<ul>
+<li><strong>Verification</strong> - The system is checked on boot and all applications are signed</li>
+<li><strong>Encryption</strong> - User and Application data is encrypted in a secure partition to prevent data loss and leakage</li>
+<li><strong>Isolation</strong> - The system partition and applications are all isolated from each other, and no two applications can share information or vulnerabilities without user consent.
+A set of two partitions will be used to ensure maximum system security, a read-only stateless partition, where system files and executables are stored, and an encrypted stateful partition where user data remains persistently.
+The <code>dm-verity</code> tool is used to verify the system and alert the user if the system is compromised. If a breach of the root file system occurs, the stateless partition can be recovered from Recovery Mode, without touching the user data on the stateful partition.
+Within the system, the read-only nature of the root filesystem and the encryption of user data ensures that malicious or unsigned applications and modules can not wreak havoc on the system. The stateful partition can only be decrypted using the Decryption Agent, so any attempts to penetrate it will not go unnoticed.
+Using total sandboxing, non-system applications are not allowed to interact with hardware, software, and files without explicit permission from the user. In the case of hardware usage, software-side indicators will alert the user that a camera or microphone is active, or if a task is using network access in the background.
+For those living on the edge or those looking to debug the underlying system, a Developer Mode is available that will disable most of the security features of the system and make the stateless partition read/write.</li>
+</ul>
+<h3>Graft and the Modular Userspace</h3><div align=center>
+<img width="700" src="../img/linux-based/graft.png"/>
+</div>
+<p>Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.</p>
+<p>There are 4 methods of virtualizing guest systems on dahliaOS with Graft:</p>
+<ul>
+<li><strong>Containers</strong> - More secure, runs directly on dahliaOS using the host kernel but isolated from hardware (Minimal overhead)</li>
+<li><strong>Virtual Machines</strong> - Uses CPU self-virtualization to run directly on the hardware. (Medium overhead)</li>
+<li><strong>Emulators</strong> - Full hardware virtualization, including processor (High overhead)</li>
+<li><strong>Chroots</strong> - Less secure, runs directly on hardware alongside dahliaOS, uses the host kernel, see <strong>Modular Userspace</strong> for more information (Minimal overhead)
+ All of these methods are centralized in Graft, and the virtualization mode will change according to the type of system. Currently, only Linux-based operating systems can run in Containers and Chroots.</li>
+</ul>
+<h4>Modular Userspace</h4>
+<p>In order to maintain security while ensuring that the system remains accessible to developers, dahliaOS Linux is able to run a second Linux distribution as it's userspace, booted on top of the latest Linux kernel provided by dahliaOS. The userspace can be hot-swapped within the Graft app. By default, in 201215 the default userspace is Arch.</p>
+<h3>Standard Linux Things</h3>
+<p>While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager  (Used for system updates) is <code>rpm</code>, and the <a href="https://busybox.net">Busybox</a> packages provide the init system and the core utilities.</p>
+<h3>Buildroot</h3><div align=center>
+<img width="700" src="../img/linux-based/buildroot.png"/>
+</div>
+<p>dahliaOS Linux is compiled using the <a href="https://buildroot.org">Buildroot</a> tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the <a href="https://github.com/dahliaos/buildroot">Buildroot repo</a>. Builds are completely reproducible using the tool, and the build source used in release is typically pushed every 2-5 days.</p>
+<h2>Compiling</h2>
+<p>Compiling dahliaOS Linux with the <a href="https://github.com/dahliaos/buildroot">Buildroot</a> tool is very simple, but requires a decent amount of processor power. The following specs are required:</p>
+<ul>
+<li>Intel Core i5-2400 3.4 GHz or better - Xeon recommended</li>
+<li>8 GiB of RAM or more</li>
+<li>Gigabit Ethernet connection</li>
+<li>64 GiB of free space - 500 recommended</li>
+<li>Fedora Linux 33 or equivalent</li>
+</ul>
+<p><a href="https://github.com/dahliaos/buildroot">Read more at the Buildroot Repo &gt;</a></p>
+<h2>Releasing</h2>
+<p>dahliaOS Linux follows a release schedule dictated by the guidelines below. Each release must be at least 75% feature-complete to qualify as a separate release.</p>
+<p>Internal experimental builds that represent major overhauls of the base system are referred to by the name <code>nitrogen</code>. As of dahliaOS 201215, there have been 3 revisions of Nitrogen:</p>
+<ul>
+<li><strong>Nitrogen I</strong> - Initial Linux-Based test build</li>
+<li><strong>Nitrogen II</strong> - Initial persistence testing build</li>
+<li><strong>Nitrogen III</strong> - Initial base for dahliaOS 201215, with virtualization and wireless networking support</li>
+</ul>
+<p>In <a href="https://github.com/dahliaos/releases/releases/tag/200305.1-x86">dahliaOS Linux-based 200305.1</a> (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:</p>
+<ul>
+<li><strong>YYMMDD</strong> identifies the date when the release is branched from or synced with the development branch. It's not always the exact date at which a build was made as it's common for minor variations added to an existing build to re-use the same date code as the existing build.</li>
+<li><strong>HF</strong> is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1</li>
+</ul>
+<h2>Planned Releases (Subject to change) (WIP)</h2>
+<p>This list is preliminary and subject to change. The full project board can be seen <a href="https://github.com/orgs/dahliaos/projects/6">here</a>.</p>
