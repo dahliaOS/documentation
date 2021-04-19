@@ -1,14 +1,14 @@
-# Packaging Applications for dahliaOS
-## Introduction
+## Packaging Applications for dahliaOS
+### Introduction
 Packages on dahliaOS make use of the AppImage file format for it's portability and ease of use. 
-## Prerequisites
+### Prerequisites
 To develop packages, you will need the following prerequisites on your host system:
 * build-essential
 * clang
 * ninja-build
 * appimagetool
 
-### For graphical applications:
+#### For graphical applications:
 To develop graphical applications, you can use these recommended platforms or choose your own:
 * Flutter SDK
 * GTK 3/4
@@ -16,7 +16,7 @@ To develop graphical applications, you can use these recommended platforms or ch
 
 Electron applications are supported but may need to be converted to a more efficient standard in the future.
 
-## Application Structure
+### Application Structure
 Basic application packages need the following files at minimum:
 
 * An `AppRun` file, containing the command used to launch your applications, example below:

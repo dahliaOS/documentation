@@ -1,10 +1,10 @@
-# Buildroot
+## Buildroot
 
 - This builds dahliaOS Linux-based builds easily.
 
 - As of June 13th, this is only a base buildroot and lacks the dahliaOS-specific overlays.
 
-## Usage
+### Usage
 
 - ```git clone https://github.com/dahliaos/buildroot.git```
 
@@ -16,13 +16,13 @@
 
 - Files can be inserted into the image using the ```output/target``` directory
 
-## Easy modification
+### Easy modification
 
 To compile and run the base dahliaOS toolchain, use:
 
 ```make&&qemu-system-x86_64 --enable-kvm -m 4096 -cdrom output/images/rootfs.iso9660&&cp output/images/rootfs.iso9660 output/images/rootfs.iso```
 
-## Requirements
+### Requirements
 
 - Ethernet connection (directly to router), a dual-core x86 CPU and at least 4 GB of RAM when compiling. 
 

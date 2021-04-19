@@ -1,9 +1,9 @@
-# Pangolin-linux
+## Pangolin-linux
 Pangolin Desktop can be run on various other Linux distributions.
 
-## Requirements
+### Requirements
 
-### Arch Linux
+#### Arch Linux
 
 - Install flutter, matchbox-window-manager, and unzip
 
@@ -11,7 +11,7 @@ Pangolin Desktop can be run on various other Linux distributions.
 yay -S flutter matchbox-window-manager unzip
 ```
 
-### Debian/Ubuntu
+#### Debian/Ubuntu
 
 - install git, matchbox-window-manager and unzip
 
@@ -25,7 +25,7 @@ sudo apt install git matchbox-window-manager unzip
 sudo snap install flutter --classic
 ```
 
-### Fedora
+#### Fedora
 
 - Install Flutter [`Snap`](https://snapcraft.io/flutter)
 
@@ -41,7 +41,7 @@ sudo ln -s /var/lib/snapd/snap /snap```
 sudo snap install flutter --classic
 ```
 
-## Installation
+### Installation
 
 If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
 ```bash

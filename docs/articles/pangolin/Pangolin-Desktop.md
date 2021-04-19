@@ -1,4 +1,4 @@
-# Pangolin Desktop (Zircon & Linux)
+## Pangolin Desktop (Zircon & Linux)
 
 Pangolin Desktop UI shell, designed for dahliaOS, written in Flutter.
 
@@ -6,7 +6,7 @@ As of v200614.1, Pangolin has been available by default as the desktop in Linux-
 
 Try out the builds [here](https://web.dahliaos.io).
 
-# History / significant changes
+### History / significant changes
 
 + February 27, 2019, Camden Bruce announced the beginning of dahliaOS ([Source: Reddit](https://www.reddit.com/r/Fuchsia/comments/av6tja/fuchsia_fork_dahlia_os/))
 + March 2, 2019, Camden Bruce created the repository pangolin-desktop 
@@ -26,10 +26,10 @@ Please note that these are only the highlights from development, and not indicat
 
 If you find something left out, please feel free to add it.
 
-# Components
+### Components
 
 
-## Desktop, panel and quick settings
+#### Desktop, panel and quick settings
 
 <div align=center>
 <img width="700" src="../img/screenshot/201215/desktoppanels.png"/>
@@ -41,7 +41,7 @@ The panel is the hub for application launching and managing settings.
 
 Quick settings assists in changing relevant system settings quickly (hence the name), offering an easier and more efficient method of changing settings than opening the app.
 
-## Launcher
+#### Launcher
 
 <div align=center>
 <img width="700" src="../img/screenshot/201215/launcher.png"/>
@@ -51,9 +51,9 @@ The launcher is for opening and viewing a grid of every application in the syste
 
 A search bar is also available to sort through apps, find settings, and search the web. 
 
-# Development
+### Development
 
-## TL;DR for Linux
+#### TL;DR for Linux
 
 ```bash
 flutter channel master # Set flutter to master channel
@@ -65,13 +65,13 @@ flutter create . # Optional, but updates the embedder code
 flutter run -d linux
 ```
 
-# Developing Pangolin for dahliaOS Linux-Based builds
+### Developing Pangolin for dahliaOS Linux-Based builds
 
 While pre-compiled builds can be found in the dahliaOS-overlays folder, you can also compile Pangolin and include them in the Buildroot toolchain.
 
 Pangolin can also be added as a dependency inside of Buildroot via the 'dahliaOS core applications' section under 'Target Packages'
 
-## Prerequisites
+### Prerequisites
 
 To develop for dahliaOS Linux-Based builds, you will need the `flutter` tool, and a compiled base config from dahliaos/buildroot. 
 

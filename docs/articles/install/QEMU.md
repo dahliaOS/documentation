@@ -1,29 +1,29 @@
-# dahliaOS on QEMU
+## dahliaOS on QEMU
 
-## Linux
+### Linux
 
-### Arch
+#### Arch
 - First open a terminal and type the following command:
 
 ```
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-### Fedora 33 / 34
+#### Fedora 33 / 34
 - First open a terminal and type the following command:
 
 ```
 sudo dnf install qemu
 ```
 
-### Gentoo
+#### Gentoo
 - First open a terminal and type the following command:
 
 ```
 emerge --ask app-emulation/qemu
 ```
 
-### Ubuntu 20.04 - 21.04
+#### Ubuntu 20.04 - 21.04
 - First open a terminal and type the following command:
 
 ```
@@ -36,7 +36,7 @@ sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system li
 sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
 
-## Run dahliaOS
+### Run dahliaOS
 - download the dahliaOS latest ISO from: https://github.com/dahliaos/releases/releases/latest
 
 - Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)

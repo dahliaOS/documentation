@@ -1,10 +1,10 @@
-# Contributing
+## Contributing
 
 First of all, we appreciate you considering contributing to the dahliaOS project!
 
 To make sure your contributions go as smooth as possible, here are all the things you need to know.
 
-## Code of Conduct
+### Code of Conduct
 
 - dahliaOS' Code of Conduct can be found [here](CODE_OF_CONDUCT.md).
 
@@ -14,7 +14,7 @@ To make sure your contributions go as smooth as possible, here are all the thing
 
 - If you notice any unacceptable behaviour, you can report it to integrity@dahliaos.io
 
-## How can I contribute?
+### How can I contribute?
 
 Here we've explained how you can contribute to our project on GitHub but there are also many other ways to help us outside of GitHub, if you'd like to find even more ways to help us, you're always free to join our Discord and ask our team.
 
@@ -29,20 +29,20 @@ You can contribute to the project by:
 
 **Some repositories also have Projects which contain either a to-do list or a roadmap**
 
-## Reporting bugs
+### Reporting bugs
 
 If you've experienced a bug and you'd like to report it, we highly recommend that you read [Before submitting a bug report](#before-submitting-a-bug-report), [How do I submit a good bug report?](#how-do-i-submit-a-good-bug-report) and that you use our issue template.
 
 There are 2 ways you can report a bug, either in our Discord server by opening a ticket or by creating an issue on GitHub.
 
-### Before submitting a bug report
+#### Before submitting a bug report
 
 Before submitting a bug report, there are a few things you need to take in consideration:
 
 * Do a bit of research and check if a similar bug has already been reported.
   * If it has been reported already, add a comment to the existing one instead of submitting a new one.
 
-### How do I write a good bug report?
+#### How do I write a good bug report?
 
 We have a few short tips for you on how to properly write a bug report so the developers can understand it better:
 
@@ -56,7 +56,7 @@ We have a few short tips for you on how to properly write a bug report so the de
 
 And the most important of all, make sure to fulfill all fields in our bug report template.
 
-### How do I submit a bug report?
+#### How do I submit a bug report?
 
 * **GitHub**:
   1. Go to the Issues section
@@ -68,13 +68,13 @@ And the most important of all, make sure to fulfill all fields in our bug report
   2. Open a ticket and copy the form
   3. Paste and fill in the form
 
-## Feature request
+### Feature request
 
 If you'd like to see something added to our OS, we highly recommend you read [Before submitting a feature request](#before-submitting-a-feature-request), [How do I submit a feature request?](#how-do-i-submit-a-feature-request) and use our feature request template.
 
 There are 2 ways you can submit a feature request, either by make a suggestion in our Discord server or by creating an issue with the feature request template on GitHub.
 
-### Before submitting a feature request
+#### Before submitting a feature request
 
 Before submitting a feature request, here are a few things you need to know:
 
@@ -83,7 +83,7 @@ Before submitting a feature request, here are a few things you need to know:
 * **Write a clear and descriptive title for the request.**
 * **Explain how the project could benefit of your request.**
 
-### How do I submit a feature request?
+#### How do I submit a feature request?
 
 * **GitHub**:
   1. Go to the Issues section
@@ -94,7 +94,7 @@ Before submitting a feature request, here are a few things you need to know:
   1. Go to the #bot-commands channel
   2. Type !suggestion [suggestion]
 
-## Translations
+### Translations
 
 - We aim to provide our software in as many languages as possible so everyone could experience it in their own native language.
 
@@ -104,7 +104,7 @@ Before submitting a feature request, here are a few things you need to know:
 
 - If your language is not added, let us know and we'll add it.
 
-### Before making a translation
+#### Before making a translation
 
 Before making a translation, please make sure that:
 
@@ -113,14 +113,14 @@ Before making a translation, please make sure that:
 * **You read the context (comments) some strings have.**
 * **You used the same punctuation as the source strings.**
 
-### How to translate
+#### How to translate
 
 1. Make a Crowdin account (if you already don't have one)
 2. Join our workspace
 3. Pick a project to translate (Pangolin, one of the applications etc.)
 4. Apply translations to the available strings
 
-## Code contributions
+### Code contributions
 
 To make sure that the code you want to contribute is up to our standards, here we've written a few do's and don'ts:
 
@@ -138,11 +138,11 @@ To make sure that the code you want to contribute is up to our standards, here w
 * Use weasel-words like "refactor" or "fix" to avoid explaining what's being changed.
 * Include commented-out code.
 
-### First code contribution
+#### First code contribution
 
 If you're new to the project, you can look at repositories' issues section and the issues labeled with the "good first issue" label are perfect for your first code contribution.
 
-## Design contributions
+### Design contributions
 
 Apart from code contributions, we also accept any kind of design contributions.
 
@@ -157,7 +157,7 @@ Apart from code contributions, we also accept any kind of design contributions.
 
 We also love seeing UI concepts and such designs, you can share any kind of designs in our Discord server.
 
-## Pull requests
+### Pull requests
 
 PRs to our repositories are always welcome and can be a quick way to get your fix or improvement slated for the next release. In general, PRs should:
 
@@ -166,7 +166,7 @@ PRs to our repositories are always welcome and can be a quick way to get your fi
 
 For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
 
-### How to make a proper pull request
+#### How to make a proper pull request
 
 1. Fork the repository to your own GitHub account
 2. Clone the project to your machine
@@ -174,10 +174,10 @@ For changes that address core functionality or would require breaking changes (e
 4. Push changes to your fork
 5. Open a PR in our repository and follow the PR template so that we can efficiently review the changes
 
-### What do I do after I submitted a PR?
+#### What do I do after I submitted a PR?
 
 We kindly ask everyone who has submitted a pull request to be patient and that's really all, we notice every singe new pull request so don't worry about it being ignored.
 
-## License
+### License
 
 By contributing, you agree that your contributions will be licensed under the [Apache 2.0](articles/license/LICENSE) license
