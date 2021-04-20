@@ -8,8 +8,8 @@ import 'package:markdown/markdown.dart';
 import 'dart:convert';
 
 //Relative path to markdown documents
-var relPath = '../../docs/articles/';
-var generatedDocPath = '../../generated/';
+var relPath = '../../markdown/articles/';
+var generatedDocPath = '../../docs/';
 //Github repository URL
 var ghRepo =
     'https://github.com/dahliaOS/documentation/tree/main/docs/articles/';
