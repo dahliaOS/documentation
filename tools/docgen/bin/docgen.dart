@@ -67,11 +67,7 @@ var markdownDocs = [
     'Contribution Guidelines',
     'contribute/contributing.html'
   ],
-  [
-    'contribute/conduct.md',
-    'Contribution Guidelines',
-    'contribute/conduct.html'
-  ],
+  ['contribute/conduct.md', 'Code of Conduct', 'contribute/conduct.html'],
 ];
 
 void createFile(String filename, String contents) {
