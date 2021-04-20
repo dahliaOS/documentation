@@ -1,0 +1,483 @@
+<!--Hey there, I see you're interested in our website files, are you a web developer maybe? If you are, visit us over at our Discord, we're looking for web developers!-->
+<!--Discord link: https://dahliaos.io/discord-->
+<!DOCTYPE html>
+<!---
+Copyright 2019 The dahliaOS Authors
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.7.2/styles/default.min.css">
+  <link rel="stylesheet" href="atom-one-dark.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@10.7.2/highlight.min.js"></script>
+  <script>
+  hljs.highlightAll();
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://dahliaos.io">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ff3d00">
+  <meta name="apple-mobile-web-app-title" content="dahliaOS">
+  <link rel="apple-touch-icon" href="https://dahliaos.io/assets/img/favicon.png">
+  <meta name="msapplication-TileImage" content="https://dahliaos.io/assets/img/favicon.png">
+  <meta name="msapplication-TileColor" content="#ff3d00">
+  <meta name="theme-color" content="#ff3d00">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/png" href="https://dahliaos.io/assets/img/favicon.png">
+  <title>Contribution Guidelines | dahliaOS - Documentation</title>
+  <script src="https://dahliaos.io/assets/js/material.min.js"></script>
+  <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script><!-- Page styles -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://dahliaos.io/assets/css/dahlia.css?v=1.3">
+  <link rel="stylesheet" href="https://dahliaos.io/assets/css/styles.css?v=1.3">
+  <link rel="stylesheet" href="https://dahliaos.io/assets/css/custom.css?v=1.3">
+  <style>
+     #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    @media (prefers-color-scheme: light) {
+  body {
+    background: #eee;
+    
+  }
+  .demo-content{
+    background: #fff;
+  }
+  }
+  @media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    
+  }
+
+  }
+    .demo-ribbon {
+  width: 100%;
+  height: 40vh;
+
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  }
+  h2{
+  font-weight: lighter;
+  }
+  .demo-main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  }
+
+  .demo-header .mdl-layout__header-row {
+  padding-left: 40px;
+  }
+  .doc-layout__header-row {
+  padding-left: 24px !important;
+  }
+  .demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+  }
+
+  .demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+  }
+
+  .demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+  }
+
+  .demo-content h3 {
+  margin-top: 48px;
+  }
+
+  .demo-footer {
+  padding-left: 40px;
+  }
+
+  .demo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+  }
+  </style>
+  <meta property="og:image" content="https://imgur.com/PNGGkDP.png">
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="dahliaOS-header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row" id="firstHeaderRow">
+        <span class="dahliaOS-title mdl-layout-title"><a href="/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="dahliaOS-header-spacer mdl-layout-spacer"></div>
+        <div class="dahliaOS-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field"><i class="material-icons">search</i></label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" id="search-field">
+          </div>
+        </div><!-- Navigation -->
+        <div class="dahliaOS-navigation-container">
+          <nav class="dahliaOS-navigation mdl-navigation">
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/#features">Features</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/#screens">News</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/downloads">Download</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io" target="_blank">Demo</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/orgs/dahliaos/people" target="_blank">Developers</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/docs/">Documentation</a>
+          </nav>
+        </div><span class="dahliaOS-mobile-title mdl-layout-title"><a href="/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button"><i class="material-icons">more_vert</i></button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+          <a href="/github" target="_blank" style="text-decoration: none;"></a>
+          <li class="mdl-menu__item">Source Code</li><a href="/login" style="text-decoration: none;"></a>
+          <li class="mdl-menu__item">Team Login</li>
+          <li disabled class="mdl-menu__item">Screenshots</li>
+        </ul>
+      </div>
+    </div>
+    <div class="dahliaOS-drawer mdl-layout__drawer">
+      <span class="mdl-layout-title"><a href="/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-white.png" alt="logo-white"></a></span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="/#features">Features</a> <a class="mdl-navigation__link" href="/#screens">News</a> <a class="mdl-navigation__link" href="/downloads">Download</a> <a class="mdl-navigation__link" href="mailto:contact@dahliaos.io" target="_blank">Contact</a> <a class="mdl-navigation__link" href="https://github.com/orgs/dahliaOS/people" target="_blank">Developers</a> <a class="mdl-navigation__link" href="https://dahliaos.io/docs" target="_blank">Documentation</a>
+        <div class="dahliaOS-drawer-separator"></div><span class="mdl-navigation__link" href="">Find us on</span> <a class="mdl-navigation__link" href="/discord" target="_blank">Discord</a> <a class="mdl-navigation__link" href="/github" target="_blank">Github</a> <a class="mdl-navigation__link" href="/reddit" target="_blank">Reddit</a> <a class="mdl-navigation__link" href="/telegram" target="_blank">Telegram</a> <a class="mdl-navigation__link" href="/facebook" target="_blank">Facebook</a> <a class="mdl-navigation__link" href="/instagram" target="_blank">Instagram</a> <a class="mdl-navigation__link" href="/twitter" target="_blank">Twitter</a>
+        <div class="dahliaOS-drawer-separator"></div><span class="mdl-navigation__link" href="">For developers</span> <a class="mdl-navigation__link" href="/github" target="_blank">Source Code</a> <a class="mdl-navigation__link" href="/discord" target="_blank">Join Our Team</a>
+      </nav>
+    </div>
+    <div class="dahliaOS-content mdl-layout__content">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row doc-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Contribution Guidelines</span> <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div><!-- Navigation. We hide it in small screens. -->
+          </div>
+        </header>
+        <main class="mdl-layout__content">
+          <div class="page-content">
+            <main class="mdl-layout__content">
+              <div class="page-content">
+                <a name="top" id="top"></a>
+                <div class="demo-ribbon"></div>
+                <main class="demo-main mdl-layout__content">
+                  <div class="demo-container mdl-grid">
+                    <div class="mdl-cell--hide-tablet mdl-cell--hide-phone" style="width: calc(16.6666666667% - 16px); margin: 8px; box-sizing: border-box;"></div>
+                    <div class="demo-content mdl-shadow--4dp content mdl-cell mdl-cell--8-col">
+                      <!--End of content-->
+                     <h2>Contributing</h2>
+<p>First of all, we appreciate you considering contributing to the dahliaOS project!</p>
+<p>To make sure your contributions go as smooth as possible, here are all the things you need to know.</p>
+<h3>Code of Conduct</h3>
+<ul>
+<li>
+<p>dahliaOS' Code of Conduct can be found <a href="CODE_OF_CONDUCT.md">here</a>.</p>
+</li>
+<li>
+<p>This project and everyone participating in it is governed by dahliaOS' Code of Conduct and no one is exempt.</p>
+</li>
+<li>
+<p>By participating, you are expected to respect and value this code.</p>
+</li>
+<li>
+<p>If you notice any unacceptable behaviour, you can report it to integrity@dahliaos.io</p>
+</li>
+</ul>
+<h3>How can I contribute?</h3>
+<p>Here we've explained how you can contribute to our project on GitHub but there are also many other ways to help us outside of GitHub, if you'd like to find even more ways to help us, you're always free to join our Discord and ask our team.</p>
+<p>You can contribute to the project by:</p>
+<ul>
+<li>Reporting a bug.</li>
+<li>Proposing new features.</li>
+<li>Translating to your native language.</li>
+<li>Submitting a fix.</li>
+<li>Discussing the current state of code.</li>
+<li>Becoming a maintainer.</li>
+</ul>
+<p><strong>Some repositories also have Projects which contain either a to-do list or a roadmap</strong></p>
+<h3>Reporting bugs</h3>
+<p>If you've experienced a bug and you'd like to report it, we highly recommend that you read <a href="#before-submitting-a-bug-report">Before submitting a bug report</a>, <a href="#how-do-i-submit-a-good-bug-report">How do I submit a good bug report?</a> and that you use our issue template.</p>
+<p>There are 2 ways you can report a bug, either in our Discord server by opening a ticket or by creating an issue on GitHub.</p>
+<h4>Before submitting a bug report</h4>
+<p>Before submitting a bug report, there are a few things you need to take in consideration:</p>
+<ul>
+<li>Do a bit of research and check if a similar bug has already been reported.
+<ul>
+<li>If it has been reported already, add a comment to the existing one instead of submitting a new one.</li>
+</ul>
+</li>
+</ul>
+<h4>How do I write a good bug report?</h4>
+<p>We have a few short tips for you on how to properly write a bug report so the developers can understand it better:</p>
+<ul>
+<li><strong>Use a clear and descriptive title for the issue.</strong></li>
+<li><strong>Describe the steps to reproduce the bug.</strong></li>
+<li><strong>Describe what behaviour you observed after the bug occured.</strong></li>
+<li><strong>Explain what behaviour you expected to see instead and why.</strong></li>
+<li><strong>If the problem wasn't triggered by a specific action, describe what you were doing before it happened.</strong></li>
+<li><strong>Include screnshots of the bug.</strong></li>
+<li><strong>Write what version of dahliaOS you were using.</strong></li>
+</ul>
+<p>And the most important of all, make sure to fulfill all fields in our bug report template.</p>
+<h4>How do I submit a bug report?</h4>
+<ul>
+<li><strong>GitHub</strong>:
+<ol>
+<li>Go to the Issues section</li>
+<li>Click <strong>New issue</strong></li>
+<li>Select the <strong>Bug report</strong> template</li>
+<li>Fill in the fields</li>
+</ol>
+</li>
+<li><strong>Discord</strong>:
+<ol>
+<li>Go to the #bug-report channel</li>
+<li>Open a ticket and copy the form</li>
+<li>Paste and fill in the form</li>
+</ol>
+</li>
+</ul>
+<h3>Feature request</h3>
+<p>If you'd like to see something added to our OS, we highly recommend you read <a href="#before-submitting-a-feature-request">Before submitting a feature request</a>, <a href="#how-do-i-submit-a-feature-request">How do I submit a feature request?</a> and use our feature request template.</p>
+<p>There are 2 ways you can submit a feature request, either by make a suggestion in our Discord server or by creating an issue with the feature request template on GitHub.</p>
+<h4>Before submitting a feature request</h4>
+<p>Before submitting a feature request, here are a few things you need to know:</p>
+<ul>
+<li><strong>Make sure the feature isn't already added.</strong></li>
+<li><strong>Don't hesitate to express your knowledge.</strong></li>
+<li><strong>Write a clear and descriptive title for the request.</strong></li>
+<li><strong>Explain how the project could benefit of your request.</strong></li>
+</ul>
+<h4>How do I submit a feature request?</h4>
+<ul>
+<li><strong>GitHub</strong>:
+<ol>
+<li>Go to the Issues section</li>
+<li>Click <strong>New issue</strong></li>
+<li>Select the <strong>Feature request</strong> template</li>
+<li>Fill in the fields</li>
+</ol>
+</li>
+<li><strong>Discord</strong>:
+<ol>
+<li>Go to the #bot-commands channel</li>
+<li>Type !suggestion [suggestion]</li>
+</ol>
+</li>
+</ul>
+<h3>Translations</h3>
+<ul>
+<li>
+<p>We aim to provide our software in as many languages as possible so everyone could experience it in their own native language.</p>
+</li>
+<li>
+<p>For submitting translations, we use Crowdin so please do not edit the files found in the repositories.</p>
+</li>
+<li>
+<p>If you're interesting in translating our project, click <a href="https://translate.dahliaos.io">this link</a></p>
+</li>
+<li>
+<p>If your language is not added, let us know and we'll add it.</p>
+</li>
+</ul>
+<h4>Before making a translation</h4>
+<p>Before making a translation, please make sure that:</p>
+<ul>
+<li><strong>You're fluent in the language you're translating to.</strong></li>
+<li><strong>You pay close attention to its grammar.</strong></li>
+<li><strong>You read the context (comments) some strings have.</strong></li>
+<li><strong>You used the same punctuation as the source strings.</strong></li>
+</ul>
+<h4>How to translate</h4>
+<ol>
+<li>Make a Crowdin account (if you already don't have one)</li>
+<li>Join our workspace</li>
+<li>Pick a project to translate (Pangolin, one of the applications etc.)</li>
+<li>Apply translations to the available strings</li>
+</ol>
+<h3>Code contributions</h3>
+<p>To make sure that the code you want to contribute is up to our standards, here we've written a few do's and don'ts:</p>
+<p><strong>Do's:</strong></p>
+<ul>
+<li>Choose expressive variable, function and class names, make it as obvious as possible of what the code is doing.</li>
+<li>The first line of the commit message should have the format "Category: Brief description of what's being changed". The "category" can be a subdirectory, but also something like "POSIX compliance" or "ClassName".</li>
+<li>Split your changes into separate commits.</li>
+<li>Write your commit messages in proper English, with care and punctuation.</li>
+</ul>
+<p><strong>Don'ts:</strong></p>
+<ul>
+<li>Submit code that's incompatible with the project licence (Apache 2.0).</li>
+<li>Touch anything outside the stated scope of the PR.</li>
+<li>Use weasel-words like "refactor" or "fix" to avoid explaining what's being changed.</li>
+<li>Include commented-out code.</li>
+</ul>
+<h4>First code contribution</h4>
+<p>If you're new to the project, you can look at repositories' issues section and the issues labeled with the "good first issue" label are perfect for your first code contribution.</p>
+<h3>Design contributions</h3>
+<p>Apart from code contributions, we also accept any kind of design contributions.</p>
+<p><strong>Here are a few repos where you can contribute designs</strong>:</p>
+<ul>
+<li><a href="https://github.com/dahliaos/wallpapers">Wallpapers</a>
+<ul>
+<li>Here you can contribute your own wallpapers, make sure to read the instructions.</li>
+</ul>
+</li>
+<li><a href="https://github.com/dahliaos/icons">Icons</a>
+<ul>
+<li>Here you can contribute either modified version of existing icons or new ones.</li>
+</ul>
+</li>
+<li><a href="https://github.com/dahliaos/brand">Brand</a>
+<ul>
+<li>Here you can contribute new logos or modified current one for our project.</li>
+</ul>
+</li>
+</ul>
+<p>We also love seeing UI concepts and such designs, you can share any kind of designs in our Discord server.</p>
+<h3>Pull requests</h3>
+<p>PRs to our repositories are always welcome and can be a quick way to get your fix or improvement slated for the next release. In general, PRs should:</p>
+<ul>
+<li>Fix an existing issue <strong>OR</strong> add a new feature.</li>
+<li>Be accompanied by a complete pull request template (loaded automatically when a PR is created).</li>
+</ul>
+<p>For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.</p>
+<h4>How to make a proper pull request</h4>
+<ol>
+<li>Fork the repository to your own GitHub account</li>
+<li>Clone the project to your machine</li>
+<li>Make your changes</li>
+<li>Push changes to your fork</li>
+<li>Open a PR in our repository and follow the PR template so that we can efficiently review the changes</li>
+</ol>
+<h4>What do I do after I submitted a PR?</h4>
+<p>We kindly ask everyone who has submitted a pull request to be patient and that's really all, we notice every singe new pull request so don't worry about it being ignored.</p>
+<h3>License</h3>
+<p>By contributing, you agree that your contributions will be licensed under the <a href="articles/license/LICENSE">Apache 2.0</a> license</p>
+<!--Start of footer content-->
+</div>
+</div>
+</main>
+</div>
+</main>
+<div class="dahliaOS-download-section-image"></div>
+</div>
+<footer style="margin-top:0px;" class="mdl-mega-footer">
+    <div class="mdl-mega-footer__middle-section">
+        <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Find us on</h1>
+            <ul class="mdl-mega-footer__link-list">
+                <li>
+                    <a href="/discord" target="_blank">Discord</a>
+                </li>
+                <li>
+                    <a href="/github" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="/reddit" target="_blank">Reddit</a>
+                </li>
+                <li>
+                    <a href="/telegram" target="_blank">Telegram</a>
+                </li>
+                <li>
+                    <a href="/facebook" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="/instagram" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="/twitter" target="_blank">Twitter</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Technology</h1>
+            <ul class="mdl-mega-footer__link-list">
+                <li>
+                    <a href="https://dahliaos.io/docs/#/articles/os/linux-based?id=the-system-in-depth"
+                        target="_blank">How it works</a>
+                </li>
+                <li>
+                    <a href="#">The goal</a>
+                </li>
+                <li>
+                    <a href="#">Design</a>
+                </li>
+                <li>
+                    <a href="#">UI Modularity</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">Documentation</h1>
+            <ul class="mdl-mega-footer__link-list">
+                <li>
+                    <a href="https://dahliaos.io/docs/#/articles/os/linux-based?id=compiling"
+                        target="_blank">Compiling</a>
+                </li>
+                <li>
+                    <a href="https://dahliaos.io/docs/#/articles/install/64bit">Installing</a>
+                </li>
+                <li>
+                    <a href="https://dahliaos.io/docs/#/articles/install/64bit" target="_blank">Running</a>
+                </li>
+                <li>
+                    <a href="https://dahliaos.io/docs/#/articles/hardware/supported-devices" target="_blank">Supported
+                        devices</a>
+                </li>
+                <li>
+                    <a href="#">Linux vs. Zircon</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mdl-mega-footer__drop-down-section">
+            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+            <h1 class="mdl-mega-footer__heading">FAQ</h1>
+            <ul class="mdl-mega-footer__link-list">
+                <li>
+                    <a href="/faq">Q&amp;A</a>
+                </li>
+                <li>
+                    <a href="mailto:contact@dahliaos.io" target="_blank">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mdl-mega-footer__bottom-section">
+        <div class="mdl-logo"><img src="https://dahliaos.io/assets/img/logo-white.png" style="margin-top:-3px;"
+                height="18.6666666667px" alt="logo-white"></div>
+        <ul class="mdl-mega-footer__link-list">
+            <li>
+                <a href="/support">Support</a>
+            </li>
+            <li>
+                <a href="https://github.com/dahliaos/" target="_blank">Source Code</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</main>
+</div>
+</div><a href="https://github.com/dahliaOS/documentation/tree/main/docs/articles/contribute/CONTRIBUTING.md" target="_blank" id="view-source"
+    class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" style="background-color: #ff3d00;"><i
+        class="material-icons" style="color: #fff;">edit</i></a>
+</div>
+</body>
+
+</html>
