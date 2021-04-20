@@ -23,6 +23,7 @@ var markdownDocs = [
     'Overview of dahliaOS Linux-based Builds',
     'os/linux.html'
   ],
+  ['index.md', 'Documentation', 'index.html'],
   [
     'pangolin/Pangolin-Desktop.md',
     'The Pangolin Desktop',
