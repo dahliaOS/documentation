@@ -118,14 +118,12 @@ extension StringExtension on String {
   }
 }
 
-void main(List<String> arguments) {
+void main(List<String> arguments) async {
   for (var i = 0; i < markdownDocs.length; i++) {
     var documentInQuestion =
-        Process.runSync('cat', [relPath + markdownDocs[i][0]])
-            .stdout
-            .toString();
-    var header = Process.runSync('cat', ['header.html']).stdout.toString();
-    var footer = Process.runSync('cat', ['footer.html']).stdout.toString();
+        await File(relPath + markdownDocs[i][0]).readAsString();
+    var header = await File("header.html").readAsString();
+    var footer = await File("footer.html").readAsString();
     var documentPath = 'Documentation > ' +
         markdownDocs[i][0].split('/')[0].capitalize() +
         ' > ' +
