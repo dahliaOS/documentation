@@ -37,13 +37,13 @@ Categories=Utility;
 * An icon, 
 * An executable, this is your application itself
 
-## Building an AppImage
+### Building an AppImage
 
 Once you have the structure defined above, use:
 ```ARCH=x86_64 appimagetool MyApplication/```
 to package your application for dahliaOS as an Appimage.
 
-### For ARM builds:
+#### For ARM builds:
 If your application needs to be built for ARM, use 
 ```ARCH=arm appimagetool MyApplication/```
 to build a 32 bit ARMHF binary.
