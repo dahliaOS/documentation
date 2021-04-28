@@ -14,7 +14,7 @@ jobs:
         name: Switch Flutter channel
       - run: cd tools/docgen && flutter pub get
         name: Get dependencies
-      - run: ls -a && dart bin/docgen.dart
+      - run: cd tools/docgen && dart bin/docgen.dart
         name: Convert Markdown to HTML
       - run: git config --global user.name github-actions && git config --global user.email "action@github.com" && git commit -am "Generated Locales" && git push
         name: Push translations
