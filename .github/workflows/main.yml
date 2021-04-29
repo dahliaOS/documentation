@@ -1,4 +1,4 @@
-name: Deploy
+name: Create release
 
 on:
   schedule:
@@ -13,7 +13,17 @@ jobs:
       - name: set NOW
         run: | 
           echo "RELEASE_TAG=$(date +'%y%m%d')" >> $GITHUB_ENV
-        
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: bump changes 
+        run: |
+          python tools/changes/bump_changes.py
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
       - name: Checkout
         uses: actions/checkout@v2
 
