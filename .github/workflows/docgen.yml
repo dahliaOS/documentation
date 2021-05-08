@@ -18,7 +18,6 @@ jobs:
         name: Convert Markdown to HTML
       - name: Deploy to GitHub pages
         run: |
-          echo "docs.dahliaos.io" >> docs/CNAME
           git config user.name github-actions
           git config user.email "action@github.com"
           git --work-tree docs add --all
