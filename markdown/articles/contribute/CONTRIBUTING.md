@@ -6,7 +6,7 @@ To make sure your contributions go as smooth as possible, here are all the thing
 
 ### Code of Conduct
 
-- dahliaOS' Code of Conduct can be found [here](CODE_OF_CONDUCT.md).
+- dahliaOS' Code of Conduct can be found [here](https://docs.dahliaos.io/contribute/conduct).
 
 - This project and everyone participating in it is governed by dahliaOS' Code of Conduct and no one is exempt.
 
