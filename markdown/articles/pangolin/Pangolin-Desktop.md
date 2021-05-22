@@ -32,7 +32,7 @@ If you find something left out, please feel free to add it.
 #### Desktop, panel and quick settings
 
 <div align=center>
-<img width="700" src="../img/screenshot/21xxxx/desktoppanels.png"/>
+<img width="700" src="../img/screenshot/21xxxx/desktop.png"/>
 </div>
 
 The desktop is the location of windows, widgets (planned), and the wallpaper.
