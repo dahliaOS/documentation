@@ -1,3 +1,8 @@
+---
+title: Contribution Guidelines
+permalink: contribute/contributing.html
+summary: Best practices for conduct and development of dahliaOS and related solutions
+---
 ## Contributing
 
 First of all, we appreciate you considering contributing to the dahliaOS project!

@@ -1,3 +1,8 @@
+---
+title: The Pangolin Desktop
+permalink: pangolin/pangolin.html
+summary: Development History, features, and functionality of the Pangolin Desktop
+---
 ## Pangolin Desktop (Zircon & Linux)
 
 Pangolin Desktop UI shell, designed for dahliaOS, written in Flutter.

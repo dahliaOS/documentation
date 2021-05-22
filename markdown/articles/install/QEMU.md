@@ -1,3 +1,8 @@
+---
+title: Running dahliaOS in QEMU
+permalink: install/qemu.html
+summary: How to run dahliaOS Linux inside of the QEMU Emulator
+---
 ## dahliaOS on QEMU
 
 ### Linux

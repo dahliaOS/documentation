@@ -1,3 +1,7 @@
+---
+title: Documentation
+summary: dahliaOS Documentation overview
+---
 ## dahliaOS Documentation
 
 - Getting started
@@ -6,33 +10,33 @@
 
 - Install
 
-  - [64BIT UEFI](install/efi)
-  - [64BIT BIOS](install/legacy)
-  - [QEMU](install/qemu)
+  - [64BIT UEFI](/install/efi)
+  - [64BIT BIOS](/install/legacy)
+  - [QEMU](/install/qemu)
 
 - Hardware
 
-  - [Supported Devices](hardware/support)
+  - [Supported Devices](/hardware/support)
 
 - OS
 
-  - [Linux Based](os/linux)
+  - [Linux Based](/os/linux)
 
 - Pangolin
 
-  - [Pangolin Linux](pangolin/pangolin-linux)
-  - [Pangolin Desktop](pangolin/pangolin)
+  - [Pangolin Linux](/pangolin/pangolin-linux)
+  - [Pangolin Desktop](/pangolin/pangolin)
 
 - Build
 
-  - [Buildroot](build/buildroot)
+  - [Buildroot](/build/buildroot)
 
 - Developers
 
-  - [Packaging](developer/packaging)
-  - [Submitting](developer/submitting)
+  - [Packaging](/developer/packaging)
+  - [Submitting](/developer/submitting)
 
 - Contribute
 
-  - [Contributing](contribute/contributing)
-  - [Code of Conduct](contribute/conduct)
+  - [Contributing](/contribute/contributing)
+  - [Code of Conduct](/contribute/conduct)

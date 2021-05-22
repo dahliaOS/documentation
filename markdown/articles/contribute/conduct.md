@@ -1,3 +1,8 @@
+---
+title: Code of Conduct
+permalink: contribute/conduct.html
+summary: Rules to ensure an inclusive and kind community
+---
 ## dahliaOS Code of Conduct
 
 The dahliaOS team is committed to preserving and fostering a

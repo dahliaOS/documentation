@@ -1,3 +1,8 @@
+---
+title: Pangolin Desktop on Linux
+permalink: pangolin/pangolin-linux.html
+summary: Installing the Pangolin Desktop on non-dahliaOS Linux systems
+---
 ## Pangolin-linux
 Pangolin Desktop can be run on various other Linux distributions.
 

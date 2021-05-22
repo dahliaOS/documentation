@@ -46,51 +46,7 @@ limitations under the License.
    <link rel="stylesheet" href="https://dahliaos.io/assets/css/dahlia.css?v=1.3">
    <link rel="stylesheet" href="https://dahliaos.io/assets/css/styles.css?v=1.3">
    <link rel="stylesheet" href="https://dahliaos.io/assets/css/custom.css?v=1.3">
-<style>
- 
-
-h2{
-  font-weight: lighter;
-  }
-.demo-main {
-  margin-top: 10vh;
-  -webkit-flex-shrink: 0;
-      -ms-flex-negative: 0;
-          flex-shrink: 0;
-}
-
-.demo-header .mdl-layout__header-row {
-  padding-left: 40px;
-}
-
-.demo-container {
-  max-width: 1600px;
-  width: calc(100% - 16px);
-  margin: 0 auto;
-}
-
-.demo-content {
-  border-radius: 20px;
-  padding: 80px 56px;
-  margin-bottom: 80px;
-}
-
-.demo-layout.is-small-screen .demo-content {
-  padding: 40px 28px;
-}
-
-.demo-content h3 {
-  margin-top: 48px;
-}
-
-.demo-footer {
-  padding-left: 40px;
-}
-
-.demo-footer .mdl-mini-footer--link-list a {
-  font-size: 13px;
-}
-</style>
+   <link rel="stylesheet" href="/css/styles.css?v=1.0">
     <style>
     #view-source {
       position: fixed;
@@ -117,7 +73,7 @@ h2{
           </div><!-- Navigation -->
           <div class="dahliaOS-navigation-container">
             <nav class="dahliaOS-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#features">Features</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/#screens">News</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/downloads">Download</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io" target="_blank">Demo</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/orgs/dahliaos/people" target="_blank">Developers</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io">Documentation</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#features">Features</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#screens">News</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/downloads">Download</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io" target="_blank">Demo</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/orgs/dahliaos/people" target="_blank">Developers</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io">Documentation</a>
             </nav>
           </div><span class="dahliaOS-mobile-title mdl-layout-title"><a href="https://dahliaos.io/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button"><i class="material-icons">more_vert</i></button>
           <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
@@ -143,10 +99,68 @@ h2{
       <main class="demo-main mdl-layout__content">
         
         <div class="demo-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="mdl-cell mdl-cell--3-col dahliaOS-docs-sidebar mdl-cell--hide-tablet mdl-cell--hide-phone">
+            
+<ul>
+<li>
+<p>Getting started</p>
+<ul>
+<li><a href="/">Overview</a></li>
+</ul>
+</li>
+<li>
+<p>Install</p>
+<ul>
+<li><a href="/install/efi">64BIT UEFI</a></li>
+<li><a href="/install/legacy">64BIT BIOS</a></li>
+<li><a href="/install/qemu">QEMU</a></li>
+</ul>
+</li>
+<li>
+<p>Hardware</p>
+<ul>
+<li><a href="/hardware/support">Supported Devices</a></li>
+</ul>
+</li>
+<li>
+<p>OS</p>
+<ul>
+<li><a href="/os/linux">Linux Based</a></li>
+</ul>
+</li>
+<li>
+<p>Pangolin</p>
+<ul>
+<li><a href="/pangolin/pangolin-linux">Pangolin Linux</a></li>
+<li><a href="/pangolin/pangolin">Pangolin Desktop</a></li>
+</ul>
+</li>
+<li>
+<p>Build</p>
+<ul>
+<li><a href="/build/buildroot">Buildroot</a></li>
+</ul>
+</li>
+<li>
+<p>Developers</p>
+<ul>
+<li><a href="/developer/packaging">Packaging</a></li>
+<li><a href="/developer/submitting">Submitting</a></li>
+</ul>
+</li>
+<li>
+<p>Contribute</p>
+<ul>
+<li><a href="/contribute/contributing">Contributing</a></li>
+<li><a href="/contribute/conduct">Code of Conduct</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
             <div class="demo-crumbs mdl-color-text--grey-500">
-              Documentation > Index.md > Documentation
+              Documentation
             </div>
             <!--Header Content-->
 
@@ -161,51 +175,51 @@ h2{
 <li>
 <p>Install</p>
 <ul>
-<li><a href="install/efi">64BIT UEFI</a></li>
-<li><a href="install/legacy">64BIT BIOS</a></li>
-<li><a href="install/qemu">QEMU</a></li>
+<li><a href="/install/efi">64BIT UEFI</a></li>
+<li><a href="/install/legacy">64BIT BIOS</a></li>
+<li><a href="/install/qemu">QEMU</a></li>
 </ul>
 </li>
 <li>
 <p>Hardware</p>
 <ul>
-<li><a href="hardware/support">Supported Devices</a></li>
+<li><a href="/hardware/support">Supported Devices</a></li>
 </ul>
 </li>
 <li>
 <p>OS</p>
 <ul>
-<li><a href="os/linux">Linux Based</a></li>
+<li><a href="/os/linux">Linux Based</a></li>
 </ul>
 </li>
 <li>
 <p>Pangolin</p>
 <ul>
-<li><a href="pangolin/pangolin-linux">Pangolin Linux</a></li>
-<li><a href="pangolin/pangolin">Pangolin Desktop</a></li>
+<li><a href="/pangolin/pangolin-linux">Pangolin Linux</a></li>
+<li><a href="/pangolin/pangolin">Pangolin Desktop</a></li>
 </ul>
 </li>
 <li>
 <p>Build</p>
 <ul>
-<li><a href="build/buildroot">Buildroot</a></li>
+<li><a href="/build/buildroot">Buildroot</a></li>
 </ul>
 </li>
 <li>
 <p>Developers</p>
 <ul>
-<li><a href="developer/packaging">Packaging</a></li>
-<li><a href="developer/submitting">Submitting</a></li>
+<li><a href="/developer/packaging">Packaging</a></li>
+<li><a href="/developer/submitting">Submitting</a></li>
 </ul>
 </li>
 <li>
 <p>Contribute</p>
 <ul>
-<li><a href="contribute/contributing">Contributing</a></li>
-<li><a href="contribute/conduct">Code of Conduct</a></li>
+<li><a href="/contribute/contributing">Contributing</a></li>
+<li><a href="/contribute/conduct">Code of Conduct</a></li>
 </ul>
 </li>
-<li>
+</ul>
 <!--Footer Content-->
 </div>
           

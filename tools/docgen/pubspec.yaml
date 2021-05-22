@@ -12,3 +12,4 @@ environment:
 dev_dependencies:
   pedantic: ^1.9.0
   markdown: any
+  front_matter: ^1.1.0

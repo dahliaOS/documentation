@@ -1,3 +1,8 @@
+---
+title: Packaging Applications for dahliaOS
+permalink: developer/packaging.html
+summary: Packaging guide for dahliaOS applications
+---
 ## Packaging Applications for dahliaOS
 ### Introduction
 Packages on dahliaOS make use of the AppImage file format for it's portability and ease of use. 

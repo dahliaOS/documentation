@@ -9,6 +9,8 @@
 import 'dart:io';
 import 'package:markdown/markdown.dart';
 import 'dart:convert';
+import 'package:docgen/walk.dart';
+import 'package:front_matter/front_matter.dart' as fm;
 
 //Relative path to markdown documents
 var relPath = '../../markdown/articles/';
@@ -19,6 +21,7 @@ var ghRepo =
 //This 2D array is used to identify the documents.
 //Provide a relative path to the document from the tools/docgen directory, as a string.
 //Syntax for documents in this array is: path, title, Generated File name
+@Deprecated('Avoid this! Use walkedDocs instead.')
 var markdownDocs = [
   //PATH, TITLE, Generated File Name
   [
@@ -113,34 +116,30 @@ void createFile(String filename, String contents) {
   print(filename + ' was created successfully');
 }
 
-extension StringExtension on String {
-  String capitalize() {
-    return "${this[0].toUpperCase()}${this.substring(1)}";
-  }
-}
-
 void main(List<String> arguments) async {
-  for (var i = 0; i < markdownDocs.length; i++) {
+  var walkedDocs = await walkDocs();
+  for (var i = 0; i < walkedDocs.length; i++) {
     var documentInQuestion =
-        await File(relPath + markdownDocs[i][0]).readAsString();
-    var header = await File("header.html").readAsString();
-    var book = await File(relPath + "index.md").readAsString();
-    var footer = await File("footer.html").readAsString();
-    var documentPath = 'Documentation > ' +
-        markdownDocs[i][0].split('/')[0].capitalize() +
+        (await fm.parseFile(relPath + walkedDocs[i].inFileName)).content;
+    var header = await File('header.html').readAsString();
+    var book = (await fm.parseFile(relPath + 'index.md')).content;
+    var footer = await File('footer.html').readAsString();
+    var documentPath = walkedDocs[i].inFileName.split('/')[0] == 'index.md' ? 'Documentation' : 
+    'Documentation > ' +
+        walkedDocs[i].inFileName.split('/')[0].capitalize() +
         ' > ' +
-        markdownDocs[i][1];
+        walkedDocs[i].name;
     var fullDoc = (header +
-            markdownToHtml(documentInQuestion,
+            markdownToHtml(documentInQuestion ?? '',
                 inlineSyntaxes: [InlineHtmlSyntax()]) +
             footer)
-        .replaceAll('DOCGEN_DOCUMENT_TITLE_GGFF', markdownDocs[i][1])
-        .replaceAll('DOCGEN_DOCUMENT_GHLINK_GGFF', ghRepo + markdownDocs[i][0])
-        .replaceAll('DOCGEN_DOCUMENT_DESCRIPTION_GGFF', markdownDocs[i][3])
-        .replaceAll('DOCGEN_DOCUMENT_SIDEBAR_LIST_GGFF', markdownToHtml(book).replaceAll(RegExp("<h2>.*?</h2>"), ""))
+        .replaceAll('DOCGEN_DOCUMENT_TITLE_GGFF', walkedDocs[i].name)
+        .replaceAll('DOCGEN_DOCUMENT_GHLINK_GGFF', ghRepo + walkedDocs[i].inFileName)
+        .replaceAll('DOCGEN_DOCUMENT_DESCRIPTION_GGFF', walkedDocs[i].description)
+        .replaceAll('DOCGEN_DOCUMENT_SIDEBAR_LIST_GGFF', markdownToHtml(book).replaceAll(RegExp('<h2>.*?</h2>'), ''))
         .replaceAll('DOCGEN_DOCUMENT_PATH_GGFF', documentPath);
 
-    print('Generating $i : ${markdownDocs[i]} ');
-    createFile(generatedDocPath + markdownDocs[i][2], fullDoc);
+    print('Generating $i : ${walkedDocs[i]} ');
+    createFile(generatedDocPath + walkedDocs[i].outFileName, fullDoc);
   }
 }

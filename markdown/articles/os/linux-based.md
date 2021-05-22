@@ -1,3 +1,8 @@
+---
+title: Overview of dahliaOS Linux-based Builds
+permalink: os/linux.html
+summary: Explanation of dahliaOS Linux-based builds, functionality, and features
+---
 ## Overview of dahliaOS Linux-based Builds
 ### TL;DR
 You can download dahliaOS Linux [here](https://dahliaos.io/download).

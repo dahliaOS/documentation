@@ -1,3 +1,8 @@
+---
+title: The Buildroot Toolchain
+permalink: build/buildroot.html
+summary: Information and usage of the Buildroot tool, used to compile dahliaOS
+---
 ## Buildroot
 
 - This builds dahliaOS Linux-based builds easily.

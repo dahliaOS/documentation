@@ -1,3 +1,8 @@
+---
+title: dahliaOS 64-bit with Legacy BIOS
+permalink: install/legacy.html
+summary: How to run dahliaOS Linux on legacy computers
+---
 ## dahliaOS on 64-BIOS
 
 ## Installation 

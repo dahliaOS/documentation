@@ -1,3 +1,8 @@
+---
+title: Supported Hardware
+permalink: hardware/support.html
+summary: List of dahliaOS Supported Devices
+---
 ## Supported Hardware
 
 `Legacy`: can only run Legacy builds, `EFI`: can only run EFI builds, Those with no tag can run both. Hardware is determined to be supported if it is able to maintain a connection, operate the desktop between 24 and 60FPS, and has supported drivers for internal or external input devices.
