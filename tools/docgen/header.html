@@ -90,6 +90,23 @@ h2{
 .demo-footer .mdl-mini-footer--link-list a {
   font-size: 13px;
 }
+
+.dahliaOS-docs-sidebar ul {
+  list-style: none;
+}
+.dahliaOS-docs-sidebar>ul ul {
+  padding-left: 1em
+}
+.dahliaOS-docs-sidebar>ul p {
+  color: black;
+  font-weight: 600;
+  font-family: 'Sulphur Point';
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+.dahliaOS-docs-sidebar>ul a:not(:hover) {
+  text-decoration: none
+}
 </style>
     <style>
     #view-source {
@@ -143,7 +160,9 @@ h2{
       <main class="demo-main mdl-layout__content">
         
         <div class="demo-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="mdl-cell mdl-cell--3-col dahliaOS-docs-sidebar mdl-cell--hide-tablet mdl-cell--hide-phone">
+            DOCGEN_DOCUMENT_SIDEBAR_LIST_GGFF
+          </div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
             <div class="demo-crumbs mdl-color-text--grey-500">
               DOCGEN_DOCUMENT_PATH_GGFF

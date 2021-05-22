@@ -123,6 +123,7 @@ void main(List<String> arguments) async {
     var documentInQuestion =
         await File(relPath + markdownDocs[i][0]).readAsString();
     var header = await File("header.html").readAsString();
+    var book = await File(relPath + "index.md").readAsString();
     var footer = await File("footer.html").readAsString();
     var documentPath = 'Documentation > ' +
         markdownDocs[i][0].split('/')[0].capitalize() +
@@ -135,6 +136,7 @@ void main(List<String> arguments) async {
         .replaceAll('DOCGEN_DOCUMENT_TITLE_GGFF', markdownDocs[i][1])
         .replaceAll('DOCGEN_DOCUMENT_GHLINK_GGFF', ghRepo + markdownDocs[i][0])
         .replaceAll('DOCGEN_DOCUMENT_DESCRIPTION_GGFF', markdownDocs[i][3])
+        .replaceAll('DOCGEN_DOCUMENT_SIDEBAR_LIST_GGFF', markdownToHtml(book).replaceAll(RegExp("<h2>.*?</h2>"), ""))
         .replaceAll('DOCGEN_DOCUMENT_PATH_GGFF', documentPath);
 
     print('Generating $i : ${markdownDocs[i]} ');
