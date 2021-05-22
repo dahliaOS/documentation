@@ -1,0 +1,62 @@
+h2 {
+    font-weight: lighter;
+}
+
+.demo-main {
+    margin-top: 10vh;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.demo-header .mdl-layout__header-row {
+    padding-left: 40px;
+}
+
+.demo-container {
+    max-width: 1600px;
+    width: calc(100% - 16px);
+    margin: 0 auto;
+}
+
+.demo-content {
+    border-radius: 20px;
+    padding: 80px 56px;
+    margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+    padding: 40px 28px;
+}
+
+.demo-content h3 {
+    margin-top: 48px;
+}
+
+.demo-footer {
+    padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+    font-size: 13px;
+}
+
+.dahliaOS-docs-sidebar ul {
+    list-style: none;
+}
+
+.dahliaOS-docs-sidebar>ul ul {
+    padding-left: 1em
+}
+
+.dahliaOS-docs-sidebar>ul p {
+    color: black;
+    font-weight: 600;
+    font-family: 'Sulphur Point';
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+.dahliaOS-docs-sidebar>ul a:not(:hover) {
+    text-decoration: none
+}

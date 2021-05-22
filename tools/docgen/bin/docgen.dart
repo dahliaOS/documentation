@@ -4,6 +4,7 @@
 //DOCGEN_DOCUMENT_TITLE_GGFF: This is the name of the document, used in the heading and title
 //DOCGEN_DOCUMENT_DESCRIPTION_GGFF: This is the documents description, used in generated embeds and Google
 //DOCGEN_DOCUMENT_PATH_GGFF: This is the path to the document, shown in the top.
+//DOCGEN_SIDEBAR_LIST_GGFF: This is the content of index.md, parsed, and the top header stripped.
 //Declare other in-document variables with the suffix _GGFF to prevent accidental insertion
 import 'dart:io';
 import 'package:markdown/markdown.dart';
