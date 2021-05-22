@@ -8,7 +8,7 @@
 <th>Brand</th>
 <th>Device</th>
 <th>Compatible Build</th>
-<th>Documentation</th>
+<th>Fuchsia Docs</th>
 </tr>
 </thead>
 <tbody>
@@ -27,19 +27,16 @@
 <td>Acer</td>
 <td>Aspire E1-431-2474</td>
 <td>Linux <code>Legacy</code></td>
-<td><a href="articles/hardware/acer/Aspire-E1-431-2474.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Acer</td>
 <td>Aspire timelineX 5830-series</td>
 <td>Linux <code>Legacy</code></td>
-<td><a href="articles/hardware/acer/Aspire-timelineX-5830-series.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Acer</td>
 <td>TravelMate 8571</td>
 <td>Linux <code>Legacy</code></td>
-<td><a href="articles/hardware/acer/TravelMate-8571.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Acer</td>
@@ -50,13 +47,11 @@
 <td>Acer</td>
 <td>TravelMate P455-M</td>
 <td>Linux</td>
-<td><a href="articles/hardware/acer/TravelMate-P455-M.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Acer</td>
 <td>Travelmate p645-S</td>
 <td>Linux</td>
-<td><a href="articles/hardware/acer/TravelMate-P645-S.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Acer</td>
@@ -93,7 +88,6 @@
 <td>Apple</td>
 <td>Early 2014 Macbook Air</td>
 <td>Linux <code>EFI</code></td>
-<td><a href="articles/hardware/apple/Macbook-air-early-2014.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Broadcom</td>
@@ -135,37 +129,31 @@
 <td>HP</td>
 <td>Compaq 8200-Elite</td>
 <td>Linux <code>Legacy</code></td>
-<td><a href="articles/hardware/hp/Compaq-8200-Elite.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>HP</td>
 <td>Compaq Pro 6300</td>
 <td>Linux <code>Legacy</code></td>
-<td><a href="articles/hardware/hp/Compaq-Pro-6300.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>HP</td>
 <td>Elitedesk 800-G1-SFF</td>
 <td>Linux</td>
-<td><a href="articles/hardware/hp/Elitedesk-800-G1-SFF.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>HP</td>
 <td>630</td>
 <td>Linux <code>Legacy</code></td>
-<td><a href="articles/hardware/hp/630.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>HP</td>
 <td>ProDesk 490-G1-MT</td>
 <td>Linux</td>
-<td><a href="articles/hardware/hp/ProDesk-490-G1-MT.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>HP</td>
 <td>Pavilion Laptop 15-cs0xxx</td>
 <td>Linux <code>EFI</code>, Zircon</td>
-<td><a href="articles/hardware/hp/Pavilion-Laptop-15-cs0xxx.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Intel</td>
@@ -199,7 +187,6 @@
 <td>Lenovo</td>
 <td>Flex 3 80R3</td>
 <td>Linux</td>
-<td><a href="articles/hardware/lenovo/Flex-3-80R3.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Lenovo</td>
@@ -216,7 +203,6 @@
 <td>Pine64</td>
 <td>Pinephone</td>
 <td>Zircon</td>
-<td><a href="articles/hardware/pine64/Pinephone.md"><code>Open</code></a></td>
 </tr>
 <tr>
 <td>Samsung</td>
