@@ -64,7 +64,7 @@ A search bar is also available to sort through apps, find settings, and search t
 flutter channel master # Set flutter to master channel
 flutter upgrade # Upgrade to master channel
 flutter config --enable-linux-desktop # Add Linux as a target
-git clone https://github.com/dahliaos/pangolin-desktop pangolin_desktop # Clone the repo
+git clone --recurse-submodules https://github.com/dahliaos/pangolin-desktop pangolin_desktop # Clone the repo
 cd pangolin_desktop
 flutter create . # Optional, but updates the embedder code
 flutter run -d linux
