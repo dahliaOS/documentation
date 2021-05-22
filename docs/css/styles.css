@@ -49,8 +49,9 @@ h2 {
     padding-left: 1em
 }
 
+.dahliaOS-docs-sidebar>ul {color: black;}
+.mdl-layout__drawer.dahliaOS-docs-sidebar>ul {color: white;}
 .dahliaOS-docs-sidebar>ul p {
-    color: black;
     font-weight: 600;
     font-family: 'Sulphur Point';
     font-size: 1.25em;
@@ -59,4 +60,13 @@ h2 {
 
 .dahliaOS-docs-sidebar>ul a:not(:hover) {
     text-decoration: none
+}
+
+@media screen and (min-width: 840px) {
+    body[data-dahliaos-site="docs"] .mdl-layout__drawer-button {
+        display: none !important;
+    }
+    body[data-dahliaos-site="docs"] .mdl-layout__drawer-button+.mdl-layout__header-row {
+        padding-left: 24px;
+    }
 }
