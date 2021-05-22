@@ -32,7 +32,7 @@ If you find something left out, please feel free to add it.
 #### Desktop, panel and quick settings
 
 <div align=center>
-<img width="700" src="../img/screenshot/201215/desktoppanels.png"/>
+<img width="700" src="../img/screenshot/21xxxx/desktop.png"/>
 </div>
 
 The desktop is the location of windows, widgets (planned), and the wallpaper.
@@ -44,7 +44,7 @@ Quick settings assists in changing relevant system settings quickly (hence the n
 #### Launcher
 
 <div align=center>
-<img width="700" src="../img/screenshot/201215/launcher.png"/>
+<img width="700" src="../img/screenshot/21xxxx/launcher.png"/>
 </div>
 
 The launcher is for opening and viewing a grid of every application in the system, as well as a list of quick, helpful cards that display notifications and information. 
