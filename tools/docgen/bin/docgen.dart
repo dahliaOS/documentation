@@ -142,4 +142,16 @@ void main(List<String> arguments) async {
     print('Generating $i : ${walkedDocs[i]} ');
     createFile(generatedDocPath + walkedDocs[i].outFileName, fullDoc);
   }
+
+  print('Copying static files...');
+  List<Future> _staticFileFutures = [];
+  const _staticRoot = "../../markdown/static/";
+  for (var file in await walkDirectoryFor<File>(_staticRoot)) {
+    var _destPath = "../../docs/${file.path.replaceFirst(_staticRoot, '')}";
+    var _destFile = File(_destPath);
+    if (!await _destFile.exists()) await _destFile.create(recursive: true);
+    _staticFileFutures.add(file.copy(_destPath));
+  }
+  await Future.wait(_staticFileFutures);
+  print('Static files copied.');
 }

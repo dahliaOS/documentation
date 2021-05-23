@@ -68,3 +68,9 @@ Future<List<DocsArticle>> walkDocs() async {
   }
   return articles;
 }
+
+Future<List<T>> walkDirectoryFor<T extends FileSystemEntity>(String path) async {
+  List<FileSystemEntity> _files = [];
+  await Directory(path).list(recursive: true).listen((event) {_files.add(event);}).asFuture();
+  return _files.whereType<T>().toList();
+}
