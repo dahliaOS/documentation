@@ -70,3 +70,20 @@ h2 {
         padding-left: 24px;
     }
 }
+
+#sidebar-hider {
+    display: none;
+    appearance: none;
+}
+
+.dahliaOS-docs-sidebar[data-docs-visible=false] {
+    display: none;
+}
+.dahliaOS-docs-sidebar[data-docs-visible=false]+.replacement-cell {
+    display: initial;
+}
+@media screen and (min-width: 840px) {
+    .dahliaOS-docs-sidebar[data-docs-visible=true]+.replacement-cell {
+        display: none;
+    }
+}

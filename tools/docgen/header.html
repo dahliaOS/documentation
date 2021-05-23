@@ -100,11 +100,17 @@ limitations under the License.
       <main class="demo-main mdl-layout__content">
         
         <div class="demo-container mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col dahliaOS-docs-sidebar mdl-cell--hide-tablet mdl-cell--hide-phone">
+          <div class="mdl-cell mdl-cell--3-col dahliaOS-docs-sidebar mdl-cell--hide-tablet mdl-cell--hide-phone" data-docs-visible="true">
             DOCGEN_DOCUMENT_SIDEBAR_LIST_GGFF
           </div>
+          <div class="mdl-cell mdl-cell--2-col replacement-cell mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
             <div class="demo-crumbs mdl-color-text--grey-500">
+              <input type="checkbox" id="sidebar-hider" name="sidebar-hider"
+                onchange="dahliaOS__matchSidebar()" checked />
+              <label class="mdl-button mdl-js-button mdl-button--icon mdl-cell--hide-tablet mdl-cell--hide-phone" for="sidebar-hider">
+                <i class="material-icons">list</i>
+              </label>
               DOCGEN_DOCUMENT_PATH_GGFF
             </div>
             <!--Header Content-->
