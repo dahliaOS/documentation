@@ -87,3 +87,7 @@ h2 {
         display: none;
     }
 }
+
+.mdl-layout__obfuscator.is-visible, .mdl-layout__drawer.is-visible {
+    position: fixed;
+}
