@@ -21,6 +21,7 @@ summary: dahliaOS Documentation overview
 - OS
 
   - [Linux Based](/os/linux)
+  - [Zircon Based (FImage)](/os/fimage)
 
 - Pangolin
 

@@ -53,7 +53,7 @@ This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine)
 ### The System - In-Depth
 
 <div align=center> 
- <img width="700" src="../img/linux-based/arch.png"/> 
+ <img width="80%" src="../img/linux-based/arch.png"/> 
 </div>
 
 Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.
@@ -78,8 +78,9 @@ For those living on the edge or those looking to debug the underlying system, a 
 #### Graft and the Modular Userspace
 
 <div align=center>
-<img width="700" src="../img/linux-based/graft.png"/>
+<img width="80%" src="../img/linux-based/graft.png"/>
 </div>
+
 
 Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.
  
@@ -97,7 +98,7 @@ While the base system is not typically accessible outside of Developer Mode, dah
 #### Buildroot
 
 <div align=center>
-<img width="700" src="../img/linux-based/buildroot.png"/>
+<img width="80%" src="../img/linux-based/buildroot.png"/>
 </div>
 
 dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in the [Buildroot repo](https://github.com/dahliaos/buildroot). Builds are completely reproducible using the tool, and the build source used in release is typically pushed every 2-5 days.
