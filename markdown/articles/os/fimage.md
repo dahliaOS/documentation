@@ -9,7 +9,7 @@ FImage is provided for the convenience of developers and enthusiasts who don't w
 We are in no way connected to Google. For more information, see [fimage/LICENSE](https://github.com/dahliaOS/fimage/blob/master/LICENSE).
 
 <div align=center> 
- <img width="80%" src="..//img/fimage/fimage1.png"/> 
+ <img width="80%" src="../img/fimage/fimage1.png"/> 
 </div>
 
 ### TL;DR
@@ -56,19 +56,19 @@ The launch options are as follows:
 
 ### Screenshots
 <div align=center> 
- <img width="80%" src="..//img/fimage/fimage2.png"/> 
+ <img width="80%" src="../img/fimage/fimage2.png"/> 
 </div>
 
 Ermine Home screen
 
 <div align=center> 
- <img width="80%" src="..//img/fimage/fimage3.png"/> 
+ <img width="80%" src="../img/fimage/fimage3.png"/> 
 </div>
 
 User agent in simple-browser
 
 <div align=center> 
- <img width="80%" src="..//img/fimage/fimage4.png"/> 
+ <img width="80%" src="../img/fimage/fimage4.png"/> 
 </div>
 
 Command-line interface in gnome-terminal
