@@ -16,7 +16,7 @@ We are in no way affiliated Google. For more information, see [fimage/LICENSE](h
 * The FImage emulator can be downloaded [here](https://github.com/dahliaOS/fimage/releases).
 * For more information on the Fuchsia Emulator, see [this document](https://fuchsia.dev/fuchsia-src/concepts/emulator).
 
-To quickly run FImage, use the commands below inside of it's folder:
+To quickly run FImage, use the commands below inside of its folder:
 ```bash
 ./ffx-linux-x64 platform preflight
 ./network-config
