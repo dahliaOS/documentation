@@ -31,7 +31,7 @@ To quickly run FImage, use the commands below inside of its folder:
 * Up-to-date graphics drivers
 ### Fimage Quick Start
 First, download the latest Fimage tool at [fimage/releases](https://github.com/dahliaOS/fimage/releases).
-Extract the file `fimage-210525.zip` and go into the fimage folder. 
+Extract the file `fimage-<version>.zip` and go into the fimage folder. 
 
 Begin by checking your hardware, using the provided `ffx` tool. [FFX Documentation on fuchsia.dev](https://fuchsia.dev/fuchsia-src/reference/tools/sdk/ffx)
 ```bash

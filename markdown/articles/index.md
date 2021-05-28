@@ -33,7 +33,8 @@ summary: dahliaOS Documentation overview
   - [Buildroot](/build/buildroot)
 
 - Developers
-
+  - [Setting up FImage for Application Development](/developer/fimage-setup)
+  - [Running a Flutter App on Fuchsia with FImage](/developer/flutter-fuchsia)
   - [Packaging](/developer/packaging)
   - [Submitting](/developer/submitting)
 
