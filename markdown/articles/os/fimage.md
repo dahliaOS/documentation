@@ -61,6 +61,9 @@ Fimage can be installed on dahliaOS Linux with:
 dap install fimage
 ```
 
+### Flutter Development with FImage
+A guide to Flutter development with FImage can be found here: [Setting up FImage for Application Development](/developer/fimage-setup)
+
 ### Screenshots
 <div align=center> 
  <img width="80%" src="../fimage/fimage2.png"/> 
