@@ -1,7 +1,7 @@
 ---
 title: Running a Flutter App on Fuchsia with FImage
 permalink: developer/flutter-fuchsia.html
-summary: Guide to setting up FImage for Flutter development
+summary: Walkthrough on running a Flutter app on FImage
 ---
 ## Running a Flutter App on Fuchsia with FImage
 This guide assumes you have already configured FImage for Flutter development. If you have not, see [Setting up FImage for Application Development >](fimage-setup)
