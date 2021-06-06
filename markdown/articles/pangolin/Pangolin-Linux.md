@@ -50,7 +50,7 @@ sudo snap install flutter --classic
 
 If you're using something other than Linux Mint you will get a nosnap error but this won't effect anything.
 ```bash
-git clone https://github.com/HexaOneOfficial/pangolin-linux.git
+git clone https://github.com/hexa-one/pangolin-linux.git
 cd pangolin-linux && chmod +x install.sh && sudo ./install.sh
 ```
 - now restart and login with pangolin
