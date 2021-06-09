@@ -42,10 +42,12 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 ```
 
 ### Run dahliaOS
-- download the dahliaOS latest ISO from: https://github.com/dahliaos/releases/releases/latest
+- Download the dahliaOS latest ISO from: https://github.com/dahliaos/releases/releases/latest
 
 - Then type the following command in the terminal (make sure that you use the right name of the ISO file. DahliaOS.iso is just for this example)
 
+- Make sure you use a least 2GB or more or the vm will fail to load pangolin
+
 ```
-qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 1024 -enable-kvm
+qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
 ```
