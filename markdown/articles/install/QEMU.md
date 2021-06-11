@@ -14,7 +14,7 @@ summary: How to run dahliaOS Linux inside of the QEMU Emulator
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-#### Fedora 33 - 34
+#### Fedora 32 - 34
 - First open a terminal and type the following command:
 
 ```
