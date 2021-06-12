@@ -21,6 +21,6 @@ jobs:
           python-version: 3.8
       - name: bump changes 
         run: |
-          python tools/changes/bump_changes.py
+          python tools/changes/main.py
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
