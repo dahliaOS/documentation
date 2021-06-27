@@ -25,7 +25,7 @@ summary: dahliaOS Documentation overview
 
 - Pangolin
 
-  - [Pangolin Linux](/pangolin/pangolin-linux)
+  - [Pangolin on Linux](/pangolin/pangolin-linux)
   - [Pangolin Desktop](/pangolin/pangolin)
 
 - Build
