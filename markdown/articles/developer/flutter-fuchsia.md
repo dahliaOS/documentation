@@ -9,7 +9,7 @@ This guide assumes you have already configured FImage for Flutter development. I
 Note: Due to this blocking issue - [Fuchsia Issue 77566](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566) - this guide does not work. We will keep this document updated as the situation develops.
 
 ### Step 1 - Configure FImage Environment Variables
-Before you can deply your Flutter app, you must register FImage's SSH configuration with the Flutter tool.
+Before you can deploy your Flutter app, you must register FImage's SSH configuration with the Flutter tool.
 
 From inside the FImage directory, run
 ```bash
