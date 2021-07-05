@@ -37,6 +37,7 @@ summary: dahliaOS Documentation overview
   - [Running a Flutter App on Fuchsia with FImage](/developer/flutter-fuchsia)
   - [Packaging](/developer/packaging)
   - [Submitting](/developer/submitting)
+  - [Roadmap](/developer/roadmap)
 
 - Contribute
 
