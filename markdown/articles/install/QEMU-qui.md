@@ -1,44 +1,23 @@
 ---
-title: Running dahliaOS in QEMU
-permalink: install/qemu.html
+title: Running dahliaOS in QEMU (GUI)
+permalink: install/QEMU-gui.html
 summary: How to run dahliaOS Linux inside of the QEMU Emulator
 ---
 ## dahliaOS on QEMU
 
 ### Linux
 
-#### Arch
-- First open a terminal and type the following command:
-
-```
-sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
-```
-
-#### Fedora 32 - 34
-- First open a terminal and type the following command:
-
-```
-sudo dnf install qemu
-```
-
-#### Gentoo
-- First open a terminal and type the following command:
-
-```
-emerge --ask app-emulation/qemu
-```
-
 #### Ubuntu 20.04 - 21.04
 - First open a terminal and type the following command:
 
 ```
-sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
+sudo apt install virt-manager
 ```
 
 - For **Ubuntu 18.04** or older you want to run this command: 
 
 ```
-sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
+sudo apt-get install virt-manager
 ```
 
 ### Run dahliaOS

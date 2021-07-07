@@ -1,3 +1,8 @@
+---
+title: The Apache License
+permalink: license/LICENSE.html
+summary: The Apache License
+---
 ## Apache License
 ==============
 

@@ -21,10 +21,10 @@ Try out the builds [here](https://web.dahliaos.io).
 + May 17, 2019, A Text editor called "Petal" was merged into Pangolin
 + June 30, 2019, The launcher was given an updated look featuring cards, was not yet functional
 + May 26, App icons were finally added to the launcher, they were not yet functional
-+ May 31, 2020, @kanouharu implemented a basic app launching ability to the panel icons
++ May 31, 2020, [@kanouharu](https://github.com/kanouharu) implemented a basic app launching ability to the panel icons
 + June 6, 2020, a basic task manager was implemented
-+ June 12, 2020, @SincerelyFaust migrated the codebase to Apache 2.0 rather than the GPL, the beginning of dahliaOS' transistion to Apache.
-+ June 20, 2020, @larsb24 made significant changes to the backend as well as improving the quicksettings. 
++ June 12, 2020, [@SincerelyFaust](https://github.com/SincerelyFaust) migrated the codebase to Apache 2.0 rather than the GPL, the beginning of dahliaOS' transistion to Apache.
++ June 20, 2020, [@larsb24](https://github.com/larsb24) made significant changes to the backend as well as improving the quicksettings. 
 + June 22, 2020, FleshRoots added support for automatic building
 
 Please note that these are only the highlights from development, and not indicative of every commit. 

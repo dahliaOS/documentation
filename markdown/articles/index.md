@@ -12,7 +12,8 @@ summary: dahliaOS Documentation overview
 
   - [64BIT UEFI](/install/efi)
   - [64BIT BIOS](/install/legacy)
-  - [QEMU](/install/qemu)
+  - [QEMU (cli)](/install/QEMU-cli)
+  - [VirtualBox](/install/virtualbox) 
 
 - Hardware
 
@@ -33,6 +34,7 @@ summary: dahliaOS Documentation overview
   - [Buildroot](/build/buildroot)
 
 - Developers
+
   - [Setting up FImage for Application Development](/developer/fimage-setup)
   - [Running a Flutter App on Fuchsia with FImage](/developer/flutter-fuchsia)
   - [Packaging](/developer/packaging)
@@ -43,3 +45,7 @@ summary: dahliaOS Documentation overview
 
   - [Contributing](/contribute/contributing)
   - [Code of Conduct](/contribute/conduct)
+
+- License
+
+  - [License](/license/LICENSE)

@@ -185,4 +185,4 @@ We kindly ask everyone who has submitted a pull request to be patient and that's
 
 ### License
 
-By contributing, you agree that your contributions will be licensed under the [Apache 2.0](articles/license/LICENSE) license
+By contributing, you agree that your contributions will be licensed under the [Apache 2.0](https://docs.dahliaos.io/license/LICENSE) license
