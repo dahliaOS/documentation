@@ -52,8 +52,8 @@ h2 {
 .dahliaOS-docs-sidebar>ul {color: black;}
 .mdl-layout__drawer.dahliaOS-docs-sidebar>ul {color: white;}
 .dahliaOS-docs-sidebar>ul p {
-    font-weight: 600;
-    font-family: 'Sulphur Point';
+    font-weight: 500;
+    font-family: 'Roboto';
     font-size: 1.25em;
     margin-top: 1em;
 }
