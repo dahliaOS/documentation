@@ -7,7 +7,7 @@ summary: How to run dahliaOS Linux inside of VirtualBox
 
 ### Linux / Windows / MacOS
 
-#### Downloading Virtual
+#### Downloading VirtualBox
 
 - Go to the [VirtualBox download page](https://www.virtualbox.org/wiki/Downloads) and select virtualbox for your host os. 
 
@@ -31,7 +31,7 @@ Version: Other Linux (64-bit)
 - Click Create to finish.
 
 <div align=center> 
- <img width="80%" src="../virtualbox/1.gif"/> 
+ <img width="80%" src="../img/virtualbox/1.gif"/> 
 </div>
 
 #### Setting up the virtual machine
@@ -46,5 +46,5 @@ Storage: click on the empty cd symbol: check the Live CD/DVD and click on the cd
 - Click on OK to finish and click on Start to run dahliaOS.
 
 <div align=center> 
- <img width="80%" src="../virtualbox/2.gif"/> 
+ <img width="80%" src="../img/virtualbox/2.gif"/> 
 </div>
