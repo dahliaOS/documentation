@@ -33,7 +33,7 @@ sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
 
 - **1:** Choose **Local install media (ISO image or CDROM)** and click Forward.
 
-- **2:** Click on Browse: Browse local and select your iso. Deselect **Automatically detect from the installation media / source** and Choose as OS **Generic Linux 2020 (linux2020) and click Forward.
+- **2:** Click on Browse: Browse local and select your iso. Deselect **Automatically detect from the installation media / source** and Choose as OS **Generic Linux 2020 (linux2020)** and click Forward.
 
 - **3:** Fill in the following minimum specifications and click Forward.
 
