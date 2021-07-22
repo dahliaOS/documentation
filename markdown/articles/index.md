@@ -10,8 +10,8 @@ summary: dahliaOS Documentation overview
 
 - Install
 
-  - [64BIT UEFI](/install/efi)
-  - [64BIT BIOS](/install/legacy)
+  - [EFI (x86_64)](/install/efi)
+  - [BIOS (x86_64)](/install/legacy)
   - [QEMU (cli)](/install/QEMU-cli)
   - [QEMU (gui)](/install/QEMU-gui)
   - [VirtualBox](/install/virtualbox) 

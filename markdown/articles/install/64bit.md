@@ -1,9 +1,9 @@
 ---
-title: dahliaOS 64-bit with UEFI
+title: dahliaOS on x86_64 EFI systems
 permalink: install/efi.html
 summary: How to run dahliaOS Linux on EFI computers
 ---
-## dahliaOS on 64-UEFI
+## dahliaOS on x86_64 EFI systems
 
 ### Installation 
 
