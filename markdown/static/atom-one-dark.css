@@ -26,7 +26,7 @@ hue-6-2: #e6c07b
 
 .hljs-comment,
 .hljs-quote {
-  color: #5c6370;
+  color: #ff5252;
   font-style: italic;
 }
 
@@ -92,4 +92,11 @@ hue-6-2: #e6c07b
 
 .hljs-link {
   text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+.hljs {
+  color: #ffffff;
+  background: #3B3B3B;
+  border-radius: 10px;
 }

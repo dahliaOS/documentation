@@ -91,3 +91,17 @@ h2 {
 .mdl-layout__obfuscator.is-visible, .mdl-layout__drawer.is-visible {
     position: fixed;
 }
+
+@media (prefers-color-scheme: dark) {
+      .dahliaOS-docs-sidebar>ul {color: white;}
+  }
+  .mdl-color--grey-100 {
+    background-color: #1a1a1a !important;
+  }
+  .mdl-color--white {
+    background-color: #222 !important;
+  }
+  .mdl-color-text--grey-800 {
+    color: #ffffff !important;
+  }
+}
