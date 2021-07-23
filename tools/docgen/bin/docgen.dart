@@ -17,7 +17,7 @@ var relPath = '../../markdown/articles/';
 var generatedDocPath = '../../docs/';
 //Github repository URL
 var ghRepo =
-    'https://github.com/dahliaOS/documentation/tree/main/docs/articles/';
+    'https://github.com/dahliaOS/documentation/tree/main/markdown/articles/';
 //This 2D array is used to identify the documents.
 //Provide a relative path to the document from the tools/docgen directory, as a string.
 //Syntax for documents in this array is: path, title, Generated File name
