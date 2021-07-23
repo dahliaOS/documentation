@@ -50,7 +50,7 @@ h2 {
 }
 
 .dahliaOS-docs-sidebar>ul {color: black;}
-.mdl-layout__drawer.dahliaOS-docs-sidebar>ul {color: white;}
+.mdl-layout__drawer.dahliaOS-docs-sidebar>ul {color: black;}
 .dahliaOS-docs-sidebar>ul p {
     font-weight: 500;
     font-family: 'Roboto';
@@ -93,15 +93,24 @@ h2 {
 }
 
 @media (prefers-color-scheme: dark) {
-      .dahliaOS-docs-sidebar>ul {color: white;}
-  }
-  .mdl-color--grey-100 {
-    background-color: #1a1a1a !important;
-  }
-  .mdl-color--white {
-    background-color: #222 !important;
-  }
-  .mdl-color-text--grey-800 {
-    color: #ffffff !important;
-  }
+.mdl-layout__drawer.dahliaOS-docs-sidebar>ul {color: white;}
+}
+
+@media (prefers-color-scheme: dark) {
+.dahliaOS-docs-sidebar>ul {color: white;}
+}
+
+@media (prefers-color-scheme: dark) {
+.mdl-color--grey-100 {
+  background-color: #1a1a1a !important;
+}
+
+@media (prefers-color-scheme: dark) {
+.mdl-color--white {
+  background-color: #222 !important;
+}
+    
+@media (prefers-color-scheme: dark) {
+.mdl-color-text--grey-800 {
+  color: #ffffff !important;
 }
