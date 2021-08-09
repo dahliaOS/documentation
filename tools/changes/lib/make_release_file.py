@@ -1,5 +1,6 @@
 import os
 import datetime
+import subprocess as sp
 
 def main(repo):
     now = datetime.date.today()
@@ -16,7 +17,15 @@ def main(repo):
     os.system('echo "" >> '+(FILE))
     os.system('echo "## changes" >> '+(FILE))
     os.system('echo "" >> '+(FILE))
-    os.system('echo "Compare to previous release [here](https://github.com/dahliaOS/'+(repo)+'/compare/v'+str(DATE_TAG)+'...v'+str(DATE_SYSTEM)+')." >> .github/release.md')
+    previous_release = sp.getoutput('git describe --tags --abbrev=0 @^')
+    commit_log = sp.getoutput('git log --oneline '+(previous_release)+'..@')
+    os.system('echo [ ]( ) https://github.com/dahliaOS/'+(repo)+'/commit/ '+(commit_log)+' >> commit_log.txt')
+    log1 = ("awk -F' ' '{ print")
+    log2 = (' $1" "$6" "$7" "$8" "$9" "$10" "$11" "$12" "$13" "$14" "$2" "$4 $5" "$3')
+    log3 = (" }'<commit_log.txt >> "+(FILE)+" ")
+    commit_log_string = sp.getoutput((log1)+(log2)+(log3))
+    print (commit_log_string) # debug only
+    os.system('rm commit_log.txt')
     os.system('cd ..')
     os.system('git config user.name github-actions')
     os.system('git config user.email "action@github.com"')
