@@ -11,7 +11,7 @@ summary: How to run dahliaOS Linux inside of virt manager
 - First open a terminal and type the following command:
 
 ```
-sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
+sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba virt-manager
 ```
 
 #### Ubuntu 20.04 - 21.04
