@@ -19,9 +19,9 @@ def main(repo):
     os.system('echo "" >> '+(FILE))
     previous_release = sp.getoutput('git describe --tags --abbrev=0 @^')
     commit_log = sp.getoutput('git log --oneline '+(previous_release)+'..@')
-    os.system('echo [ ]( ) https://github.com/dahliaOS/'+(repo)+'/commit/ '+(commit_log)+' >> commit_log.txt')
+    os.system('echo - [ ]( ) https://github.com/dahliaOS/'+(repo)+'/commit/ '+(commit_log)+' >> commit_log.txt')
     log1 = ("awk -F' ' '{ print")
-    log2 = (' $1" "$6" "$7" "$8" "$9" "$10" "$11" "$12" "$13" "$14" "$2" "$4 $5" "$3')
+    log2 = (' $1" "$2" "$7" "$8" "$9" "$10" "$11" "$12" "$13" "$14" "$3" "$5 $6" "$4')
     log3 = (" }'<commit_log.txt >> "+(FILE)+" ")
     commit_log_string = sp.getoutput((log1)+(log2)+(log3))
     print (commit_log_string) # debug only
