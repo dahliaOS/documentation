@@ -35,7 +35,7 @@ sudo snap install flutter --classic
 - Install Flutter [`Snap`](https://snapcraft.io/flutter)
 
 ```
-sudo dnf install snapd
+sudo dnf install snapd matchbox-window-manager
 ```
 
 ```
