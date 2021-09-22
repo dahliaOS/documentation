@@ -123,5 +123,5 @@ h2 {
 @media (prefers-color-scheme: dark) {
 .mdl-button .material-icons {
   vertical-align: middle;
-  color: #fff
+  color: #fff;
 }
