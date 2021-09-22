@@ -46,7 +46,8 @@ h2 {
 }
 
 .dahliaOS-docs-sidebar>ul ul {
-    padding-left: 1em
+    padding-left: 2em;
+    border-radius: 8px;
 }
 
 .dahliaOS-docs-sidebar>ul {color: black;}
@@ -56,6 +57,10 @@ h2 {
     font-family: 'Roboto';
     font-size: 1.25em;
     margin-top: 1em;
+    background: #ff525280;
+    padding: 0.1em;
+    border-radius: 8px;
+    padding-left: 0.8em;
 }
 
 .dahliaOS-docs-sidebar>ul a:not(:hover) {
