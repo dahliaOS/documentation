@@ -1,10 +1,10 @@
 {
     "name": "dahliaOS Documentation",
     "short_name": "dahliaOS Documentation",
-    "start_url": "/",
+    "start_url": "/?source=pwa",
     "display": "minimal-ui",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#ff525280",
+    "theme_color": "#ff525280",
     "description": "dahliaOS Documentation.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
