@@ -37,6 +37,12 @@ var markdownDocs = [
     'dahliaOS Documentation overview'
   ],
   [
+    'manifest.json',
+    'manifest',
+    'manifest.json',
+    'manifest'
+  ],
+  [
     'pangolin/Pangolin-Desktop.md',
     'The Pangolin Desktop',
     'pangolin/pangolin.html',
