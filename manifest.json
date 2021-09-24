@@ -1,0 +1,22 @@
+{
+    "short_name": "dahliaOS Documentation",
+    "name": "Documentation about dahliaOS",
+    "icons": [
+      {
+        "src": "markdown/static/img/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "markdown/static/img/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    
+    "start_url": "/?source=pwa",
+    "background_color": "#ff525280",
+    "display": "minimal-ui",
+    "scope": "/",
+    "theme_color": "#ff525280"
+}
