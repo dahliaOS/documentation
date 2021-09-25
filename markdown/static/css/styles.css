@@ -181,7 +181,7 @@ h2 {
 }
 
 @media (prefers-color-scheme: dark) {
-.mdl-button--fab .material-icons-outlined {
+.material-icons-outlined {
     color: #fff !important;
 }
     
