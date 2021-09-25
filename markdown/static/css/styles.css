@@ -125,3 +125,67 @@ h2 {
   vertical-align: middle;
   color: #fff;
 }
+    
+@media (prefers-color-scheme: dark) {
+.mdl-button .material-icons-outlined {
+  vertical-align: middle;
+  color: #fff;
+}
+    
+@media (prefers-color-scheme: dark) {
+.edit-button {
+    background: #913A3A !important;
+}
+   
+@media (prefers-color-scheme: dark) {
+    @media screen and (max-width: 600px) {    
+      .dahliaOS-header {
+        overflow: visible;
+        background-color: #2a2a2a;
+        border-radius: 20px;
+        top: 15px;
+        left: 15px;
+        right: 10px;
+      }
+      .mdl-layout__header {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+          -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          box-sizing: border-box;
+          -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+          flex-shrink: 0;
+          width: 91.5%;
+          margin: 0;
+          padding: 0;
+          border: none;
+          min-height: 64px;
+          max-height: 1000px;
+          z-index: 3;
+          color: #fff;
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+            0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          transition-duration: 0.2s;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-property: max-height, box-shadow;
+     }
+}
+
+@media (prefers-color-scheme: dark) {
+.mdl-button--fab .material-icons-outlined {
+    color: #fff !important;
+}
+    
+@media (prefers-color-scheme: dark) {
+.edit-button-text {
+    color: #fff !important;
+}
