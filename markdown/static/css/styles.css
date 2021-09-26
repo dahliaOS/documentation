@@ -76,6 +76,90 @@ h2 {
     }
 }
 
+@media screen and (max-width: 600px) { 
+        .nav-bottom-home-button {
+            background: #ff525280;
+            width: 15%;
+            height: 28px;
+            z-index: 1;
+            position: fixed;
+            bottom: 25px; 
+            left: 20%;
+            display: block;
+            border-radius: 20px;
+        }
+}
+
+@media screen and (max-width: 600px) { 
+        .nav-bottom-home-icon {
+            color: #000;
+            width: 15%;
+            height: 28px;
+            z-index: 1;
+            position: fixed;
+            bottom: 23px; 
+            left: 23.8%;
+            display: block;
+            text-decoration: none;
+        }
+}
+
+
+@media screen and (max-width: 600px) { 
+        .nav-bottom-home-text {
+            font-family: Roboto;
+            font-weight: 500;
+            color: #000;
+            z-index: 1;
+            position: fixed;
+            bottom: 2px; 
+            left: 22.2%;
+            text-decoration: none;
+        }
+}
+
+@media screen and (max-width: 600px) { 
+        .nav-bottom-blog-button {
+            background: #ff525280;
+            width: 15%;
+            height: 28px;
+            z-index: 1;
+            position: fixed;
+            bottom: 25px; 
+            left: 65%;
+            display: block;
+            border-radius: 20px;
+        }
+}
+
+@media screen and (max-width: 600px) { 
+        .nav-bottom-blog-text {
+            font-family: Roboto;
+            font-weight: 500;
+            color: #000;
+            z-index: 1;
+            position: fixed;
+            bottom: 2px; 
+            left: 68.5%;
+            text-decoration: none;
+        }
+}
+
+@media screen and (max-width: 600px) { 
+        .nav-bottom-blog-icon {
+            color: #000;
+            width: 15%;
+            height: 28px;
+            z-index: 1;
+            position: fixed;
+            bottom: 23px; 
+            left: 69%;
+            display: block;
+            text-decoration: none;
+        }
+}
+
+
 #sidebar-hider {
     display: none;
     appearance: none;
@@ -97,6 +181,84 @@ h2 {
     position: fixed;
 }
 
+@media screen and (max-width: 600px) {    
+      .dahliaOS-header {
+        overflow: visible;
+        background-color: #fff;
+        border-radius: 20px;
+        top: 15px;
+        left: 15px;
+        right: 10px;
+      }
+}
+
+@media screen and (max-width: 600px) {    
+.mdl-layout__header {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+          -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+          justify-content: flex-start;
+          box-sizing: border-box;
+          -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+          flex-shrink: 0;
+          width: 91.5%;
+          margin: 0;
+          padding: 0;
+          border: none;
+          min-height: 64px;
+          max-height: 1000px;
+          z-index: 3;
+          color: #fff;
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+            0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          transition-duration: 0.2s;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-property: max-height, box-shadow;
+          z-index: 1;
+     }
+}
+
+@media screen and (max-width: 600px) { 
+.nav-bottom {
+    background: #fff;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    position: fixed;
+    bottom: 0px; 
+    display: block;
+    }
+}
+    
+@media screen and (max-width: 600px) {
+.dahliaOS-docs-sidebar>ul p {
+    padding-left: 0.8em;
+    margin-right: 10px;
+    margin-left: -20px
+    }
+}
+      
+@media screen and (max-width: 600px) { 
+.edit-button {
+    margin-bottom: 80px !important;
+    }
+}
+    
+@media screen and (max-width: 600px) {
+.dahliaOS-docs-sidebar>ul ul {
+    padding-left: 10px !important;;
+    }
+}
+    
 @media (prefers-color-scheme: dark) {
 .mdl-layout__drawer.dahliaOS-docs-sidebar>ul {color: white;}
 }
@@ -136,7 +298,7 @@ h2 {
 .edit-button {
     background: #913A3A !important;
 }
-   
+       
 @media (prefers-color-scheme: dark) {
     @media screen and (max-width: 600px) {    
       .dahliaOS-header {
@@ -177,9 +339,11 @@ h2 {
           transition-duration: 0.2s;
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-property: max-height, box-shadow;
+          z-index: 1;
      }
+   }
 }
-
+    
 @media (prefers-color-scheme: dark) {
 .material-icons-outlined {
     color: #fff !important;
@@ -188,4 +352,65 @@ h2 {
 @media (prefers-color-scheme: dark) {
 .edit-button-text {
     color: #fff !important;
+}
+
+@media screen and (max-width: 600px) { 
+        .nav-bottom {
+            background: #2a2a2a;
+            width: 100%;
+            height: 70px;
+            z-index: 1;
+            position: fixed;
+            bottom: 0px; 
+            display: block;
+        }
+}
+
+    
+@media (prefers-color-scheme: dark) {
+    @media screen and (max-width: 600px) { 
+            .nav-bottom-home-text {
+                font-family: Roboto;
+                font-weight: 500;
+                color: #fff;
+                z-index: 1;
+                position: fixed;
+                bottom: 2px; 
+                left: 22.2%;
+                text-decoration: none;
+        }
+     }
+}
+    
+    
+@media (prefers-color-scheme: dark) {
+@media screen and (max-width: 600px) { 
+        .nav-bottom-blog-text {
+            font-family: Roboto;
+            font-weight: 500;
+            color: #fff;
+            z-index: 1;
+            position: fixed;
+            bottom: 2px; 
+            left: 68.5%;
+            text-decoration: none;
+        }
+    }
+}
+    
+@media (prefers-color-scheme: dark) { 
+@media screen and (max-width: 600px) { 
+        .nav-bottom-home-icon {
+            color: #fff;
+        }
+    }
+}
+
+    
+@media (prefers-color-scheme: dark) { 
+@media screen and (max-width: 600px) { 
+        .nav-bottom-blog-icon {
+            color: #fff;
+        }
+    }
 }

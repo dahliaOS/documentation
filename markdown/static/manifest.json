@@ -3,7 +3,7 @@
     "short_name": "dahliaOS Documentation",
     "start_url": "/?source=pwa",
     "scope": ".",
-    "display": "minimal-ui",
+    "display": "standalone",
     "background_color": "#ff525280",
     "theme_color": "#ff525280",
     "description": "dahliaOS Documentation.",
