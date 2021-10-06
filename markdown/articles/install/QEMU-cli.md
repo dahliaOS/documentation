@@ -14,7 +14,7 @@ summary: How to run dahliaOS Linux inside of the QEMU Emulator
 sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
 ```
 
-#### Fedora 32 - 34
+#### Fedora 32 - 35
 - First open a terminal and type the following command:
 
 ```
@@ -28,7 +28,7 @@ sudo dnf install qemu
 emerge --ask app-emulation/qemu
 ```
 
-#### Ubuntu 20.04 - 21.04
+#### Ubuntu 20.04 - 21.10
 - First open a terminal and type the following command:
 
 ```
