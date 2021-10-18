@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="80%" src="https://github.com/dahliaos/brand/blob/master/Logo%20SVGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).svg"
+  <img width="80%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypeblacktext.svg"
 <p>
 <div align="center">
   <a href="https://dahliaos.io">Website</a> ●
