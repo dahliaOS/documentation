@@ -25,7 +25,7 @@ PRs are welcome, if you're wondering how to contribute to the project, please re
 ## License
 
 <p align="left">
-  <img width="40%" src="https://github.com/dahliaos/brand/blob/master/Logo%20PNGs/dahliaOS%20logo%20with%20text%20(drop%20shadow).png"
+  <img width="40%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypeblacktext.svg"
 </p>
 
 Copyright @ 2019-2021 - The dahliaOS Authors - contact@dahliaos.io
