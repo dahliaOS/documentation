@@ -46,7 +46,7 @@ summary: List of dahliaOS Supported Devices
 <tr>
 <td>Acer</td>
 <td>TravelMate P256-M</td>
-<td>Linux <code>untested</code></td>
+<td>Linux</td>
 </tr>
 <tr>
 <td>Acer</td>
