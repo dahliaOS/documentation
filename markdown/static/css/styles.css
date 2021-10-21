@@ -41,6 +41,14 @@ h2 {
     font-size: 13px;
 }
 
+.SH-NOTE {
+    background: #2a2a2a;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #4a4a4a;
+    font-family: Roboto;
+}
+
 .dahliaOS-docs-sidebar ul {
     list-style: none;
 }
