@@ -42,10 +42,10 @@ h2 {
 }
 
 .SH-NOTE {
-    background: #2a2a2a;
+    background: rgb(0, 0, 0, 0.05);
     padding: 15px;
     border-radius: 15px;
-    border: 2px solid #4a4a4a;
+    border: 2px solid rgb(0, 0, 0, 0.14);
     font-family: Roboto;
 }
 
@@ -230,6 +230,10 @@ h2 {
 @media (prefers-color-scheme: dark) {
     .material-icons-outlined {
         color: #fff !important;
+    }
+    .SH-NOTE {
+        background: #2a2a2a;
+        border: 2px solid #4a4a4a;
     }
     .edit-button-text {
         color: #fff !important;
