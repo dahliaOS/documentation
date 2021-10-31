@@ -58,18 +58,18 @@ Not all repositories are shown, and they are listed in alphabetical order.
         </tr>
          <tr>
             <td>New Application Standard</td>
-            <td>Currently Pangolin is started by some terminal startup scripts rather than system services. It should be passed through a display manager, and started that way.</td>
-            <td><a href="https://github.com/dahliaOS/buildroot/blob/master/dahliaOS-overlays/etc/X11/xinit/xinitrc">Profile script that starts Pangolin</a>
+            <td>Currently, dahliaOS uses linked dap executable binaries, which increase portability with the cost of overhead. A migration to "folders-treated-differently" might make packaging nicer, and decrease overhead</td>
+            <td>Following the current .app standard on macOS would be a good place to start. The files app could be modified to display binary icons, and launch executables in specific locations in the "Application.app" folder.
             <p></p>
             </td>
             <td></td>
-            <td>OPEN</td>
+            <td>PROPOSED</td>
         </tr>
          </tr>
          <tr>
             <td>Development Operating System for Self-hosted development</td>
             <td>Currently, dahliaOS Linux builds are not useful. A custom build of dahliaOS Linux to assist in development shipping VSCode and the Flutter SDK would speed up platform related development</td>
-            <td>The implementation could either be using a remote vscode server as a dap package, (easy on dependencies) or a full version running on the OS directly. Pangolin would start as a debug session with monitoring under Tmux, connecting to the machine via SSH on the development host.
+            <td>The implementation could either be using a remote vscode server as a dap package, (easy on dependencies) or a full version running on the OS directly. Pangolin would start as a debug session with monitoring under Tmux, connecting to the machine via SSH on the development host. It could be enabled as part of developer mode.
             <p></p>
             </td>
             <td></td>
