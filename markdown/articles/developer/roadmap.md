@@ -56,6 +56,25 @@ Not all repositories are shown, and they are listed in alphabetical order.
             <td></td>
             <td>OPEN</td>
         </tr>
+         <tr>
+            <td>New Application Standard</td>
+            <td>Currently Pangolin is started by some terminal startup scripts rather than system services. It should be passed through a display manager, and started that way.</td>
+            <td><a href="https://github.com/dahliaOS/buildroot/blob/master/dahliaOS-overlays/etc/X11/xinit/xinitrc">Profile script that starts Pangolin</a>
+            <p></p>
+            </td>
+            <td></td>
+            <td>OPEN</td>
+        </tr>
+         </tr>
+         <tr>
+            <td>Development Operating System for Self-hosted development</td>
+            <td>Currently, dahliaOS Linux builds are not useful. A custom build of dahliaOS Linux to assist in development shipping VSCode and the Flutter SDK would speed up platform related development</td>
+            <td>The implementation could either be using a remote vscode server as a dap package, (easy on dependencies) or a full version running on the OS directly. Pangolin would start as a debug session with monitoring under Tmux, connecting to the machine via SSH on the development host.
+            <p></p>
+            </td>
+            <td></td>
+            <td>OPEN</td>
+        </tr>
     </tbody>
 </table>
 
