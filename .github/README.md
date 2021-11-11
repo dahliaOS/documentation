@@ -15,7 +15,7 @@
 - **Documentation** for the dahliaOS project
 - **Read the documentation** on the link [here](https://docs.dahliaos.io)!
 
-|<a><img width="100%" alt="pfp" src="https://user-images.githubusercontent.com/58103738/135231106-fe77c313-815f-4d03-a9c4-4ac8d9c63238.png" /></a>|<a><img width="45%" alt="pfp" src="https://user-images.githubusercontent.com/58103738/135231711-7622fbda-70b5-429c-ae1e-368ded5ad309.png" /></a>|
+|<a><img width="100%" alt="pfp" src="https://user-images.githubusercontent.com/58103738/141268357-34e6da84-6d04-408d-84fe-7baf454a5eea.png" /></a>|<a><img width="100%" alt="pfp" src="https://user-images.githubusercontent.com/58103738/141268662-0541df83-3c5e-4de4-8c91-eb423149a57a.png" /></a>|
 |-|-|
 |**Docs on desktop**|**Docs on mobile**|
   
