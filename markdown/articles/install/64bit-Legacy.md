@@ -5,7 +5,7 @@ summary: How to run dahliaOS Linux on legacy computers
 ---
 ## dahliaOS on x86_64 legacy systems
 
-## Installation 
+### Installation 
 
 - dahliaOS supports a wide range of devices. This guide will tell you how to flash it on a USB and what hardware you need.
 
