@@ -28,8 +28,11 @@ PRs are welcome, if you're wondering how to contribute to the project, please re
 ## License
 
 <p align="left">
-  <img width="40%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypeblacktext.svg"
-</p>
+  <img width="40%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypeblacktext.svg#gh-light-mode-only"
+<p>
+<p align="left">
+  <img width="40%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypewhitetext.svg#gh-dark-mode-only"
+<p>
 
 Copyright @ 2019-2021 - The dahliaOS Authors - contact@dahliaos.io
 
