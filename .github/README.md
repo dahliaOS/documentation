@@ -1,5 +1,8 @@
 <p align="center">
-  <img width="80%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypeblacktext.svg"
+  <img width="80%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypeblacktext.svg#gh-light-mode-only"
+<p>
+<p align="center">
+  <img width="80%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypewhitetext.svg#gh-dark-mode-only"
 <p>
 <div align="center">
   <a href="https://dahliaos.io">Website</a> ●
