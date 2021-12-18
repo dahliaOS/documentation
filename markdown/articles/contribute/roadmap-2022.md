@@ -1,6 +1,13 @@
+---
+title: 2021-2022 Roadmap
+permalink: contribute/roadmap.html
+summary: As 2022 nears, we'd like to share our plans going forward.
+---
+## dahliaOS: 2021-2022 Roadmap
+
 You may have noticed that it has been almost a year since the last release of dahliaOS. A year-and-a-half ago, we released dahliaOS version 200614, the first release to feature the Pangolin desktop. 6 months and 4 incremental updates later, we released dahliaOS version 201215. As 2022 nears, we'd like to share our plans going forward.
 
-## dahliaOS Software Releases
+### dahliaOS Software Releases
 
 ### dahliaOS Linux 22*
 
