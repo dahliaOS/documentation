@@ -7,8 +7,6 @@ summary: As 2022 nears, we'd like to share our plans going forward.
 
 You may have noticed that it has been almost a year since the last release of dahliaOS. A year-and-a-half ago, we released dahliaOS version 200614, the first release to feature the Pangolin desktop. 6 months and 4 incremental updates later, we released dahliaOS version 201215. As 2022 nears, we'd like to share our plans going forward.
 
-### dahliaOS Software Releases
-
 ### dahliaOS Linux 22*
 
 Over the course of last year, we've made numerous improvements to our desktop and software, which will be available at or before Q1 2022
