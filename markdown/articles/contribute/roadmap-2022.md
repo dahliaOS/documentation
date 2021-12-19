@@ -39,6 +39,10 @@ We spent 2021 rebuilding Pangolin from the ground up. Here's what's new:
 
 In 2021, we did not release software as frequently as we would have liked to. Going forward, starting with dahliaOS Linux 22*, we are going to ensure timely and consistent updates to our software. Updates to dahliaOS Linux and FImage will be released monthly, with security and other required updates released as needed. 
 
+### Our commitment to Fuchsia-based software
+
+In 2022, we aim to begin the process of porting over our work to Zircon. Limited access to hardware has made this difficult in years prior, but we will be able to accelerate our workflow using FImage. Additionally, FImage will continue to be updated.
+
 ### More to come!
 
 2021 was a very productive year, and 2022 will be even more so! Thank you for your support!
