@@ -46,6 +46,7 @@ summary: dahliaOS Documentation overview
 
   - [Contributing](/contribute/contributing)
   - [Code of Conduct](/contribute/conduct)
+  - [Roadmap](/contribute/roadmap)
 
 - License
 
