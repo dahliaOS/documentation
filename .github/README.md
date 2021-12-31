@@ -34,6 +34,6 @@ PRs are welcome, if you're wondering how to contribute to the project, please re
   <img width="40%" src="https://raw.githubusercontent.com/dahliaOS/brand/master/dahliaOS/svg/logotypewhitetext.svg#gh-dark-mode-only"
 <p>
 
-Copyright @ 2019-2021 - The dahliaOS Authors - contact@dahliaos.io
+Copyright @ 2019-2022 - The dahliaOS Authors - contact@dahliaos.io
 
 This project is licensed under the [Apache 2.0 license](https://docs.dahliaos.io/license/LICENSE)

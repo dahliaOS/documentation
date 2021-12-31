@@ -7,7 +7,7 @@ summary: Information and usage of the Buildroot tool, used to compile dahliaOS
 
 - This builds dahliaOS Linux-based builds easily.
 
-- As of June 13th, this is only a base buildroot and lacks the dahliaOS-specific overlays.
+- As of June 13th 2021, this is only a base buildroot and lacks the dahliaOS-specific overlays.
 
 ### Usage
 
