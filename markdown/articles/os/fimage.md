@@ -94,17 +94,17 @@ After that reboot your machine and open up again  **powershell** or **windows te
 
 **cli command**
 ```bash
-wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh; sudo chmod +x launch.sh; sudo ./launch.sh -cli
+wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh && sudo chmod +x launch.sh; sudo ./launch.sh -cli
 ```
 
 **gui command**
 ```bash
-wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh; sudo chmod +x launch.sh; sudo ./launch.sh -gui
+wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh && sudo chmod +x launch.sh; sudo ./launch.sh -gui
 ```
 
 **reset command**
 ```bash
-wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh; sudo chmod +x launch.sh; sudo ./launch.sh -reset
+wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh && sudo chmod +x launch.sh; sudo ./launch.sh -reset
 ```
 
 ### Screenshots
