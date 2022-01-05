@@ -6,7 +6,8 @@ summary: Explanation of the FImage tool, and its usage
 ## Portable Fuchsia Emulator (FImage)
 ### Note
 FImage is provided for the convenience of developers and enthusiasts who don't want to compile Fuchsia.
-We are in no way affiliated Google. For more information, see [fimage/LICENSE](https://github.com/dahliaOS/fimage/blob/master/LICENSE).
+We are in no way affiliated Google. For more information, see [fimage/LICENSE](https://github.com/dahliaOS/fimage/blob/master/LICENSE).                 
+The windows method is highly unstable and should only be used if you cannot install or boot into linux on your device.
 
 <div align=center> 
  <img width="80%" src="../img/fimage/fimage1.png"/> 
@@ -27,12 +28,21 @@ See [Explore Fuchsia](https://fuchsia.dev/fuchsia-src/get-started/explore_fuchsi
 When you're done, you can clean up via `dm shutdown`.
 
 ### Recommended Requirements
-* 8GiB of RAM or more
-* an Intel processor produced after 2010 (If you have a dedicated GPU)
-* A 4th generation Intel processor (If you do not have a dedicated GPU) (Ivy Bridge *technically* works, but has all sorts of visual bugs)
-* Ubuntu 20.04 or equivalent
-* curl, unzip,git
-* Up-to-date graphics drivers
+* linux
+    * 8GiB of RAM or more
+    * an Intel processor produced after 2010 (If you have a dedicated GPU)
+    * A 4th generation Intel processor (If you do not have a dedicated GPU) (Ivy Bridge *technically* works, but has all sorts of visual bugs)
+    * Ubuntu 20.04 or equivalent
+    * curl, unzip,git
+    * Up-to-date graphics drivers
+
+* windows (wsl2)
+    * Windows 10/11 build that supports wsl2 with wslg.
+    * Ubuntu 20.04 wsl2 with wslg
+    * 16GiB of RAM or more
+
+# linux
+
 ### Fimage Quick Start
 First, download the latest Fimage tool at [fimage/releases](https://github.com/dahliaOS/fimage/releases).
 Extract the file `fimage-<version>.zip` and go into the fimage folder. 
@@ -67,6 +77,35 @@ dap install fimage
 
 ### Flutter Development with FImage
 A guide to Flutter development with FImage can be found here: [Setting up FImage for Application Development](/developer/fimage-setup)
+
+
+# Windows (wsl2)
+
+A **WIP** script is in testing thats should enable to atleast boot fuchsia in the terminal. Booting fuchsia with the fimage gui is possible but highly unstable.
+
+### Fimage Quick Start
+
+First install wsl2 on windows by opening **powershell** or **windows terminal** and running this command.
+```bash
+wsl --install
+```
+
+After that reboot your machine and open up again  **powershell** or **windows terminal** and running the first command to use fimage in cli mode **recommended** or the second command to use fimage in gui mode. If you use the gui mode and close fimage make sure you run the reset command afterwards.
+
+**cli command**
+```bash
+wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh; sudo chmod +x launch.sh; sudo ./launch.sh -cli
+```
+
+**gui command**
+```bash
+wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh; sudo chmod +x launch.sh; sudo ./launch.sh -gui
+```
+
+**reset command**
+```bash
+wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh; sudo chmod +x launch.sh; sudo ./launch.sh -reset
+```
 
 ### Screenshots
 <div align=center> 
