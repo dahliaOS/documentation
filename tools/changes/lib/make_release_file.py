@@ -19,7 +19,7 @@ def main(repo):
     os.system('echo "" >> '+(FILE))
     previous_release = sp.getoutput('git describe --tags --abbrev=0 @^')
     commit_log = sp.getoutput('git log --oneline '+(previous_release)+'..@')
-    os.system('echo - [ ]( ) https://github.com/dahliaOS/'+(repo)+'/commit/ '+(commit_log)+' >> .github/commit_log.txt')
+    os.system('echo - [ ]( ) https://github.com/dahliaOS/'+(repo)+'/commit/ '+(commit_log)+' >> '+(FILE))
     log1 = ("awk -F' ' '{ print")
     log2 = (' $1" "$2" "$7" "$8" "$9" "$10" "$11" "$12" "$13" "$14" "$3" "$5 $6" "$4')
     log3 = (" }'<.github/commit_log.txt >> "+(FILE)+" ")
