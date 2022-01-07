@@ -344,3 +344,7 @@ h2 {
             }
       }   
 }
+
+#SH-TABLE td {
+    padding: 5px;
+}
