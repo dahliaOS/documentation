@@ -6,7 +6,9 @@ summary: Walkthrough on running a Flutter app on FImage
 ## Running a Flutter App on Fuchsia with FImage
 This guide assumes you have already configured FImage for Flutter development. If you have not, see [Setting up FImage for Application Development >](fimage-setup)
 
-Note: Due to this blocking issue - [Fuchsia Issue 77566](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566) - this guide does not work. We will keep this document updated as the situation develops.
+~~Note: Due to this blocking issue - [Fuchsia Issue 77566](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566) - this guide does not work. We will keep this document updated as the situation develops.~~
+
+Flutter should work fine with most apps. If your application uses 3rd-party packages that don't support Fuchsia, it might not work.
 
 ### Step 1 - Configure FImage Environment Variables
 Before you can deploy your Flutter app, you must register FImage's SSH configuration with the Flutter tool.
@@ -56,4 +58,4 @@ Once the emulator is started and on the home screen, it should show up under `fl
 ```bash
 flutter run -d fuchsia --verbose
 ```
-The application should compile and launch on the virtual device. Currently, the Flutter tool has a bug that prevents the application from being deployed, so this guide may not work, see [Fuchsia Issue 77566](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566) for details.
+The application should compile and launch on the virtual device.
