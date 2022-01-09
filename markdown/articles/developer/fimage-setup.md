@@ -52,7 +52,7 @@ The key's randomart image is:
 Now that the key has been generated, send the public key to FImage. Make sure the emulator is not started, and use the ZBI tool to inject the key.
 
 ```bash
-./tools/zbi -o init/fuchsia-ssh.zbi init/fuchsia.zbi --entry data/ssh/authorized_keys=/home/$USER/.ssh/fimage_key.pub
+./tools/zbi -o init/fuchsia-ssh.zbi init/fuchsia.zbi --replace --entry data/ssh/authorized_keys=/home/$USER/.ssh/fimage_key.pub
 ```
 
 ### Step 3 - Starting and Checking FImage
