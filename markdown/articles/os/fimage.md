@@ -7,7 +7,7 @@ summary: Explanation of the FImage tool, and its usage
 ### Note
 FImage is provided for the convenience of developers and enthusiasts who don't want to compile Fuchsia.
 We are in no way affiliated Google. For more information, see [fimage/LICENSE](https://github.com/dahliaOS/fimage/blob/master/LICENSE).                 
-The windows method is highly unstable and should only be used if you cannot install or boot into linux on your device.
+The Windows method is highly unstable and should only be used if you absolutely cannot install or boot into Linux on your device.
 
 <div align=center> 
  <img width="80%" src="../img/fimage/fimage1.png"/> 
@@ -28,7 +28,7 @@ See [Explore Fuchsia](https://fuchsia.dev/fuchsia-src/get-started/explore_fuchsi
 When you're done, you can clean up via `dm shutdown`.
 
 ### Recommended Requirements
-* linux
+Linux
     * 8GiB of RAM or more
     * an Intel processor produced after 2010 (If you have a dedicated GPU)
     * A 4th generation Intel processor (If you do not have a dedicated GPU) (Ivy Bridge *technically* works, but has all sorts of visual bugs)
@@ -36,12 +36,12 @@ When you're done, you can clean up via `dm shutdown`.
     * curl, unzip,git
     * Up-to-date graphics drivers
 
-* windows (wsl2)
+Windows (wsl2)
     * Windows 10/11 build that supports wsl2 with wslg.
     * Ubuntu 20.04 wsl2 with wslg
     * 16GiB of RAM or more
 
-# linux
+## Linux
 
 ### Fimage Quick Start
 First, download the latest Fimage tool at [fimage/releases](https://github.com/dahliaOS/fimage/releases).
@@ -81,28 +81,28 @@ A guide to Flutter development with FImage can be found here: [Setting up FImage
 
 # Windows (wsl2)
 
-A **WIP** script is in testing thats should enable to atleast boot fuchsia in the terminal. Booting fuchsia with the fimage gui is possible but highly unstable.
+A **WIP** script is in testing thats should allow you to boot Fuchsia in the terminal. Booting Fuchsia with the FImage gui is possible but highly unstable.
 
 ### Fimage Quick Start
 
-First install wsl2 on windows by opening **powershell** or **windows terminal** and running this command.
+First install wsl2 on windows by opening **Powershell** or **Windows Terminal** and enabling WSL.
 ```bash
 wsl --install
 ```
 
-After that reboot your machine and open up again  **powershell** or **windows terminal** and running the first command to use fimage in cli mode **recommended** or the second command to use fimage in gui mode. If you use the gui mode and close fimage make sure you run the reset command afterwards.
+After that, reboot the computer, open your terminal of choice and run the first command to use FImage in CLI mode, **(recommended)** or use the second command to try FImage in GUI mode. If you use the GUI mode, after closing FImage make sure you run the reset command.
 
-**cli command**
+**CLI command**
 ```bash
 wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh && sudo chmod +x launch.sh; sudo ./launch.sh -cli
 ```
 
-**gui command**
+**GUI command**
 ```bash
 wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh && sudo chmod +x launch.sh; sudo ./launch.sh -gui
 ```
 
-**reset command**
+**Reset command**
 ```bash
 wget https://docs.dahliaos.io/scripts/fimage/windows/wsl2/launch.sh && sudo chmod +x launch.sh; sudo ./launch.sh -reset
 ```
@@ -126,7 +126,8 @@ User agent in simple-browser
 
 Command-line interface in gnome-terminal
 ### Known Issues
-* Flutter development doesn't work yet, due to [a bug in the Flutter tool that escapes IPv6 addresses improperly](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566)
+* ~~Flutter development doesn't work yet, due to [a bug in the Flutter tool that escapes IPv6 addresses improperly(https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566)~~
+
 * Performance when drawn with the software GPU is expectedly awful
 * Mouse input is laggy
 * Terminal application within ermine crashes (Fuchsia bug?); negated by pressing enter in the terminal FEMU was launched from.
