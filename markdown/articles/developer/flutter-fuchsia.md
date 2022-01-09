@@ -31,21 +31,7 @@ calculator/fuchsia
 ```
 Inside of the file `calculator.cmx`, add the following content for a basic Flutter App. You may need to tweak this to be compatible with more complicated applications. See the [Component Manifest](https://fuchsia.dev/fuchsia-src/glossary#component-manifest) document on fuchsia.dev for more information.
 ```json
-{
-    "program": {
-        "data": "data/simple_flutter"
-    },
-    "sandbox": {
-        "services": [
-            "fuchsia.accessibility.ToggleBroadcaster",
-            "fuchsia.fonts.Provider",
-            "fuchsia.modular.Clipboard",
-            "fuchsia.sys.Environment",
-            "fuchsia.sys.Launcher",
-            "fuchsia.ui.scenic.Scenic"
-        ]
-    }
-}
+{}
 ```
 ### Step 3 - Deploy the Application
 
