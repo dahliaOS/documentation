@@ -13,7 +13,7 @@ Before you can deploy your Flutter app, you must register FImage's SSH configura
 
 From inside the FImage directory, run
 ```bash
-export FUCHSIA_SSH_CONFIG="$PWD"/ssh/ssh_config
+export FUCHSIA_SSH_CONFIG="/path/to/fimage/ssh/ssh_config"
 ```
 If you want the configuration to be persistent, add that command to your shell's init script.
 ### Step 2 - Add a Manifest to the Application
