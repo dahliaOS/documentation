@@ -61,31 +61,46 @@ limitations under the License.
       z-index: 900;
     }
     </style>
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar-hide").style.top = "0";
+        } else {
+          document.getElementById("navbar-hide").style.top = "-90px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+      </script>
   </head>
   <body data-dahliaOS-site="docs">
     <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <div class="dahliaOS-header mdl-layout__header mdl-layout__header--fixed" style="position: fixed;">
-        <div class="mdl-layout__header-row" id="firstHeaderRow">
-          <span class="dahliaOS-title mdl-layout-title"><a href="/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="dahliaOS-header-spacer mdl-layout-spacer"></div>
-          <div class="dahliaOS-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field"><i class="material-icons">search</i></label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field">
-            </div>
-          </div><!-- Navigation -->
-          <div class="dahliaOS-navigation-container">
-            <nav class="dahliaOS-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#features">Features</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#screens">News</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/downloads">Download</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io" target="_blank">Demo</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/orgs/dahliaos/people" target="_blank">Developers</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io">Documentation</a>
-            </nav>
-          </div><span class="dahliaOS-mobile-title mdl-layout-title"><a href="https://dahliaos.io/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button"><i class="material-icons">more_vert</i></button>
-          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-            <a href="https://dahliaos.io/github" target="_blank" style="text-decoration: none;"></a>
-            <li class="mdl-menu__item">Source Code</li><a href="https://dahliaos.io/login" style="text-decoration: none;"></a>
-            <li class="mdl-menu__item">Team Login</li>
-            <li disabled class="mdl-menu__item">Screenshots</li>
-          </ul>
-        </div>
+      <div id="navbar-hide" class="navbar-mobile-background">
+        <div id="navbar-hide" class="dahliaOS-header mdl-layout__header mdl-layout__header--fixed is-casting-shadow" style="position: fixed;"><div aria-expanded="false" role="button" tabindex="0" class="mdl-layout__drawer-button"><i class="material-icons"></i></div>
+                <div class="mdl-layout__header-row" id="firstHeaderRow">
+                  <span class="dahliaOS-title mdl-layout-title"><a href="/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <!-- Add spacer, to align navigation to the right in desktop -->
+                  <div class="dahliaOS-header-spacer mdl-layout-spacer"></div>
+                  <div class="dahliaOS-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width is-upgraded" data-upgraded=",MaterialTextfield">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field" data-upgraded=",MaterialButton"><i class="material-icons">search</i></label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="search-field">
+                    </div>
+                  </div><!-- Navigation -->
+                  <div class="dahliaOS-navigation-container">
+                    <nav class="dahliaOS-navigation mdl-navigation">
+                      <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#features">Features</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/#screens">News</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://dahliaos.io/downloads">Download</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://web.dahliaos.io" target="_blank">Demo</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://github.com/orgs/dahliaos/people" target="_blank">Developers</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io">Documentation</a>
+                    </nav>
+                  </div><span class="dahliaOS-mobile-title mdl-layout-title"><a href="https://dahliaos.io/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button" data-upgraded=",MaterialButton,MaterialRipple"><i class="material-icons">more_vert</i><span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
+                  <div class="mdl-menu__container is-upgraded"><div class="mdl-menu__outline mdl-menu--bottom-right"></div><ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events" for="more-button" data-upgraded=",MaterialMenu,MaterialRipple">
+                    <a href="https://dahliaos.io/github" target="_blank" style="text-decoration: none;"></a>
+                    <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Source Code<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li><a href="https://dahliaos.io/login" style="text-decoration: none;"></a>
+                    <li class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Team Login<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
+                    <li disabled="" class="mdl-menu__item mdl-js-ripple-effect" tabindex="-1" data-upgraded=",MaterialRipple">Screenshots<span class="mdl-menu__item-ripple-container"><span class="mdl-ripple"></span></span></li>
+                  </ul></div>
+                </div>
+              </div>
+          </div>
       </div>
       
       <div class="dahliaOS-drawer mdl-layout__drawer dahliaOS-docs-sidebar">
