@@ -358,10 +358,7 @@ h2 {
 }
 
 @media screen and (max-width: 600px) { 
-    #navbar-hide-1 {
-        display: block;
-    }
-    #navbar-hide-2 {
+    #navbar-hide {
         display: block;
     }
 }
