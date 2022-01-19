@@ -356,9 +356,3 @@ h2 {
 #SH-TABLE td {
     padding: 5px;
 }
-
-@media screen and (max-width: 600px) { 
-    #navbar-hide {
-        display: block;
-    }
-}
