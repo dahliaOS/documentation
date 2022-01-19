@@ -356,3 +356,7 @@ h2 {
 #SH-TABLE td {
     padding: 5px;
 }
+
+#navbarhide {
+    display: block;
+}

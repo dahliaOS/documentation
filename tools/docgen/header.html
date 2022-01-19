@@ -66,9 +66,9 @@ limitations under the License.
       window.onscroll = function() {
       var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbar-hide").style.top = "0";
+          document.getElementById("navbarhide").style.top = "0";
         } else {
-          document.getElementById("navbar-hide").style.top = "-90px";
+          document.getElementById("navbarhide").style.top = "-90px";
         }
         prevScrollpos = currentScrollPos;
       }
@@ -76,7 +76,7 @@ limitations under the License.
   </head>
   <body data-dahliaOS-site="docs">
     <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <div id="navbar-hide">
+      <div id="navbarhide">
         <div class="dahliaOS-header mdl-layout__header mdl-layout__header--fixed" style="position: fixed;">
           <div class="mdl-layout__header-row" id="firstHeaderRow">
             <span class="dahliaOS-title mdl-layout-title"><a href="/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <!-- Add spacer, to align navigation to the right in desktop -->
@@ -89,7 +89,7 @@ limitations under the License.
             </div><!-- Navigation -->
             <div class="dahliaOS-navigation-container">
               <nav class="dahliaOS-navigation mdl-navigation">
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io" target="_blank">Documentation</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io/blog/">Blog</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io">Documentation</a> <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://docs.dahliaos.io/blog/">Blog</a>
               </nav>
             </div><span class="dahliaOS-mobile-title mdl-layout-title"><a href="https://dahliaos.io/"><img class="android-logo-image" src="https://dahliaos.io/assets/img/logo-color.png" alt="logo-color"></a></span> <button class="dahliaOS-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button"><i class="material-icons">more_vert</i></button>
             <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
