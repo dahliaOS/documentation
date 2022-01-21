@@ -62,16 +62,18 @@ limitations under the License.
     }
     </style>
     <script>
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementById("navbarhide").style.top = "0";
-        } else {
-          document.getElementById("navbarhide").style.top = "-90px";
-        }
-        prevScrollpos = currentScrollPos;
-      }
+       window.onload = function(){
+      		var prevScrollpos = window.pageYOffset;
+      		window.onscroll = function() {
+      		var currentScrollPos = window.pageYOffset;
+        	if (prevScrollpos > currentScrollPos) {
+          		document.getElementById("navbarhide").style.top = "0";
+        	} else {
+          		document.getElementById("navbarhide").style.top = "-90px";
+        	}
+        	prevScrollpos = currentScrollPos;
+      		}
+        };
     </script>
   </head>
   <body data-dahliaOS-site="docs">
