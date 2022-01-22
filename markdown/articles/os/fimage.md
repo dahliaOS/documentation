@@ -126,7 +126,7 @@ User agent in simple-browser
 
 Command-line interface in gnome-terminal
 ### Known Issues
-* ~~Flutter development doesn't work yet, due to [a bug in the Flutter tool that escapes IPv6 addresses improperly(https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566)~~
+* ~~Flutter development doesn't work yet, due to [a bug in the Flutter tool that escapes IPv6 addresses improperly [https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566](https://bugs.fuchsia.dev/p/fuchsia/issues/detail?id=77566)~~
 
 * Performance when drawn with the software GPU is expectedly awful
 * Mouse input is laggy
