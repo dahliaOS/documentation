@@ -67,8 +67,10 @@ limitations under the License.
         var currentScrollPos = window.pageYOffset;
           if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbarhide").style.top = "0";
+            document.getElementById("view-source").style.marginBottom = "20px";
           } else {
             document.getElementById("navbarhide").style.top = "-50px";
+            document.getElementById("view-source").style.marginBottom = "-80px";
           }
           prevScrollpos = currentScrollPos;
         }
