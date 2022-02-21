@@ -37,22 +37,20 @@ If you find something left out, please feel free to add it.
 #### Desktop, panel and quick settings
 
 <div align=center>
-<img width="100%" src="../img/screenshot/21xxxx/desktop.png"/>
+<img width="100%" src="../img/screenshot/22xxxx/settings.png"/>
 </div>
 
-The desktop is the location of windows, widgets (planned), and the wallpaper.
-
-The panel is the hub for application launching and managing settings.
+Pangolin Desktop, settings and start menu.
 
 Quick settings assists in changing relevant system settings quickly (hence the name), offering an easier and more efficient method of changing settings than opening the app.
 
 #### Launcher
 
 <div align=center>
-<img width="100%" src="../img/screenshot/21xxxx/launcher.png"/>
+<img width="100%" src="../img/screenshot/22xxxx/search.png"/>
 </div>
 
-The launcher is for opening and viewing a grid of every application in the system, as well as a list of quick, helpful cards that display notifications and information. 
+Pangolin Desktop, Calculator, Terminal, Notes and search.
 
 A search bar is also available to sort through apps, find settings, and search the web. 
 
@@ -64,7 +62,7 @@ A search bar is also available to sort through apps, find settings, and search t
 flutter channel master # Set flutter to master channel
 flutter upgrade # Upgrade to master channel
 flutter config --enable-linux-desktop # Add Linux as a target
-git clone --recurse-submodules https://github.com/dahliaos/pangolin-desktop pangolin_desktop # Clone the repo
+git clone https://github.com/dahliaos/pangolin-desktop pangolin_desktop # Clone the repo
 cd pangolin_desktop
 flutter create . # Optional, but updates the embedder code
 flutter run -d linux
