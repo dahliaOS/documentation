@@ -1,0 +1,1523 @@
+/**
+ * Copyright 2020 The Dahlia Authors. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.blog-name {
+  color: black;
+  font-family: "Sulphur Point";
+  font-size: 25;
+}
+::-webkit-scrollbar {
+  width: 0.75em;
+  background: #fff;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgb(255, 87, 34);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.75em;
+  background: #fff;
+}
+
+.container-that-takes-up-the-entire-page-so-i-can-add-the-back-drop {
+  backdrop-filter: blur(2px);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.dahliaOS-color--background {
+  background-color: #ffffff;
+}
+.dahliaOS-color--docs {
+  background-color: #ff5722;
+}
+.dahliaOS-color--docs-dark {
+  background-color: rgb(230, 74, 25);
+}
+.dahliaOS-color--docs-text {
+  color: #000000;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mdl-card__supporting-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.26;
+}
+.mdl-card__title {
+  display: block;
+  text-align: center;
+}
+.mdl-card__title-text {
+  display: block;
+}
+.time {
+  display: block;
+  text-align: right;
+  margin: 15px 15px 7px 0;
+  opacity: 0.7;
+  font-size: 12px;
+}
+.sulphurpoint {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.roboto {
+}
+
+.mdl-logo {
+  background-size: 144px;
+  margin-top: -3em;
+  vertical-align: baseline;
+  display: inline-block;
+  float: unset;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img {
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #ff3d00;
+  color: #fff;
+}
+
+::selection {
+  background-color: #ff3d00;
+  color: #fff;
+}
+
+.dahliaOS-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dahliaOS-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.dahliaOS-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #ff3d00 !important;
+  color: black !important;
+}
+
+.dahliaOS-mobile-title {
+  display: none !important;
+}
+
+.android-logo-image {
+  height: 28px;
+}
+
+/* Redesign Homepage  */
+
+.landing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  min-height: 90vh;
+}
+
+.landing .dahliaOS-slogan {
+  padding: 0;
+}
+
+.dahliaOS-sub-slogan {
+  padding: 0 50px 0 50px;
+}
+
+.slogan-left {
+  flex: 1;
+  text-align: center;
+}
+
+.computer-right {
+  flex: 1;
+  max-width: 800px;
+}
+
+.mockup-landing {
+  height: auto;
+  width: 100%;
+}
+
+.scrollDown {
+  display: none;
+}
+.landingButtons {
+  height: 150px;
+}
+
+/* Custom scroller :) */
+.scroll {
+  cursor: grab;
+}
+.scroll:active {
+  cursor: grabbing;
+}
+.dahliaOS-tablet {
+  vertical-align: top;
+}
+
+/* media query for new homepage */
+@media screen and (max-width: 1300px) {
+  .dahliaOS-be-together-section {
+    height: unset;
+  }
+  .home-flex,
+  .landing {
+    display: block;
+    min-height: 49vh;
+  }
+  .landing .dahliaOS-slogan {
+    padding-top: 150px;
+  }
+  .slogan-left {
+    display: block;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .computer-right {
+    display: none;
+  }
+  .scrollDown {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 980px) {
+  .landing .dahliaOS-slogan {
+    padding-top: 50px;
+  }
+}
+
+.dahliaOS-header {
+  overflow: visible;
+  background-color: white;
+}
+
+.dahliaOS-header .material-icons {
+  color: #767777 !important;
+}
+
+.dahliaOS-header .mdl-layout__drawer-button {
+  background: transparent;
+  color: #767777;
+}
+
+.dahliaOS-header .mdl-navigation__link {
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.dahliaOS-navigation-container {
+  /* Simple hack to make the overflow happen to the left instead... */
+  direction: rtl;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 500px;
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dahliaOS-navigation {
+  /* ... and now make sure the content is actually LTR */
+  direction: ltr;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 800px;
+}
+
+.dahliaOS-search-box.is-focused + .dahliaOS-navigation-container {
+  opacity: 0;
+  width: 100px;
+}
+
+.dahliaOS-navigation .mdl-navigation__link {
+  display: inline-block;
+  height: 60px;
+  line-height: 68px;
+  background-color: transparent !important;
+  border-bottom: 4px solid transparent;
+}
+
+.dahliaOS-navigation .mdl-navigation__link:hover {
+  border-bottom: 4px solid #ff3d00;
+}
+
+.dahliaOS-search-box {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.dahliaOS-more-button {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.dahliaOS-drawer {
+  border-right: none;
+}
+
+.dahliaOS-drawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
+
+.dahliaOS-drawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575;
+}
+
+.dahliaOS-drawer span.mdl-navigation__link.mdl-navigation__link {
+  color: #ff3d00;
+}
+
+.dahliaOS-drawer .mdl-layout-title {
+  position: relative;
+  background: #ff3d00;
+  height: 160px;
+}
+
+.dahliaOS-drawer .android-logo-image {
+  position: absolute;
+  bottom: 16px;
+}
+
+.dahliaOS-be-together-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url("../img/bg-light.svg") center -20% no-repeat;
+  background-size: cover;
+}
+
+.dahlia-dlnow {
+  margin-top: 50px;
+  color: #ffffff;
+  background: rgb(211, 47, 47);
+  background: linear-gradient(153deg, #ff3d00 0%, #d73a20 100%);
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.dahlia-pic1 {
+  background: url("../img/screenshots/01.png") no-repeat;
+  background-size: cover;
+  height: 50vw;
+  width: 80vw;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  z-index: -1;
+}
+
+.logo-font {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  color: #222222;
+}
+
+.dahliaOS-slogan {
+  font-size: 60px;
+  padding-top: 160px;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.dahliaOS-sub-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+
+.dahliaOS-create-character {
+  font-size: 21px;
+  padding-top: 400px;
+}
+
+.dahliaOS-create-character a {
+  text-decoration: none;
+  color: #767777;
+  font-weight: 300;
+}
+
+.dahliaOS-screen-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.dahliaOS-screens {
+  text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  display: flex;
+}
+
+.dahliaOS-screen {
+  text-align: center;
+}
+
+.dahliaOS-screen .dahliaOS-link {
+  margin-top: 16px;
+  display: block;
+  z-index: 2;
+}
+
+.dahliaOS-image-link {
+  text-decoration: none;
+}
+
+.dahliaOS-wear {
+  display: inline-block;
+  width: 160px;
+  margin-right: 32px;
+}
+
+.dahliaOS-wear .dahliaOS-screen-image {
+  width: 40%;
+  z-index: 1;
+}
+
+.dahliaOS-phone {
+  display: inline-block;
+  width: 64px;
+  margin-right: 48px;
+}
+
+.dahliaOS-phone .dahliaOS-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+
+.dahliaOS-tablet {
+  display: inline-block;
+  width: 110px;
+  margin-right: 200px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.dahliaOS-tablet .dahliaOS-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+
+.dahliaOS-tablet .dahliaOS-link {
+  display: block;
+  z-index: 2;
+}
+
+.dahliaOS-tv {
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+}
+
+.dahliaOS-tv .dahliaOS-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+
+.dahliaOS-auto {
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+}
+
+.dahliaOS-auto .dahliaOS-screen-image {
+  display: block;
+  height: 300px;
+  z-index: 1;
+}
+
+.dahliaOS-wear-section {
+  position: relative;
+  background: url("../img/apps-4k.webp") center no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.dahliaOS-wear-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2e2e2e;
+}
+
+.dahliaOS-wear-band-text {
+  max-width: 800px;
+  margin-left: 25%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+.dahliaOS-wear-band-text p {
+  padding-top: 8px;
+}
+
+.dahliaOS-link {
+  text-decoration: none;
+  color: #ff3d00 !important;
+}
+
+.dahliaOS-link:hover {
+  color: #ff3d00 !important;
+}
+
+.dahliaOS-link .material-icons {
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+}
+
+.dahliaOS-alt-link {
+  text-decoration: none;
+  color: #ff3d00 !important;
+  font-size: 16px;
+}
+
+.dahliaOS-alt-link:hover {
+  color: #ff3d00 !important;
+}
+
+.dahliaOS-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.dahliaOS-customized-section {
+  text-align: center;
+}
+
+.dahliaOS-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+.dahliaOS-customized-section-text p {
+  padding-top: 16px;
+}
+
+.dahliaOS-customized-section-image {
+  background: url("../img/screenshots/collageTransparent.webp") center 0%
+    no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.dahliaOS-download-section-image {
+  background: url("../img/bg-light.svg") center 40% no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.dahliaOS-more-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dahliaOS-more-section .dahliaOS-section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+}
+
+.dahliaOS-card-container {
+}
+
+.dahliaOS-card-container .mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+
+.dahliaOS-card-container .mdl-card__media img {
+  width: 100%;
+}
+
+.dahliaOS-card-container .mdl-card__title {
+  background: transparent;
+  height: auto;
+}
+
+.dahliaOS-card-container .mdl-card__title-text {
+  color: black;
+  height: auto;
+}
+
+.dahliaOS-card-container .mdl-card__supporting-text {
+  height: auto;
+  color: black;
+  padding-bottom: 56px;
+}
+
+.dahliaOS-card-container .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+
+.dahliaOS-card-container .mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+}
+
+.dahliaOS-footer {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.dahliaOS-footer a:hover {
+  color: #ff3d00;
+}
+
+.dahliaOS-footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+
+.dahliaOS-footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+
+.dahliaOS-footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+
+.dahliaOS-footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+
+.dahliaOS-footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.dahliaOS-link-menu:hover {
+  cursor: pointer;
+}
+
+/**** Mobile layout ****/
+@media (max-width: 980px) {
+  .dahliaOS-navigation-container {
+    display: none;
+  }
+
+  .dahliaOS-title {
+    display: none !important;
+  }
+
+  .dahliaOS-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+  .dahliaOS.dahliaOS-search-box.is-focused ~ .dahliaOS-mobile-title,
+  .dahliaOS-search-box.is-focused
+    + .dahliaOS-navigation-container
+    + .dahliaOS-mobile-title {
+    opacity: 0;
+  }
+
+  .dahliaOS-more-button {
+    display: none;
+  }
+
+  .dahliaOS-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .dahliaOS-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+
+  .dahliaOS-be-together-section {
+    height: 350px;
+  }
+
+  .dahliaOS-slogan {
+    font-size: 26px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+
+  .dahliaOS-sub-slogan {
+    font-size: 16px;
+    font-family: Roboto;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+
+  .dahliaOS-create-character {
+    padding-top: 200px;
+    font-size: 16px;
+  }
+
+  .dahliaOS-create-character img {
+    height: 12px;
+  }
+
+  .dahliaOS-fab {
+    display: none;
+  }
+
+  .dahliaOS-wear-band-text {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .dahliaOS-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar {
+    width: 0.75em;
+    background: #1a1a1a;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgb(255, 87, 34);
+  }
+
+  /* this is for the modal */
+  .mdl-dialog {
+    background: rgb(41, 41, 41);
+  }
+  .mdl-dialog__title {
+    color: #fff;
+  }
+  .mdl-dialog__content {
+    color: #acacac;
+  }
+  .mdl-dialog__actions .mdl-button {
+    color: #acacac;
+  }
+  .mdl-dialog__actions .mdl-button.close:hover {
+    color: #c54848;
+  }
+  .mdl-dialog__actions .mdl-button:hover {
+    color: #ff5722;
+  }
+
+  .blog-name {
+    color: white;
+    font-family: "Sulphur Point";
+    font-size: 25;
+  }
+  body {
+    margin: 0;
+    color: #ffffff;
+    background: #1a1a1a;
+  }
+
+  .mdl-layout__drawer {
+    background: #1a1a1a;
+  }
+
+  .mdl-navigation__link:hover {
+    background: #202020 !important;
+    color: #e0e0e0 !important;
+  }
+
+  .mdl-card {
+    color: #fff;
+    background: #222;
+  }
+  .mdl-cell {
+    color: #fff;
+    background: #;
+  }
+  .mdl-card {
+    color: #fff;
+    background: #222;
+  }
+  .mdl-card.mdl-card__title.mdl-card__title-text {
+    color: #fff;
+  }
+
+  .dahliaOS-color--background {
+    background-color: #222222;
+  }
+  .dahliaOS-color--docs {
+    background-color: #333333;
+  }
+  .dahliaOS-color--docs-dark {
+    background-color: #282828 !important;
+  }
+  .dahliaOS-color--docs-text {
+    color: #ffffff;
+  }
+
+  .sulphurpoint {
+    font-family: "Sulphur Point", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  .roboto {
+  }
+
+  .mdl-logo {
+    background-size: 144px;
+    margin-top: -3em;
+    vertical-align: baseline;
+    display: inline-block;
+    float: unset;
+  }
+
+  /* Disable ugly boxes around images in IE10 */
+  a img {
+    border: 0px;
+  }
+
+  ::-moz-selection {
+    background-color: #ff3d00;
+    color: #fff;
+  }
+
+  ::selection {
+    background-color: #ff3d00;
+    color: #fff;
+  }
+
+  .dahliaOS-search-box .mdl-textfield__input {
+    color: #ffffff;
+  }
+
+  .dahliaOS-header .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+  }
+
+  .mdl-textfield--expandable {
+    width: auto;
+  }
+
+  .dahliaOS-fab {
+    position: absolute;
+    right: 20%;
+    bottom: -26px;
+    z-index: 3;
+    background: #ff3d00 !important;
+    color: #ffffff !important;
+  }
+
+  .dahliaOS-mobile-title {
+    display: none !important;
+  }
+
+  .android-logo-image {
+    height: 28px;
+    filter: brightness(0) invert(1);
+  }
+
+  .dahliaOS-header {
+    overflow: visible;
+    background-color: #1a1a1a;
+  }
+
+  .dahliaOS-header .material-icons {
+    color: #ffffff !important;
+  }
+
+  .dahliaOS-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #ffffff;
+  }
+
+  .dahliaOS-header .mdl-navigation__link {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .dahliaOS-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+      width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dahliaOS-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 800px;
+  }
+
+  .dahliaOS-search-box.is-focused + .dahliaOS-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+  .dahliaOS-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+  .dahliaOS-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #ff3d00;
+  }
+
+  .dahliaOS-search-box {
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .dahliaOS-more-button {
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .dahliaOS-drawer {
+    border-right: none;
+  }
+
+  .dahliaOS-drawer-separator {
+    height: 1px;
+    background-color: #424242;
+    margin: 8px 0;
+  }
+
+  .dahliaOS-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+
+  .dahliaOS-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #ff3d00;
+  }
+
+  .dahliaOS-drawer .mdl-layout-title {
+    position: relative;
+    background: #ff3d00;
+    height: 160px;
+  }
+
+  .dahliaOS-drawer .android-logo-image {
+    position: absolute;
+    bottom: 16px;
+  }
+
+  .dahliaOS-be-together-section {
+    position: relative;
+    height: 800px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url("../img/bg-dark.svg") center -20% no-repeat;
+    background-size: cover;
+  }
+
+  .dahlia-dlnow {
+    margin-top: 50px;
+    color: #ffffff;
+    background: rgb(211, 47, 47);
+    background: linear-gradient(153deg, #ff3d00 0%, #d73a20 100%);
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .dahlia-pic1 {
+    background: url("../img/screenshots/01.png") no-repeat;
+    background-size: cover;
+    height: 50vw;
+    width: 80vw;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    z-index: -1;
+  }
+
+  .logo-font {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    color: #ffffff;
+  }
+
+  .dahliaOS-slogan {
+    font-size: 60px;
+    padding-top: 160px;
+    font-family: "Sulphur Point", sans-serif;
+  }
+
+  .dahliaOS-sub-slogan {
+    font-size: 21px;
+    padding-top: 24px;
+  }
+
+  .dahliaOS-create-character {
+    font-size: 21px;
+    padding-top: 400px;
+  }
+
+  .dahliaOS-create-character a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .dahliaOS-screen-section {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .dahliaOS-screens {
+    text-align: right;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+
+  .dahliaOS-screen {
+    text-align: center;
+  }
+
+  .dahliaOS-screen .dahliaOS-link {
+    margin-top: 16px;
+    display: block;
+    z-index: 2;
+  }
+
+  .dahliaOS-image-link {
+    text-decoration: none;
+  }
+
+  .dahliaOS-wear {
+    display: inline-block;
+    width: 160px;
+    margin-right: 32px;
+  }
+
+  .dahliaOS-wear .dahliaOS-screen-image {
+    width: 40%;
+    z-index: 1;
+  }
+
+  .dahliaOS-phone {
+    display: inline-block;
+    width: 64px;
+    margin-right: 48px;
+  }
+
+  .dahliaOS-phone .dahliaOS-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .dahliaOS-tablet {
+    display: inline-block;
+    width: 110px;
+    margin-right: 200px;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .demo-card-square {
+    color: #ffffff;
+    background: #222222;
+  }
+  .mdl-card__supporting-text {
+    color: #ffffff;
+  }
+
+  .dahliaOS-tablet .dahliaOS-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .dahliaOS-tablet .dahliaOS-link {
+    display: block;
+    z-index: 2;
+  }
+
+  .dahliaOS-tv {
+    display: inline-block;
+    width: 300px;
+    margin-right: 80px;
+  }
+
+  .dahliaOS-tv .dahliaOS-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .dahliaOS-auto {
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .dahliaOS-auto .dahliaOS-screen-image {
+    display: block;
+    height: 300px;
+    z-index: 1;
+  }
+
+  .dahliaOS-wear-section {
+    position: relative;
+    background: url("../img/apps-4k.webp") center 100% no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
+  .dahliaOS-wear-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222222;
+  }
+
+  .dahliaOS-wear-band-text {
+    max-width: 800px;
+    margin-left: 25%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+  }
+
+  .dahliaOS-wear-band-text p {
+    padding-top: 8px;
+  }
+
+  .dahliaOS-link {
+    text-decoration: none;
+    color: #ff3d00 !important;
+  }
+
+  .dahliaOS-link:hover {
+    color: #ff3d00 !important;
+  }
+
+  .dahliaOS-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+  }
+
+  .dahliaOS-alt-link {
+    text-decoration: none;
+    color: #ff3d00 !important;
+    font-size: 16px;
+  }
+
+  .dahliaOS-alt-link:hover {
+    color: #ff3d00 !important;
+  }
+
+  .dahliaOS-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+  .dahliaOS-customized-section {
+    text-align: center;
+  }
+
+  .dahliaOS-customized-section-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 16px 0 16px;
+  }
+
+  .dahliaOS-customized-section-text p {
+    padding-top: 16px;
+  }
+
+  .dahliaOS-customized-section-image {
+    background: url("../img/screenshots/collageTransparent.webp") center 0%
+      no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .dahliaOS-download-section-image {
+    background: url("../img/bg-dark.svg") center 40% no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .dahliaOS-more-section {
+    padding: 80px 0;
+    max-width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dahliaOS-more-section .dahliaOS-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+  }
+
+  .dahliaOS-card-container {
+  }
+
+  .dahliaOS-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+  }
+
+  .dahliaOS-card-container .mdl-card__media img {
+    width: 100%;
+    max-height: 115px;
+  }
+
+  .dahliaOS-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+  }
+
+  .dahliaOS-card-container .mdl-card__title-text {
+    color: white;
+    height: auto;
+  }
+
+  .dahliaOS-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: white;
+    padding-bottom: 56px;
+  }
+
+  .dahliaOS-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .dahliaOS-card-container .mdl-card__actions a {
+    border-top: none;
+    font-size: 16px;
+  }
+
+  #support {
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
+  }
+
+  .dahliaOS-support-container {
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dahliaOS-support-container .mdl-typography--display-1-color-contrast {
+    margin-bottom: 4rem;
+  }
+
+  .dahliaOS-support {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .dahliaOS-support-search {
+    position: relative;
+  }
+
+  .dahliaOS-support-box {
+    background-color: rgba(158, 158, 158, 0.2);
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .dahliaOS-support-icon {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    float: left;
+    left: 13px;
+  }
+
+  .dahliaOS-support-buttons {
+    display: inline-block;
+  }
+
+  .dahliaOS-support-buttons .dahlia-dlnow {
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+
+  .dahliaOS-article-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 36px 0 16px;
+  }
+
+  .dahliaOS-article-list {
+    padding: 40px 48px 0 48px;
+  }
+
+  .dahliaOS-article-item {
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.54); */
+    overflow: auto;
+    padding: 20px 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .dahliaOS-article-title,
+  .dahliaOS-article-desc {
+    width: 70%;
+    margin: 0;
+  }
+
+  .dahliaOS-article-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .dahliaOS-article-desc {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .dahliaOS-footer {
+    background-color: #fafafa;
+    position: relative;
+  }
+
+  .dahliaOS-footer a:hover {
+    color: #ff3d00;
+  }
+
+  .dahliaOS-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+  }
+
+  .dahliaOS-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+  }
+
+  .dahliaOS-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+  }
+
+  .dahliaOS-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+  }
+
+  .dahliaOS-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+  .dahliaOS-link-menu:hover {
+    cursor: pointer;
+  }
+
+  /**** Mobile layout ****/
+  @media (max-width: 980px) {
+    .dahliaOS-navigation-container {
+      display: none;
+    }
+
+    .dahliaOS-title {
+      display: none !important;
+    }
+
+    .dahliaOS-mobile-title {
+      display: block !important;
+      position: absolute;
+      left: calc(50% - 70px);
+      top: 12px;
+      transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+       consecutive "+" operators in some cases. Therefore, we need to use both
+       here to cover all the bases. */
+    .dahliaOS.dahliaOS-search-box.is-focused ~ .dahliaOS-mobile-title,
+    .dahliaOS-search-box.is-focused
+      + .dahliaOS-navigation-container
+      + .dahliaOS-mobile-title {
+      opacity: 0;
+    }
+
+    .dahliaOS-more-button {
+      display: none;
+    }
+
+    .dahliaOS-search-box.is-focused {
+      width: calc(100% - 48px);
+    }
+
+    .dahliaOS-search-box .mdl-textfield__expandable-holder {
+      width: 100%;
+    }
+
+    .dahliaOS-be-together-section {
+      height: 350px;
+    }
+
+    .dahliaOS-slogan {
+      font-size: 26px;
+      margin: 0 16px;
+      padding-top: 24px;
+    }
+
+    .dahliaOS-sub-slogan {
+      font-size: 16px;
+      font-family: Roboto;
+      margin: 0 16px;
+      padding-top: 8px;
+    }
+
+    .dahliaOS-create-character {
+      padding-top: 200px;
+      font-size: 16px;
+    }
+
+    .dahliaOS-create-character img {
+      height: 12px;
+    }
+
+    .dahliaOS-fab {
+      display: none;
+    }
+
+    .dahliaOS-wear-band-text {
+      margin-left: 0;
+      padding: 16px;
+    }
+
+    .dahliaOS-footer .mdl-mega-footer--bottom-section {
+      display: none;
+    }
+
+    .dahliaOS-article-title,
+    .dahliaOS-article-desc {
+      margin: 5px 0;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .dahliaOS-article-list {
+      padding: 20px 24px 0 24px;
+    }
+
+    .dahliasOS-support-icon {
+      left: 15px;
+    }
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
