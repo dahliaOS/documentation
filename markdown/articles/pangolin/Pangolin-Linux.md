@@ -10,18 +10,18 @@ Pangolin Desktop can be run on various other Linux distributions.
 
 #### Arch Linux
 
-- install git, feh, openbox and unzip
+- install git, feh and openbox
 
 ```
-sudo pacman -S git feh openbox unzip
+sudo pacman -S git feh openbox
 ```
 
 #### Debian/Ubuntu
 
-- install git, feh, openbox and unzip
+- install git, feh and openbox
 
 ```
-sudo apt install git feh openbox unzip
+sudo apt install git feh openbox
 ```
 
 ### Installation
