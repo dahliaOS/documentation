@@ -10,19 +10,19 @@ Pangolin Desktop can be run on various other Linux distributions.
 
 #### Arch Linux
 
-- Install matchbox-window-manager, and unzip
+- install git, feh, openbox and unzip
 - **note atm matchbox-window-manager fails to install**
 
 ```
-yay -S matchbox-window-manager unzip
+sudo pacman -S git feh openbox unzip
 ```
 
 #### Debian/Ubuntu
 
-- install git, matchbox-window-manager and unzip
+- install git, feh, openbox and unzip
 
 ```
-sudo apt install git matchbox-window-manager unzip
+sudo apt install git feh openbox unzip
 ```
 
 ### Installation
