@@ -24,6 +24,26 @@ sudo pacman -S git feh openbox
 sudo apt install git feh openbox
 ```
 
+#### Fedora
+
+- install git, feh and openbox
+
+```
+sudo dnf install git feh openbox
+```
+
+- Disable selinux to get Pangolin as a option in your login manager.
+
+```
+sudo vi /etc/selinux/config
+```
+```
+SELINUX=disabled
+```
+```
+sudo reboot
+```
+
 ### Installation
 
 ```bash
