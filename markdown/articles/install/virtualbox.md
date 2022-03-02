@@ -24,7 +24,7 @@ Type: Linux
 Version: Other Linux (64-bit)
 ```
 
-- Click next and give the VM a minimum of 2GB(2048mb).
+- Click next and give the VM a minimum of 4GB(4096mb).
 
 - Keep clicking Next until it says `File location and size`. It doesn't really matter how much you give it because the system doesn't run on a hard drive.
 
@@ -38,7 +38,7 @@ Version: Other Linux (64-bit)
 
 - Now click on settings and setup the following settings.
 ```
-System: Processor Tab: 2 CPU's
+System: Processor Tab: 4 CPU's
 Display: Video Memory: 128mb
 Storage: click on the empty cd symbol: check the Live CD/DVD and click on the cd symbol and select your iso you downloaded.
 ```
