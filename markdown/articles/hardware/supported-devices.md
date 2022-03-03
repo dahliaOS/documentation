@@ -161,6 +161,11 @@ summary: List of dahliaOS Supported Devices
 <td>Linux <code>EFI</code>, Zircon</td>
 </tr>
 <tr>
+<td>HP</td>
+<td>Slim Desktop S01</td>
+<td>Linux <code>EFI</code></td>
+</tr>
+<tr>
 <td>Intel</td>
 <td>HackBoard HB2</td>
 <td>Linux, Zircon <code>untested</code></td>
