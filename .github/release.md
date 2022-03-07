@@ -2,4 +2,4 @@
 
 ## changes
 
-Compare to previous release [here](https://github.com/dahliaOS/documentation/compare/v220221...v220228).
+Compare to previous release [here](https://github.com/dahliaOS/documentation/compare/v220228...v220307).
