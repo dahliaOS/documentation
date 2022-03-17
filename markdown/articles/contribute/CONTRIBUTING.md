@@ -140,7 +140,7 @@ For changes that address core functionality or would require breaking changes (e
 
 To make sure that the pull request you want to submit is up to our standards, we've written a few dos and don'ts:
 
-**Dos**:
+**Do's**:
 
 * Provide a meaningful commit message.
 * The first line of the commit message should have the format "Category: Brief description of what's being changed". The "category" can be a subdirectory, but also something like "POSIX compliance" or "ClassName".
