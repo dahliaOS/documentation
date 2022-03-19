@@ -6,7 +6,7 @@ summary: Explanation of the FImage tool, and its usage
 ## Portable Fuchsia Emulator (FImage)
 ### Note
 FImage is provided for the convenience of developers and enthusiasts who don't want to compile Fuchsia.
-We are in no way affiliated Google. For more information, see [fimage/LICENSE](https://github.com/dahliaOS/fimage/blob/master/LICENSE).                 
+We are in no way affiliated with Google. For more information, see [fimage/LICENSE](https://github.com/dahliaOS/fimage/blob/master/LICENSE).                 
 The Windows method is highly unstable and should only be used if you absolutely cannot install or boot into Linux on your device.
 
 <div align=center> 
