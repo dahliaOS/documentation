@@ -166,6 +166,11 @@ summary: List of dahliaOS Supported Devices
 <td>Linux <code>EFI</code></td>
 </tr>
 <tr>
+<td>HP</td>
+<td>ProBook 455 G8</td>
+<td>Linux <code>EFI</code></td>
+</tr>
+<tr>
 <td>Intel</td>
 <td>HackBoard HB2</td>
 <td>Linux, Zircon <code>untested</code></td>
