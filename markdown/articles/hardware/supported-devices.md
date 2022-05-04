@@ -229,6 +229,11 @@ summary: List of dahliaOS Supported Devices
 <td>Satellite E45W-C4200X</td>
 <td>Linux <code>EFI</code>, Zircon</td>
 </tr>
+<tr>
+<td>Sony</td>
+<td>PS4</td>
+<td>Linux</td>
+</tr>
 </tbody>
 </table>
 
