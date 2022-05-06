@@ -360,3 +360,13 @@ h2 {
 #navbarhide {
     display: block;
 }
+
+blockquote::before, blockquote::after {
+  display: none;
+}
+blockquote {
+  border-left: 2px gray solid;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  font-style: initial;
+}
