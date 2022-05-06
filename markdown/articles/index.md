@@ -7,6 +7,7 @@ summary: dahliaOS Documentation overview
 - Getting started
 
   - [Overview](/)
+  - [FAQ](/os/faq)
 
 - Install
 
