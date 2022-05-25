@@ -18,8 +18,8 @@ jobs:
         name: Convert Markdown to HTML
       - name: Deploy to GitHub pages
         run: |
-          git config user.name github-actions
-          git config user.email "action@github.com"
+          git config user.name "dahliaOS-bot"
+          git config user.email dahliaosofficial@gmail.com
           git --work-tree docs add --all
           git commit -m "Automatic deployment by github-actions"
           git push origin HEAD:gh-pages --force
