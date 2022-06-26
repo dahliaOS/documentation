@@ -53,7 +53,7 @@ This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine)
 ### The System - In-Depth
 
 <div align=center> 
- <img width="80%" src="../img/linux-based/arch.png"/> 
+ <img width="80%" src="../img/linux-based/arch.svg"/> 
 </div>
 
 Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.
