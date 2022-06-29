@@ -33,6 +33,7 @@ summary: dahliaOS Documentation overview
 
 - Build
 
+  - [Building](/build/building)
   - [Buildroot](/build/buildroot)
 
 - Developers
