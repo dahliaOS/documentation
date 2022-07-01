@@ -2,6 +2,15 @@ h2 {
     font-weight: lighter;
 }
 
+code {
+    color: #424242;
+    background: #F0F0F0;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .demo-main {
     margin-top: 10vh;
     -webkit-flex-shrink: 0;
@@ -237,6 +246,10 @@ h2 {
 
 
 @media (prefers-color-scheme: dark) {
+    code {
+        color: white;
+        background: #3B3B3B;
+    }
     .material-icons-outlined {
         color: #fff !important;
     }
