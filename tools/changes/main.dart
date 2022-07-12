@@ -17,12 +17,12 @@ import 'package:http/http.dart';
 String now() {
   // remove 20 from 2022 so 2022 becomes 22
   String nowYear = DateTime.now().year.toString().substring(2);
-  // if month is less than 10, add a 0 before the month
+  // if the month is less than 10, add a 0 before the month
   String nowMonth = DateTime.now().month < 10
       ? '0${DateTime.now().month}'
       : DateTime.now().month.toString();
 
-  // if day is less than 10, add a 0 before the month
+  // if the day is less than 10, add a 0 before the day
   String nowDay = DateTime.now().day < 10
       ? '0${DateTime.now().day}'
       : DateTime.now().day.toString();
@@ -34,13 +34,13 @@ String sevenDaysAgo() {
   String sevenDaysAgoYear =
       DateTime.now().subtract(Duration(days: 7)).year.toString().substring(2);
 
-  // if month is less than 10, add a 0 before the month
+  // if the month is less than 10, add a 0 before the month
   String sevenDaysAgoMonth =
       DateTime.now().subtract(Duration(days: 7)).month < 10
           ? '0${DateTime.now().subtract(Duration(days: 7)).month}'
           : DateTime.now().subtract(Duration(days: 7)).month.toString();
 
-  // if day is less than 10, add a 0 before the month
+  // if the day is less than 10, add a 0 before the day
   String sevenDaysAgoDay = DateTime.now().subtract(Duration(days: 7)).day < 10
       ? '0${DateTime.now().subtract(Duration(days: 7)).day}'
       : DateTime.now().subtract(Duration(days: 7)).day.toString();
