@@ -36,7 +36,7 @@ String sevenDaysAgo() {
   return '$sevenDaysAgoYear$sevenDaysAgoMonth$sevenDaysAgoDay';
 }
 
-makeChangeLog() async {
+void main() async {
   var response = await get(Uri.parse(
       'https://api.github.com/repos/dahliaOS/documentation/compare/v${await sevenDaysAgo()}...HEAD'));
   var jsonfile = response.body.toString();
@@ -64,8 +64,4 @@ makeChangeLog() async {
   await Process.run(
       'git', ['commit', '-m', '"bump changes to v${await now()}"']);
   await Process.run('git', ['push']);
-}
-
-void main() {
-  makeChangeLog();
 }
