@@ -65,7 +65,7 @@ void main() async {
   }
 
   // for each commit write it to file.md file in the project root
-  await File('.github/release.md').writeAsString(
+  await File('${Directory.current.path}/.github/release.md').writeAsString(
       '# dahliaOS documentation v${await now()}\n\n## Changes\n${await _get_commits().toList().join('\n')}');
 
   // commit the changes
