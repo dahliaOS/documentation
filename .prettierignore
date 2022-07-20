@@ -1,0 +1,8 @@
+# next.js
+.next
+
+# dependencies
+node_modules
+
+# code errors out when formatted by prettier
+qemu.mdx
