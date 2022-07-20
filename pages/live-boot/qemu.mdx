@@ -1,0 +1,105 @@
+import Callout from "nextra-theme-docs/callout";
+
+# Run dahliaOS on QEMU
+
+Running dahliaOS on QEMU is possible and we've documented how to do it below.
+
+## QEMU CLI
+
+### 1. Install QEMU
+
+<Nextra.Tabs
+  items={[
+    "Arch",
+    "Fedora 32-36",
+    "Gentoo",
+    "Ubuntu 20.04 - 22.04",
+    "Ubuntu 18.04",
+  ]}
+>
+  <Nextra.Tab>
+    ```sh
+    sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo dnf install qemu
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    emerge --ask app-emulation/qemu
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
+    ```
+  </Nextra.Tab>
+</Nextra.Tabs>
+
+### 2. Download and run dahliaOS with QEMU
+
+<Callout type="warning" emoji="⚠️">
+  Make sure that you:
+  1. Use minimum 2GB of RAM or the VM will fail to load Pangolin.
+  1. Use the right name of the ISO file, **dahliaOS.iso** is just an example.
+</Callout>
+
+1. Download the latest dahliaOS release [here](https://dahliaos.io/download).
+1. Type the following command in the terminal:
+
+```
+qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
+```
+
+## QEMU GUI
+
+### 1. Install virt-manager
+
+<Nextra.Tabs
+  items={[
+    "Arch",
+    "Ubuntu 20.04 - 22.04",
+    "Ubuntu 18.04",
+  ]}
+>
+  <Nextra.Tab>
+    ```sh
+    sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba virt-manager
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
+    ```
+  </Nextra.Tab>
+  <Nextra.Tab>
+    ```sh
+    sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
+    ```
+  </Nextra.Tab>
+</Nextra.Tabs>
+
+### 2. Make a virtual machine
+
+1. Open virt-manager and click on **Create a new virtual machine**.
+
+1. Choose **Local install media (ISO image or CDROM)** and click Forward.
+
+1. Click on Browse: Browse local and select your ISO, deselect **Automatically detect from the installation media / source**, choose **Generic Linux 2020 (linux2020)** as OS and click Forward.
+
+1. Set the **memory** to **2048MB** and number of **CPUs** to **2** then click Forward.
+
+1. No need to change anything storage-wise (feel free to if you want to) so just click Forward.
+
+1. Give your VM a name, click Finish and wait for the VM to boot.
+
+<br />
+<img src="/docs/install/qemu/qemu-gui-install.gif"></img>

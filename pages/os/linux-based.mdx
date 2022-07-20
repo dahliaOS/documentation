@@ -1,0 +1,570 @@
+import Callout from "nextra-theme-docs/callout";
+
+# Overview of dahliaOS Linux-based Builds
+
+## TL;DR
+
+You can download dahliaOS Linux builds [here](https://dahliaos.io/download).
+
+## Running dahliaOS Linux
+
+dahliaOS Linux is supported on a wide range of devices and emulators. For virtual machines, see the [**Virtual Machines**](linux-based#virtual-machines) section below.
+
+### ARM
+
+Currently, the Raspberry Pi 3 and the Raspberry Pi 4 (or equivalents) are the only ARM supported devices by dahliaOS Linux. The system requires the following minimum specifications:
+
+- 1.2 GHz Broadcom BCM2837 or higher.
+- 256 MiB of RAM or higher.
+- 512 MiB of storage, 1 GiB recommended.
+
+### Raspberry Pi
+
+Official images are available for download from the [dahliaOS downloads page](https://dahliaos.io/download/). For flashing, we recommend [Etcher](https://www.balena.io/etcher/) but any .zip compatible flashing software should work. After flashing the SD card, use the following steps to properly configure your installation:
+
+1. Insert the flashed SD card into the Pi and power it on.
+1. Change the root password to something secure with the `passwd` command.
+1. Expand the filesystem onto the SD card using the `expand-fs` command.
+
+The system is now able to be used at its full capacity. Have fun!
+
+### x86_64
+
+dahliaOS Linux has extensive support for the x86_64 platforma and leverages its power to create a stable, efficient system on every device.
+
+#### AMD
+
+dahliaOS Linux can boot on AMD hardware but may require an NVIDIA GPU in order to get full graphics acceleration. The system requires the following specifications on AMD devices:
+
+- AMD Athlon 64 or newer, 1.0 GHz or higher.
+- UEFI or Legacy bootloader.
+- 512 MiB of RAM or higher.
+- 512 MiB of storage, 1 GiB recommended.
+- NVIDIA 7800GT 256 MB or newer (Modern AMD GPUs may work but stable performance isn't guranteed).
+
+#### Intel
+
+dahliaOS is completely supported on the Intel platform and can run with advanced hardware acceleration (60 FPS mode). The system requires the following minimum specifications on Intel devices:
+
+- 64-bit single-core or higher CPU, 1 GHz or higher.
+- UEFI or Legacy bootloader.
+- 512 MiB of RAM or higher.
+- 512 MiB of storage, 1 GiB recommended.
+- Intel GMA 4500 or better, Intel HD 4000 recommended, NVIDIA 7800GT 256MB or newer.
+
+#### Virtual Machines
+
+dahliaOS is supported on a few different software-backed emulators, including QEMU and VirtualBox. A legacy image is needed to boot dahliaOS in a VM. As we are unable to afford VMWare, we can not make any inferences about performance or settings. For Virtual Machines, the following specifications are required:
+
+- 1 or more CPU cores.
+- 512 MiB of RAM or higher.
+- No internal storage disk.
+- Legacy bootloader.
+
+For launching in QEMU, use the following command with a compatible Legacy image:
+
+```sh
+qemu-system-x86_64 --enable-kvm -m 4096 -cdrom <legacy>.iso
+```
+
+This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine) enabled, with 4096 MiB of RAM, booting the legacy ISO. If you are on a Windows host, remove the `--enable-kvm` flag, as it does not apply to the Windows platform.
+
+## The System - In-Depth
+
+<br />
+<img src="/docs/os/linux-based/architecture.png" />{" "}
+
+Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.
+
+### Agents
+
+Agents are simple, modular executables designed to run in the background and manage the system's capabilities. In the 201215 system release, the following Agents are present:
+
+- **Update Agent** - Checks for system updates and installs them.
+- **Theme Agent** - Handles global application theming.
+- **Graft Agent** - Manages virtualized systems running under Graft.
+- **Network Agent** - Manages network interfaces and connections.
+
+### Security and Privacy (Upcoming)
+
+<Callout>
+  The following features will be included in further releases, and are not yet
+  present in current public releases for development and debugging purposes.
+</Callout>
+
+Unlike standard desktop distributions, dahliaOS employs aggressive security measures similar to the methods found on mobile systems. Major steps are taken to ensure security and privacy for all users while keeping the system open and accessible to developers.
+The system is secure every step of the way, from the first boot to system shutdown, using a policy called Cerberus. Like the creature from ancient mythology, Cerberus guards the system and has three central tenets of security:
+
+- **Verification** - The system is checked on boot and all applications are signed.
+- **Encryption** - User and Application data is encrypted in a secure partition to prevent data loss and leakage.
+- **Isolation** - The system partition and applications are all isolated from each other, and no two applications can share information or vulnerabilities without user consent.
+  A set of two partitions will be used to ensure maximum system security, a read-only stateless partition, where system files and executables are stored, and an encrypted stateful partition where user data remains persistently.
+  The `dm-verity` tool is used to verify the system and alert the user if the system is compromised. If a breach of the root file system occurs, the stateless partition can be recovered from Recovery Mode, without touching the user data on the stateful partition.
+  Within the system, the read-only nature of the root filesystem and the encryption of user data ensures that malicious or unsigned applications and modules can not wreak havoc on the system. The stateful partition can only be decrypted using the Decryption Agent, so any attempts to penetrate it will not go unnoticed.
+  Using total sandboxing, non-system applications are not allowed to interact with hardware, software, and files without explicit permission from the user. In the case of hardware usage, software-side indicators will alert the user that a camera or microphone is active, or if a task is using network access in the background.
+  For those living on the edge or those looking to debug the underlying system, a Developer Mode is available that will disable most of the security features of the system and make the stateless partition read/write.
+
+### Graft and the Modular Userspace
+
+<br />
+<img src="/docs/os/linux-based/graft.png" />
+
+Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.
+There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
+
+- **Containers** - More secure, runs directly on dahliaOS using the host kernel but isolated from hardware. (Minimal overhead)
+- **Virtual Machines** - Uses CPU self-virtualization to run directly on the hardware. (Medium overhead)
+- **Emulators** - Full hardware virtualization, including processor. (High overhead)
+- **Chroots** - Less secure, runs directly on hardware alongside dahliaOS, uses the host kernel, see [**Modular Userspace**](linux-based#modular-userspace) for more information. (Minimal overhead)
+
+All of these methods are centralized in Graft, and the virtualization mode will change according to the type of system. Currently, only Linux-based operating systems can run in Containers and Chroots.
+
+#### Modular Userspace
+
+In order to maintain security while ensuring that the system remains accessible to developers, dahliaOS Linux is able to run a second Linux distribution as it's userspace, booted on top of the latest Linux kernel provided by dahliaOS. The userspace can be hot-swapped within the Graft app. By default, in 201215 the default userspace is Arch.
+
+### Standard Linux Things
+
+While the base system is not typically accessible outside of Developer Mode, dahliaOS Linux is a fairly standard system, package-wise. The default package manager (used for system updates) is `rpm`, and the [Busybox](https://busybox.net) packages provide the init system and the core utilities.
+
+### Buildroot
+
+<img src="/docs/os/linux-based/buildroot.png" />
+
+dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in our [Buildroot repository](https://github.com/dahliaos/buildroot). Builds are completely reproducible using the tool and the build source used in release is typically pushed every 2-5 days.
+
+## Compiling
+
+Compiling dahliaOS Linux with the [Buildroot](https://github.com/dahliaos/buildroot) tool is very simple but requires a decent amount of processor power.
+The following specs are required:
+
+- Intel Core i5-2400 3.4 GHz or better - Xeon recommended.
+- 8 GiB of RAM or more.
+- Gigabit Ethernet connection.
+- 64 GiB of free space - 500 GiB recommended.
+- Fedora Linux 33 or equivalent.
+
+[Read more at the Buildroot Repo →](https://github.com/dahliaos/buildroot)
+
+## Releasing
+
+dahliaOS Linux follows a release schedule dictated by the guidelines below. Each release must be at least 75% feature-complete to qualify as a separate release.
+Internal experimental builds that represent major overhauls of the base system are referred to by the name `Nitrogen`. As of dahliaOS 201215, there have been 3 revisions of Nitrogen:
+
+- **Nitrogen I** - Initial Linux-Based test build.
+- **Nitrogen II** - Initial persistence testing build.
+- **Nitrogen III** - Initial base for dahliaOS 201215 with virtualization and wireless networking support.
+
+In [dahliaOS Linux-based 200305.1](https://github.com/dahliaos/releases/releases/tag/200305.1-x86) (Nitrogen I) and higher, individual builds are identified with the build ID format YYMMDD.HF, where:
+
+- **YYMMDD** identifies the date when the release is branched from or synced with the development branch. It's not always the exact date at which a build was made as it's common for minor variations added to an existing build to re-use the same date code as the existing build.
+- **HF** is an optional number that identifies a hotfix on top of an existing YYMMDD build, starting from 1.
+
+## Planned Releases (Subject to change) (WIP)
+
+This list is preliminary and subject to change. The full project board can be seen [here](https://github.com/orgs/dahliaos/projects/6).
+
+## Installed packages
+
+```
+adwaita-icon-theme-3.37.2
+alsa-lib-1.2.5.1
+alsa-utils-1.2.4
+apparmor-3.0.1
+at-3.2.2
+atk-2.36.0
+autofs-5.1.7
+bash-5.1
+bash-completion-2.11
+bc-1.07.1
+bind-9.11.31
+btrfs-progs-5.11
+buildroot-config
+buildroot-fs
+build-time.log
+busybox-1.33.1
+bzip2-1.0.8
+ca-certificates-20210119
+cairo-1.16.0
+cgroupfs-mount-1.4
+cifs-utils-6.13
+coreutils-8.32
+dap-latest
+dbus-1.12.20
+dbus-cpp-0.9.0
+dbus-glib-0.112
+dbus-triggerd-ba3dbec805cb707c94c54de21666bf18b79bcc09
+dhcp-4.4.2-P1
+dhcpcd-9.4.0
+dialog-1.3-20200327
+dnsmasq-2.85
+dtc-1.6.1
+duktape-2.6.0
+ebtables-2.0.11
+ell-0.41
+eudev-3.2.10
+expat-2.4.1
+feh-3.6.3
+file-5.38
+flex-2.6.4
+fontconfig-2.13.1
+freetype-2.10.4
+fuse-overlayfs-1.5.0
+gdk-pixbuf-2.42.4
+genimage.tmp
+genpart-1.0.2
+glibc-2.33-46-gedfd11197ecf3629bbb4b66c5814da09a61a7f9f
+glib-networking-2.66.0
+gmp-6.2.1
+gnu-efi-3.0.10
+gnutls-3.7.1
+gobject-introspection-1.68.0
+grep-3.6
+grub2-2.04
+gzip-1.10
+harfbuzz-2.8.2
+hicolor-icon-theme-0.17
+host-acl-2.3.1
+host-attr-2.5.1
+host-autoconf-2.69
+host-autoconf-archive-2019.01.06
+host-automake-1.15.1
+host-binutils-2.35.2
+host-bison-3.7.6
+host-btrfs-progs-5.11
+host-bzip2-1.0.8
+host-cairo-1.16.0
+host-cdrkit-1.1.11
+host-dbus-1.12.20
+host-dbus-cpp-0.9.0
+host-dbus-glib-0.112
+host-e2fsprogs-1.46.2
+host-elfutils-0.184
+host-eudev-3.2.10
+host-expat-2.4.1
+host-fakeroot-1.25.3
+host-file-5.38
+host-flex-2.6.4
+host-fontconfig-2.13.1
+host-freetype-2.10.4
+host-gawk-5.1.0
+host-gcc-final-9.4.0
+host-gcc-initial-9.4.0
+host-gdk-pixbuf-2.42.4
+host-genimage-14
+host-genpart-1.0.2
+host-gettext
+host-gettext-tiny-0.3.2
+host-gmp-6.2.1
+host-gobject-introspection-1.68.0
+host-gperf-3.1
+host-grub2-2.04
+host-gzip-1.10
+host-harfbuzz-2.8.2
+host-imagemagick-7.0.11-13
+host-intltool-0.51.0
+host-kmod-28
+host-libcap-2.51
+host-libconfuse-3.3
+host-libffi-3.4.2
+host-libfribidi-1.0.10
+host-libglib2-2.68.2
+host-libgtk3-3.24.30
+host-libiberty-2.32
+host-libjpeg-9d
+host-libopenssl-1.1.1k
+host-libpng-1.6.37
+host-librsvg-2.50.5
+host-libtirpc-1.3.2
+host-libtool-2.4.6
+host-libxcb-1.14
+host-libxml2-2.9.12
+host-libxml-parser-perl-2.46
+host-libxslt-1.1.34
+host-libzlib-1.2.11
+host-llvm-9.0.1
+host-lzip-1.22
+host-lzo-2.10
+host-m4-1.4.18
+host-makedevs
+host-meson-0.58.2
+host-mkpasswd
+host-mpc-1.2.1
+host-mpfr-4.1.0
+host-nasm-2.15.05
+host-ncurses-6.1
+host-nfs-utils-2.5.4
+host-ninja-1.10.2
+host-openssl
+host-pango-1.48.7
+host-patchelf-0.9
+host-pcre-8.44
+host-pixman-0.40.0
+host-pkgconf-1.6.3
+host-prelink-cross-a853a5d715d84eec93aa68e8f2df26b7d860f5b2
+host-pugixml-1.11.4
+host-python-2.7.18
+host-python3-3.9.6
+host-python3-mako-1.1.3
+host-python3-setuptools-44.0.0
+host-python-docutils-0.15.2
+host-qemu-6.0.0
+host-rust-bin-1.54.0
+host-rustc
+host-shared-mime-info-1.12
+host-skeleton
+host-swig-4.0.2
+host-tzdata-2021a
+host-ucl-1.03
+host-upx-3.96
+host-util-linux-2.36.2
+host-wayland-1.19.0
+host-waylandpp-0.2.8
+host-xapp_bdftopcf-1.1
+host-xapp_mkfontscale-1.2.1
+host-xapp_xcursorgen-1.0.7
+host-xapp_xkbcomp-1.4.5
+host-xcb-proto-1.14.1
+host-xfont_font-util-1.3.2
+host-xlib_libfontenc-1.1.4
+host-xlib_libX11-1.7.2
+host-xlib_libXau-1.0.9
+host-xlib_libXcursor-1.2.0
+host-xlib_libXdmcp-1.1.3
+host-xlib_libXfixes-6.0.0
+host-xlib_libXfont-1.5.4
+host-xlib_libxkbfile-1.1.0
+host-xlib_libXrender-0.9.10
+host-xlib_xtrans-1.4.0
+host-xorgproto-2021.4
+host-xutil_util-macros-1.19.3
+host-xz-5.2.5
+host-zic-2020f
+host-zlib
+htop-ce6d60e7def146c13d0b8bca4642e7401a0a8995
+hwdata-0.345
+iftop-1.0pre4
+ifupdown-0.8.16
+ifupdown-scripts
+imlib2-1.7.1
+inconsolata-001.010
+initscripts
+iproute2-5.13.0
+iptables-1.8.7
+iw-5.9
+iwd-1.14
+jansson-2.13.1
+jpeg
+jpeg-turbo-2.0.6
+kmod-28
+less-590
+libapparmor-3.0.1
+libcurl-7.78.0
+libdrm-2.4.107
+libegl
+libepoxy-1.5.8
+liberation-2.1.2
+libevdev-1.11.0
+libffi-3.4.2
+libfribidi-1.0.10
+libfuse-2.9.9
+libfuse3-3.10.4
+libgcrypt-1.9.3
+libgl
+libgles
+libglew-2.2.0
+libglfw-3.3.2
+libglib2-2.68.2
+libglu-9.0.2
+libgpg-error-1.42
+libgtk3-3.24.30
+libgudev-236
+libinput-1.18.0
+liblinear-2.30
+liblockfile-1.09
+libndp-1.8
+libnl-3.5.0
+libnspr-4.32
+libopenssl-1.1.1k
+libpcap-1.10.1
+libpciaccess-0.16
+libpng-1.6.37
+libpthread-stubs-0.4
+libseccomp-2.4.4
+libsecret-0.20.4
+libsvg-0.1.4
+libtasn1-4.17.0
+libtirpc-1.3.2
+libtool-2.4.6
+libusb-1.0.24
+libva-2.12.0
+libva-utils-2.12.0
+libvdpau-1.3
+libvirt-7.4.0
+libxcb-1.14
+libxkbcommon-1.1.0
+libxml2-2.9.12
+libzlib-1.2.11
+linux-5.13.2
+linux-firmware-20210511
+linux-headers-5.13.2
+linux-pam-1.5.1
+llvm-9.0.1
+locales.nopurge
+lockfile-progs-0.1.18
+lshw-02.19.2
+lxc-4.0.6
+lz4-1.9.3
+lzip-1.22
+lzo-2.10
+matchbox-1.2
+matchbox-desktop-0.9.1
+matchbox-lib-1.9
+mbpfan-2.2.1
+mc-4.8.26
+mcookie
+mesa3d-21.1.6
+mesa3d-demos-8.4.0
+modem-manager-1.16.6
+mtdev-1.1.6
+nano-5.8
+ncurses-6.1
+neofetch-7.1.0
+nettle-3.7.3
+net-tools-479bb4a7e11a4084e2935c0a576388f92469225b
+network-manager-1.32.2
+newt-0.52.21
+nmap-7.91
+openresolv-3.10.0
+openssh-8.6p1
+openssl
+packages-file-list-host.txt
+packages-file-list-staging.txt
+packages-file-list.txt
+pango-1.48.7
+pangolin_desktop-main
+parted-3.3
+pcre-8.44
+perl-5.32.1
+pixman-0.40.0
+polkit-0.119
+popt-1.18
+pppd-2.4.8
+python3-3.9.6
+python-gobject-3.36.1
+qemu-6.0.0
+radvd-2.19
+readline-8.1
+sdl2-2.0.14
+sed-4.8
+shared-mime-info-1.12
+skeleton
+skeleton-init-common
+skeleton-init-sysv
+slang-2.3.2
+slirp-4.6.1
+spice-protocol-0.14.3
+squashfs-4.4
+sshfs-3.7.1
+strace-5.12
+syslinux-6.03
+tar-1.34
+toolchain
+toolchain-buildroot
+tree-1.8.0
+tslib-1.22
+tzdata-2021a
+udev
+unrar-5.9.4
+unzip-6.0
+upower-0.99.11
+urandom-scripts
+usbmount-0.0.22
+util-linux-2.36.2
+util-linux-libs-2.36.2
+vim-8.2.0000
+wayland-1.19.0
+waylandpp-0.2.8
+wayland-protocols-1.20
+wget-1.21.1
+which-2.21
+whois-5.5.10
+wireless_tools-30.pre9
+wpa_supplicant-2.9
+xapp_xauth-1.1
+xapp_xdriinfo-1.0.6
+xapp_xhost-1.0.8
+xapp_xinit-1.4.1
+xapp_xinput-1.6.3
+xapp_xkbcomp-1.4.5
+xapp_xrandr-1.5.1
+xapp_xrdb-1.2.0
+xcb-proto-1.14.1
+xcursor-transparent-theme-0.1.1
+xdata_xbitmaps-1.1.2
+xdata_xcursor-themes-1.0.6
+xdg-dbus-proxy-0.1.2
+xdriver_xf86-input-evdev-2.10.6
+xdriver_xf86-input-joystick-1.6.3
+xdriver_xf86-input-keyboard-1.9.0
+xdriver_xf86-input-libinput-1.1.0
+xdriver_xf86-input-mouse-1.9.3
+xdriver_xf86-input-synaptics-1.9.1
+xdriver_xf86-input-tslib-1.1.1
+xdriver_xf86-input-vmmouse-13.1.0
+xdriver_xf86-video-amdgpu-19.1.0
+xdriver_xf86-video-cirrus-1.5.3
+xdriver_xf86-video-dummy-0.3.8
+xdriver_xf86-video-fbdev-0.5.0
+xdriver_xf86-video-fbturbo-0.4.0
+xdriver_xf86-video-intel-31486f40f8e8f8923ca0799aea84b58799754564
+xdriver_xf86-video-nouveau-1.0.17
+xdriver_xf86-video-nv-2.1.21
+xdriver_xf86-video-qxl-0.1.5
+xdriver_xf86-video-vesa-2.5.0
+xdriver_xf86-video-vmware-13.3.0
+xfont_encodings-1.0.5
+xfont_font-alias-1.0.4
+xfont_font-cursor-misc-1.0.3
+xfont_font-misc-misc-1.1.2
+xfont_font-util-1.3.2
+xkeyboard-config-2.32
+xlib_libfontenc-1.1.4
+xlib_libICE-1.0.10
+xlib_libSM-1.2.3
+xlib_libX11-1.7.2
+xlib_libXau-1.0.9
+xlib_libXaw-1.0.14
+xlib_libXcomposite-0.4.5
+xlib_libXcursor-1.2.0
+xlib_libXdamage-1.1.5
+xlib_libXdmcp-1.1.3
+xlib_libXext-1.3.4
+xlib_libXfixes-6.0.0
+xlib_libXfont2-2.0.4
+xlib_libXft-2.3.3
+xlib_libXi-1.7.10
+xlib_libXinerama-1.1.4
+xlib_libxkbfile-1.1.0
+xlib_libXmu-1.1.3
+xlib_libXpm-3.5.13
+xlib_libXrandr-1.5.2
+xlib_libXrender-0.9.10
+xlib_libXres-1.2.1
+xlib_libxshmfence-1.3
+xlib_libXt-1.2.1
+xlib_libXv-1.0.11
+xlib_libXvMC-1.0.12
+xlib_libXxf86vm-1.1.4
+xlib_xtrans-1.4.0
+xorgproto-2021.4
+xorriso-1.5.2
+xserver_xorg-server-1.20.13
+xterm-367
+xutil_makedepend-1.0.6
+xutil_util-macros-1.19.3
+xz-5.2.5
+yajl-2.1.0
+zip-3.0
+zlib
+```
