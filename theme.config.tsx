@@ -7,7 +7,9 @@ const useDark = () => {
   const [isDark, setIsDark] = useState(false);
   useEffect(() => {
     setIsDark(resolvedTheme === "dark");
-    return () => false;
+    return () => {
+      false;
+    };
   }, [resolvedTheme]);
   return isDark;
 };
@@ -38,7 +40,6 @@ const config = {
   search: true,
   customSearch: null,
   darkMode: true,
-  floatTOC: true,
   footer: true,
   bannerKey: "dahliaOS",
   banner: () => {
