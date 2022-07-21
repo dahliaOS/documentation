@@ -13,8 +13,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "next": "^12.2.2",
-    "nextra": "2.0.0-alpha.56",
-    "nextra-theme-docs": "2.0.0-alpha.57",
+    "nextra": "2.0.0-beta.6",
+    "nextra-theme-docs": "2.0.0-beta.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
