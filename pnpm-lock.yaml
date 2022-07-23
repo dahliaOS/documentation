@@ -14,8 +14,8 @@ specifiers:
   eslint-plugin-react: ^7.30.1
   next: ^12.2.2
   next-themes: ^0.2.0
-  nextra: 2.0.0-beta.8
-  nextra-theme-docs: 2.0.0-beta.8
+  nextra: 2.0.0-beta.9
+  nextra-theme-docs: 2.0.0-beta.9
   postcss: ^8.4.14
   prettier: ^2.7.1
   react: ^18.2.0
@@ -26,8 +26,8 @@ specifiers:
 dependencies:
   next: 12.2.2_biqbaboplfbrettd7655fr4n2y
   next-themes: 0.2.0_7gpduzaz4csxytrukenoyuq3te
-  nextra: 2.0.0-beta.8_react@18.2.0
-  nextra-theme-docs: 2.0.0-beta.8_7gpduzaz4csxytrukenoyuq3te
+  nextra: 2.0.0-beta.9_react@18.2.0
+  nextra-theme-docs: 2.0.0-beta.9_7gpduzaz4csxytrukenoyuq3te
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -405,20 +405,20 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@reach/skip-nav/0.16.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-SY4PdNx+hQHbeOr/+qLc+QXdRt9NTVlt0r737bOqY1WURGBIEN9sGgsmIsHluP1/bQuAe0JKdOJ/tXiwQ3Z3ug==}
+  /@reach/skip-nav/0.17.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-wkkpQK3ffczzGHis6TaUvpOabuAL9n9Kh5vr4h56XPIJP3X77VcHUDk7MK3HbV1mTgamGxc9Hbd1sXKSWLu3yA==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/utils': 0.16.0_biqbaboplfbrettd7655fr4n2y
+      '@reach/utils': 0.17.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       tslib: 2.4.0
     dev: false
 
-  /@reach/utils/0.16.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-PCggBet3qaQmwFNcmQ/GqHSefadAFyNCUekq9RrWoaU9hh/S4iaFgf2MBMdM47eQj5i/Bk0Mm07cP/XPFlkN+Q==}
+  /@reach/utils/0.17.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-M5y8fCBbrWeIsxedgcSw6oDlAMQDkl5uv3VnMVJ7guwpf4E48Xlh1v66z/1BgN/WYe2y8mB/ilFD2nysEfdGeA==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
@@ -2758,8 +2758,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /nextra-theme-docs/2.0.0-beta.8_7gpduzaz4csxytrukenoyuq3te:
-    resolution: {integrity: sha512-NCERfq8gB/D5tRmjSoD1fTzGi6MEuFU6zumgWJYPDXC9BLaQFb6/RKss5DKd4SECCYfRyAYPYgymWGLZyENKZQ==}
+  /nextra-theme-docs/2.0.0-beta.9_7gpduzaz4csxytrukenoyuq3te:
+    resolution: {integrity: sha512-SyGqbs4T1JQ8Ug2MX/yIqCt3vZAQ4T0wmze8c0w6/tF8+lfe/EhgT7ZJCzDzd6UPcjfpTWxZVmjF35dG1VWFKQ==}
     peerDependencies:
       next: '>=9.5.3'
       react: '>=16.13.1'
@@ -2767,7 +2767,7 @@ packages:
     dependencies:
       '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
       '@mdx-js/react': 2.1.2_react@18.2.0
-      '@reach/skip-nav': 0.16.0_biqbaboplfbrettd7655fr4n2y
+      '@reach/skip-nav': 0.17.0_biqbaboplfbrettd7655fr4n2y
       classnames: 2.3.1
       flexsearch: 0.7.21
       focus-visible: 5.2.0
@@ -2783,8 +2783,8 @@ packages:
       title: 3.4.4
     dev: false
 
-  /nextra/2.0.0-beta.8_react@18.2.0:
-    resolution: {integrity: sha512-npFCZRihNYIRaSkiApSLMnfp10agbmQQlZodRku4yqsux3LzjAEf3lCshR2KNM1TMyQILB2fvrKE/yTqnDuwqA==}
+  /nextra/2.0.0-beta.9_react@18.2.0:
+    resolution: {integrity: sha512-DycdsNA5u6ALluH9zXkRopJll0NshY5F9fiq7W8JGALFksMMen485qJ8sdo7od/xGYSc1QVuHVLMBPkSiO9tIw==}
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
