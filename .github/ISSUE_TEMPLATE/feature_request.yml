@@ -3,7 +3,7 @@ description: Request a new feature
 title: "[FEATURE REQUEST] <title>"
 labels: [enhancement]
 assignees:
-  - Looskie
+  - SincerelyFaust
 body:
   - type: checkboxes
     attributes:

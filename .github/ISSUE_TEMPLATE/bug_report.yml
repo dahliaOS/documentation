@@ -3,7 +3,7 @@ description: File a bug/issue
 title: "[BUG] <title>"
 labels: [bug, needs triage]
 assignees:
-  - Looskie
+  - SincerelyFaust
 body:
   - type: checkboxes
     attributes:
@@ -44,13 +44,13 @@ body:
           - **Smartphone**: iPhone 13 Pro
           - **Node version**: 15.0.0
           - **Browser**: Google Chrome
-          - **pnpm version**: 1.22.18
+          - **PNPM version**: 1.22.18
       value: |
         - OS:
         - Smartphone:
         - Node version:
         - Browser:
-        - pnpm version:
+        - PNPM version:
       render: markdown
     validations:
       required: false
