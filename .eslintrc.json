@@ -15,6 +15,15 @@
     "mdx/code-blocks": true,
     "mdx/language-mapper": {}
   },
+  "overrides": [
+    {
+      "files": ["*.mdx"],
+      "parser": "eslint-mdx",
+      "rules": {
+        "semi": 0
+      }
+    }
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
