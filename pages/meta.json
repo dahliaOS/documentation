@@ -1,12 +1,12 @@
 {
   "index": "Introduction",
   "live-boot": "Live boot",
-  "hardware": "Hardware",
+  "build": "Build",
   "os": "OS",
   "pangolin": "Pangolin",
-  "build": "Build",
+  "troubleshoot": "Troubleshoot",
+  "hardware": "Hardware",
   "developers": "Developers",
   "contribute": "Contribute",
-  "faq": "F.A.Q.",
-  "troubleshoot": "Troubleshoot"
+  "faq": "F.A.Q."
 }
