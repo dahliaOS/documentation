@@ -21,7 +21,7 @@ const config = {
       <>
         <img
           src={`/logos/${isDark ? "dark" : "light"}Logomark.svg`}
-          width="20"
+          width="22"
           alt="dahliaOS"
         />
       </>
@@ -38,7 +38,7 @@ const config = {
   nextLinks: true,
   prevLinks: true,
   search: true,
-  customSearch: null,
+  unstable_flexsearch: true,
   darkMode: true,
   footer: true,
   bannerKey: "dahliaOS",
@@ -65,6 +65,7 @@ const config = {
             className="w-full inline-flex items-center no-underline text-current font-semibold grayscale"
             href="https://vercel.com/?utm_source=dahliaOS&utm_campaign=osss"
             target="_blank"
+            rel="noreferrer"
           >
             <span className="mr-1">Powered By</span>
             <span>

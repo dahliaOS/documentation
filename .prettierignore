@@ -4,5 +4,5 @@
 # dependencies
 node_modules
 
-# code errors out when formatted by prettier
+# prettier does not support mdx 2 so it breaks the code
 qemu.mdx
