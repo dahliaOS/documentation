@@ -1,4 +1,4 @@
-import { useTheme } from "next-themes";
+import { useTheme } from "nextra-theme-docs";
 import { useState, useEffect } from "react";
 import Vercel from "./components/Vercel";
 
@@ -28,11 +28,13 @@ const config = {
     );
   },
   projectChatLink: "https://dahliaos.io/discord",
+  github: "https://github.com/dahliaOS",
   feedbackLabels: "feedback",
   projectLink: "https://dahliaOS.io",
   docsRepositoryBase: "https://github.com/dahliaOS/documentation",
   titleSuffix: " – dahliaOS",
   unstable_staticImage: true,
+  gitTimestamp: "Last updated on",
   floatTOC: true,
   feedbackLink: "Question? Give us feedback →",
   nextLinks: true,
@@ -48,7 +50,6 @@ const config = {
         href="https://dahliaOS.io/download"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-medium text-current no-underline"
         title="Download the latest version of dahliaOS"
       >
         dahliaOS Linux 220222 is out →
@@ -62,12 +63,11 @@ const config = {
         <a href="mailto:contact@dahliaos.io">The dahliaOS Authors</a>
         <p>
           <a
-            className="w-full inline-flex items-center no-underline text-current font-semibold grayscale"
             href="https://vercel.com/?utm_source=dahliaOS&utm_campaign=osss"
             target="_blank"
             rel="noreferrer"
           >
-            <span className="mr-1">Powered By</span>
+            <span>Powered By</span>
             <span>
               <Vercel />
             </span>
@@ -89,9 +89,7 @@ const config = {
           alt="dahliaOS"
           style={{ marginRight: "10px" }}
         />
-        <span className="text-gray-600 font-normal hidden md:inline">
-          Documentation
-        </span>
+        <span>Documentation</span>
       </>
     );
   },
@@ -119,12 +117,7 @@ const config = {
   },
   tocExtraContent: () => {
     return (
-      <a
-        className="text-xs font-medium no-underline block text-gray-500 mb-2 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
-        target="_blank"
-        rel="noreferrer"
-        href="https://dahliaos.io/donate"
-      >
+      <a target="_blank" rel="noreferrer" href="https://dahliaos.io/donate">
         Support dahliaOS 💝 →
       </a>
     );
