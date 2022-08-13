@@ -35,7 +35,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Environment (values that do not apply assign with "N/A")
+      label: Environment (remove values that do not apply)
       description: |
         examples:
           - **OS**: Ubuntu 20.04
