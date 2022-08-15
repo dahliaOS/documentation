@@ -96,22 +96,19 @@ const config = {
   head: () => {
     return (
       <>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Documentation" />
+        <link rel="canonical" href="https://docs.dahliaos.io" />
         <meta name="viewport" content="width=device-width" />
         <meta property="og:image" content="https://imgur.com/pqgjEpd.png" />
-        <meta property="og:site_name" content="dahliaOS Documentation" />
-        <meta
-          property="og:title"
-          content="dahliaOS Documentation"
-          key="title"
-        />
-        <meta
-          name="description"
-          content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
-        />
-        <meta
-          name="og:description"
-          content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
-        />
+        <meta property="og:site_name" content="dahliaOS" />
+        <meta property="og:title" content="Documentation" key="title" />
+        <meta name="description" content="Documentation for dahliaOS." />
+        <meta name="og:description" content="Documentation for dahliaOS." />
+        <meta property="og:url" content="https://docs.dahliaos.io"></meta>
+        <meta name="theme-color" content="#ff3d00"></meta>
       </>
     );
   },
