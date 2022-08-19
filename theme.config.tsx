@@ -107,8 +107,8 @@ const config = {
         <meta property="og:title" content="Documentation" key="title" />
         <meta name="description" content="Documentation for dahliaOS." />
         <meta name="og:description" content="Documentation for dahliaOS." />
-        <meta property="og:url" content="https://docs.dahliaos.io"></meta>
-        <meta name="theme-color" content="#ff3d00"></meta>
+        <meta property="og:url" content="https://docs.dahliaos.io" />
+        <meta name="theme-color" content="#ff3d00" />
       </>
     );
   },
