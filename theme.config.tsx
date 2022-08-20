@@ -59,7 +59,7 @@ const config = {
   footerText: () => {
     return (
       <>
-        Copyright - 2019 - {new Date().getFullYear()} @{" "}
+        <a href="https://www.apache.org/licenses/LICENSE-2.0">Copyright</a> - 2019 - {new Date().getFullYear()} @{" "}
         <a href="mailto:contact@dahliaos.io">The dahliaOS Authors</a>
         <p>
           <a
