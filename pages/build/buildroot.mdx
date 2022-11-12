@@ -56,7 +56,7 @@ flutter config --enable-linux-desktop
 git clone https://github.com/dahliaos/buildroot.git
 ```
 
-2. Go into the cloned buildroot directory and run `make` or if you want to, you can first make changes to Busybox(init), Linux and Buildroot settings, once you're done just run `make`.
+2. Go into the cloned buildroot directory and run `make CLANG=1` or if you want to, you can first make changes to Busybox(init), Linux and Buildroot settings, once you're done just run `make CLANG=1`.
 
 - `make busybox-menuconfig`
 - `make linux-menuconfig`
@@ -65,7 +65,7 @@ git clone https://github.com/dahliaos/buildroot.git
 2. After that is done, run the command below to recompile the image with Pangolin.
 
 ```sh
-cp -rvf dahliaOS-overlays/* output/target; make
+cp -rvf dahliaOS-overlays/* output/target; make CLANG=1
 ```
 
 3. Once it's done, your ISO file should be in `output/target`!
