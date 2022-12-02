@@ -48,7 +48,7 @@
     ],
     "@typescript-eslint/no-inferrable-types": "off",
     "no-restricted-syntax": [
-      "error",
+      "off",
       {
         "selector": ":matches(JSXElement, JSXFragment) > JSXExpressionContainer > LogicalExpression[operator!='??']",
         "message": "Please use ternaries when writing JSX!"
