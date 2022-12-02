@@ -104,7 +104,7 @@ const config = {
       };
     }
   },
-  head: ({ meta }: { meta: any }) => {
+  head: () => {
     return (
       <>
         <meta charSet="UTF-8" />
@@ -151,12 +151,14 @@ const config = {
           name="keywords"
           content="dahlia, documentation, software, flutter, fuchsia, linux, dahliaOS, computer, operating system, os, system, kernel, dart, open source, material, design, zircon, go, rust"
         />
-        {meta.description && (
-          <meta name="description" content={meta.description} />
-        )}
-        {meta.description && (
-          <meta name="og:description" content={meta.description} />
-        )}
+        <meta
+          name="description"
+          content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
+        />
+        <meta
+          name="og:description"
+          content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
+        />
       </>
     );
   },
