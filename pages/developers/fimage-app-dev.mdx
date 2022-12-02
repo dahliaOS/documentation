@@ -14,13 +14,13 @@ You'll need a few things before working with Flutter apps on Fuchsia:
 
 Begin by upgrading Flutter to the `master` channel.
 
-```sh
+```sh copy
 flutter channel master
 ```
 
 Then, Enable Fuchsia development, and upgrade the Flutter tool. It should download the Fuchsia SDK. If `flutter devices` does not list the `fuchsia_fimage` device, run this step again.
 
-```sh
+```sh copy
 flutter config --enable-fuchsia
 flutter upgrade
 ```
@@ -29,7 +29,7 @@ flutter upgrade
 
 To start, generate a new set of SSH keys for the emulator:
 
-```sh
+```sh copy
 ssh-keygen
 ```
 
@@ -60,7 +60,7 @@ The key's randomart image is:
 
 Now that the key has been generated, send the public key to FImage. Make sure the emulator is not started, and use the ZBI tool to inject the key.
 
-```sh
+```sh copy
 ./tools/zbi -o init/fuchsia-ssh.zbi init/fuchsia.zbi --replace --entry data/ssh/authorized_keys=/home/$USER/.ssh/fimage_key.pub
 ```
 
@@ -68,7 +68,7 @@ Now that the key has been generated, send the public key to FImage. Make sure th
 
 Now that SSH and the SDK are configured, you can start FImage by running:
 
-```bash
+```bash copy
 ./network-config
 ./fimage-gui 4096
 ```

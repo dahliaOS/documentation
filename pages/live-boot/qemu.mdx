@@ -20,27 +20,27 @@ Running dahliaOS on QEMU is possible and we've documented how to do it below.
   ]}
 >
   <Tab>
-    ```sh
+    ```sh copy
     sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba
     ```
   </Tab>
   <Tab>
-    ```sh
+    ```sh copy
     sudo dnf install qemu
     ```
   </Tab>
   <Tab>
-    ```sh
+    ```sh copy
     emerge --ask app-emulation/qemu
     ```
   </Tab>
   <Tab>
-    ```sh
+    ```sh copy
     sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
     ```
   </Tab>
   <Tab>
-    ```sh
+    ```sh copy
     sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
     ```
   </Tab>
@@ -57,7 +57,7 @@ Running dahliaOS on QEMU is possible and we've documented how to do it below.
 1. Download the latest dahliaOS release [here](https://dahliaos.io/download).
 1. Type the following command in the terminal:
 
-```sh
+```sh copy
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
 ```
 
@@ -73,17 +73,17 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
   ]}
 >
   <Tab>
-    ```sh
+    ```sh copy
     sudo pacman -S qemu qemu-arch-extra qemu-block-gluster qemu-block-iscsi qemu-block-rbd samba virt-manager
     ```
   </Tab>
   <Tab>
-    ```sh
+    ```sh copy
     sudo apt install qemu-kvm qemu virt-manager virt-viewer libvirt-daemon-system libvirt-clients
     ```
   </Tab>
   <Tab>
-    ```sh
+    ```sh copy
     sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
     ```
   </Tab>

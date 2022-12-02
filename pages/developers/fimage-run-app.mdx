@@ -10,7 +10,7 @@ Before you can deploy your Flutter app, you must register FImage's SSH configura
 
 From inside the FImage directory, run:
 
-```sh
+```sh copy
 export FUCHSIA_SSH_CONFIG="/path/to/fimage/ssh/ssh_config"
 ```
 
@@ -28,7 +28,7 @@ calculator/fuchsia
 
 Inside of the file `calculator.cmx`, add the following content for a basic Flutter App:
 
-```json
+```json copy
 {}
 ```
 
@@ -43,14 +43,14 @@ Inside of the file `calculator.cmx`, add the following content for a basic Flutt
 
 Now that the application is modified to work with Fuchsia, open another terminal window and start FImage:
 
-```sh
+```sh copy
 ./network-config
 ./fimage-gui 4096
 ```
 
 Once the emulator is started and on the home screen, it should show up under `flutter devices`. You can now run the application using the following command:
 
-```sh
+```sh copy
 flutter run -d fuchsia --verbose
 ```
 

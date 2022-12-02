@@ -48,13 +48,45 @@ A search bar is also available to sort through apps, find settings, and search t
 
 ### TL;DR for Linux
 
-```sh
-flutter channel master # Set flutter to master channel
-flutter upgrade # Upgrade to master channel
-flutter config --enable-linux-desktop # Enable Linux desktop
-git clone https://github.com/dahliaos/pangolin_desktop # Clone the repo
+- Set Flutter to master channel
+
+```sh copy
+flutter channel master
+```
+
+- Upgrade to master channel
+
+```sh copy
+flutter upgrade
+```
+
+- Enable Linux desktop
+
+```sh copy
+flutter config --enable-linux-desktop
+```
+
+- Clone the repo
+
+```sh copy
+git clone https://github.com/dahliaos/pangolin_desktop
+```
+
+- CD into dir
+
+```sh copy
 cd pangolin_desktop
-flutter create . # Optional, updates the embedder code
+```
+
+- Optional: Updates the embedder code
+
+```sh copy
+flutter create .
+```
+
+- Run
+
+```sh copy
 flutter run -d linux
 ```
 

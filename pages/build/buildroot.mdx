@@ -19,7 +19,7 @@ It takes around 8 hours to build a full image from scratch on a Dell Optiplex 79
 
 1. Install Ubuntu-specific packages.
 
-```sh
+```sh copy
 sudo apt install build-essential libgtk-3-dev clang syslinux-utils ccd2iso docbook-xsl gobject-introspection cmake git ninja-build nano
 ```
 
@@ -27,19 +27,19 @@ sudo apt install build-essential libgtk-3-dev clang syslinux-utils ccd2iso docbo
 
 - Clone flutter to /var/lib/flutter/ and configure permissions
 
-```sh
+```sh copy
 cd /var/lib; git clone https://github.com/flutter/flutter.git; sudo chown -R $USER:$USER /var/lib/flutter/
 ```
 
 3. Make a symlink to Flutter and Dart.
 
-```sh
+```sh copy
 sudo ln -s /var/lib/flutter/bin/flutter /usr/bin/flutter; sudo ln -s /var/lib/flutter/bin/dart /usr/bin/dart
 ```
 
 4. Add support for Flutter Linux desktop.
 
-```sh
+```sh copy
 flutter config --enable-linux-desktop
 ```
 
@@ -52,7 +52,7 @@ flutter config --enable-linux-desktop
 
 1. Clone buildroot.
 
-```sh
+```sh copy
 git clone https://github.com/dahliaos/buildroot.git
 ```
 
@@ -64,7 +64,7 @@ git clone https://github.com/dahliaos/buildroot.git
 
 2. After that is done, run the command below to recompile the image with Pangolin.
 
-```sh
+```sh copy
 cp -rvf dahliaOS-overlays/* output/target; make CLANG=1
 ```
 
