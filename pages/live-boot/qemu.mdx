@@ -1,4 +1,6 @@
 import { Tabs, Tab, Callout } from "nextra-theme-docs";
+import Image from "next/image";
+import qemuGuiInstallGif from "../../public/docs/install/qemu/qemu-gui-install.gif"
 
 # Run dahliaOS on QEMU
 
@@ -102,4 +104,4 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
 1. Give your VM a name, click Finish and wait for the VM to boot.
 
 <br />
-<img src="/docs/install/qemu/qemu-gui-install.gif"></img>
+<Image src={qemuGuiInstallGif} />

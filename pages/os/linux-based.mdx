@@ -1,4 +1,8 @@
 import { Callout } from "nextra-theme-docs";
+import Image from "next/image";
+import architecture from "../../public/docs/os/linux-based/architecture.png";
+import graft from "../../public/docs/os/linux-based/graft.png";
+import buildroot from "../../public/docs/os/linux-based/buildroot.png";
 
 # Overview of dahliaOS Linux-based Builds
 
@@ -72,7 +76,7 @@ This will start the legacy image in QEMU with KVM (Kernel-based Virtual Machine)
 ## The System - In-Depth
 
 <br />
-<img src="/docs/os/linux-based/architecture.png" />{" "}
+<Image src={architecture} />
 
 Although Linux and Zircon could not be more different, dahliaOS Linux blends the security, efficiency, and virtualization capabilities of Zircon with a lightweight Linux base system.
 
@@ -107,7 +111,7 @@ The system is secure every step of the way, from the first boot to system shutdo
 ### Graft and the Modular Userspace
 
 <br />
-<img src="/docs/os/linux-based/graft.png" />
+<Image src={graft} />
 
 Graft is the system's hub for installing virtualized and guest operating systems on top of dahliaOS Linux.
 There are 4 methods of virtualizing guest systems on dahliaOS with Graft:
@@ -129,7 +133,7 @@ While the base system is not typically accessible outside of Developer Mode, dah
 
 ### Buildroot
 
-<img src="/docs/os/linux-based/buildroot.png" />
+<Image src={buildroot} />
 
 dahliaOS Linux is compiled using the [Buildroot](https://buildroot.org) tool, a lightweight Makefile-based embedded Linux configurator. The dahliaOS Buildroot can be found in our [Buildroot repository](https://github.com/dahliaos/buildroot). Builds are completely reproducible using the tool and the build source used in release is typically pushed every 2-5 days.
 

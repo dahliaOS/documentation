@@ -27,8 +27,6 @@ const config = {
     link: "https://dahliaos.io/discord",
   },
   docsRepositoryBase: "https://github.com/dahliaOS/documentation",
-  titleSuffix: " – dahliaOS",
-  unstable_staticImage: true,
   gitTimestamp: "Last updated on",
   toc: {
     extraContent: () => {
@@ -42,7 +40,6 @@ const config = {
   },
   feedback: { content: "❓ Question? Give us feedback →", labels: "feedback" },
   navigation: { next: true, prev: true },
-  unstable_flexsearch: true,
   darkMode: true,
   banner: {
     text: () => {
