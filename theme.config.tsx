@@ -6,6 +6,7 @@ import lightLogotype from "./public/images/logos/lightLogotype.webp";
 import darkLogotype from "./public/images/logos/darkLogotype.webp";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useConfig } from "nextra-theme-docs";
 
 const useDark = () => {
   const { resolvedTheme } = useTheme();
@@ -105,12 +106,15 @@ const config = {
     }
   },
   head: () => {
+    const { asPath } = useRouter();
+    const { frontMatter } = useConfig();
+
     return (
       <>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="canonical" href="https://docs.dahliaos.io" />
-        <meta property="og:url" content="https://docs.dahliaos.io" />
+        <meta property="og:url" content={`https://docs.dahliaos.io${asPath}`} />
         <meta name="theme-color" content="#ff3d00" />
         <meta property="og:image" content="https://imgur.com/pqgjEpd.png" />
         <meta property="og:site_name" content="dahliaOS" />
@@ -152,12 +156,18 @@ const config = {
           content="dahlia, documentation, software, flutter, fuchsia, linux, dahliaOS, computer, operating system, os, system, kernel, dart, open source, material, design, zircon, go, rust"
         />
         <meta
-          name="description"
-          content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
+          property="description"
+          content={
+            frontMatter.description ||
+            "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
+          }
         />
         <meta
-          name="og:description"
-          content="dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
+          property="og:description"
+          content={
+            frontMatter.description ||
+            "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
+          }
         />
       </>
     );
