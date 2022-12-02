@@ -11,7 +11,14 @@
   "faq": "F.A.Q.",
   "website": {
     "title": "Website ↗",
+    "type": "page",
     "href": "https://dahliaos.io",
+    "newWindow": true
+  },
+  "pangolin-demo": {
+    "title": "Pangolin Demo ↗",
+    "type": "page",
+    "href": "https://web.dahliaos.io",
     "newWindow": true
   }
 }
