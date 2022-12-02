@@ -8,5 +8,10 @@
   "hardware": "Hardware",
   "developers": "Developers",
   "contribute": "Contribute",
-  "faq": "F.A.Q."
+  "faq": "F.A.Q.",
+  "website": {
+    "title": "Website ↗",
+    "href": "https://dahliaos.io",
+    "newWindow": true
+  }
 }
