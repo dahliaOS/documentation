@@ -1,15 +1,16 @@
 /** @type {import('next').NextConfig} */
 
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-};
-
 const withNextra = require("nextra")({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.tsx",
+  staticImage: true,
+  flexsearch: {
+    codeblocks: false,
+  },
+  defaultShowCopyCode: true,
 });
 
 module.exports = withNextra({
-  ...nextConfig,
+  reactStrictMode: true,
+  swcMinify: true,
 });

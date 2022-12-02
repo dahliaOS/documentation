@@ -10,26 +10,27 @@ You'll need a few things before working with Flutter apps on Fuchsia:
 - The [Flutter SDK](https://flutter.dev/docs/get-started/install/linux).
 - The `ssh-keygen` tool.
 
-## 1. Configuring Flutter for Fuchsia
+<div className="steps-container">
+
+### Configuring Flutter for Fuchsia
 
 Begin by upgrading Flutter to the `master` channel.
 
-```sh copy
+```sh
 flutter channel master
 ```
 
 Then, Enable Fuchsia development, and upgrade the Flutter tool. It should download the Fuchsia SDK. If `flutter devices` does not list the `fuchsia_fimage` device, run this step again.
 
-```sh copy
-flutter config --enable-fuchsia
-flutter upgrade
+```sh
+flutter config --enable-fuchsia && flutter upgrade
 ```
 
-## 2. Provisioning SSH Keys to FImage
+### Provisioning SSH Keys to FImage
 
 To start, generate a new set of SSH keys for the emulator:
 
-```sh copy
+```sh
 ssh-keygen
 ```
 
@@ -60,15 +61,15 @@ The key's randomart image is:
 
 Now that the key has been generated, send the public key to FImage. Make sure the emulator is not started, and use the ZBI tool to inject the key.
 
-```sh copy
+```sh
 ./tools/zbi -o init/fuchsia-ssh.zbi init/fuchsia.zbi --replace --entry data/ssh/authorized_keys=/home/$USER/.ssh/fimage_key.pub
 ```
 
-## 3. Starting and Checking FImage
+### Starting and Checking FImage
 
 Now that SSH and the SDK are configured, you can start FImage by running:
 
-```bash copy
+```bash
 ./network-config
 ./fimage-gui 4096
 ```
@@ -86,6 +87,8 @@ Chrome (web)          • chrome                           • web-javascript �
 
 Your device is now ready to run Flutter apps!
 
-## 4. Preparing and Running a Flutter App
+### Preparing and Running a Flutter App
 
 The instructions for this step can be found at [Preparing and Running a Flutter App](fimage-run-app).
+
+</div>

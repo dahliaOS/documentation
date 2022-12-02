@@ -29,14 +29,14 @@ Basic application packages need the following files at minimum:
 
 - An `AppRun` file, containing the command used to launch your applications, example below:
 
-```sh copy
+```sh
 #!/bin/bash
 exec $APPDIR/demo
 ```
 
 - A .desktop file with the parameters of your application, example below:
 
-```toml copy
+```toml
 [Desktop Entry]
 Name=Demo
 Exec=demo
@@ -53,7 +53,7 @@ Categories=Utility;
 
 Once you have the structure defined above, use:
 
-```sh copy
+```sh
 ARCH=x86_64 appimagetool MyApplication/
 ```
 
@@ -63,7 +63,7 @@ to package your application for dahliaOS as an Appimage.
 
 If your application needs to be built for ARM, use
 
-```sh copy
+```sh
 ARCH=arm appimagetool MyApplication/
 ```
 
