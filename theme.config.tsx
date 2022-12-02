@@ -27,7 +27,7 @@ const config = {
   chat: {
     link: "https://dahliaos.io/discord",
   },
-  docsRepositoryBase: "https://github.com/dahliaOS/documentation",
+  docsRepositoryBase: "https://github.com/dahliaOS/documentation/blob/main/",
   gitTimestamp: "Last updated on",
   toc: {
     extraContent: () => {
