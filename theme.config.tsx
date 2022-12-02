@@ -155,20 +155,8 @@ const config = {
           name="keywords"
           content="dahlia, documentation, software, flutter, fuchsia, linux, dahliaOS, computer, operating system, os, system, kernel, dart, open source, material, design, zircon, go, rust"
         />
-        <meta
-          property="description"
-          content={
-            frontMatter.description ||
-            "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
-          }
-        />
-        <meta
-          property="og:description"
-          content={
-            frontMatter.description ||
-            "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS."
-          }
-        />
+        <meta property="description" content={frontMatter.description} />
+        <meta property="og:description" content={frontMatter.description} />
       </>
     );
   },
