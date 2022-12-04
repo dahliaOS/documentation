@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "next": "^13.0.6",
-    "nextra": "2.0.0",
-    "nextra-theme-docs": "2.0.0",
+    "nextra": "2.0.1",
+    "nextra-theme-docs": "2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -23,7 +23,7 @@
     "@types/react-dom": "18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
-    "eslint": "^8.28.0",
+    "eslint": "^8.29.0",
     "eslint-config-next": "13.0.6",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-mdx": "^2.0.5",
