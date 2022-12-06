@@ -14,11 +14,3 @@ public
 
 # prettier does not support mdx 2 so it breaks the code
 qemu.mdx
-fimage-run-app.mdx
-supported-hardware.mdx
-x86_64.mdx
-fimage.mdx
-linux-based.mdx
-pangolin.mdx
-faq.mdx
-index.mdx

@@ -177,12 +177,3 @@ const config = {
 };
 
 export default config;
-
-/*
-Do what you did in blog with the generated OG images and also compare commits from blog to this one.
-You have to probably wait for more docs about the nextra-docs-theme because you need front matter but that one
-is not yet functional or documented.
-And also don't forget to add those OG images to front matter image tag.
-Perhaps look into somehow using the title and front matter to generate those images without manually inputting the search parameters, also go back to blog and refactor if you get it working here.
-love, yourself.
-*/
