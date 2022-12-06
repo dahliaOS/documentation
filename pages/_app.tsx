@@ -9,5 +9,3 @@ export default function Nextra({
 }: AppProps): ReactElement {
   return <Component {...pageProps} />;
 }
-
-//vercel cmon build
