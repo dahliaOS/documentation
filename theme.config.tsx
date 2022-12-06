@@ -28,7 +28,6 @@ const config = {
     link: "https://dahliaos.io/discord",
   },
   docsRepositoryBase: "https://github.com/dahliaOS/documentation/blob/main/",
-  gitTimestamp: "Last updated on",
   toc: {
     extraContent: () => {
       return (
@@ -104,6 +103,7 @@ const config = {
         titleTemplate: "%s – dahliaOS Docs",
       };
     }
+    return { titleTemplate: "dahliaOS Docs" };
   },
   head: () => {
     const { asPath } = useRouter();
@@ -118,6 +118,8 @@ const config = {
         <meta name="theme-color" content="#ff3d00" />
         <meta property="og:image" content="https://imgur.com/pqgjEpd.png" />
         <meta property="og:site_name" content="dahliaOS" />
+        <meta name="og:title" content="dahliaOS Documentation" />
+        <meta httpEquiv="Content-Language" content="en" />
         <meta name="viewport" content="width=device-width" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <link
