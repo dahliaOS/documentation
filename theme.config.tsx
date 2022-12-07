@@ -107,8 +107,8 @@ const config = {
   },
   head: () => {
     const { asPath } = useRouter();
-    const { frontMatter } = useConfig();
     const { route } = useRouter();
+    const { title, ...meta } = useConfig().frontMatter;
 
     return (
       <>
@@ -119,7 +119,7 @@ const config = {
         <meta name="theme-color" content="#ff3d00" />
         <meta property="og:image" content="https://imgur.com/pqgjEpd.png" />
         <meta property="og:site_name" content="dahliaOS" />
-        <meta name="og:title" content="dahliaOS Documentation" />
+        <meta name="og:title" content="dahliaOS Docs" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="viewport" content="width=device-width" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -161,45 +161,39 @@ const config = {
         <meta
           property="description"
           content={
-            frontMatter.description ||
+            meta.description ||
             "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS. We are developing a privacy-respecting, fast, secure and lightweight operating system, our goal is to establish a new standard for the desktop platform."
           }
         />
         <meta
           property="og:description"
           content={
-            frontMatter.description ||
+            meta.description ||
             "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS. We are developing a privacy-respecting, fast, secure and lightweight operating system, our goal is to establish a new standard for the desktop platform."
           }
         />
         <meta
           property="og:image"
-          content={frontMatter.image || "https://imgur.com/pqgjEpd.png"}
+          content={meta.image || "https://imgur.com/pqgjEpd.png"}
         />
         <meta
           property="twitter:card"
-          content={frontMatter.image ? "summary_large_image" : "summary"}
+          content={meta.image ? "summary_large_image" : "summary"}
         />
         <meta property="twitter:site" content="@dahliaos_io" />
         {route === "/" ? (
           <meta property="twitter:title" content="dahliaOS Docs" />
         ) : (
-          <meta
-            property="twitter:title"
-            content={`${frontMatter.title} - dahliaOS Docs`}
-          />
+          <meta property="twitter:title" content={`${title} - dahliaOS Docs`} />
         )}
-        <meta
-          property="twitter:description"
-          content={frontMatter.description}
-        />
+        <meta property="twitter:description" content={meta.description} />
         <meta
           property="twitter:url"
           content={`https://docs.dahliaos.io${asPath}`}
         />
         <meta
           property="twitter:image"
-          content={frontMatter.image || "https://imgur.com/pqgjEpd.png"}
+          content={meta.image || "https://imgur.com/pqgjEpd.png"}
         />
       </>
     );
