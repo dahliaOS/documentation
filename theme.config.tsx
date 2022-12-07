@@ -118,7 +118,6 @@ const config = {
         <link rel="canonical" href="https://docs.dahliaos.io" />
         <meta property="og:url" content={`https://docs.dahliaos.io${asPath}`} />
         <meta name="theme-color" content="#ff3d00" />
-        <meta property="og:image" content="https://imgur.com/pqgjEpd.png" />
         <meta property="og:site_name" content="dahliaOS" />
         <meta name="og:title" content="dahliaOS Docs" />
         <meta httpEquiv="Content-Language" content="en" />
