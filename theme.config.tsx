@@ -7,6 +7,7 @@ import darkLogotype from "./public/images/logos/darkLogotype.webp";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
+import urlcat from "urlcat";
 
 const useDark = () => {
   const { resolvedTheme } = useTheme();
@@ -174,7 +175,13 @@ const config = {
         />
         <meta
           property="og:image"
-          content={meta.image || "https://imgur.com/pqgjEpd.png"}
+          content={
+            meta.image ||
+            urlcat("https://docs.dahliaos.io/api/og/", {
+              title,
+              description: meta.description ?? undefined,
+            })
+          }
         />
         <meta
           property="twitter:card"
@@ -193,7 +200,13 @@ const config = {
         />
         <meta
           property="twitter:image"
-          content={meta.image || "https://imgur.com/pqgjEpd.png"}
+          content={
+            meta.image ||
+            urlcat("https://docs.dahliaos.io/api/og/", {
+              title,
+              description: meta.description ?? undefined,
+            })
+          }
         />
       </>
     );
