@@ -179,7 +179,7 @@ const config = {
             meta.image ||
             urlcat("https://docs.dahliaos.io/api/og/", {
               title,
-              description: meta.description ?? undefined,
+              desc: meta.description ?? undefined,
             })
           }
         />
@@ -204,7 +204,7 @@ const config = {
             meta.image ||
             urlcat("https://docs.dahliaos.io/api/og/", {
               title,
-              description: meta.description ?? undefined,
+              desc: meta.description ?? undefined,
             })
           }
         />
