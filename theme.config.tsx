@@ -108,6 +108,7 @@ const config = {
   head: () => {
     const { asPath } = useRouter();
     const { frontMatter } = useConfig();
+    const { route } = useRouter();
 
     return (
       <>
@@ -170,6 +171,35 @@ const config = {
             frontMatter.description ||
             "dahliaOS is a modern, secure, lightweight and responsive operating system, combining the best of GNU/Linux and Fuchsia OS. We are developing a privacy-respecting, fast, secure and lightweight operating system, our goal is to establish a new standard for the desktop platform."
           }
+        />
+        <meta
+          property="og:image"
+          content={frontMatter.image || "https://imgur.com/pqgjEpd.png"}
+        />
+        <meta
+          property="twitter:card"
+          content={frontMatter.image ? "summary_large_image" : "summary"}
+        />
+        <meta property="twitter:site" content="@dahliaos_io" />
+        {route === "/" ? (
+          <meta property="twitter:title" content="dahliaOS Docs" />
+        ) : (
+          <meta
+            property="twitter:title"
+            content={`${frontMatter.title} - dahliaOS Docs`}
+          />
+        )}
+        <meta
+          property="twitter:description"
+          content={frontMatter.description}
+        />
+        <meta
+          property="twitter:url"
+          content={`https://docs.dahliaos.io${asPath}`}
+        />
+        <meta
+          property="twitter:image"
+          content={frontMatter.image || "https://imgur.com/pqgjEpd.png"}
         />
       </>
     );
