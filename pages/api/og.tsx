@@ -28,7 +28,6 @@ export default function handler(req: NextRequest) {
             width: "100%",
             display: "flex",
             flexDirection: "column",
-            flexWrap: "nowrap",
             padding: "100px",
           }}
         >
