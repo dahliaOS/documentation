@@ -5,7 +5,7 @@ date: 2022-07-20
 image: "https://docs.dahliaos.io/api/og?title=Run dahliaOS on QEMU&desc=Guide on how to run dahliaOS on QEMU."
 ---
 
-import { Tabs, Tab, Callout } from "nextra-theme-docs";
+import { Tabs, Tab, Callout, Steps } from "nextra-theme-docs";
 import Image from "next/image";
 import qemuGuiInstallGif from "../../public/docs/install/qemu/qemu-gui-install.gif"
 
@@ -15,7 +15,7 @@ Running dahliaOS on QEMU is possible and we've documented how to do it below.
 
 ## QEMU CLI
 
-<div className="steps-container">
+<Steps>
 
 ### Install QEMU
 
@@ -70,11 +70,11 @@ Running dahliaOS on QEMU is possible and we've documented how to do it below.
 qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
 ```
 
-</div>
+</Steps>
 
 ## QEMU GUI
 
-<div className="steps-container">
+<Steps>
 
 ### Install virt-manager
 
@@ -111,7 +111,7 @@ qemu-system-x86_64 -cdrom Downloads/DahliaOS.iso -m 2048 -enable-kvm
 1. No need to change anything storage-wise (feel free to if you want to) so just click Forward.
 1. Give your VM a name, click Finish and wait for the VM to boot.
 
-</div>
+</Steps>
 
 <br />
 <Image src={qemuGuiInstallGif} />

@@ -5,7 +5,7 @@ date: 2022-07-20
 image: "https://docs.dahliaos.io/api/og?title=Build dahliaOS with Buildroot&desc=Guide on how to build dahliaOS with Buildroot."
 ---
 
-import { Callout } from "nextra-theme-docs";
+import { Callout, Steps } from "nextra-theme-docs";
 
 <Callout>
   Special thanks to [PS4Linux](https://ps4linux.com/build-dahliaos-source/) for
@@ -22,7 +22,7 @@ import { Callout } from "nextra-theme-docs";
 
 It takes around 8 hours to build a full image from scratch on a Dell Optiplex 790 with a 3.0 GHz i5-2400 CPU and 16 GB of RAM.
 
-<div className="steps-container">
+<Steps>
 
 ### Install packages
 
@@ -77,4 +77,4 @@ cp -rvf dahliaOS-overlays/* output/target; make CLANG=1
 
 4. Once it's done, your ISO file should be in `output/target`!
 
-</div>
+</Steps>

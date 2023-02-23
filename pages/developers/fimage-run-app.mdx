@@ -5,13 +5,13 @@ date: 2022-07-20
 image: "https://docs.dahliaos.io/api/og?title=Running a Flutter App on Fuchsia with FImage&desc=Guide on how to run a Flutter App on Fuchsia with FImage."
 ---
 
-import { Callout } from "nextra-theme-docs";
+import { Callout, Steps } from "nextra-theme-docs";
 
 # Running a Flutter App on Fuchsia with FImage
 
 This guide assumes you have already configured FImage for Flutter development. If you have not, see [Setting up FImage for Application Development](fimage-app-dev). Flutter should work fine with most apps. If your application uses 3rd-party packages that doesn't support Fuchsia, it might not work.
 
-<div className="steps-container">
+<Steps>
 
 ### Configure FImage Environment Variables
 
@@ -68,4 +68,4 @@ flutter run -d fuchsia --verbose
 
 The application should compile and launch on the virtual device.
 
-</div>
+</Steps>
