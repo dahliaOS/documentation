@@ -15,7 +15,7 @@ import { Callout } from "nextra-theme-docs";
 
 ## TL;DR
 
-You can download the latest dahliaOS Fuchsia build [here](https://github.com/dahliaOS/fuchsia/releases/latest).
+You can download the latest dahliaOS Fuchsia build [here](https://github.com/dahliaOS/fuchsia/releases/latest). You may also find the supported hardware matrix [here](https://docs.dahliaos.io/hardware/supported-hardware).
 
 ## Running dahliaOS Fuchsia
 <Callout>
@@ -30,82 +30,3 @@ dahliaOS Fuchsia builds can only run on x86_64 systems with plans to bring ARM64
 <Callout>
 If you use this image, please let us know how things worked out on your hardware so that we can improve it as we continue.
 </Callout>
-
-## Hardware support matrix
-### Officially supported by Google
-#### Devices
-| Device       | Arch      | Notes      | Image      | Link |
-|--------------|-----------|------------|------------|-------
-| Google Chrombook Go (Atlas)| x86_64 | The 2017 Pixelbook (Eve) is no longer supported.|![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Google_Pixelbook.jpg/800px-Google_Pixelbook.jpg) Credit: [Frmorrison](https://en.wikipedia.org/wiki/User:Frmorrison)| [Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/chromebook?hl=en)|
-|Intel Nuc 7/8 |x86_64|N/A| ![](https://fuchsia.dev/static/docs/images/developing_on_nuc/parts.jpg) Credit: Fuchsia.dev| [Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/intel_nuc?hl=en)|
-|Khadas Vim 3|Aarch64|Uses Amlogic A311D|![](https://docs.khadas.com/_media/products/sbc/vim3/hardware/vim3-top.webp?w=300&tok=4d6612) Credit: Khadas.com|[Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/khadas-vim3?hl=en)
-
-#### CPU and SOC hardware 
-##### Arm
-| Manufacturer | Arch | CPU/SOC | Release Date | Specs | Link |
-|--------------|------|---------|--------------|-------|------|  
-| Amlogic | Aarch64 | A113 | Q3 2017 | Quad-core Cortex-A53 @ ?Ghz, 28nm | [Wikipedia.org](https://en.wikipedia.org/wiki/Amlogic#Smart_speakers_and_audio_applications_SoCs) 
-| Amlogic | Aarch64 | A311D | Q2 2019 | Quad-core Cortex-A73 @ 2.21GHz / Dual-core Cortex-A53 @ 1.8 GHz, ARM Mali-G52 MP4 GPU, 12nm |[Amlogic.com](https://www.amlogic.com/#Products/393/index.html) 
-| Amlogic | Aarch64 | S905 | Late 2015 | Quad-core Cortex-A53 @ 1.5Ghz, 28nm | [Wikipedia.org](https://en.wikipedia.org/wiki/Amlogic#Media_player_SoCs_(S9_family))
-| Amlogic | Aarch64 | S905X | Q1 2016 | Quad-core Cortex-A53 @ 1.51Ghz, 28nm | [gadgetversus.com](https://gadgetversus.com/processor/amlogic-s905x-specs/)
-| Amlogic | Aarch64 | S912 | Q2 2016 | Octo-core Cortex-A53 @ 1.5Ghz, 28nm | [gadgetversus.com](https://gadgetversus.com/processor/amlogic-s912-specs/)
-| Amlogic | Aarch64 | S905D2 | Q2 2018 | Quad-core Cortex-A53 @ 1.83Ghz, Mali-G31 MP2 GPU, 14nm | [cnx-software.com](https://www.cnx-software.com/2018/05/01/amlogic-s905d2-quad-core-cortex-a53-processor-coming-soon-with-google-fuchsia-support/) 
-| Amlogic | Aarch64 | S905D3 | Q4 2019 | Quad-core Cortex-A53 @ 1.91Ghz, Mali-G31 MP2 GPU, 12nm | [gadgetversus.com](https://gadgetversus.com/processor/amlogic-s905d3-specs/)
-| Amlogic | Aarch64 | T931 | Early 2019 | Quad-core Cortex-A73 @ 1.8Ghz, Duel-Core Cortex-A53 @ 1.9Ghz, Mali-G52 MP6, ?nm | [wikidevi.wi-cat.ru](https://wikidevi.wi-cat.ru/Google_Nest_Hub_Max_(H2A)) 
-
-| Manufacturer | Arch | CPU/SOC | Release Date | Specs | Link |
-|--------------|------|---------|--------------|-------|------|  
-| NXP | Aarch64 | IMX8M | 2018 | Quad-core Cortex-A53 @ 1.5Ghz | [nxp.com](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8m-family-armcortex-a53-cortex-m4-audio-voice-video:i.MX8M)
-| NXP | Aarch64 | IMX8MM | 2019 | Quad-core Cortex-A53 @ 1.8Ghz | [nxp.com](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8m-mini-arm-cortex-a53-cortex-m4-audio-voice-video:i.MX8MMINI) |
-
-##### Intel 
-This table is based around display driver support for the device IDs found in intel-i915.bind.
-| Generation | Device ID | Processor Graphics | Supported CPUs |
-|------------|-----------|--------------------|----------------|
-| Skylake (6th) | 0x191b | Intel HD Graphics 530 | i5-6300HQ, i7-6820HK, i5-6440EQ, i7-6822EQ, i3-6100H, i7-6820HQ, i7-6820HQ, i7-6700HQ, i5-6442EQ, i5-6442EQ, i5-6442EQ, i5-6442EQ, i5-6442EQ |
-| Skylake (6th) | 0x1912 | Intel HD Graphics 530 | i3-6300, Pentium G4520, i3-6320, Pentium G4500, i5-6500TE, i7-6700TE, i7-6700, i3-6100, i5-6500T, i5-6400T, i3-6100TE, i3-6100T, i3-6300T, i5-6500, i5-6600, i5-6400, i5-6600T, i7-6700T, i5-6600K, i7-6700K, Pentium G4500T |
-| Skylake (6th) | 0x191d | Intel HD Graphics P530 | E3-1275 v5, E3-1205 v6, E3-1535M v5, E3-1225 v5, E3-1235L v5, E3-1505M v5, E3-1285 v6, E3-1245 v5, E3-1505L v5, E3-1268L v5 |
-| Skylake (6th) | 0x1902 | Intel HD Graphics 510 | Celeron G3920, Celeron G3900TE, i5-6402P, Celeron G3900T, Celeron G3900E, Pentium G4400, Celeron G3900, Pentium G4400T, Celeron G3902E, Pentium G4400TE |
-| Skylake (6th) | 0x1916 | Intel HD Graphics 520 | i7-6500U, i5-6300U, i3-6006U, i3-6100U, i5-6200U, i7-6600U |
-| Skylake (6th) | 0x191e | Intel HD Graphics 515 | m5-6Y54, m3-6Y30, m5-6Y57, m7-6Y75, Pentium 4405Y |
-| Skylake (6th) | 0x1906 | Intel HD Graphics 510 | Celeron 3955U, Pentium 4405U, i7-6498DU, Celeron 3855U, i5-6198DU |
-| Skylake (6th) | 0x190b | ? | ? |
-| Skylake (6th) | 0x1926 | Intel Iris Graphics 540 | i7-6660U, i7-6560U, i5-6360U, i5-6260U, i7-6650U |
-| Skylake (6th) | 0x1927 | Intel Iris Graphics 550 | i3-6167U, i5-6267U, i3-6157U, i7-6567U, i5-6287U |
-| Skylake (6th) | 0x1923 | ? | ? |
-| Skylake (6th) | 0x193b | Intel Iris Pro Graphics 580 | i7-6870HQ, i5-6685R, i7-6785R,  i7-6770HQ, i7-6970HQ, i5-6350HQ, i5-6585R |
-| Skylake (6th) | 0x192d | ? | E3-1558L v5 |
-| Skylake (6th) | 0x193d | Intel Iris Pro Graphics P580 | E3-1545M v5, E3-1575M v5, E3-1578L v5, E3-1515M v5 |
-
-| Generation | Device ID | Processor Graphics | Supported CPUs |
-|------------|-----------|--------------------|----------------|
-| Kaby Lake (7th) | 0x5916 | Intel HD Graphics 620 | i5-7200U, i7-7500U, i3-7100U, i7-7600U, i3-7020U, i5-7300U, i3-7130U |
-| Kaby Lake (7th) | 0x591e | Intel HD Graphics 615 | i5-7Y57, m3-7Y32, Pentium Gold 4410Y, Pentium Gold 4415Y, i7-7Y75, Celeron 3965Y, m3-7Y30, Pentium Gold 4425Y, i5-7Y54 |
-| Kaby Lake (7th) | 0x591b | Intel HD Graphics 630 | i5-7442EQ, i7-7820HK, i5-7440EQ, i7-7920HQ, i5-7300HQ, i5-7440HQ, i7-7700HQ, i3-7100H, i7-7820EQ, i7-7820HQ, i3-7100E, i3-7102E |
-| Kaby Lake (7th) | 0x5912 | Intel HD Graphics 630 | i3-7100T, i3-7320, i3-7300, i5-7600T, i3-7350K, Pentium G4600T, Pentium G4620, i3-7100, i5-7400, i5-7400T, i5-7600, i3-7300T, Pentium G4600, i7-7700T, i5-7600K, i7-7700, i7-7700K, i5-7500, i5-7500T |
-| Kaby Lake (7th) | 0x5926 | Intel Iris Plus Graphics 640 | i5-7360U, i5-7260U, i7-7560U, i7-7660U |
-| Kaby Lake (7th) | 0x5906 | Intel HD Graphics 610 | Celeron 3865U, Pentium Gold 4417U, Pentium Gold 4415U, Celeron 3965U, Celeron 3867U |
-| Kaby Lake (7th) | 0x5927 | Intel Iris Plus Graphics 650 | i7-7567U, i3-7167U, i5-7287U, i5-7267U |
-| Kaby Lake (7th) | 0x5902 |  Intel HD Graphics 610 | Celeron G3930, i3-7101TE, Pentium G4560, Pentium G4560T, Celeron G3950, i3-7101E, Celeron G3930E, Celeron G3930TE, Celeron G3930T |
-| Kaby Lake (7th) | 0x591a | Intel Iris Plus Graphics ? | ? |
-| Kaby Lake (7th) | 0x591d | Intel HD Graphics P630 | Processor E3-1245 v6, E3-1535M v6, E3-1275 v6, E3-1225 v6, E3-1501L v6, E3-1505L v6, E3-1505M v6, E3-1501M v6  |
-
-| Generation | Device ID | Processor Graphics | Supported CPUs |
-|------------|-----------|--------------------|----------------|
-| Coffee Lake 8th | 0x3ea5 | Intel Iris Plus Graphics 655 | i5-8279U, i5-8259U, i7-8569U, i5-8269U, i3-8109U, i7-8559U |
-| Coffee Lake (8th) | 0x591c | Intel UHD Graphics 615 | i7-8500Y, i5-8200Y, m3-8100Y |
-
-| Generation | Device ID | Processor Graphics | Supported CPUs |
-|------------|-----------|--------------------|----------------|
-| Amber Lake (10th) | 0x591c | Intel UHD Graphics 615 | i3-10100Y |
-
-| Generation | Device ID | Processor Graphics | Supported CPUs |
-|------------|-----------|--------------------|----------------|
-| Tiger Lake (11th) | 0x9a49 | Intel Iris Xe Graphics | i5-11320H, i7-1186GRE, i5-1135G7, i7-1185G7E i5-1155G7, i7-11375H, i7-1185GRE, i5-1145G7E, i5-1135G7,i7-11370H, i7-11390H, i7-1195G7, i7-1195G7, i7-1165G7, i7-1185G7, i5-11300H, i5-1155G7, i5-1145G7, i5-1145GRE |
-| Tiger Lake (11th) | 0x9a78 | Intel UHD Graphics for 11th Gen Intel Processors | i3-1115G4E, i3-1120G4, Celeron 6305, i3-1110G4, i3-1115G4, Pentium Gold 7505,  i3-1125G4, i3-1115G4, i3-1115GRE, Celeron 6305E |
-| Tiger Lake (11th) | 0x9a40 | Intel Iris Xe Graphics | i7-1180G7, i7-1160G7, i5-1140G7, i5-1130G7 |
-| Tiger Lake (11th) | 0x9a60 | Intel UHD Graphics for 11th Gen Intel Processors | i9-11980HK, i7-11800H, i7-11600H, i5-11500H  i7-11850HE, i9-11950H, i7-11850H, i9-11900H, i5-11500HE |
-| Tiger Lake (11th) | 0x9a68 | Intel UHD Graphics for 11th Gen Intel Processors | W-11155MLE, Celeron 6600HE, i5-11400H, i3-11100HE, i5-11260H, W-11155MRE |
-| Tiger Lake (11th) | 0x9a70 | Intel UHD Graphics for 11th Gen Intel Processors | W-11865MRE, W-11865MLE, W-11855M, W-11555MLE, W-11555MRE, W-11955M |
-
-### Community tested devices
