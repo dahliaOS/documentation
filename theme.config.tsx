@@ -65,7 +65,10 @@ const config = {
           >
             <p>
               Copyright - 2019 - {new Date().getFullYear()} @ The dahliaOS
-              Authors - This project is licensed under the <a href="https://github.com/dahliaOS/documentation/blob/main/LICENSE">Apache 2.0 license</a>
+              Authors - This project is licensed under the{" "}
+              <a href="https://github.com/dahliaOS/documentation/blob/main/LICENSE">
+                Apache 2.0 license
+              </a>
             </p>
             <Link
               href="https://vercel.com?utm_source=dahliaOS&amp;utm_campaign=oss"

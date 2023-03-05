@@ -7,28 +7,29 @@ image: "https://docs.dahliaos.io/api/og?title=Overview of dahliaOS Fuchsia-based
 
 import { Callout } from "nextra-theme-docs";
 import Image from "next/image";
-import fuchsia1 from "../../public/docs/os/fuchsia-based/fuchsia1.jpg";
-import fuchsia2 from "../../public/docs/os/fuchsia-based/fuchsia2.jpg";
-import fuchsia3 from "../../public/docs/os/fuchsia-based/fuchsia3.jpg";
-import fuchsia4 from "../../public/docs/os/fuchsia-based/fuchsia4.jpg";
-import fuchsia5 from "../../public/docs/os/fuchsia-based/fuchsia5.jpg";
-import fuchsia6 from "../../public/docs/os/fuchsia-based/fuchsia6.jpg";
-import fuchsia7 from "../../public/docs/os/fuchsia-based/fuchsia7.jpg";
-import fuchsia8 from "../../public/docs/os/fuchsia-based/fuchsia8.jpg";
-import fuchsia9 from "../../public/docs/os/fuchsia-based/fuchsia9.jpg";
-import fuchsia10 from "../../public/docs/os/fuchsia-based/fuchsia10.jpg";
-import fuchsia11 from "../../public/docs/os/fuchsia-based/fuchsia11.jpg";
-import fuchsia12 from "../../public/docs/os/fuchsia-based/fuchsia12.jpg";
-import fuchsia13 from "../../public/docs/os/fuchsia-based/fuchsia13.jpg";
-import fuchsia14 from "../../public/docs/os/fuchsia-based/fuchsia14.jpg";
-import fuchsia15 from "../../public/docs/os/fuchsia-based/fuchsia15.jpg";
-import fuchsia16 from "../../public/docs/os/fuchsia-based/fuchsia16.jpg";
-import fuchsia17 from "../../public/docs/os/fuchsia-based/fuchsia17.jpg";
+import fuchsia1 from "../../public/docs/os/fuchsia-based/fuchsia1.webp";
+import fuchsia2 from "../../public/docs/os/fuchsia-based/fuchsia2.webp";
+import fuchsia3 from "../../public/docs/os/fuchsia-based/fuchsia3.webp";
+import fuchsia4 from "../../public/docs/os/fuchsia-based/fuchsia4.webp";
+import fuchsia5 from "../../public/docs/os/fuchsia-based/fuchsia5.webp";
+import fuchsia6 from "../../public/docs/os/fuchsia-based/fuchsia6.webp";
+import fuchsia7 from "../../public/docs/os/fuchsia-based/fuchsia7.webp";
+import fuchsia8 from "../../public/docs/os/fuchsia-based/fuchsia8.webp";
+import fuchsia9 from "../../public/docs/os/fuchsia-based/fuchsia9.webp";
+import fuchsia10 from "../../public/docs/os/fuchsia-based/fuchsia10.webp";
+import fuchsia11 from "../../public/docs/os/fuchsia-based/fuchsia11.webp";
+import fuchsia12 from "../../public/docs/os/fuchsia-based/fuchsia12.webp";
+import fuchsia13 from "../../public/docs/os/fuchsia-based/fuchsia13.webp";
+import fuchsia14 from "../../public/docs/os/fuchsia-based/fuchsia14.webp";
+import fuchsia15 from "../../public/docs/os/fuchsia-based/fuchsia15.webp";
+import fuchsia16 from "../../public/docs/os/fuchsia-based/fuchsia16.webp";
+import fuchsia17 from "../../public/docs/os/fuchsia-based/fuchsia17.webp";
 
 # Overview of dahliaOS Fuchsia-based builds
 
 <Callout type="warning" emoji="⚠️">
-    dahliaOS Fuchsia builds are currently in alpha phase and are not ready to be daily driven!
+  dahliaOS Fuchsia-based builds are currently in alpha phase and are not ready
+  to be daily driven!
 </Callout>
 
 ## TL;DR
@@ -36,34 +37,38 @@ import fuchsia17 from "../../public/docs/os/fuchsia-based/fuchsia17.jpg";
 You can download the latest dahliaOS Fuchsia build [here](https://github.com/dahliaOS/fuchsia/releases/latest). You may also find the supported hardware matrix [here](https://docs.dahliaos.io/hardware/supported-hardware).
 
 ## Running dahliaOS Fuchsia
+
 <Callout>
-dahliaOS Fuchsia builds can only run on x86_64 systems with plans to bring ARM64 support later. Also this first build is a stock Fuchsia Workstation installer image, it has not been modified in any way.
+  dahliaOS Fuchsia builds can only run on x86_64 systems with plans to bring
+  ARM64 support later. Also this first build is a stock Fuchsia Workstation
+  installer image, it has not been modified in any way.
 </Callout>
 
 ### x86_64
 
-- As noted above you can download the latest dahliaOS Fuchsia build [here](https://github.com/dahliaOS/fuchsia/releases/latest).
-- After it has been downloaded you can you flash it with any usb flasher like [etcher](https://www.balena.io/etcher) or [rufus](https://rufus.ie).
+1. Download the latest dahliaOS Fuchsia-based build [here](https://github.com/dahliaOS/fuchsia/releases/latest).
+1. After it has been downloaded, flash it with any USB flasher like [Etcher](https://www.balena.io/etcher) or [Rufus](https://rufus.ie).
 
 <Callout>
-If you use this image, please let us know how things worked out on your hardware so that we can improve it as we continue.
+  If you use this build, please let us know how things worked out on your
+  hardware so that we can improve it as we continue.
 </Callout>
 
 ## Screenshots
 
-Special ❤️ to [@electrikjesus](https://github.com/electrikjesus) for the follwing images.
+Special thanks ❤️ to [@electrikjesus](https://github.com/electrikjesus) for the following images:
 
-|   |   |   |
-|---|---|---|
-|<Image src={fuchsia1} />|<Image src={fuchsia2} />|<Image src={fuchsia3} />|
-|Select installation method|Select disk|Wipe disk warning|
-|<Image src={fuchsia4} />|<Image src={fuchsia5} />|<Image src={fuchsia6} />|
-|Installing Fuchsia|Install complete|Booting|
-|<Image src={fuchsia7} />|<Image src={fuchsia8} />|<Image src={fuchsia9} />|
-|Booting|Loading screen|Loading screen|
-|<Image src={fuchsia10} />|<Image src={fuchsia11} />|<Image src={fuchsia12} />|
-|Loading screen|Setting up password|Setting up password|
-|<Image src={fuchsia13} />|<Image src={fuchsia14} />|<Image src={fuchsia15} />|
-|Password has been set|Menu: Ermine shell|Desktop: Gazelle shell|
-|<Image src={fuchsia16} />|<Image src={fuchsia17} />|
-|Settings|Chromium|
+|                            |                           |                           |
+| -------------------------- | ------------------------- | ------------------------- |
+| <Image src={fuchsia1} />   | <Image src={fuchsia2} />  | <Image src={fuchsia3} />  |
+| Select installation method | Select disk               | Wipe disk warning         |
+| <Image src={fuchsia4} />   | <Image src={fuchsia5} />  | <Image src={fuchsia6} />  |
+| Installing Fuchsia         | Install complete          | Booting                   |
+| <Image src={fuchsia7} />   | <Image src={fuchsia8} />  | <Image src={fuchsia9} />  |
+| Booting                    | Loading screen            | Loading screen            |
+| <Image src={fuchsia10} />  | <Image src={fuchsia11} /> | <Image src={fuchsia12} /> |
+| Loading screen             | Setting up password       | Setting up password       |
+| <Image src={fuchsia13} />  | <Image src={fuchsia14} /> | <Image src={fuchsia15} /> |
+| Password has been set      | Menu: Ermine shell        | Desktop: Gazelle shell    |
+| <Image src={fuchsia16} />  | <Image src={fuchsia17} /> |
+| Settings                   | Chromium                  |
