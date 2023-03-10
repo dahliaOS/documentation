@@ -22,6 +22,7 @@ const useDark = () => {
 };
 
 const config = {
+  primaryHue: 18,
   project: {
     link: "https://dahliaos.io/github",
   },
