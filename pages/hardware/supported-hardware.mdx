@@ -48,7 +48,12 @@ import { Callout } from "nextra-theme-docs";
 | NXP          | Aarch64 | IMX8MM  | 2019         | Quad-core Cortex-A53 @ 1.8Ghz | [nxp.com](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8m-mini-arm-cortex-a53-cortex-m4-audio-voice-video:i.MX8MMINI) |
 
 #### Intel
-
+[Currently the Magma service driver supports these two generations of GPUs](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/main/src/graphics/drivers/msd-intel-gen?autodive=0%2F/)
+```
+Intel HD/Iris Graphics 6xx series (Gen 9.5)
+Intel Xe Graphics (Gen 12)
+```
+##### General device support
 This table is based around display driver support for the device IDs found in [intel-i915.bind](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/main/src/graphics/display/drivers/intel-i915/intel-i915.bind).
 | Generation | Device ID | Processor Graphics | Supported CPUs |
 |------------|-----------|--------------------|----------------|
