@@ -7,12 +7,11 @@ image: "https://docs.dahliaos.io/api/og?title=Build dahliaOS with Buildroot&desc
 
 import { Tabs, Tab, Callout, Steps } from "nextra-theme-docs";
 
+# Build dahliaOS with Buildroot
 <Callout>
   Special thanks to [PS4Linux](https://ps4linux.com/build-dahliaos-source/) for
   some of the build instructions and [Advanced Climate Systems](https://acs-buildings.com/) where this project is initially based on.
 </Callout>
-
-# Build dahliaOS with Buildroot
 
 ## Requirements
 
@@ -61,12 +60,12 @@ sudo docker run -i --name buildroot_output ghcr.io/dahliaos/buildroot /bin/echo 
 git clone https://github.com/dahliaos/buildroot.git
 ```
 
-3. Go into the cloned buildroot directory and run `sudo ./build make` or if you want to, you can first make changes to Busybox(init), Linux and Buildroot settings, once you're done just run `sudo ./build make`.
+2. Go into the cloned buildroot directory and run `sudo ./build make` or if you want to, you can first make changes to Busybox(init), Linux and Buildroot settings, once you're done just run `sudo ./build make`.
 
 - `sudo ./build make busybox-menuconfig`
 - `sudo ./build make linux-menuconfig`
 - `sudo ./build make menuconfig`
 
-4. Once it's done, your ISO file should be in `/images`!
+3. Once it's done, your ISO file should be in `/images`!
 
 </Steps>
