@@ -28,12 +28,18 @@ It takes around 8 hours to build a full image from scratch on a Dell Optiplex 79
 
 <Tabs
   items={[
-    "Fedora"
+    "Fedora",
+    "Ubuntu"
   ]}
 >
   <Tab>
     ```sh
     sudo dnf install docker && sudo systemctl start docker
+    ```
+  </Tab>
+  <Tab>
+    ```sh
+    sudo apt install docker.io
     ```
   </Tab>
 </Tabs>
@@ -62,6 +68,10 @@ git clone https://github.com/dahliaos/buildroot.git
 
 2. Go into the cloned buildroot directory and run `sudo ./build make` or if you want to, you can first make changes to Busybox(init), Linux and Buildroot settings, once you're done just run `sudo ./build make`.
 
+<Callout>
+  The build script is used to connect to the docker container and to pass commands to it.
+</Callout>
+  
 - `sudo ./build make busybox-menuconfig`
 - `sudo ./build make linux-menuconfig`
 - `sudo ./build make menuconfig`
