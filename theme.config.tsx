@@ -43,20 +43,6 @@ const config = {
   feedback: { content: "❓ Question? Give us feedback →", labels: "feedback" },
   navigation: { next: true, prev: true },
   darkMode: true,
-  banner: {
-    text: () => {
-      return (
-        <Link
-          href="https://dahliaOS.io/download"
-          target="_blank"
-          title="Download the latest version of dahliaOS"
-        >
-          dahliaOS Linux 220222 is out →
-        </Link>
-      );
-    },
-    key: "dahliaOS new release",
-  },
   footer: {
     text: () => {
       return (
