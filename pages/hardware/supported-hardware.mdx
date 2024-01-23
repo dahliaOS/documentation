@@ -1,7 +1,7 @@
 ---
 title: Supported hardware
 description: A list of dahliaOS supported hardware.
-date: 2022-07-20
+date: 2024-01-23
 image: "https://docs.dahliaos.io/api/og?title=Supported hardware&desc=A list of dahliaOS supported hardware."
 ---
 
@@ -9,37 +9,32 @@ import { Callout } from "nextra-theme-docs";
 
 # Supported hardware
 
-<Callout type="warning" emoji="⚠️">
-  **Legacy** can only run Legacy builds and **EFI** can only run EFI builds.
-  Those with no tag can run both. Hardware is determined to be supported if it
-  is able to maintain a connection, operate the desktop between 24 and 60FPS,
-  and has supported drivers for internal or external input devices.
-</Callout>
-
-## Officially supported by fuchsiaOS
+## Officially supported by Fuchsia
 
 ### Devices
 
-| Device                      | Arch    | Notes                                                                                                           | Image                                                                                                                                                                              | Link                                                                                  |
-| --------------------------- | ------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| Intel Nuc 7/8               | x86_64  | N/A                                                                                                             | ![](https://fuchsia.dev/static/docs/images/developing_on_nuc/parts.jpg) Credit: Fuchsia.dev                                                                                        | [Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/intel_nuc?hl=en)   |
-| Khadas Vim 3                | Aarch64 | Uses Amlogic A311D                                                                                              | ![](https://docs.khadas.com/_media/products/sbc/vim3/hardware/vim3-top.webp?w=300&tok=4d6612) Credit: Khadas.com                                                                   | [Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/khadas-vim3?hl=en) |
+| Device                      | Arch    | Notes                                      | Image                                                                                                              | Link                                                                                  |
+| --------------------------- | ------- | -------------------------------------------| -------------------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------- |
+| Intel Nuc 7/8               | x86_64  | Google recommends model "NUC7i5DNHE"       | ![](https://fuchsia.dev/static/docs/images/developing_on_nuc/parts.jpg) Credit: Fuchsia.dev                        | [Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/intel_nuc?hl=en)   |
+| Khadas Vim 3                | Aarch64 | Uses Amlogic A311D                         | ![](https://docs.khadas.com/_media/products/sbc/vim3/hardware/vim3-top.webp?w=300&tok=4d6612) Credit: Khadas.com   | [Fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware/khadas-vim3?hl=en) |
 
 ### CPU and SOC hardware
 
 #### Arm
 
+##### Amlogic
 | Manufacturer | Arch    | CPU/SOC | Release Date | Specs                                                                                       | Link                                                                                                                                               |
 | ------------ | ------- | ------- | ------------ | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Amlogic      | Aarch64 | A113    | Q3 2017      | Quad-core Cortex-A53 @ ?Ghz, 28nm                                                           | [Wikipedia.org](https://en.wikipedia.org/wiki/Amlogic#Smart_speakers_and_audio_applications_SoCs)                                                  |
-| Amlogic      | Aarch64 | A311D   | Q2 2019      | Quad-core Cortex-A73 @ 2.21GHz / Dual-core Cortex-A53 @ 1.8 GHz, ARM Mali-G52 MP4 GPU, 12nm | [Amlogic.com](https://www.amlogic.com/#Products/393/index.html)                                                                                    |
-| Amlogic      | Aarch64 | S905    | Late 2015    | Quad-core Cortex-A53 @ 1.5Ghz, 28nm                                                         | [Wikipedia.org](<https://en.wikipedia.org/wiki/Amlogic#Media_player_SoCs_(S9_family)>)                                                             |
+| Amlogic      | Aarch64 | A311D   | Q2 2019      | Quad-core Cortex-A73 @ 2.21GHz / Dual-core Cortex-A53 @ 1.8GHz, ARM Mali-G52 MP4 GPU, 12nm  | [Amlogic.com](https://www.amlogic.com/#Products/393/index.html)                                                                                    |
+| Amlogic      | Aarch64 | S905    | Q? 2015      | Quad-core Cortex-A53 @ 1.5Ghz, 28nm                                                         | [Wikipedia.org](<https://en.wikipedia.org/wiki/Amlogic#Media_player_SoCs_(S9_family)>)                                                             |
 | Amlogic      | Aarch64 | S905X   | Q1 2016      | Quad-core Cortex-A53 @ 1.51Ghz, 28nm                                                        | [gadgetversus.com](https://gadgetversus.com/processor/amlogic-s905x-specs/)                                                                        |
 | Amlogic      | Aarch64 | S912    | Q2 2016      | Octo-core Cortex-A53 @ 1.5Ghz, 28nm                                                         | [gadgetversus.com](https://gadgetversus.com/processor/amlogic-s912-specs/)                                                                         |
 | Amlogic      | Aarch64 | S905D2  | Q2 2018      | Quad-core Cortex-A53 @ 1.83Ghz, Mali-G31 MP2 GPU, 14nm                                      | [cnx-software.com](https://www.cnx-software.com/2018/05/01/amlogic-s905d2-quad-core-cortex-a53-processor-coming-soon-with-google-fuchsia-support/) |
 | Amlogic      | Aarch64 | S905D3  | Q4 2019      | Quad-core Cortex-A53 @ 1.91Ghz, Mali-G31 MP2 GPU, 12nm                                      | [gadgetversus.com](https://gadgetversus.com/processor/amlogic-s905d3-specs/)                                                                       |
-| Amlogic      | Aarch64 | T931    | Early 2019   | Quad-core Cortex-A73 @ 1.8Ghz, Duel-Core Cortex-A53 @ 1.9Ghz, Mali-G52 MP6, ?nm             | [wikidevi.wi-cat.ru](<https://wikidevi.wi-cat.ru/Google_Nest_Hub_Max_(H2A)>)                                                                       |
+| Amlogic      | Aarch64 | T931    | Q? 2019      | Quad-core Cortex-A73 @ 1.8Ghz, Duel-Core Cortex-A53 @ 1.9Ghz, Mali-G52 MP6, ?nm             | [wikidevi.wi-cat.ru](<https://wikidevi.wi-cat.ru/Google_Nest_Hub_Max_(H2A)>)                                                                       |
 
+##### NXP
 | Manufacturer | Arch    | CPU/SOC | Release Date | Specs                         | Link                                                                                                                                                                                                                  |
 | ------------ | ------- | ------- | ------------ | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | NXP          | Aarch64 | IMX8M   | 2018         | Quad-core Cortex-A53 @ 1.5Ghz | [nxp.com](https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-8-applications-processors/i-mx-8m-family-armcortex-a53-cortex-m4-audio-voice-video:i.MX8M)    |
@@ -54,7 +49,7 @@ Intel Xe Graphics (Gen 12)
 ##### General device support
 This table is based around display driver support for the device IDs found in [intel-i915.bind](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/main/src/graphics/display/drivers/intel-i915/intel-i915.bind).
 | Generation | Device ID | Processor Graphics | Supported CPUs |
-|------------|-----------|--------------------|----------------|
+|---------------|-----------|--------------------|----------------|
 | Skylake (6th) | 0x191b | Intel HD Graphics 530 | i5-6300HQ, i7-6820HK, i5-6440EQ, i7-6822EQ, i3-6100H, i7-6820HQ, i7-6820HQ, i7-6700HQ, i5-6442EQ, i5-6442EQ, i5-6442EQ, i5-6442EQ, i5-6442EQ |
 | Skylake (6th) | 0x1912 | Intel HD Graphics 530 | i3-6300, Pentium G4520, i3-6320, Pentium G4500, i5-6500TE, i7-6700TE, i7-6700, i3-6100, i5-6500T, i5-6400T, i3-6100TE, i3-6100T, i3-6300T, i5-6500, i5-6600, i5-6400, i5-6600T, i7-6700T, i5-6600K, i7-6700K, Pentium G4500T |
 | Skylake (6th) | 0x191d | Intel HD Graphics P530 | E3-1275 v5, E3-1205 v6, E3-1535M v5, E3-1225 v5, E3-1235L v5, E3-1505M v5, E3-1285 v6, E3-1245 v5, E3-1505L v5, E3-1268L v5 |
@@ -102,4 +97,4 @@ This table is based around display driver support for the device IDs found in [i
 | Tiger Lake (11th) | 0x9a70    | Intel UHD Graphics for 11th Gen Intel Processors | W-11865MRE, W-11865MLE, W-11855M, W-11555MLE, W-11555MRE, W-11955M                                                                                                                                                 |
 
 #### AMD
-> AMD CPUs are not actively supported (in particular, we have no active testing on them), but we will accept patches to ensure correct booting on them. [fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware#cpu_support)
+> AMD CPUs are not actively supported (in particular, we have no active testing on them), but we will accept patches to ensure correct booting on them. - [fuchsia.dev](https://fuchsia.dev/fuchsia-src/development/hardware#cpu_support)
