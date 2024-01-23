@@ -46,8 +46,9 @@ import { Callout } from "nextra-theme-docs";
 Intel HD/Iris Graphics 6xx series (Gen 9.5)
 Intel Xe Graphics (Gen 12)
 ```
-##### General device support
+##### Skylake (6th)
 This table is based around display driver support for the device IDs found in [intel-i915.bind](https://fuchsia.googlesource.com/fuchsia/+/refs/heads/main/src/graphics/display/drivers/intel-i915/intel-i915.bind).
+
 | Generation | Device ID | Processor Graphics | Supported CPUs |
 |---------------|-----------|--------------------|----------------|
 | Skylake (6th) | 0x191b | Intel HD Graphics 530 | i5-6300HQ, i7-6820HK, i5-6440EQ, i7-6822EQ, i3-6100H, i7-6820HQ, i7-6820HQ, i7-6700HQ, i5-6442EQ, i5-6442EQ, i5-6442EQ, i5-6442EQ, i5-6442EQ |
@@ -65,6 +66,7 @@ This table is based around display driver support for the device IDs found in [i
 | Skylake (6th) | 0x192d | ? | E3-1558L v5 |
 | Skylake (6th) | 0x193d | Intel Iris Pro Graphics P580 | E3-1545M v5, E3-1575M v5, E3-1578L v5, E3-1515M v5 |
 
+##### Kaby Lake (7th)
 | Generation      | Device ID | Processor Graphics           | Supported CPUs                                                                                                                                                                                        |
 | --------------- | --------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Kaby Lake (7th) | 0x5916    | Intel HD Graphics 620        | i5-7200U, i7-7500U, i3-7100U, i7-7600U, i3-7020U, i5-7300U, i3-7130U                                                                                                                                  |
@@ -78,15 +80,18 @@ This table is based around display driver support for the device IDs found in [i
 | Kaby Lake (7th) | 0x591a    | Intel Iris Plus Graphics ?   | ?                                                                                                                                                                                                     |
 | Kaby Lake (7th) | 0x591d    | Intel HD Graphics P630       | Processor E3-1245 v6, E3-1535M v6, E3-1275 v6, E3-1225 v6, E3-1501L v6, E3-1505L v6, E3-1505M v6, E3-1501M v6                                                                                         |
 
+##### Coffee Lake (8th)
 | Generation        | Device ID | Processor Graphics           | Supported CPUs                                             |
 | ----------------- | --------- | ---------------------------- | ---------------------------------------------------------- |
 | Coffee Lake 8th   | 0x3ea5    | Intel Iris Plus Graphics 655 | i5-8279U, i5-8259U, i7-8569U, i5-8269U, i3-8109U, i7-8559U |
 | Coffee Lake (8th) | 0x591c    | Intel UHD Graphics 615       | i7-8500Y, i5-8200Y, m3-8100Y                               |
 
+##### Amber Lake (10th)
 | Generation        | Device ID | Processor Graphics     | Supported CPUs |
 | ----------------- | --------- | ---------------------- | -------------- |
 | Amber Lake (10th) | 0x591c    | Intel UHD Graphics 615 | i3-10100Y      |
 
+##### Tiger Lake (11th)
 | Generation        | Device ID | Processor Graphics                               | Supported CPUs                                                                                                                                                                                                     |
 | ----------------- | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Tiger Lake (11th) | 0x9a49    | Intel Iris Xe Graphics                           | i5-11320H, i7-1186GRE, i5-1135G7, i7-1185G7E i5-1155G7, i7-11375H, i7-1185GRE, i5-1145G7E, i5-1135G7,i7-11370H, i7-11390H, i7-1195G7, i7-1195G7, i7-1165G7, i7-1185G7, i5-11300H, i5-1155G7, i5-1145G7, i5-1145GRE |
