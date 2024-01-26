@@ -1,0 +1,39 @@
+---
+title: have_orange
+description: Next Generation implementation of dahliaOS on Linux
+date: 2024-01-26
+image: "https://docs.dahliaos.io/api/og?title=have_orange&desc=Next Generation implementation of dahliaOS on Linux"
+---
+
+import { Callout } from "nextra-theme-docs";
+import Image from "next/image";
+
+# have_orange
+
+## TL;DR
+
+have_orange is the next generation implementation of dahliaOS, powered by Linux.
+
+## Feature set and progress
+
+- [ ] Core OS
+    - [ ] Splash screen
+    - [ ] Account Management
+    - [ ] Shell Service
+    - [ ] Hardening
+    - [ ] OTA Updates
+    - [ ] Networking
+
+- [ ] Recovery OS
+    - [ ] Configuration Menu
+        - [ ] Configuration partition
+        - [ ] System security
+    - [ ] Installation/Reinstallation
+    - [ ] Update management
+    
+- [ ] Custom Bootloader
+
+- [ ] Jasper - Development Shell
+       - [ ] Terminal
+       - [ ] Wayland impl
+       - [ ] Web Browser

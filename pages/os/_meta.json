@@ -1,5 +1,6 @@
 {
   "linux-based": "Linux-based",
   "fuchsia-based": "Fuchsia-based",
-  "fimage": "FImage"
+  "fimage": "FImage",
+  "have-orange": "have_orange"
 }
