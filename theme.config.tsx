@@ -33,9 +33,13 @@ const config = {
   toc: {
     extraContent: () => {
       return (
-        <Link target="_blank" href="https://dahliaos.io/donate">
+        <a
+          className="nx-text-xs nx-font-medium nx-text-gray-500 hover:nx-text-gray-900 dark:nx-text-gray-400 dark:hover:nx-text-gray-100 contrast-more:nx-text-gray-800 contrast-more:dark:nx-text-gray-50"
+          target="_blank"
+          href="https://dahliaos.io/donate"
+        >
           💝 Support dahliaOS →
-        </Link>
+        </a>
       );
     },
     float: true,
