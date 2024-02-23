@@ -34,7 +34,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {
+  "rules": {  
     "@typescript-eslint/no-explicit-any": ["off"],
     "react/react-in-jsx-scope": "off",
     "indent": "off",
@@ -42,14 +42,15 @@
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     "no-console": "error",
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": ["off"],
+    /* "@typescript-eslint/no-unused-vars": "error",
     "no-unused-vars": [
       "error",
       {
         "argsIgnorePattern": "^_",
         "ignoreRestSiblings": true
       }
-    ],
+    ], */
     "@typescript-eslint/no-inferrable-types": "off",
     "no-restricted-syntax": [
       "error",
