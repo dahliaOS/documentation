@@ -4,7 +4,7 @@
   "author": "The dahliaOS Authors",
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

@@ -4,7 +4,6 @@ import { VercelLogo } from "./components/Icons";
 import Image from "next/image";
 import lightLogotype from "./public/images/logos/lightLogotype.webp";
 import darkLogotype from "./public/images/logos/darkLogotype.webp";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { useConfig } from "nextra-theme-docs";
 import urlcat from "urlcat";
@@ -38,13 +37,14 @@ const config = {
           target="_blank"
           href="https://dahliaos.io/donate"
         >
-          💝 Support dahliaOS →
+          Support dahliaOS →
         </a>
       );
     },
     float: true,
+    backToTop: true,
   },
-  feedback: { content: "❓ Question? Give us feedback →", labels: "feedback" },
+  feedback: { content: "Question? Give us feedback →", labels: "feedback" },
   navigation: { next: true, prev: true },
   darkMode: true,
   footer: {
@@ -54,28 +54,24 @@ const config = {
           <div
             style={{ display: "flex", flexDirection: "column", gap: "10px" }}
           >
-            <p>
-              Copyright - 2019 - {new Date().getFullYear()} @ The dahliaOS
-              Authors - This project is licensed under the{" "}
-              <a href="https://github.com/dahliaOS/documentation/blob/main/LICENSE">
-                Apache 2.0 license
-              </a>
-            </p>
-            <Link
-              href="https://vercel.com?utm_source=dahliaOS&amp;utm_campaign=oss"
-              target="_blank"
-              style={{ display: "flex", flexDirection: "row", gap: "10px" }}
-            >
-              Powered By
-              <VercelLogo />
-            </Link>
+          <a
+            href="https://vercel.com?utm_source=dahliaOS&amp;utm_campaign=oss"
+            target="_blank"
+            style={{ display: "flex", flexDirection: "row", gap: "10px" }}
+          >
+            Powered By
+            <VercelLogo />
+          </a>
+          <p>
+          © {new Date().getFullYear()} The dahliaOS Project.
+        </p>
           </div>
         </>
       );
     },
   },
   editLink: {
-    text: "✍️ Edit this page on GitHub →",
+    text: "Edit this page on GitHub →",
   },
   logo: () => {
     const isDark = useDark();
@@ -87,7 +83,6 @@ const config = {
           alt="dahliaOS"
           style={{ marginRight: "10px" }}
         />
-        <span style={{ fontWeight: "600" }}>Documentation</span>
       </>
     );
   },

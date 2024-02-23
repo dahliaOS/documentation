@@ -1,24 +1,26 @@
 {
   "index": "Introduction",
-  "live-boot": "Live boot",
-  "build": "Build",
-  "os": "OS",
-  "pangolin": "Pangolin",
-  "troubleshoot": "Troubleshoot",
-  "hardware": "Hardware",
-  "developers": "Developers",
+  "docs": {
+    "type": "page",
+    "title": "Documentation"
+  },
+  "pangolin": "Pangolin Desktop",
+  "compile": "Compile",
+  "system": "System",
+  "running": "Run the OS",
   "contribute": "Contribute",
   "faq": "F.A.Q.",
   "website": {
-    "title": "Website ↗",
+    "title": "Website",
     "type": "page",
     "href": "https://dahliaos.io",
     "newWindow": true
   },
-  "pangolin-demo": {
-    "title": "Pangolin Demo ↗",
+  "blog": {
+    "title": "Blog",
     "type": "page",
-    "href": "https://web.dahliaos.io",
-    "newWindow": true
+    "href": "https://blog.dahliaos.io",
+    "newWindow": false
   }
 }
+

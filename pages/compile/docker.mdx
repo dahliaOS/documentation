@@ -1,0 +1,40 @@
+import {Callout, Tabs, Tab, Steps } from "nextra-theme-docs";
+
+## Set-up docker
+
+To compile dahliaOS, you need to set up a docker container. This is a guide on how to set up the docker container.
+
+<Steps>
+### Install docker
+
+<Tabs
+  items={[
+    "Fedora",
+    "Ubuntu"
+  ]}
+>
+  <Tab>
+    ```sh
+    sudo dnf install docker && sudo systemctl start docker
+    ```
+  </Tab>
+  <Tab>
+    ```sh
+    sudo apt install docker.io
+    ```
+  </Tab>
+</Tabs>
+
+### Download the docker image
+
+```sh
+sudo docker pull ghcr.io/dahliaos/buildroot:latest
+```
+
+### Setup Buildroot's volumes
+
+```sh
+sudo docker run -i --name buildroot_output ghcr.io/dahliaos/buildroot /bin/echo "Data only."
+```
+
+</Steps>
