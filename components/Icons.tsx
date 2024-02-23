@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export const VercelLogo = (props: SVGProps<SVGSVGElement>) => {
+export const VercelLogo = () => {
   return (
     <svg height={20} viewBox="0 0 283 64" fill="none">
       <title>Vercel</title>
