@@ -5,25 +5,29 @@ date: 2022-07-20
 image: "https://docs.dahliaos.io/api/og?title=Build dahliaOS with Buildroot&desc=Guide on how to build dahliaOS with Buildroot."
 ---
 
-import {Callout, Tabs, Tab, Steps } from "nextra-theme-docs";
+import { Callout, Tabs, Tab, Steps } from "nextra-theme-docs";
 
 ## Compiling requirements
-{/* <Callout>
-  Special thanks to [PS4Linux](https://ps4linux.com/build-dahliaos-source/) for
-  some of the build instructions and [Advanced Climate Systems](https://acs-buildings.com/) where this project is initially based on.
+
+{/\* <Callout>
+Special thanks to [PS4Linux](https://ps4linux.com/build-dahliaos-source/) for
+some of the build instructions and [Advanced Climate Systems](https://acs-buildings.com/) where this project is initially based on.
+
 </Callout>
  */}
 
 <Callout type="warning">
-Compiling dahliaOS is a very resource-intensive process.  
-A Dell Optiplex 790 with a 3.0 GHz i5-2400 CPU and 16 GB of RAM needs about 8 hours
+  Compiling dahliaOS is a very resource-intensive process. A Dell Optiplex 790
+  with a 3.0 GHz i5-2400 CPU and 16 GB of RAM needs about 8 hours
 </Callout>
 
 ### Hardware Requirements
+
 - A 64-bit x86_64 CPU with at least 4 cores.
 - At least 8 GB of RAM.
 - About 64 GB of hard drive space.
 
 ### Software Requirements
+
 - A 64-bit Linux distribution.
 - Docker (see next page for installation instructions).

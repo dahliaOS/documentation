@@ -1,10 +1,10 @@
-
 import { Callout, Steps } from "nextra-theme-docs";
 
 ## Compiling dahliaOS
 
 <Callout>
-  The build script is used to connect to the docker container and to pass commands to it.
+  The build script is used to connect to the docker container and to pass
+  commands to it.
 </Callout>
 
 <Steps>
@@ -15,6 +15,7 @@ git clone https://github.com/dahliaos/buildroot.git
 
 cd buildroot
 ```
+
 ### Configure Buildroot
 
 ```sh
@@ -40,4 +41,3 @@ sudo ./build make menuconfig
 Once it's done, your ISO file should be in `/images`!
 
 </Steps>
-
