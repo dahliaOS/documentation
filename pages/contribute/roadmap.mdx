@@ -1,49 +1,118 @@
 ---
-title: dahliaOS 2021-2022 Roadmap
+title: dahliaOS Roadmap
 description: A short-term roadmap for the dahliaOS project.
 date: 2022-07-20
 image: "https://docs.dahliaos.io/api/og?title=dahliaOS 2021-2022 Roadmap&desc=A short-term roadmap for the dahliaOS project."
 ---
 
-# dahliaOS: 2021-2022 Roadmap
+# dahliaOS Roadmap
 
-You may have noticed that it has been over a year since the last release of dahliaOS. A year-and-a-half ago, we released dahliaOS version 200614, the first release to feature the Pangolin desktop. 6 months and 4 incremental updates later, we released dahliaOS version 201215. As 2022 nears, we'd like to share our plans going forward.
+## have_orange (dahliaOS Linux)
 
-## dahliaOS Linux 22\*
+- [ ] Core OS
+    - [ ] Splash screen
+    - [ ] Account Management
+    - [ ] Shell Service
+    - [ ] Hardening
+    - [ ] OTA Updates
+    - [ ] Networking
 
-Over the course of last year, we've made numerous improvements to our desktop and software, which will be available at or before Q1 2022.
+- [ ] Recovery OS
+    - [ ] Configuration Menu
+        - [ ] Configuration partition
+        - [ ] System security
+    - [ ] Installation/Reinstallation
+    - [ ] Update management
 
-### Desktop Changes
+- [ ] Custom Bootloader
 
-We spent 2021 rebuilding Pangolin from the ground up. Here's what's new:
+- [ ] Jasper - Development Shell
+       - [ ] Terminal
+       - [ ] Wayland impl
+       - [ ] Web Browser
 
-- **Desktop Redesign**: Pangolin has been completely rebuilt, with new features and functionality.
-  - **New Search Functionality**: You can now search through apps quickly, speeding up multitasking.
-  - **Improved Launcher**: The launcher has been redesigned to separate applications into different categories
-  - **Improved Quick Settings Menu**: The Quick Settings menu has redesigned to prioritize the viewing of relevant information and configuration options.
-  - **Improved Taskbar**: Applications can be pinned and unpinned, and windows can be minimized en-masse using the Show Desktop button.
-- **New Window Manager**: A new window manager for Pangolin, Utopia, improves the handling of windows and fixes memory issues caused by the previous window management solution.
-- **New Onboarding Interface**: The new onboarding interface enables faster testing, configuration. The legacy command-line interface is still available for those with advanced needs.
-- **Improved Applications**: Files, Settings, Terminal, and Task Manager have received significant updates to functionality and visuals.
+## terminal
 
-### Underlying software
+- [ ] Jasper - Development Shell
+       - [ ] Terminal
+       - [ ] Wayland impl
+       - [ ] Web Browser
 
-2021 was a significant year for the lower levels of the system as well, which will also be released at or before Q1 2022, packaged with the latest version of the Pangolin Desktop.
+## dap
+- [] Deprecate in favor of Flatpak and RPMs
 
-- **All new cross-platform package management solution**: The Dart-based Dap package manager, developed for dahliaOS, provides a simple, extensible way of managing packages
-  - **New software packaging method**: With Dap, we've worked on the a preliminary standard for dahliaOS packages, .dap, that provides self-contained and secure applications built on the AppImage Type 2 specification, customized for dahliaOS.
-  - **Seamless software updates**: Using Dap, core components of the system can be updated seamlessly in the background as soon as updates are available.
-- **Improved drivers**: We've updated the graphics drivers to ensure the best possible desktop performance, even on older devices.
-- **New filesystem support**: We've moved the system over to BTRFS to provide snapshotting and faster disk I/O performance.
+## graft
+- [] VM Management interface (Flutter)
+- [] Commandline utility for managing machines
+- [] API for machine management
+- [] Terminal app integration
 
-### Improvements to the Release Schedule
+## files
+- [] Functional application?
 
-In 2021, we did not release software as frequently as we would have liked to. Going forward, starting with dahliaOS Linux 22\*, we are going to ensure timely and consistent updates to our software. Updates to dahliaOS Linux and FImage will be released monthly, with security and other required updates released as needed.
+## fimage
+- [] Automated regular release pipeline
+- [] have_orange build releases
 
-### Our commitment to Fuchsia-based software
+## documentation
+- [] Documentation cleanup and content refresh
 
-In 2022, we aim to begin the process of porting over our work to Zircon. Limited access to hardware has made this difficult in years prior, but we will be able to accelerate our workflow using FImage. Additionally, FImage will continue to be updated.
+## website
+- [] Project goals and content refresh
+- [] Emphasis on developers and contributors?
 
-### More to come!
+## welcome
+- [] Deprecate in favor of documentation webapp 
+and dialog
 
-2021 was a very productive year, and 2022 will be even more so! Thank you for your support!
+## clock
+- [] Display time
+- [] Set timers
+- [] View world time
+- [] API for integration with system
+
+## calculator
+- [] Revised input methods (latex?)
+- [] graphing support
+- [] Typing input
+- [] Calculus
+- [] Advanced function support
+- [] Modes for different types of calculations
+
+## disks
+- [] Display system disks and volumes
+- [] Resize, erase, format, and write to disks
+- [] Graphical storage management - i.e. windirstat
+
+## wallpapers
+- [] New wallpaper and theme color manager
+- [] New series of 3D rendered abstract wallpapers
+
+## media
+- [] General purpose video player
+- [] Bake into files app like macOS preview?
+
+## task_manager
+- [] Show running processes
+- [] Start/stop processes and processes in containers
+- [] Show system specifications and statistics
+- [] Networking data
+
+## pangolin_displaymanager
+- [] Functional login and start to Pangolin
+- [] Connections management?
+
+## web_browser
+- [] Multi-tabbed interface
+- [] Web Views
+- [] Quick search
+- [] Integration with system theming
+
+## system_logs
+- [] Show system logs and stats in real time
+- [] System information page
+- [] Hardware changes and logging
+
+## kernel_panic
+- [] Serve as general purpose package for showing in-progress updates, boot status and errors (potential systemd/v integration?)
+
