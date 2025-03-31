@@ -1,6 +1,5 @@
 import { useTheme } from "nextra-theme-docs";
 import { useState, useEffect } from "react";
-import { VercelLogo } from "./components/Icons";
 import Image from "next/image";
 import lightLogotype from "./public/images/logos/lightLogotype.webp";
 import darkLogotype from "./public/images/logos/darkLogotype.webp";
@@ -54,14 +53,6 @@ const config = {
           <div
             style={{ display: "flex", flexDirection: "column", gap: "10px" }}
           >
-            <a
-              href="https://vercel.com?utm_source=dahliaOS&amp;utm_campaign=oss"
-              target="_blank"
-              style={{ display: "flex", flexDirection: "row", gap: "10px" }}
-            >
-              Powered By
-              <VercelLogo />
-            </a>
             <p>© {new Date().getFullYear()} The dahliaOS Project.</p>
           </div>
         </>

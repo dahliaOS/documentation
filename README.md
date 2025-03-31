@@ -59,11 +59,6 @@ In a browser, load the page [localhost:3000](http://localhost:3000) and you shou
 
 If you're wondering how to contribute to the project, please refer to [CONTRIBUTING.md](/CONTRIBUTING.md)
 
-## Sponsored by
-
-<p align="left">
-  <a href ="https://vercel.com/dahliaos?utm_source=dahliaOS&utm_campaign=oss"><img width="20%" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"></a>
-<p>
 
 ## License
 
