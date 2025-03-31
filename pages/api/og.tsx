@@ -1,8 +1,9 @@
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
+import Image from "next/image";
 
 export const config = {
-  runtime: "experimental-edge",
+  runtime: "edge",
 };
 
 export default function handler(req: NextRequest) {
@@ -39,7 +40,7 @@ export default function handler(req: NextRequest) {
               flexDirection: "row",
             }}
           >
-            <img
+            <Image
               alt="dahliaOS Logotype"
               width={300}
               src="https://raw.githubusercontent.com/dahliaOS/brand/62d9cf35262982255fd85545e0185b9e39642fb1/dahliaOS/logotype/svg/logotype-light.svg"
