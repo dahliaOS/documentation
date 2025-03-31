@@ -34,7 +34,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "rules": {  
+  "rules": {
     "@typescript-eslint/no-explicit-any": ["off"],
     "react/react-in-jsx-scope": "off",
     "indent": "off",

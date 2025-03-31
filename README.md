@@ -59,7 +59,6 @@ In a browser, load the page [localhost:3000](http://localhost:3000) and you shou
 
 If you're wondering how to contribute to the project, please refer to [CONTRIBUTING.md](/CONTRIBUTING.md)
 
-
 ## License
 
 <p align="left">
